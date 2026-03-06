@@ -26,7 +26,6 @@ jobs:
       - name: Fetch Congress.gov data
         env:
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
-          OPENSECRETS_API_KEY: ${{ secrets.OPENSECRETS_API_KEY }}
         run: python fetch_data.py
 
       - name: Commit updated data.json
