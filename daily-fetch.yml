@@ -37,5 +37,5 @@ jobs:
           git reset --hard origin/main
           git add data/data.json
           git diff --cached --quiet || git commit -m "chore: daily data update $(date -u +'%Y-%m-%d')"
-          git push
+          git push --force-with-lease
         
