@@ -123,11 +123,22 @@ def fetch_members(chamber):
 # ─────────────────────────────────────────────────────────────
 
 def fetch_recent_votes(chamber):
+    """
+    Correct Congress.gov vote URL: /vote/{congress}/{chamber}/{session}
+    Try session 1 then 2, fall back gracefully if neither works.
+    """
     print(f"  Fetching {chamber} votes ...")
-    data = congress_get(f"/vote/{chamber.lower()}/119", "&limit=10")
-    votes = data.get("votes") or []
-    print(f"  -> {len(votes)} {chamber} votes")
-    return votes
+    chamber_lower = chamber.lower()
+
+    for session in ["1", "2"]:
+        data = congress_get(f"/vote/119/{chamber_lower}/{session}", "&limit=10&sort=date+desc")
+        votes = data.get("votes") or []
+        if votes:
+            print(f"  -> {len(votes)} {chamber} votes (session {session})")
+            return votes
+
+    print(f"  [WARN] No votes found for {chamber} -- vote pills will show NV")
+    return []
 
 
 # ─────────────────────────────────────────────────────────────
