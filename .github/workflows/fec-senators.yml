@@ -1,0 +1,38 @@
+name: Weekly FEC Fetch — Senators
+on:
+  schedule:
+    - cron: '0 5 * * 1'   # every Monday at 05:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fec-senators:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch FEC data for Senators
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+          FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
+        run: python fec_fetch.py senate
+
+      - name: Commit updated fec_cache.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f data/fec_cache.json
+          git diff --cached --quiet || git commit -m "chore: FEC senate update $(date -u +'%Y-%m-%d')"
+          git push --force-with-lease origin main
