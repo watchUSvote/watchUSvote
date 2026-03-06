@@ -1,14 +1,15 @@
 """
 VoteWatch USA — Daily Data Fetcher
-Fetches from three sources:
-  1. Congress.gov   — members, votes, bills (sponsors + cosponsors)
-  2. FEC API        — PAC / outside money totals per member (no key needed)
-  3. OpenSecrets    — top donor industries per member (requires free key)
+Fetches from:
+  1. Congress.gov  — members, votes, bills (sponsors + cosponsors)
+  2. FEC cache     — reads data/fec_cache.json written by fec_fetch.py
+
+FEC data is refreshed weekly via two separate workflow jobs:
+  - fec-senators.yml        (runs Mondays)
+  - fec-representatives.yml (runs Tuesdays)
 
 Required env vars:
-  CONGRESS_API_KEY    — from https://api.congress.gov/sign-up/
-  OPENSECRETS_API_KEY — from https://www.opensecrets.org/api/admin/index.php
-                        (free, takes ~1 business day to receive)
+  CONGRESS_API_KEY  — from https://api.congress.gov/sign-up/
 
 Run manually:  python fetch_data.py
 Auto-runs via: .github/workflows/daily-fetch.yml
@@ -22,33 +23,16 @@ import urllib.parse
 import urllib.error
 from datetime import datetime, timezone
 
-CONGRESS_KEY     = os.environ.get("CONGRESS_API_KEY", "")
-OPENSECRETS_KEY  = os.environ.get("OPENSECRETS_API_KEY", "")
+CONGRESS_KEY  = os.environ.get("CONGRESS_API_KEY", "")
+CONGRESS_BASE = "https://api.congress.gov/v3"
 
-CONGRESS_BASE    = "https://api.congress.gov/v3"
-FEC_BASE         = "https://api.open.fec.gov/v1"
-OPENSECRETS_BASE = "https://www.opensecrets.org/api"
-
-OUTPUT = os.path.join(os.path.dirname(__file__), "data", "data.json")
-
-# Current election cycle (FEC uses 2-year cycles ending in even years)
-FEC_CYCLE = 2024
+OUTPUT    = os.path.join(os.path.dirname(__file__), "data", "data.json")
+FEC_CACHE = os.path.join(os.path.dirname(__file__), "data", "fec_cache.json")
 
 
 # ─────────────────────────────────────────────────────────────
 # HELPERS
 # ─────────────────────────────────────────────────────────────
-
-def http_get(url, label=""):
-    """Fetch a URL and return parsed JSON, or {} on failure."""
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "VoteWatch/1.0"})
-        with urllib.request.urlopen(req, timeout=20) as r:
-            return json.loads(r.read())
-    except Exception as e:
-        print(f"  [WARN] {label or url[:80]} -> {e}")
-        return {}
-
 
 def congress_get(path, extra_params=""):
     url = f"{CONGRESS_BASE}{path}?format=json&limit=250{extra_params}"
@@ -80,7 +64,6 @@ def normalize_vote(pos):
 
 
 def fmt_usd(n):
-    """Format a number as $1.2M / $450K / $12K."""
     try:
         n = float(n)
     except (TypeError, ValueError):
@@ -98,7 +81,7 @@ def fmt_usd(n):
 
 def fetch_members(chamber):
     print(f"  Fetching {chamber} members ...")
-    data = congress_get("/member", f"&chamber={chamber}&congress=119")
+    data    = congress_get("/member", f"&chamber={chamber}&congress=119")
     members = data.get("members") or []
 
     nxt = (data.get("pagination") or {}).get("next", "")
@@ -123,15 +106,11 @@ def fetch_members(chamber):
 # ─────────────────────────────────────────────────────────────
 
 def fetch_recent_votes(chamber):
-    """
-    Correct Congress.gov vote URL: /vote/{congress}/{chamber}/{session}
-    Try session 1 then 2, fall back gracefully if neither works.
-    """
     print(f"  Fetching {chamber} votes ...")
     chamber_lower = chamber.lower()
 
     for session in ["1", "2"]:
-        data = congress_get(f"/vote/119/{chamber_lower}/{session}", "&limit=10&sort=date+desc")
+        data  = congress_get(f"/vote/119/{chamber_lower}/{session}", "&limit=10&sort=date+desc")
         votes = data.get("votes") or []
         if votes:
             print(f"  -> {len(votes)} {chamber} votes (session {session})")
@@ -147,7 +126,7 @@ def fetch_recent_votes(chamber):
 
 def fetch_bills():
     print("  Fetching recent bills ...")
-    data = congress_get("/bill/119", "&sort=updateDate+desc&limit=20")
+    data      = congress_get("/bill/119", "&sort=updateDate+desc&limit=20")
     bills_raw = data.get("bills") or []
 
     bills = []
@@ -168,7 +147,7 @@ def fetch_bills():
 
             sponsors_list = bill_detail.get("sponsors") or []
             if sponsors_list:
-                sp = sponsors_list[0]
+                sp            = sponsors_list[0]
                 sponsor_name  = sp.get("fullName") or sp.get("name") or "Unknown"
                 sponsor_party = normalize_party(sp.get("party") or "")
                 sponsor_state = sp.get("state") or "?"
@@ -208,144 +187,27 @@ def fetch_bills():
 
 
 # ─────────────────────────────────────────────────────────────
-# 4. FEC API — PAC / outside money totals per candidate
+# 4. FEC cache
 # ─────────────────────────────────────────────────────────────
 
-def fetch_fec_totals(bio_id_to_name):
-    """
-    Query FEC for each member by name.
-    Returns { bioguide_id: { pac_total, individual_total, total_raised, fec_url } }
-    No API key required for basic use (uses DEMO_KEY for higher limits).
-    Rate limit: 1000 req/hour unauthenticated.
-    """
-    print(f"  Fetching FEC finance data for {len(bio_id_to_name)} members ...")
-    results = {}
-    count   = 0
-
-    for bio_id, name in bio_id_to_name.items():
-        q   = urllib.parse.quote(name)
-        url = (
-            f"{FEC_BASE}/candidates/search/"
-            f"?q={q}&election_year={FEC_CYCLE}&per_page=3&sort=-total_receipts"
-            f"&api_key=DEMO_KEY"
-        )
-        data       = http_get(url, f"FEC search: {name}")
-        candidates = data.get("results") or []
-
-        if not candidates:
-            results[bio_id] = None
-            count += 1
-            if count % 50 == 0:
-                print(f"    ... {count}/{len(bio_id_to_name)}")
-            time.sleep(0.05)
-            continue
-
-        cand    = candidates[0]
-        cand_id = cand.get("candidate_id", "")
-
-        totals_url  = (
-            f"{FEC_BASE}/candidates/totals/"
-            f"?candidate_id={cand_id}&cycle={FEC_CYCLE}&api_key=DEMO_KEY"
-        )
-        totals_data = http_get(totals_url, f"FEC totals: {name}")
-        totals      = (totals_data.get("results") or [{}])[0]
-
-        results[bio_id] = {
-            "pac_total":        fmt_usd(totals.get("other_political_committee_contributions", 0)),
-            "individual_total": fmt_usd(totals.get("individual_contributions", 0)),
-            "total_raised":     fmt_usd(totals.get("receipts", 0)),
-            "fec_candidate_id": cand_id,
-            "fec_url":          f"https://www.fec.gov/data/candidate/{cand_id}/",
-        }
-        count += 1
-        if count % 50 == 0:
-            print(f"    ... {count}/{len(bio_id_to_name)}")
-        time.sleep(0.12)
-
-    found = sum(1 for v in results.values() if v)
-    print(f"  -> FEC data found for {found}/{len(bio_id_to_name)} members")
-    return results
-
-
-# ─────────────────────────────────────────────────────────────
-# 5. OpenSecrets — Top donor industries per member
-# ─────────────────────────────────────────────────────────────
-
-def fetch_opensecrets_cids(bioguide_ids):
-    """Map bioguide IDs to OpenSecrets CIDs via getLegislators (one API call)."""
-    if not OPENSECRETS_KEY:
-        print("  [SKIP] OPENSECRETS_API_KEY not set -- skipping industry data")
-        return {b: None for b in bioguide_ids}
-
-    print("  Fetching OpenSecrets CID mapping ...")
-    url = (
-        f"{OPENSECRETS_BASE}/?method=getLegislators"
-        f"&id=&output=json&apikey={OPENSECRETS_KEY}"
-    )
-    data        = http_get(url, "OpenSecrets getLegislators")
-    legislators = (
-        (data.get("response") or {})
-        .get("legislators") or {}
-    ).get("legislator") or []
-
-    cid_map = {}
-    for leg in legislators:
-        attrs = leg.get("@attributes") or leg
-        bio   = attrs.get("bioguide_id") or ""
-        cid   = attrs.get("cid") or ""
-        if bio:
-            cid_map[bio] = cid
-
-    result = {b: cid_map.get(b) for b in bioguide_ids}
-    found  = sum(1 for v in result.values() if v)
-    print(f"  -> CIDs found for {found}/{len(bioguide_ids)} members")
-    return result
-
-
-def fetch_opensecrets_industries(cid_map):
-    """Returns { bioguide_id: [ {name, total, indivs, pacs}, ... ] }"""
-    if not OPENSECRETS_KEY:
+def load_fec_cache():
+    if not os.path.exists(FEC_CACHE):
+        print("  [WARN] fec_cache.json not found — FEC data will show N/A")
+        print("         Trigger fec-senators.yml and fec-representatives.yml to populate it")
         return {}
-
-    print(f"  Fetching OpenSecrets industry data ...")
-    results = {}
-
-    for bio_id, cid in cid_map.items():
-        if not cid:
-            continue
-        url = (
-            f"{OPENSECRETS_BASE}/?method=candIndustry"
-            f"&cid={cid}&cycle={FEC_CYCLE}"
-            f"&output=json&apikey={OPENSECRETS_KEY}"
-        )
-        data         = http_get(url, f"OpenSecrets industries: {cid}")
-        industries_raw = (
-            (data.get("response") or {})
-            .get("industries") or {}
-        ).get("industry") or []
-
-        industries = []
-        for ind in industries_raw[:6]:
-            attrs = ind.get("@attributes") or ind
-            industries.append({
-                "name":   attrs.get("industry_name") or attrs.get("industry_code") or "Unknown",
-                "total":  fmt_usd(attrs.get("total", 0)),
-                "indivs": fmt_usd(attrs.get("indivs", 0)),
-                "pacs":   fmt_usd(attrs.get("pacs", 0)),
-            })
-
-        results[bio_id] = industries
-        time.sleep(0.2)
-
-    print(f"  -> OpenSecrets industry data for {len(results)} members")
-    return results
+    with open(FEC_CACHE, encoding="utf-8") as f:
+        cache = json.load(f)
+    updated = cache.get("updated_at", "unknown")
+    data    = cache.get("data", {})
+    print(f"  -> FEC cache loaded ({len(data)} members, last updated {updated[:10]})")
+    return data
 
 
 # ─────────────────────────────────────────────────────────────
-# 6. Assemble member objects
+# 5. Assemble member objects
 # ─────────────────────────────────────────────────────────────
 
-def map_members(raw_members, recent_votes, fec_data, industry_data):
+def map_members(raw_members, recent_votes, fec_data):
     out = []
     for m in raw_members:
         name = (
@@ -374,8 +236,7 @@ def map_members(raw_members, recent_votes, fec_data, industry_data):
         while len(votes) < 5:
             votes.append("NV")
 
-        fec    = fec_data.get(bio_id)
-        indust = industry_data.get(bio_id) or []
+        fec = fec_data.get(bio_id)
 
         out.append({
             "name":          name,
@@ -391,7 +252,6 @@ def map_members(raw_members, recent_votes, fec_data, industry_data):
                 "individual_total": (fec or {}).get("individual_total", "N/A"),
                 "total_raised":     (fec or {}).get("total_raised",     "N/A"),
                 "fec_url":          (fec or {}).get("fec_url",          ""),
-                "top_industries":   indust,
             },
         })
     return out
@@ -408,36 +268,21 @@ def main():
 
     print("=== VoteWatch Daily Fetch ===\n")
 
-    print("[1/5] Congress.gov members & votes")
+    print("[1/4] Congress.gov members & votes")
     senate_raw   = fetch_members("Senate")
     house_raw    = fetch_members("House")
     senate_votes = fetch_recent_votes("Senate")
     house_votes  = fetch_recent_votes("House")
 
-    print("\n[2/5] Congress.gov bills (sponsors + cosponsors)")
+    print("\n[2/4] Congress.gov bills (sponsors + cosponsors)")
     bills = fetch_bills()
 
-    all_raw     = senate_raw + house_raw
-    bio_to_name = {}
-    for m in all_raw:
-        bio  = m.get("bioguideId") or m.get("memberId") or ""
-        name = (
-            m.get("name") or
-            " ".join(filter(None, [m.get("firstName"), m.get("lastName")]))
-        ).strip()
-        if bio and name:
-            bio_to_name[bio] = name
+    print("\n[3/4] Loading FEC cache ...")
+    fec_data = load_fec_cache()
 
-    print("\n[3/5] FEC campaign finance totals")
-    fec_data = fetch_fec_totals(bio_to_name)
-
-    print("\n[4/5] OpenSecrets donor industries")
-    cid_map       = fetch_opensecrets_cids(list(bio_to_name.keys()))
-    industry_data = fetch_opensecrets_industries(cid_map)
-
-    print("\n[5/5] Assembling output ...")
-    senators = map_members(senate_raw, senate_votes, fec_data, industry_data)
-    reps     = map_members(house_raw,  house_votes,  fec_data, industry_data)
+    print("\n[4/4] Assembling output ...")
+    senators = map_members(senate_raw, senate_votes, fec_data)
+    reps     = map_members(house_raw,  house_votes,  fec_data)
 
     def vote_bill_labels(votes):
         return [{
@@ -463,15 +308,10 @@ def main():
         1 for m in senators + reps
         if m["finance"]["total_raised"] != "N/A"
     )
-    industry_count = sum(
-        1 for m in senators + reps
-        if m["finance"]["top_industries"]
-    )
     print(f"\n  Senators:        {len(senators)}")
     print(f"  Representatives: {len(reps)}")
     print(f"  Bills:           {len(bills)}")
     print(f"  FEC data:        {finance_count} members")
-    print(f"  Industry data:   {industry_count} members")
     print(f"\nSaved -> {OUTPUT}")
 
 
