@@ -29,11 +29,13 @@ jobs:
           OPENSECRETS_API_KEY: ${{ secrets.OPENSECRETS_API_KEY }}
         run: python fetch_data.py
 
-      - name: Commit updated data.json
+ - name: Commit updated data.json
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase
+          git fetch origin
+          git reset --hard origin/main
           git add data/data.json
           git diff --cached --quiet || git commit -m "chore: daily data update $(date -u +'%Y-%m-%d')"
           git push
+        
