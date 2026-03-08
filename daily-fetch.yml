@@ -1,7 +1,9 @@
 name: Daily Congress Data Fetch
 on:
-  schedule:
-    - cron: '0 6 * * *'
+  workflow_run:
+    workflows: ["Daily Vote & Bill Cache Fetch"]
+    types:
+      - completed
   workflow_dispatch:
 
 permissions:
@@ -10,6 +12,8 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    # Only run if fetch-votes succeeded (skip if it failed)
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
