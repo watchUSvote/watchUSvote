@@ -26,7 +26,6 @@ Auto-runs via: .github/workflows/daily-fetch.yml
 
 import os
 import json
-import re
 import time
 import xml.etree.ElementTree as ET
 import urllib.request
@@ -36,7 +35,6 @@ from datetime import datetime, timezone
 CONGRESS_KEY  = os.environ.get("CONGRESS_API_KEY", "")
 CONGRESS_BASE = "https://api.congress.gov/v3"
 SENATE_BASE   = "https://www.senate.gov/legislative/LIS"
-HOUSE_BASE    = "https://clerk.house.gov/evs"
 
 # unitedstates/congress-legislators — current members with all IDs
 LEGISLATORS_URL = (
@@ -300,124 +298,88 @@ def fetch_senate_votes(lis_map, name_map):
 
 
 # ─────────────────────────────────────────────────────────────
-# 4. CLERK.HOUSE.GOV XML — Recent House roll call votes
+# 4. CONGRESS.GOV BETA — Recent House roll call votes
+# Note: Only covers legislation-related votes (not procedural).
+# Uses the same API key as the rest of Congress.gov calls.
+# Endpoint: /vote/{congress}/house/{session}/{rollNumber}/members
 # ─────────────────────────────────────────────────────────────
 
-def find_latest_house_roll(year=None):
+def fetch_house_vote_list(session, limit=10):
     """
-    Discover the latest House roll number.
-    Strategy 1: Parse the index.asp page for roll numbers.
-    Strategy 2: Probe from a smart ceiling downward (never break on errors).
+    Fetch list of recent House votes for a given session via Congress.gov.
+    Returns list of dicts with vote_number, title, date.
     """
-    if year is None:
-        year = datetime.now().year
-
-    # Strategy 1: try to parse the index page
-    index_url  = f"{HOUSE_BASE}/{year}/index.asp"
-    index_text = http_get_text(index_url, f"House index {year}")
-    if index_text:
-        rolls = re.findall(r'roll(\d+)\.xml', index_text, re.IGNORECASE)
-        if rolls:
-            latest = max(int(r) for r in rolls)
-            print(f"    Found latest House roll from index: {year}-{latest}")
-            return latest
-
-    # Strategy 2: probe downward from a date-based ceiling
-    now       = datetime.now()
-    day_of_yr = now.timetuple().tm_yday
-    ceiling   = min(int(day_of_yr * 2.0 * 1.2) + 10, 700)
-    print(f"    Probing House rolls {ceiling}→1 for {year} ...")
-
-    consecutive_errors = 0
-    for roll in range(ceiling, 0, -1):
-        num = str(roll).zfill(3)
-        url = f"{HOUSE_BASE}/{year}/roll{num}.xml"
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": "VoteWatch/1.0"})
-            urllib.request.urlopen(req, timeout=10).close()
-            consecutive_errors = 0
-            return roll
-        except urllib.error.HTTPError as e:
-            if e.code == 404:
-                consecutive_errors = 0
-                continue
-            # Non-404 HTTP error (e.g. 403, 500) — skip but don't break
-            consecutive_errors += 1
-        except Exception:
-            consecutive_errors += 1
-        # Only give up if we get 10 non-404 errors in a row
-        if consecutive_errors >= 10:
-            print(f"    [WARN] Too many consecutive errors probing House rolls")
-            break
-    return None
+    data  = congress_get(
+        f"/vote/{CONGRESS_NUM}/house/{session}",
+        "limit=20&sort=date+desc"
+    )
+    votes = data.get("votes") or []
+    result = []
+    for v in votes[:limit]:
+        roll  = v.get("voteNumber") or v.get("rollNumber") or ""
+        date  = (v.get("date") or "")[:10]
+        title = v.get("question") or v.get("title") or f"Vote {roll}"
+        if roll:
+            result.append({
+                "vote_number": str(roll),
+                "session":     str(session),
+                "title":       title[:80],
+                "date":        date,
+            })
+    return result
 
 
-def fetch_house_vote_detail(year, roll_number):
-    num  = str(roll_number).zfill(3)
-    url  = f"{HOUSE_BASE}/{year}/roll{num}.xml"
-    text = http_get_text(url, f"House vote {year}-{roll_number}")
-    if not text:
-        return {}, {}
-    try:
-        root          = ET.fromstring(text)
-        vote_question = (root.findtext(".//vote-question") or "").strip()
-        legis_name    = (root.findtext(".//legis-name")    or "").strip()
-        action_date   = (root.findtext(".//action-date")   or "").strip()
-        title         = legis_name or vote_question or f"Roll {roll_number}"
-
-        meta = {
-            "vote_number": str(roll_number),
-            "title":       title[:80],
-            "date":        action_date,
-        }
-
-        positions = {}
-        for legislator in root.findall(".//recorded-vote/legislator"):
-            # name-id IS the bioguide ID for House members
-            bio_id = (legislator.get("name-id") or "").strip()
-            vote   = (legislator.get("vote")    or "").strip()
-            if bio_id:
-                positions[bio_id] = normalize_vote(vote)
-
-        return positions, meta
-    except ET.ParseError as e:
-        print(f"  [WARN] House vote {year}-{roll_number} parse error: {e}")
-        return {}, {}
+def fetch_house_vote_members(vote_number, session):
+    """
+    Fetch member-level positions for one House vote.
+    Returns { bioguide_id: "YEA"/"NAY"/"NV" }
+    """
+    data     = congress_get(
+        f"/vote/{CONGRESS_NUM}/house/{session}/{vote_number}/members"
+    )
+    members  = data.get("members") or []
+    positions = {}
+    for m in members:
+        bio_id = (
+            (m.get("member") or {}).get("bioguideId") or
+            m.get("bioguideId") or ""
+        ).strip()
+        pos = m.get("votePosition") or m.get("position") or ""
+        if bio_id:
+            positions[bio_id] = normalize_vote(pos)
+    return positions
 
 
 def fetch_house_votes():
-    print("  Fetching House votes (clerk.house.gov XML) ...")
-    year         = datetime.now().year
-    latest_roll  = find_latest_house_roll(year)
+    print("  Fetching House votes (Congress.gov beta API) ...")
+    vote_list = []
 
-    # If early in year and no rolls yet, try previous year
-    if latest_roll is None and year > 2025:
-        year        = year - 1
-        latest_roll = find_latest_house_roll(year)
+    # Try session 2 (2026) first, then session 1 (2025)
+    for session in [2, 1]:
+        vote_list = fetch_house_vote_list(session, limit=VOTES_WANTED + 5)
+        if vote_list:
+            print(f"  -> {len(vote_list)} House votes in list (session {session})")
+            break
 
-    if latest_roll is None:
-        print("  [WARN] Could not find any House roll call votes")
+    if not vote_list:
+        print("  [WARN] No House votes found via Congress.gov API")
         return [], []
-
-    print(f"  -> Latest House roll: {year}-{latest_roll}, fetching top {VOTES_WANTED}")
 
     votes_detailed   = []
     vote_bill_labels = []
-    roll             = latest_roll
 
-    while len(votes_detailed) < VOTES_WANTED and roll > 0:
-        positions, meta = fetch_house_vote_detail(year, roll)
-        if meta:
-            votes_detailed.append({"meta": meta, "positions": positions})
-            vote_bill_labels.append({
-                "id":    meta["vote_number"],
-                "title": meta["title"],
-                "date":  meta["date"],
-            })
-            time.sleep(0.05)
-        roll -= 1
+    for v in vote_list[:VOTES_WANTED]:
+        positions = fetch_house_vote_members(v["vote_number"], v["session"])
+        votes_detailed.append({"meta": v, "positions": positions})
+        vote_bill_labels.append({
+            "id":    v["vote_number"],
+            "title": v["title"],
+            "date":  v["date"],
+        })
+        time.sleep(0.1)
 
-    print(f"  -> {len(votes_detailed)} House votes loaded")
+    matched = sum(1 for vd in votes_detailed if len(vd["positions"]) > 0)
+    print(f"  -> {len(votes_detailed)} House votes loaded, {matched} with member positions")
     return votes_detailed, vote_bill_labels
 
 
