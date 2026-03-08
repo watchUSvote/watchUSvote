@@ -305,24 +305,49 @@ def fetch_senate_votes(lis_map, name_map):
 
 def find_latest_house_roll(year=None):
     """
-    Discover the latest roll number for a given year by binary-search-style
-    probing: start high and count down until we find one that exists.
+    Discover the latest House roll number.
+    Strategy 1: Parse the index.asp page for roll numbers.
+    Strategy 2: Probe from a smart ceiling downward (never break on errors).
     """
     if year is None:
         year = datetime.now().year
-    # Start from a generous upper bound and work down
-    for roll in range(500, 0, -1):
+
+    # Strategy 1: try to parse the index page
+    index_url  = f"{HOUSE_BASE}/{year}/index.asp"
+    index_text = http_get_text(index_url, f"House index {year}")
+    if index_text:
+        rolls = re.findall(r'roll(\d+)\.xml', index_text, re.IGNORECASE)
+        if rolls:
+            latest = max(int(r) for r in rolls)
+            print(f"    Found latest House roll from index: {year}-{latest}")
+            return latest
+
+    # Strategy 2: probe downward from a date-based ceiling
+    now       = datetime.now()
+    day_of_yr = now.timetuple().tm_yday
+    ceiling   = min(int(day_of_yr * 2.0 * 1.2) + 10, 700)
+    print(f"    Probing House rolls {ceiling}→1 for {year} ...")
+
+    consecutive_errors = 0
+    for roll in range(ceiling, 0, -1):
         num = str(roll).zfill(3)
         url = f"{HOUSE_BASE}/{year}/roll{num}.xml"
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "VoteWatch/1.0"})
             urllib.request.urlopen(req, timeout=10).close()
+            consecutive_errors = 0
             return roll
         except urllib.error.HTTPError as e:
             if e.code == 404:
+                consecutive_errors = 0
                 continue
-            break
+            # Non-404 HTTP error (e.g. 403, 500) — skip but don't break
+            consecutive_errors += 1
         except Exception:
+            consecutive_errors += 1
+        # Only give up if we get 10 non-404 errors in a row
+        if consecutive_errors >= 10:
+            print(f"    [WARN] Too many consecutive errors probing House rolls")
             break
     return None
 
