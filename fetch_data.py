@@ -1,27 +1,21 @@
 """
 VoteWatch USA — Daily Data Fetcher
 
-Data sources:
-  1. Congress.gov API       — members (split by chamber via terms field), bills
-  2. unitedstates/congress-legislators — LIS ID ↔ bioguide ID mapping for Senate
-  3. Senate.gov XML         — Senate roll call votes (keyed by lis_member_id)
-  4. Clerk.House.gov XML    — House roll call votes (keyed by name-id / bioguide)
-  5. FEC cache              — reads data/fec_cache.json (updated weekly)
+Reads pre-fetched local files saved by fetch_votes.py (runs 1hr earlier):
+  data/votes/senate/  — Senate roll call XMLs
+  data/votes/house/   — House roll call JSONs
+  data/bills/         — recent, committee, upcoming bill JSONs
+  data/fec_cache.json — FEC finance cache (updated weekly)
 
-Senate vote matching:
-  Senate XML uses lis_member_id, NOT bioguide ID.
-  We fetch the unitedstates/congress-legislators current-legislators JSON to
-  build a lis_id → bioguide_id lookup table.
-
-House vote matching:
-  House XML uses name-id which IS the bioguide ID.
-  We discover the latest roll number by counting down from a high number.
+Also fetches live from Congress.gov:
+  - Member list (chamber split via terms field)
+  - LIS ID → bioguide ID mapping (for Senate vote matching)
 
 Required env vars:
   CONGRESS_API_KEY  — https://api.congress.gov/sign-up/
 
 Run manually:  python fetch_data.py
-Auto-runs via: .github/workflows/daily-fetch.yml
+Auto-runs via: .github/workflows/daily-fetch.yml (after fetch-votes.yml)
 """
 
 import os
@@ -34,16 +28,18 @@ from datetime import datetime, timezone
 
 CONGRESS_KEY  = os.environ.get("CONGRESS_API_KEY", "")
 CONGRESS_BASE = "https://api.congress.gov/v3"
-SENATE_BASE   = "https://www.senate.gov/legislative/LIS"
 
-# unitedstates/congress-legislators — current members with all IDs
 LEGISLATORS_URL = (
     "https://unitedstates.github.io/congress-legislators/"
     "legislators-current.json"
 )
 
-OUTPUT    = os.path.join(os.path.dirname(__file__), "data", "data.json")
-FEC_CACHE = os.path.join(os.path.dirname(__file__), "data", "fec_cache.json")
+DATA_DIR      = os.path.join(os.path.dirname(__file__), "data")
+OUTPUT        = os.path.join(DATA_DIR, "data.json")
+FEC_CACHE     = os.path.join(DATA_DIR, "fec_cache.json")
+VOTES_SENATE  = os.path.join(DATA_DIR, "votes", "senate")
+VOTES_HOUSE   = os.path.join(DATA_DIR, "votes", "house")
+BILLS_DIR     = os.path.join(DATA_DIR, "bills")
 
 CONGRESS_NUM  = 119
 VOTES_WANTED  = 5
@@ -197,54 +193,11 @@ def fetch_all_members():
 
 
 # ─────────────────────────────────────────────────────────────
-# 3. SENATE.GOV XML — Recent Senate roll call votes
+# 3. LOCAL FILES — Senate votes (written by fetch_votes.py)
 # ─────────────────────────────────────────────────────────────
 
-def fetch_senate_vote_list(session, limit=10):
-    url  = f"{SENATE_BASE}/roll_call_lists/vote_menu_{CONGRESS_NUM}_{session}.xml"
-    text = http_get_text(url, f"Senate vote list session {session}")
-    if not text:
-        return []
-    try:
-        root  = ET.fromstring(text)
-        votes = []
-        for v in root.findall(".//vote"):
-            num  = (v.findtext("vote_number") or "").strip()
-            date = (v.findtext("vote_date")   or "").strip()
-            q    = (v.findtext("question")    or "").strip()
-            doc  = v.find("document")
-            title = ""
-            if doc is not None:
-                title = (doc.findtext("document_title") or
-                         doc.findtext("title") or "")
-            title = title or q or f"Vote {num}"
-            votes.append({
-                "vote_number": num.zfill(5),
-                "session":     str(session),
-                "title":       title,
-                "date":        date,
-            })
-        votes.sort(key=lambda x: x["vote_number"], reverse=True)
-        return votes[:limit]
-    except ET.ParseError as e:
-        print(f"  [WARN] Senate vote list parse error: {e}")
-        return []
-
-
-def fetch_senate_vote_detail(vote_number, session, lis_map, name_map):
-    """
-    Fetch one Senate vote XML and return { bioguide_id: position }.
-    Uses lis_map (lis_id→bioguide) with name_map as fallback.
-    """
-    num = str(vote_number).zfill(5)
-    url = (
-        f"{SENATE_BASE}/roll_call_votes/"
-        f"vote{CONGRESS_NUM}{session}/"
-        f"vote_{CONGRESS_NUM}_{session}_{num}.xml"
-    )
-    text = http_get_text(url, f"Senate vote {vote_number}")
-    if not text:
-        return {}
+def parse_senate_xml(text, lis_map, name_map):
+    """Parse Senate vote XML and return { bioguide_id: position }."""
     try:
         root      = ET.fromstring(text)
         positions = {}
@@ -252,198 +205,156 @@ def fetch_senate_vote_detail(vote_number, session, lis_map, name_map):
             lis_id    = (member.findtext("lis_member_id") or "").strip()
             last_name = (member.findtext("last_name")     or "").strip().upper()
             vote_cast = (member.findtext("vote_cast")     or "").strip()
-
-            # Resolve to bioguide: try lis_id first, then last name
-            bio_id = lis_map.get(lis_id) or name_map.get(last_name) or ""
+            bio_id    = lis_map.get(lis_id) or name_map.get(last_name) or ""
             if bio_id:
                 positions[bio_id] = normalize_vote(vote_cast)
         return positions
-    except ET.ParseError as e:
-        print(f"  [WARN] Senate vote {vote_number} parse error: {e}")
+    except ET.ParseError:
         return {}
 
 
-def fetch_senate_votes(lis_map, name_map):
-    print("  Fetching Senate votes (senate.gov XML) ...")
-    vote_list = []
+def load_senate_votes(lis_map, name_map):
+    """
+    Read the N most recent Senate vote XMLs from data/votes/senate/.
+    Returns (votes_detailed, vote_bill_labels).
+    """
+    print(f"  Reading Senate vote XMLs from {VOTES_SENATE} ...")
+    if not os.path.isdir(VOTES_SENATE):
+        print("  [WARN] data/votes/senate/ not found — run fetch_votes.py first")
+        return [], []
 
-    for session in [2, 1]:
-        vote_list = fetch_senate_vote_list(session, limit=VOTES_WANTED + 5)
-        if vote_list:
-            print(f"  -> {len(vote_list)} Senate votes in list (session {session})")
-            break
+    files = sorted(
+        [f for f in os.listdir(VOTES_SENATE) if f.endswith(".xml")],
+        reverse=True
+    )[:VOTES_WANTED]
 
-    if not vote_list:
-        print("  [WARN] No Senate votes found")
+    if not files:
+        print("  [WARN] No Senate vote XMLs found")
         return [], []
 
     votes_detailed   = []
     vote_bill_labels = []
 
-    for v in vote_list[:VOTES_WANTED]:
-        positions = fetch_senate_vote_detail(
-            v["vote_number"], v["session"], lis_map, name_map
-        )
-        votes_detailed.append({"meta": v, "positions": positions})
-        vote_bill_labels.append({
-            "id":    v["vote_number"].lstrip("0") or "0",
-            "title": v["title"][:80],
-            "date":  v["date"][:10] if len(v["date"]) >= 10 else v["date"],
-        })
-        time.sleep(0.1)
+    for fname in files:
+        fpath = os.path.join(VOTES_SENATE, fname)
+        with open(fpath, encoding="utf-8") as f:
+            text = f.read()
 
-    matched = sum(1 for vd in votes_detailed if len(vd["positions"]) > 0)
-    print(f"  -> {len(votes_detailed)} Senate votes loaded, {matched} with member positions")
+        positions = parse_senate_xml(text, lis_map, name_map)
+
+        # Extract meta from filename: vote_119_2_00087.xml
+        parts = fname.replace(".xml", "").split("_")
+        session     = parts[2] if len(parts) > 2 else "?"
+        vote_number = parts[3] if len(parts) > 3 else "?"
+
+        # Try to get title from XML
+        try:
+            root  = ET.fromstring(text)
+            title = (root.findtext(".//question") or
+                     root.findtext(".//document_title") or
+                     f"Vote {vote_number}")
+            date  = (root.findtext(".//vote_date") or "")[:10]
+        except ET.ParseError:
+            title = f"Vote {vote_number}"
+            date  = ""
+
+        meta = {"vote_number": vote_number, "session": session,
+                "title": title, "date": date}
+        votes_detailed.append({"meta": meta, "positions": positions})
+        vote_bill_labels.append({
+            "id":    vote_number.lstrip("0") or "0",
+            "title": title[:80],
+            "date":  date,
+        })
+
+    matched = sum(1 for vd in votes_detailed if vd["positions"])
+    print(f"  -> {len(votes_detailed)} Senate votes loaded, {matched} with positions")
     return votes_detailed, vote_bill_labels
 
 
 # ─────────────────────────────────────────────────────────────
-# 4. CONGRESS.GOV BETA — Recent House roll call votes
-# Note: Only covers legislation-related votes (not procedural).
-# Uses the same API key as the rest of Congress.gov calls.
-# Endpoint: /vote/{congress}/house/{session}/{rollNumber}/members
+# 4. LOCAL FILES — House votes (written by fetch_votes.py)
 # ─────────────────────────────────────────────────────────────
 
-def fetch_house_vote_list(session, limit=10):
+def load_house_votes():
     """
-    Fetch list of recent House votes for a given session via Congress.gov.
-    Returns list of dicts with vote_number, title, date.
+    Read the N most recent House vote JSONs from data/votes/house/.
+    Returns (votes_detailed, vote_bill_labels).
     """
-    data  = congress_get(
-        f"/vote/{CONGRESS_NUM}/house/{session}",
-        "limit=20&sort=date+desc"
-    )
-    votes = data.get("votes") or []
-    result = []
-    for v in votes[:limit]:
-        roll  = v.get("voteNumber") or v.get("rollNumber") or ""
-        date  = (v.get("date") or "")[:10]
-        title = v.get("question") or v.get("title") or f"Vote {roll}"
-        if roll:
-            result.append({
-                "vote_number": str(roll),
-                "session":     str(session),
-                "title":       title[:80],
-                "date":        date,
-            })
+    print(f"  Reading House vote JSONs from {VOTES_HOUSE} ...")
+    if not os.path.isdir(VOTES_HOUSE):
+        print("  [WARN] data/votes/house/ not found — run fetch_votes.py first")
+        return [], []
+
+    files = sorted(
+        [f for f in os.listdir(VOTES_HOUSE) if f.endswith(".json")],
+        reverse=True
+    )[:VOTES_WANTED]
+
+    if not files:
+        print("  [WARN] No House vote JSONs found")
+        return [], []
+
+    votes_detailed   = []
+    vote_bill_labels = []
+
+    for fname in files:
+        fpath = os.path.join(VOTES_HOUSE, fname)
+        with open(fpath, encoding="utf-8") as f:
+            data = json.load(f)
+
+        meta    = data.get("meta") or {}
+        members = data.get("members") or []
+
+        positions = {}
+        for m in members:
+            bio_id = (
+                (m.get("member") or {}).get("bioguideId") or
+                m.get("bioguideId") or ""
+            ).strip()
+            pos = m.get("votePosition") or m.get("position") or ""
+            if bio_id:
+                positions[bio_id] = normalize_vote(pos)
+
+        votes_detailed.append({"meta": meta, "positions": positions})
+        vote_bill_labels.append({
+            "id":    meta.get("vote_number", "?"),
+            "title": (meta.get("title") or "Vote")[:80],
+            "date":  meta.get("date", ""),
+        })
+
+    matched = sum(1 for vd in votes_detailed if vd["positions"])
+    print(f"  -> {len(votes_detailed)} House votes loaded, {matched} with positions")
+    return votes_detailed, vote_bill_labels
+
+
+# ─────────────────────────────────────────────────────────────
+# 5. LOCAL FILES — Bills (written by fetch_votes.py)
+# ─────────────────────────────────────────────────────────────
+
+def load_bills():
+    """
+    Read bill data from local JSON files saved by fetch_votes.py.
+    Returns { recent, committee, upcoming } dicts.
+    """
+    result = {"recent": [], "committee": [], "upcoming": {"house_bills": [], "senate_bills": []}}
+
+    for key, fname in [("recent", "recent.json"), ("committee", "committee.json"), ("upcoming", "upcoming.json")]:
+        fpath = os.path.join(BILLS_DIR, fname)
+        if not os.path.exists(fpath):
+            print(f"  [WARN] {fname} not found — run fetch_votes.py first")
+            continue
+        with open(fpath, encoding="utf-8") as f:
+            data = json.load(f)
+        if key == "upcoming":
+            result[key] = data
+        else:
+            result[key] = data.get("bills") or []
+
+    print(f"  -> {len(result['recent'])} recent, {len(result['committee'])} committee, "
+          f"{len(result['upcoming'].get('house_bills', []))} house + "
+          f"{len(result['upcoming'].get('senate_bills', []))} senate upcoming bills loaded")
     return result
-
-
-def fetch_house_vote_members(vote_number, session):
-    """
-    Fetch member-level positions for one House vote.
-    Returns { bioguide_id: "YEA"/"NAY"/"NV" }
-    """
-    data     = congress_get(
-        f"/vote/{CONGRESS_NUM}/house/{session}/{vote_number}/members"
-    )
-    members  = data.get("members") or []
-    positions = {}
-    for m in members:
-        bio_id = (
-            (m.get("member") or {}).get("bioguideId") or
-            m.get("bioguideId") or ""
-        ).strip()
-        pos = m.get("votePosition") or m.get("position") or ""
-        if bio_id:
-            positions[bio_id] = normalize_vote(pos)
-    return positions
-
-
-def fetch_house_votes():
-    print("  Fetching House votes (Congress.gov beta API) ...")
-    vote_list = []
-
-    # Try session 2 (2026) first, then session 1 (2025)
-    for session in [2, 1]:
-        vote_list = fetch_house_vote_list(session, limit=VOTES_WANTED + 5)
-        if vote_list:
-            print(f"  -> {len(vote_list)} House votes in list (session {session})")
-            break
-
-    if not vote_list:
-        print("  [WARN] No House votes found via Congress.gov API")
-        return [], []
-
-    votes_detailed   = []
-    vote_bill_labels = []
-
-    for v in vote_list[:VOTES_WANTED]:
-        positions = fetch_house_vote_members(v["vote_number"], v["session"])
-        votes_detailed.append({"meta": v, "positions": positions})
-        vote_bill_labels.append({
-            "id":    v["vote_number"],
-            "title": v["title"],
-            "date":  v["date"],
-        })
-        time.sleep(0.1)
-
-    matched = sum(1 for vd in votes_detailed if len(vd["positions"]) > 0)
-    print(f"  -> {len(votes_detailed)} House votes loaded, {matched} with member positions")
-    return votes_detailed, vote_bill_labels
-
-
-# ─────────────────────────────────────────────────────────────
-# 5. CONGRESS.GOV — Bills
-# ─────────────────────────────────────────────────────────────
-
-def fetch_bills():
-    print("  Fetching recent bills ...")
-    data      = congress_get(f"/bill/{CONGRESS_NUM}", "sort=updateDate+desc&limit=20")
-    bills_raw = data.get("bills") or []
-
-    bills = []
-    for b in bills_raw:
-        latest      = b.get("latestAction") or {}
-        bill_type   = b.get("type", "")
-        bill_number = b.get("number", "")
-        bill_id     = f"{bill_type}.{bill_number}".strip(".")
-
-        sponsor_name  = "Unknown"
-        sponsor_party = "?"
-        sponsor_state = "?"
-        cosponsors    = []
-
-        if bill_type and bill_number:
-            detail      = congress_get(f"/bill/{CONGRESS_NUM}/{bill_type.lower()}/{bill_number}")
-            bill_detail = detail.get("bill") or {}
-
-            for sp in (bill_detail.get("sponsors") or [])[:1]:
-                sponsor_name  = sp.get("fullName") or sp.get("name") or "Unknown"
-                sponsor_party = normalize_party(sp.get("party") or "")
-                sponsor_state = sp.get("state") or "?"
-
-            cosponsor_data = congress_get(
-                f"/bill/{CONGRESS_NUM}/{bill_type.lower()}/{bill_number}/cosponsors",
-                "limit=10"
-            )
-            for cs in (cosponsor_data.get("cosponsors") or [])[:8]:
-                cosponsors.append({
-                    "name":  cs.get("fullName") or cs.get("name") or "Unknown",
-                    "party": normalize_party(cs.get("party") or ""),
-                    "state": cs.get("state") or "?",
-                })
-            time.sleep(0.15)
-
-        bills.append({
-            "id":            bill_id,
-            "title":         b.get("title") or b.get("shortTitle") or "Untitled",
-            "date":          (latest.get("actionDate") or b.get("updateDate") or "")[:10],
-            "result":        "pending",
-            "yea":           0,
-            "nay":           0,
-            "sponsor":       sponsor_name,
-            "sponsor_party": sponsor_party,
-            "sponsor_state": sponsor_state,
-            "cosponsors":    cosponsors,
-            "url":           b.get("url") or (
-                f"https://www.congress.gov/bill/{CONGRESS_NUM}th-congress/"
-                f"{bill_type.lower()}-bill/{bill_number}"
-            ),
-        })
-
-    print(f"  -> {len(bills)} bills (with sponsors)")
-    return bills
 
 
 # ─────────────────────────────────────────────────────────────
@@ -530,30 +441,31 @@ def main():
 
     print("=== VoteWatch Daily Fetch ===\n")
 
-    # ── 0. LIS ID mapping (needed for Senate vote matching) ──
+    # ── 0. LIS ID mapping (Senate vote matching) ──────────────
     print("[0/6] Fetching LIS → bioguide ID mapping ...")
     lis_map, name_map = fetch_lis_to_bioguide_map()
 
-    # ── 1. Members ────────────────────────────────────────────
+    # ── 1. Members (live from Congress.gov) ───────────────────
     print("\n[1/6] Congress.gov members ...")
     senate_raw, house_raw = fetch_all_members()
 
-    # ── 2. Senate votes ───────────────────────────────────────
-    print("\n[2/6] Senate roll call votes (senate.gov XML) ...")
-    senate_votes, senate_vote_labels = fetch_senate_votes(lis_map, name_map)
+    # ── 2. Senate votes (from local cache) ────────────────────
+    print("\n[2/6] Senate votes (local cache) ...")
+    senate_votes, senate_vote_labels = load_senate_votes(lis_map, name_map)
 
-    # ── 3. House votes ────────────────────────────────────────
-    print("\n[3/6] House roll call votes (clerk.house.gov XML) ...")
-    house_votes, house_vote_labels = fetch_house_votes()
+    # ── 3. House votes (from local cache) ─────────────────────
+    print("\n[3/6] House votes (local cache) ...")
+    house_votes, house_vote_labels = load_house_votes()
 
-    # ── 4. Bills ──────────────────────────────────────────────
-    print("\n[4/6] Congress.gov bills ...")
-    bills = fetch_bills()
+    # ── 4. Bills (from local cache) ───────────────────────────
+    print("\n[4/6] Bills (local cache) ...")
+    bills_data = load_bills()
 
-    # ── 5. FEC + assemble ─────────────────────────────────────
+    # ── 5. FEC cache ──────────────────────────────────────────
     print("\n[5/6] Loading FEC cache ...")
     fec_data = load_fec_cache()
 
+    # ── 6. Assemble ───────────────────────────────────────────
     print("\n[6/6] Assembling output ...")
     senators = map_members(senate_raw, senate_votes, fec_data)
     reps     = map_members(house_raw,  house_votes,  fec_data)
@@ -562,7 +474,9 @@ def main():
         "updated_at":        datetime.now(timezone.utc).isoformat(),
         "senators":          senators,
         "representatives":   reps,
-        "bills":             bills,
+        "bills":             bills_data["recent"],
+        "bills_committee":   bills_data["committee"],
+        "bills_upcoming":    bills_data["upcoming"],
         "senate_vote_bills": senate_vote_labels,
         "house_vote_bills":  house_vote_labels,
     }
@@ -577,9 +491,13 @@ def main():
     sen_part_nonzero = sum(1 for m in senators if m["participation"] not in (0, 85))
     rep_part_nonzero = sum(1 for m in reps     if m["participation"] not in (0, 85))
 
+    upcoming = bills_data["upcoming"]
     print(f"\n  Senators:                    {len(senators)}")
     print(f"  Representatives:             {len(reps)}")
-    print(f"  Bills:                       {len(bills)}")
+    print(f"  Bills (recent):              {len(bills_data['recent'])}")
+    print(f"  Bills (committee):           {len(bills_data['committee'])}")
+    print(f"  Bills (upcoming House):      {len(upcoming.get('house_bills', []))}")
+    print(f"  Bills (upcoming Senate):     {len(upcoming.get('senate_bills', []))}")
     print(f"  FEC data:                    {finance_count} members")
     print(f"  Senate votes loaded:         {len(senate_votes)}")
     print(f"  House votes loaded:          {len(house_votes)}")
