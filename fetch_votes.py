@@ -175,16 +175,27 @@ def fetch_and_save_house_votes():
     os.makedirs(VOTES_HOUSE, exist_ok=True)
     saved = 0
 
-    for session in [2, 1]:
+    # Try 119th Congress first (sessions 2 then 1), fall back to 118th
+    attempts = [
+        (CONGRESS_NUM, 2),
+        (CONGRESS_NUM, 1),
+        (118, 2),
+        (118, 1),
+    ]
+
+    for congress, session in attempts:
         data  = congress_get(
-            f"/vote/{CONGRESS_NUM}/house/{session}",
+            f"/vote/{congress}/house/{session}",
             f"limit={VOTES_TO_KEEP}&sort=date+desc"
         )
         votes = data.get("votes") or []
         if not votes:
             continue
 
-        print(f"  -> {len(votes)} House votes found (session {session})")
+        label = f"{congress}th Congress" if congress != CONGRESS_NUM else f"session {session}"
+        print(f"  -> {len(votes)} House votes found ({label})")
+        if congress != CONGRESS_NUM:
+            print(f"  [NOTE] Using 118th Congress House votes as fallback — 119th not yet in API")
 
         for v in votes[:VOTES_TO_KEEP]:
             roll = v.get("voteNumber") or v.get("rollNumber") or ""
@@ -192,7 +203,7 @@ def fetch_and_save_house_votes():
                 continue
 
             roll_str = str(roll).zfill(3)
-            fname    = f"vote_{CONGRESS_NUM}_{session}_{roll_str}.json"
+            fname    = f"vote_{congress}_{session}_{roll_str}.json"
             fpath    = os.path.join(VOTES_HOUSE, fname)
 
             # Skip if already cached today
@@ -205,7 +216,7 @@ def fetch_and_save_house_votes():
 
             # Fetch member positions
             members_data = congress_get(
-                f"/vote/{CONGRESS_NUM}/house/{session}/{roll}/members"
+                f"/vote/{congress}/house/{session}/{roll}/members"
             )
             members = members_data.get("members") or []
 
@@ -213,6 +224,8 @@ def fetch_and_save_house_votes():
                 "meta": {
                     "vote_number": str(roll),
                     "session":     str(session),
+                    "congress":    str(congress),
+                    "fallback":    congress != CONGRESS_NUM,
                     "title":       (v.get("question") or v.get("title") or f"Vote {roll}")[:80],
                     "date":        (v.get("date") or "")[:10],
                 },
@@ -223,7 +236,7 @@ def fetch_and_save_house_votes():
             saved += 1
             time.sleep(0.1)
 
-        break  # Use whichever session has votes
+        break  # Stop at first congress/session that has votes
 
     print(f"  -> {saved} House vote JSONs saved")
     return saved
@@ -376,24 +389,35 @@ def fetch_house_floor_schedule():
     """
     Fetch the weekly House floor schedule XML from docs.house.gov.
     URL pattern: docs.house.gov/billsthisweek/{YYYYMMDD}/floorschedule.xml
-    where YYYYMMDD is the Monday of the current legislative week.
+    Tries current week's Monday, then next Monday, then previous Monday as fallback.
     """
-    # Find the Monday of the current week
-    today  = datetime.now()
-    monday = today - timedelta(days=today.weekday())
-    date_str = monday.strftime("%Y%m%d")
+    today   = datetime.now()
+    mondays = []
 
-    url  = f"{DOCS_HOUSE}/billsthisweek/{date_str}/floorschedule.xml"
-    text = http_get_text(url, f"House floor schedule {date_str}")
+    # Current week Monday
+    current_monday = today - timedelta(days=today.weekday())
+    mondays.append(current_monday)
+
+    # Next Monday (if today is Friday/weekend, schedule may already be posted)
+    mondays.append(current_monday + timedelta(weeks=1))
+
+    # Previous Monday as fallback
+    mondays.append(current_monday - timedelta(weeks=1))
 
     bills = []
-    if text:
+    for monday in mondays:
+        date_str = monday.strftime("%Y%m%d")
+        url      = f"{DOCS_HOUSE}/billsthisweek/{date_str}/floorschedule.xml"
+        text     = http_get_text(url, f"House floor schedule {date_str}")
+        if not text:
+            continue
+
         try:
             root = ET.fromstring(text)
             for item in root.findall(".//*[@bill-number]"):
-                bill_num   = item.get("bill-number") or ""
-                bill_type  = item.get("bill-type") or ""
-                title      = item.findtext("legis-name") or item.findtext("title") or bill_num
+                bill_num    = item.get("bill-number") or ""
+                bill_type   = item.get("bill-type") or ""
+                title       = item.findtext("legis-name") or item.findtext("title") or bill_num
                 description = item.findtext("floor-text") or item.findtext("description") or ""
                 bills.append({
                     "id":          f"{bill_type}.{bill_num}".strip(".") if bill_type else bill_num,
@@ -403,8 +427,12 @@ def fetch_house_floor_schedule():
                     "week_of":     monday.strftime("%Y-%m-%d"),
                     "url":         f"https://www.congress.gov/bill/{CONGRESS_NUM}th-congress/house-bill/{bill_num}" if bill_num else "",
                 })
+            if bills:
+                print(f"    House floor schedule found for week of {monday.strftime('%Y-%m-%d')}")
+                break
         except ET.ParseError as e:
             print(f"  [WARN] House floor schedule XML parse error: {e}")
+            continue
 
     return bills
 
@@ -417,29 +445,51 @@ def fetch_senate_floor_schedule():
     """
     Fetch the Senate floor schedule XML from senate.gov.
     URL: https://www.senate.gov/legislative/schedule/floor_schedule.xml
+    The XML contains schedule items with start/end times and descriptions.
     """
     url  = "https://www.senate.gov/legislative/schedule/floor_schedule.xml"
     text = http_get_text(url, "Senate floor schedule")
 
     bills = []
-    if text:
-        try:
-            root = ET.fromstring(text)
-            for item in root.findall(".//floor_item"):
-                measure    = item.findtext("measure") or ""
-                title      = item.findtext("matter") or item.findtext("title") or measure
-                date       = item.findtext("date") or ""
-                description = item.findtext("description") or ""
-                bills.append({
-                    "id":          measure,
-                    "title":       title[:120],
-                    "description": description[:200],
-                    "chamber":     "Senate",
-                    "date":        date[:10] if date else "",
-                    "url":         "",
-                })
-        except ET.ParseError as e:
-            print(f"  [WARN] Senate floor schedule XML parse error: {e}")
+    if not text:
+        return bills
+
+    try:
+        root = ET.fromstring(text)
+        # Try multiple possible element structures
+        items = (
+            root.findall(".//floor_action") or
+            root.findall(".//item") or
+            root.findall(".//meeting") or
+            list(root)  # fallback: top-level children
+        )
+        for item in items:
+            # Extract any text content as description
+            description = " ".join(
+                (t.strip() for t in item.itertext() if t.strip())
+            )[:200]
+            if not description:
+                continue
+
+            # Try to find a date field
+            date = ""
+            for tag in ["start", "date", "meeting_date", "action_date"]:
+                val = item.findtext(tag) or item.get(tag) or ""
+                if val:
+                    date = val[:10]
+                    break
+
+            bills.append({
+                "id":          "",
+                "title":       description[:120],
+                "description": description,
+                "chamber":     "Senate",
+                "date":        date,
+                "url":         "",
+            })
+
+    except ET.ParseError as e:
+        print(f"  [WARN] Senate floor schedule XML parse error: {e}")
 
     return bills
 
