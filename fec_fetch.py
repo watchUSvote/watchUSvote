@@ -81,24 +81,46 @@ def fmt_usd(n):
 
 def fetch_members(chamber):
     print(f"  Fetching {chamber} members from Congress.gov ...")
-    data    = congress_get("/member", f"&chamber={chamber}&congress=119")
-    members = data.get("members") or []
+    members = []
+    offset  = 0
 
-    nxt = (data.get("pagination") or {}).get("next", "")
-    if nxt:
+    while True:
+        url = (
+            f"{CONGRESS_BASE}/member/congress/119"
+            f"?format=json&limit=250&currentMember=true&offset={offset}"
+        )
+        req = urllib.request.Request(url, headers={
+            "User-Agent": "VoteWatch/1.0",
+            "X-Api-Key":  CONGRESS_KEY,
+        })
         try:
-            req2 = urllib.request.Request(
-                nxt + "&format=json",
-                headers={"X-Api-Key": CONGRESS_KEY, "User-Agent": "VoteWatch/1.0"}
-            )
-            with urllib.request.urlopen(req2, timeout=20) as r:
-                page2 = json.loads(r.read())
-                members += page2.get("members") or []
+            with urllib.request.urlopen(req, timeout=20) as r:
+                data = json.loads(r.read())
         except Exception as e:
-            print(f"  [WARN] Page 2 -> {e}")
+            print(f"  [WARN] Members page offset={offset} -> {e}")
+            break
 
+        page  = data.get("members") or []
+        members += page
+        total = (data.get("pagination") or {}).get("count", 0)
+        if len(members) >= total or not page:
+            break
+        offset += 250
+        time.sleep(0.1)
+
+    # Split by chamber using terms field (same as fetch_data.py)
+    chamber_key = "Senate" if chamber == "Senate" else "House of Representatives"
     bio_to_name = {}
     for m in members:
+        terms = m.get("terms") or []
+        if isinstance(terms, dict):
+            terms = terms.get("item") or []
+        if not terms:
+            continue
+        last = terms[-1] if isinstance(terms, list) else terms
+        if (last.get("chamber") or "").strip() != chamber_key:
+            continue
+
         bio  = m.get("bioguideId") or m.get("memberId") or ""
         name = (
             m.get("name") or
