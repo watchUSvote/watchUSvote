@@ -159,25 +159,37 @@ def fetch_fec_totals(bio_id_to_name):
     count   = 0
 
     for bio_id, name in bio_id_to_name.items():
-        q   = urllib.parse.quote(name)
+        # Use last name only for FEC search — more reliable than full name
+        # FEC endpoint: /v1/candidates/?name=LASTNAME&office=H/S
+        last_name = name.split()[-1] if name else ""
+        q         = urllib.parse.quote(last_name)
         url = (
-            f"{FEC_BASE}/candidates/search/"
-            f"?q={q}&election_year={FEC_CYCLE}&per_page=3&sort=-total_receipts"
+            f"{FEC_BASE}/candidates/"
+            f"?name={q}&election_year={FEC_CYCLE}&per_page=5&sort=-total_receipts"
             f"&api_key={FEC_KEY}"
         )
         data       = http_get(url, f"FEC search: {name}")
         candidates = data.get("results") or []
 
-        if not candidates:
+        # Try to match by last name — pick candidate whose name contains our last name
+        matched_cand = None
+        for c in candidates:
+            fec_name = (c.get("name") or "").upper()
+            if last_name.upper() in fec_name:
+                matched_cand = c
+                break
+        if not matched_cand and candidates:
+            matched_cand = candidates[0]  # fallback to top result
+
+        if not matched_cand:
             results[bio_id] = None
             count += 1
             if count % 50 == 0:
                 print(f"    ... {count}/{len(bio_id_to_name)}")
-            time.sleep(0.05)
+            time.sleep(0.15)
             continue
 
-        cand    = candidates[0]
-        cand_id = cand.get("candidate_id", "")
+        cand_id = matched_cand.get("candidate_id", "")
 
         totals_url  = (
             f"{FEC_BASE}/candidates/totals/"
@@ -196,7 +208,7 @@ def fetch_fec_totals(bio_id_to_name):
         count += 1
         if count % 50 == 0:
             print(f"    ... {count}/{len(bio_id_to_name)}")
-        time.sleep(0.12)
+        time.sleep(0.25)  # Slower to avoid 429s
 
     found = sum(1 for v in results.values() if v)
     print(f"  -> FEC data found for {found}/{len(bio_id_to_name)} members")
