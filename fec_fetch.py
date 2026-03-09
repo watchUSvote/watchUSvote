@@ -242,6 +242,16 @@ def main():
     print(f"  Total members in cache:   {len(cache['data'])}")
     print(f"  Members with FEC data:    {total_in_cache}")
 
+    # Debug: show sample keys and values
+    found  = {k: v for k, v in cache["data"].items() if v}
+    nones  = {k: v for k, v in cache["data"].items() if v is None}
+    print(f"\n  Keys with data:  {len(found)}")
+    print(f"  Keys with None:  {len(nones)}")
+    if found:
+        sample_key = list(found.keys())[0]
+        print(f"  Sample key:      {sample_key}")
+        print(f"  Sample value:    {found[sample_key]}")
+
 
 if __name__ == "__main__":
     main()
