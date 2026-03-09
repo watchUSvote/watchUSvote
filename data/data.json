@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-09T01:18:22.218680+00:00",
+  "updated_at": "2026-03-09T01:41:28.148395+00:00",
   "senators": [
     {
       "name": "Young, Todd",
@@ -12029,7 +12029,38 @@
       "sponsor": "Rep. Neguse, Joe [D-CO-2]",
       "sponsor_party": "D",
       "sponsor_state": "CO",
-      "cosponsors": [],
+      "cosponsors": [
+        {
+          "name": "Rep. Miller, Carol D. [R-WV-1]",
+          "party": "R",
+          "state": "WV"
+        },
+        {
+          "name": "Rep. Dean, Madeleine [D-PA-4]",
+          "party": "D",
+          "state": "PA"
+        },
+        {
+          "name": "Rep. Bacon, Don [R-NE-2]",
+          "party": "R",
+          "state": "NE"
+        },
+        {
+          "name": "Rep. Levin, Mike [D-CA-49]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Tenney, Claudia [R-NY-24]",
+          "party": "R",
+          "state": "NY"
+        },
+        {
+          "name": "Rep. Garcia, Robert [D-CA-42]",
+          "party": "D",
+          "state": "CA"
+        }
+      ],
       "url": "https://api.congress.gov/v3/bill/119/hr/4607?format=json"
     },
     {
@@ -13510,10 +13541,370 @@
       "sponsor_party": "D",
       "sponsor_state": "NH",
       "url": "https://api.congress.gov/v3/bill/119/hr/6812?format=json"
+    },
+    {
+      "id": "HR.1181",
+      "title": "Protecting Privacy in Purchases Act",
+      "date": "2026-02-25",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 447.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Moore, Riley [R-WV-2]",
+      "sponsor_party": "R",
+      "sponsor_state": "WV",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1181?format=json"
+    },
+    {
+      "id": "HR.7450",
+      "title": "Disaster Zone Energy Affordability and Investment Act",
+      "date": "2026-02-09",
+      "latest_action": "Referred to the House Committee on Ways and Means.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Steube, W. Gregory [R-FL-17]",
+      "sponsor_party": "R",
+      "sponsor_state": "FL",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7450?format=json"
+    },
+    {
+      "id": "HR.3672",
+      "title": "Securities Research Modernization Act",
+      "date": "2025-07-15",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 167.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Williams, Roger [R-TX-25]",
+      "sponsor_party": "R",
+      "sponsor_state": "TX",
+      "url": "https://api.congress.gov/v3/bill/119/hr/3672?format=json"
+    },
+    {
+      "id": "HR.4823",
+      "title": "Promoting Free and Fair Elections Act of 2025",
+      "date": "2025-07-29",
+      "latest_action": "Referred to the Committee on House Administration, and in addition to the Committees on the Judiciary, Oversight and Government Reform, Science, Space, and Technology, and Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Tenney, Claudia [R-NY-24]",
+      "sponsor_party": "R",
+      "sponsor_state": "NY",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4823?format=json"
+    },
+    {
+      "id": "HR.6550",
+      "title": "American FIRST Act of 2025",
+      "date": "2026-02-25",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 454.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Loudermilk, Barry [R-GA-11]",
+      "sponsor_party": "R",
+      "sponsor_state": "GA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6550?format=json"
+    },
+    {
+      "id": "HR.4607",
+      "title": "SEEK HELP Act",
+      "date": "2025-07-22",
+      "latest_action": "Referred to the Committee on the Judiciary, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Neguse, Joe [D-CO-2]",
+      "sponsor_party": "D",
+      "sponsor_state": "CO",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4607?format=json"
+    },
+    {
+      "id": "HR.6544",
+      "title": "REVIEW Act of 2025",
+      "date": "2026-02-25",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 452.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Timmons, William R. [R-SC-4]",
+      "sponsor_party": "R",
+      "sponsor_state": "SC",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6544?format=json"
+    },
+    {
+      "id": "HR.2605",
+      "title": "SAVES Act",
+      "date": "2025-09-26",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 264.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Luttrell, Morgan [R-TX-8]",
+      "sponsor_party": "R",
+      "sponsor_state": "TX",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2605?format=json"
+    },
+    {
+      "id": "S.1441",
+      "title": "SAVES Act of 2025",
+      "date": "2026-02-24",
+      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 342.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Sen. Tillis, Thomas [R-NC]",
+      "sponsor_party": "R",
+      "sponsor_state": "NC",
+      "url": "https://api.congress.gov/v3/bill/119/s/1441?format=json"
+    },
+    {
+      "id": "HR.270",
+      "title": "To authorize the waiver of costs of activities relating to evacuation of United States citizens when their lives are endangered by war or acts of terrorism.",
+      "date": "2025-01-09",
+      "latest_action": "Referred to the House Committee on Foreign Affairs.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Dunn, Neal P. [R-FL-2]",
+      "sponsor_party": "R",
+      "sponsor_state": "FL",
+      "url": "https://api.congress.gov/v3/bill/119/hr/270?format=json"
+    },
+    {
+      "id": "S.3120",
+      "title": "Ensuring Predictable and Reliable Water Deliveries Act of 2025",
+      "date": "2025-11-06",
+      "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Sen. Cruz, Ted [R-TX]",
+      "sponsor_party": "R",
+      "sponsor_state": "TX",
+      "url": "https://api.congress.gov/v3/bill/119/s/3120?format=json"
+    },
+    {
+      "id": "HR.6386",
+      "title": "Ensuring Predictable and Reliable Water Deliveries Act of 2025",
+      "date": "2025-12-03",
+      "latest_action": "Referred to the House Committee on Foreign Affairs.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. De La Cruz, Monica [R-TX-15]",
+      "sponsor_party": "R",
+      "sponsor_state": "TX",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6386?format=json"
+    },
+    {
+      "id": "SJRES.113",
+      "title": "A joint resolution providing congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of the Comptroller of the Currency relating to \"Rescission of Principles for Climate-Related Financial Risk Management for Large Financial Institutions\".",
+      "date": "2026-03-05",
+      "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Sen. Warren, Elizabeth [D-MA]",
+      "sponsor_party": "D",
+      "sponsor_state": "MA",
+      "url": "https://api.congress.gov/v3/bill/119/sjres/113?format=json"
+    },
+    {
+      "id": "HR.398",
+      "title": "Geothermal Cost-Recovery Authority Act of 2025",
+      "date": "2026-03-05",
+      "latest_action": "Ordered to be Reported by Unanimous Consent.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Ocasio-Cortez, Alexandria [D-NY-14]",
+      "sponsor_party": "D",
+      "sponsor_state": "NY",
+      "url": "https://api.congress.gov/v3/bill/119/hr/398?format=json"
+    },
+    {
+      "id": "HR.6787",
+      "title": "to amend the Internal Revenue Code of 1986 to create a carbon border adjustment based on carbon intensity, and for other purposes.",
+      "date": "2025-12-17",
+      "latest_action": "Referred to the Committee on Ways and Means, and in addition to the Committees on Energy and Commerce, and Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. DelBene, Suzan K. [D-WA-1]",
+      "sponsor_party": "D",
+      "sponsor_state": "WA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6787?format=json"
+    },
+    {
+      "id": "HR.6993",
+      "title": "BEACON Act of 2026",
+      "date": "2026-01-22",
+      "latest_action": "Referred to the Subcommittee on Health.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Bergman, Jack [R-MI-1]",
+      "sponsor_party": "R",
+      "sponsor_state": "MI",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6993?format=json"
+    },
+    {
+      "id": "HR.5638",
+      "title": "Geothermal Royalty Reform Act",
+      "date": "2026-03-05",
+      "latest_action": "Ordered to be Reported in the Nature of a Substitute (Amended) by Unanimous Consent.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Kennedy, Mike [R-UT-3]",
+      "sponsor_party": "R",
+      "sponsor_state": "UT",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5638?format=json"
+    },
+    {
+      "id": "HR.6813",
+      "title": "VA Insurance Improvement Act",
+      "date": "2026-01-22",
+      "latest_action": "Referred to the Subcommittee on Disability Assistance and Memorial Affairs.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Pappas, Chris [D-NH-1]",
+      "sponsor_party": "D",
+      "sponsor_state": "NH",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6813?format=json"
+    },
+    {
+      "id": "HR.6814",
+      "title": "Veterans’ Burial Improvement Act of 2025",
+      "date": "2026-01-22",
+      "latest_action": "Referred to the Subcommittee on Disability Assistance and Memorial Affairs.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Pappas, Chris [D-NH-1]",
+      "sponsor_party": "D",
+      "sponsor_state": "NH",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6814?format=json"
+    },
+    {
+      "id": "HR.5576",
+      "title": "Enhancing Geothermal Production on Federal Lands Act",
+      "date": "2026-03-05",
+      "latest_action": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 21 - 16.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Fulcher, Russ [R-ID-1]",
+      "sponsor_party": "R",
+      "sponsor_state": "ID",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5576?format=json"
+    },
+    {
+      "id": "HR.6654",
+      "title": "VAMOSA Act of 2025",
+      "date": "2026-01-21",
+      "latest_action": "Referred to the Subcommittee on Oversight and Investigations.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Mace, Nancy [R-SC-1]",
+      "sponsor_party": "R",
+      "sponsor_state": "SC",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6654?format=json"
+    },
+    {
+      "id": "HR.6830",
+      "title": "To amend the Clayton Act to permit a State attorney general to bring  a civil action for damages as parens patriae for injuries sustained by  reason of price discrimination in violation of the Robinson-Patman Act  amendments to the Clayton Act, and for other purposes.",
+      "date": "2025-12-17",
+      "latest_action": "Referred to the House Committee on the Judiciary.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Waters, Maxine [D-CA-43]",
+      "sponsor_party": "D",
+      "sponsor_state": "CA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6830?format=json"
+    },
+    {
+      "id": "HR.7511",
+      "title": "Iowa National Guard Heroes Commemoration Act",
+      "date": "2026-03-02",
+      "latest_action": "Referred to the Subcommittee on Health.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Nunn, Zachary [R-IA-3]",
+      "sponsor_party": "R",
+      "sponsor_state": "IA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7511?format=json"
+    },
+    {
+      "id": "HR.4684",
+      "title": "Star-Spangled Summit Act of 2025",
+      "date": "2026-03-05",
+      "latest_action": "Ordered to be Reported in the Nature of a Substitute (Amended) by Unanimous Consent.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Kennedy, Mike [R-UT-3]",
+      "sponsor_party": "R",
+      "sponsor_state": "UT",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4684?format=json"
+    },
+    {
+      "id": "HR.5617",
+      "title": "Geothermal Gold Book Development Act",
+      "date": "2026-03-05",
+      "latest_action": "Ordered to be Reported in the Nature of a Substitute (Amended) by Unanimous Consent.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Ansari, Yassamin [D-AZ-3]",
+      "sponsor_party": "D",
+      "sponsor_state": "AZ",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5617?format=json"
+    },
+    {
+      "id": "HR.6794",
+      "title": "VA Medical Center Facility Transparency Act",
+      "date": "2026-01-23",
+      "latest_action": "Referred to the Subcommittee on Health.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Hamadeh, Abraham J. [R-AZ-8]",
+      "sponsor_party": "R",
+      "sponsor_state": "AZ",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6794?format=json"
+    },
+    {
+      "id": "HR.1077",
+      "title": "STEAM Act",
+      "date": "2026-03-05",
+      "latest_action": "Ordered to be Reported by Unanimous Consent.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Lee, Susie [D-NV-3]",
+      "sponsor_party": "D",
+      "sponsor_state": "NV",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1077?format=json"
+    },
+    {
+      "id": "HR.3553",
+      "title": "BRUSH Fires Act",
+      "date": "2026-03-05",
+      "latest_action": "Ordered to be Reported (Amended) by Unanimous Consent.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Min, Dave [D-CA-47]",
+      "sponsor_party": "D",
+      "sponsor_state": "CA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/3553?format=json"
+    },
+    {
+      "id": "HR.5682",
+      "title": "To take certain land in the State of California into trust for the benefit of the Pechanga Band of Indians, and for other purposes.",
+      "date": "2026-03-05",
+      "latest_action": "Ordered to be Reported in the Nature of a Substitute (Amended) by Unanimous Consent.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Issa, Darrell [R-CA-48]",
+      "sponsor_party": "R",
+      "sponsor_state": "CA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5682?format=json"
+    },
+    {
+      "id": "HR.6812",
+      "title": "Gulf War Survivor Benefits Update Act of 2025",
+      "date": "2026-01-23",
+      "latest_action": "Referred to the Subcommittee on Disability Assistance and Memorial Affairs.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Pappas, Chris [D-NH-1]",
+      "sponsor_party": "D",
+      "sponsor_state": "NH",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6812?format=json"
     }
   ],
   "bills_upcoming": {
-    "fetched_at": "2026-03-09T01:18:08.500833+00:00",
+    "fetched_at": "2026-03-09T01:41:09.263942+00:00",
     "house_bills": [],
     "senate_bills": [
       {
