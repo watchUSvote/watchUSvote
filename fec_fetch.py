@@ -122,14 +122,27 @@ def fetch_members(chamber):
             continue
 
         bio  = m.get("bioguideId") or m.get("memberId") or ""
-        name = (
-            m.get("name") or
-            " ".join(filter(None, [m.get("firstName"), m.get("lastName")]))
-        ).strip()
+
+        # Congress.gov returns "Last, First" — convert to "First Last" for FEC search
+        raw_name   = (m.get("name") or "").strip()
+        first_name = (m.get("firstName") or "").strip()
+        last_name  = (m.get("lastName")  or "").strip()
+
+        if first_name and last_name:
+            name = f"{first_name} {last_name}"
+        elif "," in raw_name:
+            parts = raw_name.split(",", 1)
+            name  = f"{parts[1].strip()} {parts[0].strip()}"
+        else:
+            name = raw_name
+
         if bio and name:
             bio_to_name[bio] = name
 
     print(f"  -> {len(bio_to_name)} {chamber} members")
+    if bio_to_name:
+        sample = list(bio_to_name.items())[0]
+        print(f"     Sample: {sample[0]} → '{sample[1]}'")
     return bio_to_name
 
 
