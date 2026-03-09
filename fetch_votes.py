@@ -382,47 +382,65 @@ def fetch_and_save_committee_bills():
 
 
 # ─────────────────────────────────────────────────────────────
-# 5. UPCOMING — House floor schedule (docs.house.gov XML)
+# 5. UPCOMING — Floor schedules via Congress.gov RSS feeds
+# Primary: congress.gov/rss/house-floor-today.xml
+# Fallback: docs.house.gov weekly schedule XML
 # ─────────────────────────────────────────────────────────────
 
 def fetch_house_floor_schedule():
     """
-    Fetch the weekly House floor schedule XML from docs.house.gov.
-    URL pattern: docs.house.gov/billsthisweek/{YYYYMMDD}/floorschedule.xml
-    Tries current week's Monday, then next Monday, then previous Monday as fallback.
+    Fetch House floor activity from Congress.gov RSS, falling back to
+    docs.house.gov weekly schedule XML.
     """
-    today   = datetime.now()
-    mondays = []
-
-    # Current week Monday
-    current_monday = today - timedelta(days=today.weekday())
-    mondays.append(current_monday)
-
-    # Next Monday (if today is Friday/weekend, schedule may already be posted)
-    mondays.append(current_monday + timedelta(weeks=1))
-
-    # Previous Monday as fallback
-    mondays.append(current_monday - timedelta(weeks=1))
-
     bills = []
-    for monday in mondays:
+
+    # Primary: Congress.gov RSS
+    rss_text = http_get_text(
+        "https://www.congress.gov/rss/house-floor-today.xml",
+        "House floor RSS"
+    )
+    if rss_text:
+        try:
+            root = ET.fromstring(rss_text)
+            for item in root.findall(".//item"):
+                title       = (item.findtext("title")       or "").strip()
+                description = (item.findtext("description") or "").strip()
+                link        = (item.findtext("link")        or "").strip()
+                pub_date    = (item.findtext("pubDate")     or "")[:16]
+                if title:
+                    bills.append({
+                        "id": "", "title": title[:120],
+                        "description": description[:200],
+                        "chamber": "House", "date": pub_date, "url": link,
+                    })
+            if bills:
+                print(f"    House floor RSS: {len(bills)} items")
+                return bills
+        except ET.ParseError as e:
+            print(f"  [WARN] House floor RSS parse error: {e}")
+
+    # Fallback: docs.house.gov weekly XML
+    today          = datetime.now()
+    current_monday = today - timedelta(days=today.weekday())
+    for monday in [current_monday + timedelta(weeks=1), current_monday, current_monday - timedelta(weeks=1)]:
         date_str = monday.strftime("%Y%m%d")
-        url      = f"{DOCS_HOUSE}/billsthisweek/{date_str}/floorschedule.xml"
-        text     = http_get_text(url, f"House floor schedule {date_str}")
+        text     = http_get_text(
+            f"{DOCS_HOUSE}/billsthisweek/{date_str}/floorschedule.xml",
+            f"House floor schedule {date_str}"
+        )
         if not text:
             continue
-
         try:
             root = ET.fromstring(text)
             for item in root.findall(".//*[@bill-number]"):
-                bill_num    = item.get("bill-number") or ""
-                bill_type   = item.get("bill-type") or ""
-                title       = item.findtext("legis-name") or item.findtext("title") or bill_num
-                description = item.findtext("floor-text") or item.findtext("description") or ""
+                bill_num  = item.get("bill-number") or ""
+                bill_type = item.get("bill-type") or ""
+                title     = item.findtext("legis-name") or item.findtext("title") or bill_num
+                desc      = item.findtext("floor-text") or item.findtext("description") or ""
                 bills.append({
                     "id":          f"{bill_type}.{bill_num}".strip(".") if bill_type else bill_num,
                     "title":       title[:120],
-                    "description": description[:200],
+                    "description": desc[:200],
                     "chamber":     "House",
                     "week_of":     monday.strftime("%Y-%m-%d"),
                     "url":         f"https://www.congress.gov/bill/{CONGRESS_NUM}th-congress/house-bill/{bill_num}" if bill_num else "",
@@ -431,65 +449,80 @@ def fetch_house_floor_schedule():
                 print(f"    House floor schedule found for week of {monday.strftime('%Y-%m-%d')}")
                 break
         except ET.ParseError as e:
-            print(f"  [WARN] House floor schedule XML parse error: {e}")
-            continue
+            print(f"  [WARN] House floor schedule parse error: {e}")
 
     return bills
 
 
 # ─────────────────────────────────────────────────────────────
-# 6. UPCOMING — Senate floor schedule (senate.gov XML)
+# 6. UPCOMING — Senate floor schedule
+# Primary: congress.gov/rss/senate-floor-today.xml
+# Fallback: senate.gov/legislative/schedule/floor_schedule.xml
 # ─────────────────────────────────────────────────────────────
 
 def fetch_senate_floor_schedule():
     """
-    Fetch the Senate floor schedule XML from senate.gov.
-    URL: https://www.senate.gov/legislative/schedule/floor_schedule.xml
-    The XML contains schedule items with start/end times and descriptions.
+    Fetch Senate floor activity from Congress.gov RSS, falling back to
+    senate.gov floor schedule XML.
     """
-    url  = "https://www.senate.gov/legislative/schedule/floor_schedule.xml"
-    text = http_get_text(url, "Senate floor schedule")
-
     bills = []
-    if not text:
-        return bills
 
-    try:
-        root = ET.fromstring(text)
-        # Try multiple possible element structures
-        items = (
-            root.findall(".//floor_action") or
-            root.findall(".//item") or
-            root.findall(".//meeting") or
-            list(root)  # fallback: top-level children
-        )
-        for item in items:
-            # Extract any text content as description
-            description = " ".join(
-                (t.strip() for t in item.itertext() if t.strip())
-            )[:200]
-            if not description:
-                continue
+    # Primary: Congress.gov RSS
+    rss_text = http_get_text(
+        "https://www.congress.gov/rss/senate-floor-today.xml",
+        "Senate floor RSS"
+    )
+    if rss_text:
+        try:
+            root = ET.fromstring(rss_text)
+            for item in root.findall(".//item"):
+                title       = (item.findtext("title")       or "").strip()
+                description = (item.findtext("description") or "").strip()
+                link        = (item.findtext("link")        or "").strip()
+                pub_date    = (item.findtext("pubDate")     or "")[:16]
+                if title:
+                    bills.append({
+                        "id": "", "title": title[:120],
+                        "description": description[:200],
+                        "chamber": "Senate", "date": pub_date, "url": link,
+                    })
+            if bills:
+                print(f"    Senate floor RSS: {len(bills)} items")
+                return bills
+        except ET.ParseError as e:
+            print(f"  [WARN] Senate floor RSS parse error: {e}")
 
-            # Try to find a date field
-            date = ""
-            for tag in ["start", "date", "meeting_date", "action_date"]:
-                val = item.findtext(tag) or item.get(tag) or ""
-                if val:
-                    date = val[:10]
-                    break
-
-            bills.append({
-                "id":          "",
-                "title":       description[:120],
-                "description": description,
-                "chamber":     "Senate",
-                "date":        date,
-                "url":         "",
-            })
-
-    except ET.ParseError as e:
-        print(f"  [WARN] Senate floor schedule XML parse error: {e}")
+    # Fallback: senate.gov XML
+    text = http_get_text(
+        "https://www.senate.gov/legislative/schedule/floor_schedule.xml",
+        "Senate floor schedule"
+    )
+    if text:
+        try:
+            root  = ET.fromstring(text)
+            items = (
+                root.findall(".//floor_action") or
+                root.findall(".//item") or
+                root.findall(".//meeting") or
+                list(root)
+            )
+            for item in items:
+                description = " ".join(t.strip() for t in item.itertext() if t.strip())[:200]
+                if not description:
+                    continue
+                date = ""
+                for tag in ["start", "date", "meeting_date", "action_date"]:
+                    val = item.findtext(tag) or item.get(tag) or ""
+                    if val:
+                        date = val[:10]
+                        break
+                bills.append({
+                    "id": "", "title": description[:120],
+                    "description": description,
+                    "chamber": "Senate", "date": date, "url": "",
+                })
+        except ET.ParseError as e:
+            print(f"  [WARN] Senate floor schedule parse error: {e}")
 
     return bills
 
