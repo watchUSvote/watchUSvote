@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-09T01:17:25.070844+00:00",
+  "fetched_at": "2026-03-09T01:40:46.385753+00:00",
   "bills": [
     {
       "id": "HR.1181",
@@ -189,7 +189,38 @@
       "sponsor": "Rep. Neguse, Joe [D-CO-2]",
       "sponsor_party": "D",
       "sponsor_state": "CO",
-      "cosponsors": [],
+      "cosponsors": [
+        {
+          "name": "Rep. Miller, Carol D. [R-WV-1]",
+          "party": "R",
+          "state": "WV"
+        },
+        {
+          "name": "Rep. Dean, Madeleine [D-PA-4]",
+          "party": "D",
+          "state": "PA"
+        },
+        {
+          "name": "Rep. Bacon, Don [R-NE-2]",
+          "party": "R",
+          "state": "NE"
+        },
+        {
+          "name": "Rep. Levin, Mike [D-CA-49]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Tenney, Claudia [R-NY-24]",
+          "party": "R",
+          "state": "NY"
+        },
+        {
+          "name": "Rep. Garcia, Robert [D-CA-42]",
+          "party": "D",
+          "state": "CA"
+        }
+      ],
       "url": "https://api.congress.gov/v3/bill/119/hr/4607?format=json"
     },
     {
