@@ -1,65 +1,17 @@
 {
-  "fetched_at": "2026-05-09T07:04:57.043532+00:00",
+  "fetched_at": "2026-05-10T07:24:43.886545+00:00",
   "bills": [
     {
-      "id": "S.4439",
-      "title": "Built To Last Act of 2026",
-      "date": "2026-04-29",
-      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "id": "S.3981",
+      "title": "BRAVE Burma Act",
+      "date": "2026-03-04",
+      "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Sen. Baldwin, Tammy [D-WI]",
+      "sponsor": "Sen. Van Hollen, Chris [D-MD]",
       "sponsor_party": "D",
-      "sponsor_state": "WI",
-      "url": "https://api.congress.gov/v3/bill/119/s/4439?format=json"
-    },
-    {
-      "id": "HR.8707",
-      "title": "No Funds for Iran War Act",
-      "date": "2026-05-07",
-      "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Ryan, Patrick [D-NY-18]",
-      "sponsor_party": "D",
-      "sponsor_state": "NY",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8707?format=json"
-    },
-    {
-      "id": "S.4474",
-      "title": "Servicemember Civilian Transition Support Act",
-      "date": "2026-04-30",
-      "latest_action": "Read twice and referred to the Committee on Armed Services.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Sen. Ossoff, Jon [D-GA]",
-      "sponsor_party": "D",
-      "sponsor_state": "GA",
-      "url": "https://api.congress.gov/v3/bill/119/s/4474?format=json"
-    },
-    {
-      "id": "HR.8689",
-      "title": "Strategic Export Controls and Border Security Enhancement Act",
-      "date": "2026-05-07",
-      "latest_action": "Referred to the House Committee on Foreign Affairs.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Jackson, Ronny [R-TX-13]",
-      "sponsor_party": "R",
-      "sponsor_state": "TX",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8689?format=json"
-    },
-    {
-      "id": "HR.8687",
-      "title": "ENDS Chinese Vapes Act of 2026",
-      "date": "2026-05-07",
-      "latest_action": "Referred to the House Committee on Ways and Means.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Hinson, Ashley [R-IA-2]",
-      "sponsor_party": "R",
-      "sponsor_state": "IA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8687?format=json"
+      "sponsor_state": "MD",
+      "url": "https://api.congress.gov/v3/bill/119/s/3981?format=json"
     },
     {
       "id": "S.4428",
@@ -86,16 +38,64 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/8705?format=json"
     },
     {
-      "id": "HR.8685",
-      "title": "Protect the Presidency Act",
+      "id": "HR.8689",
+      "title": "Strategic Export Controls and Border Security Enhancement Act",
       "date": "2026-05-07",
-      "latest_action": "Referred to the House Committee on the Judiciary.",
+      "latest_action": "Referred to the House Committee on Foreign Affairs.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Gooden, Lance [R-TX-5]",
+      "sponsor": "Rep. Jackson, Ronny [R-TX-13]",
       "sponsor_party": "R",
       "sponsor_state": "TX",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8685?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/hr/8689?format=json"
+    },
+    {
+      "id": "S.4460",
+      "title": "Rural Community Hospital Demonstration Program Reauthorization",
+      "date": "2026-04-30",
+      "latest_action": "Read twice and referred to the Committee on Finance.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Sen. Grassley, Chuck [R-IA]",
+      "sponsor_party": "R",
+      "sponsor_state": "IA",
+      "url": "https://api.congress.gov/v3/bill/119/s/4460?format=json"
+    },
+    {
+      "id": "HR.8707",
+      "title": "No Funds for Iran War Act",
+      "date": "2026-05-07",
+      "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Ryan, Patrick [D-NY-18]",
+      "sponsor_party": "D",
+      "sponsor_state": "NY",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8707?format=json"
+    },
+    {
+      "id": "S.4474",
+      "title": "Servicemember Civilian Transition Support Act",
+      "date": "2026-04-30",
+      "latest_action": "Read twice and referred to the Committee on Armed Services.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Sen. Ossoff, Jon [D-GA]",
+      "sponsor_party": "D",
+      "sponsor_state": "GA",
+      "url": "https://api.congress.gov/v3/bill/119/s/4474?format=json"
+    },
+    {
+      "id": "S.4421",
+      "title": "NOPE Act of 2026",
+      "date": "2026-04-28",
+      "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Sen. Gallego, Ruben [D-AZ]",
+      "sponsor_party": "D",
+      "sponsor_state": "AZ",
+      "url": "https://api.congress.gov/v3/bill/119/s/4421?format=json"
     },
     {
       "id": "S.4433",
@@ -122,28 +122,40 @@
       "url": "https://api.congress.gov/v3/bill/119/s/4400?format=json"
     },
     {
-      "id": "S.4421",
-      "title": "NOPE Act of 2026",
-      "date": "2026-04-28",
-      "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+      "id": "HR.8685",
+      "title": "Protect the Presidency Act",
+      "date": "2026-05-07",
+      "latest_action": "Referred to the House Committee on the Judiciary.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Sen. Gallego, Ruben [D-AZ]",
-      "sponsor_party": "D",
-      "sponsor_state": "AZ",
-      "url": "https://api.congress.gov/v3/bill/119/s/4421?format=json"
+      "sponsor": "Rep. Gooden, Lance [R-TX-5]",
+      "sponsor_party": "R",
+      "sponsor_state": "TX",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8685?format=json"
     },
     {
-      "id": "S.4460",
-      "title": "Rural Community Hospital Demonstration Program Reauthorization",
-      "date": "2026-04-30",
-      "latest_action": "Read twice and referred to the Committee on Finance.",
+      "id": "S.4439",
+      "title": "Built To Last Act of 2026",
+      "date": "2026-04-29",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Sen. Grassley, Chuck [R-IA]",
+      "sponsor": "Sen. Baldwin, Tammy [D-WI]",
+      "sponsor_party": "D",
+      "sponsor_state": "WI",
+      "url": "https://api.congress.gov/v3/bill/119/s/4439?format=json"
+    },
+    {
+      "id": "HR.8687",
+      "title": "ENDS Chinese Vapes Act of 2026",
+      "date": "2026-05-07",
+      "latest_action": "Referred to the House Committee on Ways and Means.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Hinson, Ashley [R-IA-2]",
       "sponsor_party": "R",
       "sponsor_state": "IA",
-      "url": "https://api.congress.gov/v3/bill/119/s/4460?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/hr/8687?format=json"
     },
     {
       "id": "S.4427",
@@ -204,18 +216,6 @@
       "sponsor_party": "D",
       "sponsor_state": "HI",
       "url": "https://api.congress.gov/v3/bill/119/s/4466?format=json"
-    },
-    {
-      "id": "S.4408",
-      "title": "Supporting Energy and Economic Development (SEED) Act",
-      "date": "2026-04-28",
-      "latest_action": "Read twice and referred to the Committee on Finance.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Sen. Blackburn, Marsha [R-TN]",
-      "sponsor_party": "R",
-      "sponsor_state": "TN",
-      "url": "https://api.congress.gov/v3/bill/119/s/4408?format=json"
     },
     {
       "id": "S.4420",
@@ -302,6 +302,18 @@
       "url": "https://api.congress.gov/v3/bill/119/s/4434?format=json"
     },
     {
+      "id": "S.4408",
+      "title": "Supporting Energy and Economic Development (SEED) Act",
+      "date": "2026-04-28",
+      "latest_action": "Read twice and referred to the Committee on Finance.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Sen. Blackburn, Marsha [R-TN]",
+      "sponsor_party": "R",
+      "sponsor_state": "TN",
+      "url": "https://api.congress.gov/v3/bill/119/s/4408?format=json"
+    },
+    {
       "id": "HR.8647",
       "title": "Representative Green's Original Legislation to increase from 9 to 13 the number of justices of the Supreme Court.",
       "date": "2026-05-04",
@@ -350,76 +362,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/8703?format=json"
     },
     {
-      "id": "SRES.715",
-      "title": "A resolution recognizing escalating threats to freedom of the press and freedom of speech worldwide, including increasing harm to journalists reporting in conflict zones and under repressive regimes, reaffirming the vital role that a free and independent press plays in upholding democracy, fostering economic prosperity, and keeping the public informed, and reaffirming freedom of the press as a priority of the United States Government in supporting democracy, human rights, and good governance in commemoration of \"World Press Freedom Day\" on May 3, 2026.",
-      "date": "2026-04-30",
-      "latest_action": "Referred to the Committee on Foreign Relations. (text: CR S2177-2178)",
+      "id": "S.3981",
+      "title": "BRAVE Burma Act",
+      "date": "2026-03-04",
+      "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
       "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Sen. Schatz, Brian [D-HI]",
+      "chamber": "Senate",
+      "sponsor": "Sen. Van Hollen, Chris [D-MD]",
       "sponsor_party": "D",
-      "sponsor_state": "HI",
-      "url": "https://api.congress.gov/v3/bill/119/sres/715?format=json"
-    },
-    {
-      "id": "S.4439",
-      "title": "Built To Last Act of 2026",
-      "date": "2026-04-29",
-      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Sen. Baldwin, Tammy [D-WI]",
-      "sponsor_party": "D",
-      "sponsor_state": "WI",
-      "url": "https://api.congress.gov/v3/bill/119/s/4439?format=json"
-    },
-    {
-      "id": "HR.8707",
-      "title": "No Funds for Iran War Act",
-      "date": "2026-05-07",
-      "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Ryan, Patrick [D-NY-18]",
-      "sponsor_party": "D",
-      "sponsor_state": "NY",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8707?format=json"
-    },
-    {
-      "id": "S.4474",
-      "title": "Servicemember Civilian Transition Support Act",
-      "date": "2026-04-30",
-      "latest_action": "Read twice and referred to the Committee on Armed Services.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Sen. Ossoff, Jon [D-GA]",
-      "sponsor_party": "D",
-      "sponsor_state": "GA",
-      "url": "https://api.congress.gov/v3/bill/119/s/4474?format=json"
-    },
-    {
-      "id": "HR.8689",
-      "title": "Strategic Export Controls and Border Security Enhancement Act",
-      "date": "2026-05-07",
-      "latest_action": "Referred to the House Committee on Foreign Affairs.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Jackson, Ronny [R-TX-13]",
-      "sponsor_party": "R",
-      "sponsor_state": "TX",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8689?format=json"
-    },
-    {
-      "id": "HR.8687",
-      "title": "ENDS Chinese Vapes Act of 2026",
-      "date": "2026-05-07",
-      "latest_action": "Referred to the House Committee on Ways and Means.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Hinson, Ashley [R-IA-2]",
-      "sponsor_party": "R",
-      "sponsor_state": "IA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8687?format=json"
+      "sponsor_state": "MD",
+      "url": "https://api.congress.gov/v3/bill/119/s/3981?format=json"
     },
     {
       "id": "S.4428",
@@ -446,16 +398,64 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/8705?format=json"
     },
     {
-      "id": "HR.8685",
-      "title": "Protect the Presidency Act",
+      "id": "HR.8689",
+      "title": "Strategic Export Controls and Border Security Enhancement Act",
       "date": "2026-05-07",
-      "latest_action": "Referred to the House Committee on the Judiciary.",
+      "latest_action": "Referred to the House Committee on Foreign Affairs.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Gooden, Lance [R-TX-5]",
+      "sponsor": "Rep. Jackson, Ronny [R-TX-13]",
       "sponsor_party": "R",
       "sponsor_state": "TX",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8685?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/hr/8689?format=json"
+    },
+    {
+      "id": "S.4460",
+      "title": "Rural Community Hospital Demonstration Program Reauthorization",
+      "date": "2026-04-30",
+      "latest_action": "Read twice and referred to the Committee on Finance.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Sen. Grassley, Chuck [R-IA]",
+      "sponsor_party": "R",
+      "sponsor_state": "IA",
+      "url": "https://api.congress.gov/v3/bill/119/s/4460?format=json"
+    },
+    {
+      "id": "HR.8707",
+      "title": "No Funds for Iran War Act",
+      "date": "2026-05-07",
+      "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Ryan, Patrick [D-NY-18]",
+      "sponsor_party": "D",
+      "sponsor_state": "NY",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8707?format=json"
+    },
+    {
+      "id": "S.4474",
+      "title": "Servicemember Civilian Transition Support Act",
+      "date": "2026-04-30",
+      "latest_action": "Read twice and referred to the Committee on Armed Services.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Sen. Ossoff, Jon [D-GA]",
+      "sponsor_party": "D",
+      "sponsor_state": "GA",
+      "url": "https://api.congress.gov/v3/bill/119/s/4474?format=json"
+    },
+    {
+      "id": "S.4421",
+      "title": "NOPE Act of 2026",
+      "date": "2026-04-28",
+      "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Sen. Gallego, Ruben [D-AZ]",
+      "sponsor_party": "D",
+      "sponsor_state": "AZ",
+      "url": "https://api.congress.gov/v3/bill/119/s/4421?format=json"
     },
     {
       "id": "S.4433",
@@ -482,28 +482,40 @@
       "url": "https://api.congress.gov/v3/bill/119/s/4400?format=json"
     },
     {
-      "id": "S.4421",
-      "title": "NOPE Act of 2026",
-      "date": "2026-04-28",
-      "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+      "id": "HR.8685",
+      "title": "Protect the Presidency Act",
+      "date": "2026-05-07",
+      "latest_action": "Referred to the House Committee on the Judiciary.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Sen. Gallego, Ruben [D-AZ]",
-      "sponsor_party": "D",
-      "sponsor_state": "AZ",
-      "url": "https://api.congress.gov/v3/bill/119/s/4421?format=json"
+      "sponsor": "Rep. Gooden, Lance [R-TX-5]",
+      "sponsor_party": "R",
+      "sponsor_state": "TX",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8685?format=json"
     },
     {
-      "id": "S.4460",
-      "title": "Rural Community Hospital Demonstration Program Reauthorization",
-      "date": "2026-04-30",
-      "latest_action": "Read twice and referred to the Committee on Finance.",
+      "id": "S.4439",
+      "title": "Built To Last Act of 2026",
+      "date": "2026-04-29",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Sen. Grassley, Chuck [R-IA]",
+      "sponsor": "Sen. Baldwin, Tammy [D-WI]",
+      "sponsor_party": "D",
+      "sponsor_state": "WI",
+      "url": "https://api.congress.gov/v3/bill/119/s/4439?format=json"
+    },
+    {
+      "id": "HR.8687",
+      "title": "ENDS Chinese Vapes Act of 2026",
+      "date": "2026-05-07",
+      "latest_action": "Referred to the House Committee on Ways and Means.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Hinson, Ashley [R-IA-2]",
       "sponsor_party": "R",
       "sponsor_state": "IA",
-      "url": "https://api.congress.gov/v3/bill/119/s/4460?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/hr/8687?format=json"
     },
     {
       "id": "S.4427",
@@ -564,18 +576,6 @@
       "sponsor_party": "D",
       "sponsor_state": "HI",
       "url": "https://api.congress.gov/v3/bill/119/s/4466?format=json"
-    },
-    {
-      "id": "S.4408",
-      "title": "Supporting Energy and Economic Development (SEED) Act",
-      "date": "2026-04-28",
-      "latest_action": "Read twice and referred to the Committee on Finance.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Sen. Blackburn, Marsha [R-TN]",
-      "sponsor_party": "R",
-      "sponsor_state": "TN",
-      "url": "https://api.congress.gov/v3/bill/119/s/4408?format=json"
     },
     {
       "id": "S.4420",
@@ -662,6 +662,18 @@
       "url": "https://api.congress.gov/v3/bill/119/s/4434?format=json"
     },
     {
+      "id": "S.4408",
+      "title": "Supporting Energy and Economic Development (SEED) Act",
+      "date": "2026-04-28",
+      "latest_action": "Read twice and referred to the Committee on Finance.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Sen. Blackburn, Marsha [R-TN]",
+      "sponsor_party": "R",
+      "sponsor_state": "TN",
+      "url": "https://api.congress.gov/v3/bill/119/s/4408?format=json"
+    },
+    {
       "id": "HR.8647",
       "title": "Representative Green's Original Legislation to increase from 9 to 13 the number of justices of the Supreme Court.",
       "date": "2026-05-04",
@@ -708,18 +720,6 @@
       "sponsor_party": "R",
       "sponsor_state": "WA",
       "url": "https://api.congress.gov/v3/bill/119/hr/8703?format=json"
-    },
-    {
-      "id": "SRES.715",
-      "title": "A resolution recognizing escalating threats to freedom of the press and freedom of speech worldwide, including increasing harm to journalists reporting in conflict zones and under repressive regimes, reaffirming the vital role that a free and independent press plays in upholding democracy, fostering economic prosperity, and keeping the public informed, and reaffirming freedom of the press as a priority of the United States Government in supporting democracy, human rights, and good governance in commemoration of \"World Press Freedom Day\" on May 3, 2026.",
-      "date": "2026-04-30",
-      "latest_action": "Referred to the Committee on Foreign Relations. (text: CR S2177-2178)",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Sen. Schatz, Brian [D-HI]",
-      "sponsor_party": "D",
-      "sponsor_state": "HI",
-      "url": "https://api.congress.gov/v3/bill/119/sres/715?format=json"
     }
   ]
 }
