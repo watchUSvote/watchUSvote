@@ -1,30 +1,6 @@
 {
-  "fetched_at": "2026-07-12T07:25:53.313543+00:00",
+  "fetched_at": "2026-07-14T07:07:59.269785+00:00",
   "bills": [
-    {
-      "id": "S.2572",
-      "title": "Department of Defense Appropriations Act, 2026",
-      "date": "2025-07-31",
-      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 137.",
-      "status": "active",
-      "sponsor": "Sen. McConnell, Mitch [R-KY]",
-      "sponsor_party": "R",
-      "sponsor_state": "KY",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/s/2572?format=json"
-    },
-    {
-      "id": "S.2587",
-      "title": "Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, 2026",
-      "date": "2025-07-31",
-      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 140.",
-      "status": "active",
-      "sponsor": "Sen. Capito, Shelley Moore [R-WV]",
-      "sponsor_party": "R",
-      "sponsor_state": "WV",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/s/2587?format=json"
-    },
     {
       "id": "HR.877",
       "title": "Deliver for Veterans Act",
@@ -912,438 +888,347 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/8107?format=json"
     },
     {
-      "id": "HR.804",
-      "title": "Rural Small Business Resilience Act",
-      "date": "2025-02-26",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "id": "S.4931",
+      "title": "End EPA Abuse Act of 2026",
+      "date": "2026-06-24",
+      "latest_action": "Read twice and referred to the Committee on Environment and Public Works.",
       "status": "active",
-      "sponsor": "Rep. Morrison, Kelly [D-MN-3]",
-      "sponsor_party": "D",
-      "sponsor_state": "MN",
-      "cosponsors": [
-        {
-          "name": "Rep. Downing, Troy [R-MT-2]",
-          "party": "R",
-          "state": "MT"
-        },
-        {
-          "name": "Rep. Pappas, Chris [D-NH-1]",
-          "party": "D",
-          "state": "NH"
-        },
-        {
-          "name": "Rep. Bean, Aaron [R-FL-4]",
-          "party": "R",
-          "state": "FL"
-        },
-        {
-          "name": "Rep. Goodlander, Maggie [D-NH-2]",
-          "party": "D",
-          "state": "NH"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/804?format=json"
-    },
-    {
-      "id": "HR.8029",
-      "title": "Pay Our Homeland Defenders Act",
-      "date": "2026-04-02",
-      "latest_action": "Received in the Senate.",
-      "status": "active",
-      "sponsor": "Rep. Ciscomani, Juan [R-AZ-6]",
-      "sponsor_party": "R",
-      "sponsor_state": "AZ",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/8029?format=json"
-    },
-    {
-      "id": "HR.7971",
-      "title": "Taxpayer Experience Improvement Act",
-      "date": "2026-04-28",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Finance.",
-      "status": "active",
-      "sponsor": "Rep. Schweikert, David [R-AZ-1]",
-      "sponsor_party": "R",
-      "sponsor_state": "AZ",
-      "cosponsors": [
-        {
-          "name": "Rep. Beyer, Donald S. [D-VA-8]",
-          "party": "D",
-          "state": "VA"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/7971?format=json"
-    },
-    {
-      "id": "HR.7959",
-      "title": "IRS Whistleblower Program Improvement Act",
-      "date": "2026-04-28",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Finance.",
-      "status": "active",
-      "sponsor": "Rep. Kelly, Mike [R-PA-16]",
-      "sponsor_party": "R",
-      "sponsor_state": "PA",
-      "cosponsors": [
-        {
-          "name": "Rep. Thompson, Mike [D-CA-4]",
-          "party": "D",
-          "state": "CA"
-        },
-        {
-          "name": "Rep. Miller, Carol D. [R-WV-1]",
-          "party": "R",
-          "state": "WV"
-        },
-        {
-          "name": "Rep. Buchanan, Vern [R-FL-16]",
-          "party": "R",
-          "state": "FL"
-        },
-        {
-          "name": "Rep. Moran, Nathaniel [R-TX-1]",
-          "party": "R",
-          "state": "TX"
-        },
-        {
-          "name": "Rep. Smith, Adrian [R-NE-3]",
-          "party": "R",
-          "state": "NE"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/7959?format=json"
-    },
-    {
-      "id": "HR.789",
-      "title": "Transparency and Predictability in Small Business Opportunities Act",
-      "date": "2025-06-04",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Small Business and Entrepreneurship.",
-      "status": "active",
-      "sponsor": "Rep. Latimer, George [D-NY-16]",
-      "sponsor_party": "D",
-      "sponsor_state": "NY",
-      "cosponsors": [
-        {
-          "name": "Rep. Alford, Mark [R-MO-4]",
-          "party": "R",
-          "state": "MO"
-        },
-        {
-          "name": "Rep. Mfume, Kweisi [D-MD-7]",
-          "party": "D",
-          "state": "MD"
-        },
-        {
-          "name": "Rep. Goodlander, Maggie [D-NH-2]",
-          "party": "D",
-          "state": "NH"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/789?format=json"
-    },
-    {
-      "id": "HR.7892",
-      "title": "No Aid for Ghost Students Act of 2026",
-      "date": "2026-06-11",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
-      "status": "active",
-      "sponsor": "Rep. Owens, Burgess [R-UT-4]",
+      "sponsor": "Sen. Lee, Mike [R-UT]",
       "sponsor_party": "R",
       "sponsor_state": "UT",
-      "cosponsors": [
-        {
-          "name": "Rep. Kiley, Kevin [R-CA-3]",
-          "party": "R",
-          "state": "CA"
-        },
-        {
-          "name": "Rep. Grothman, Glenn [R-WI-6]",
-          "party": "R",
-          "state": "WI"
-        },
-        {
-          "name": "Rep. Foxx, Virginia [R-NC-5]",
-          "party": "R",
-          "state": "NC"
-        },
-        {
-          "name": "Rep. Obernolte, Jay [R-CA-23]",
-          "party": "R",
-          "state": "CA"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/7892?format=json"
-    },
-    {
-      "id": "HR.788",
-      "title": "DOE and SBA Research Act",
-      "date": "2025-02-26",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
-      "status": "active",
-      "sponsor": "Rep. LaLota, Nick [R-NY-1]",
-      "sponsor_party": "R",
-      "sponsor_state": "NY",
-      "cosponsors": [
-        {
-          "name": "Rep. Morrison, Kelly [D-MN-3]",
-          "party": "D",
-          "state": "MN"
-        },
-        {
-          "name": "Rep. Thanedar, Shri [D-MI-13]",
-          "party": "D",
-          "state": "MI"
-        },
-        {
-          "name": "Rep. Goodlander, Maggie [D-NH-2]",
-          "party": "D",
-          "state": "NH"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/788?format=json"
-    },
-    {
-      "id": "HR.787",
-      "title": "Plain Language in Contracting Act",
-      "date": "2025-06-04",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Small Business and Entrepreneurship.",
-      "status": "active",
-      "sponsor": "Rep. LaLota, Nick [R-NY-1]",
-      "sponsor_party": "R",
-      "sponsor_state": "NY",
-      "cosponsors": [
-        {
-          "name": "Rep. Tran, Derek [D-CA-45]",
-          "party": "D",
-          "state": "CA"
-        },
-        {
-          "name": "Rep. Thanedar, Shri [D-MI-13]",
-          "party": "D",
-          "state": "MI"
-        },
-        {
-          "name": "Rep. Goodlander, Maggie [D-NH-2]",
-          "party": "D",
-          "state": "NH"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/787?format=json"
-    },
-    {
-      "id": "HR.7831",
-      "title": "License to Drill Act",
-      "date": "2026-06-03",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
-      "status": "active",
-      "sponsor": "Rep. Kennedy, Mike [R-UT-3]",
-      "sponsor_party": "R",
-      "sponsor_state": "UT",
-      "cosponsors": [
-        {
-          "name": "Rep. Maloy, Celeste [R-UT-2]",
-          "party": "R",
-          "state": "UT"
-        },
-        {
-          "name": "Rep. Hageman, Harriet M. [R-WY-At Large]",
-          "party": "R",
-          "state": "WY"
-        },
-        {
-          "name": "Rep. Bice, Stephanie I. [R-OK-5]",
-          "party": "R",
-          "state": "OK"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/7831?format=json"
-    },
-    {
-      "id": "HR.77",
-      "title": "Midnight Rules Relief Act",
-      "date": "2025-02-13",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
-      "status": "active",
-      "sponsor": "Rep. Biggs, Andy [R-AZ-5]",
-      "sponsor_party": "R",
-      "sponsor_state": "AZ",
-      "cosponsors": [
-        {
-          "name": "Rep. LaMalfa, Doug [R-CA-1]",
-          "party": "R",
-          "state": "CA"
-        },
-        {
-          "name": "Rep. Grothman, Glenn [R-WI-6]",
-          "party": "R",
-          "state": "WI"
-        },
-        {
-          "name": "Rep. Brecheen, Josh [R-OK-2]",
-          "party": "R",
-          "state": "OK"
-        },
-        {
-          "name": "Rep. Ogles, Andrew [R-TN-5]",
-          "party": "R",
-          "state": "TN"
-        },
-        {
-          "name": "Rep. Hageman, Harriet M. [R-WY-At Large]",
-          "party": "R",
-          "state": "WY"
-        },
-        {
-          "name": "Rep. Haridopolos, Mike [R-FL-8]",
-          "party": "R",
-          "state": "FL"
-        },
-        {
-          "name": "Rep. McCormick, Richard [R-GA-7]",
-          "party": "R",
-          "state": "GA"
-        },
-        {
-          "name": "Rep. Gill, Brandon [R-TX-26]",
-          "party": "R",
-          "state": "TX"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/77?format=json"
-    },
-    {
-      "id": "HR.776",
-      "title": "Nutria Eradication and Control Reauthorization Act of 2025",
-      "date": "2025-02-05",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
-      "status": "active",
-      "sponsor": "Rep. Harder, Josh [D-CA-9]",
-      "sponsor_party": "D",
-      "sponsor_state": "CA",
-      "cosponsors": [
-        {
-          "name": "Rep. Valadao, David G. [R-CA-22]",
-          "party": "R",
-          "state": "CA"
-        },
-        {
-          "name": "Rep. Garamendi, John [D-CA-8]",
-          "party": "D",
-          "state": "CA"
-        },
-        {
-          "name": "Rep. Panetta, Jimmy [D-CA-19]",
-          "party": "D",
-          "state": "CA"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/776?format=json"
-    },
-    {
-      "id": "HR.7757",
-      "title": "KIDS Act",
-      "date": "2026-06-29",
-      "latest_action": "Motion to reconsider laid on the table Agreed to without objection.",
-      "status": "active",
-      "sponsor": "Rep. Guthrie, Brett [R-KY-2]",
-      "sponsor_party": "R",
-      "sponsor_state": "KY",
-      "cosponsors": [
-        {
-          "name": "Rep. Pallone, Frank [D-NJ-6]",
-          "party": "D",
-          "state": "NJ"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/7757?format=json"
-    },
-    {
-      "id": "HR.7744",
-      "title": "Department of Homeland Security Appropriations Act, 2026",
-      "date": "2026-03-09",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Appropriations.",
-      "status": "active",
-      "sponsor": "Rep. Cole, Tom [R-OK-4]",
-      "sponsor_party": "R",
-      "sponsor_state": "OK",
       "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/7744?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/s/4931?format=json"
     },
     {
-      "id": "S.3293",
-      "title": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
-      "date": "2025-12-01",
-      "latest_action": "Read twice and referred to the Committee on Appropriations.",
+      "id": "S.1071",
+      "title": "National Defense Authorization Act for Fiscal Year 2026",
+      "date": "2025-12-18",
+      "latest_action": "Became Public Law No: 119-60.",
       "status": "active",
-      "sponsor": "Sen. Kennedy, John [R-LA]",
-      "sponsor_party": "R",
-      "sponsor_state": "LA",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/s/3293?format=json"
-    },
-    {
-      "id": "S.3290",
-      "title": "Financial Services and General Government Appropriations Act, 2026",
-      "date": "2025-12-01",
-      "latest_action": "Read twice and referred to the Committee on Appropriations.",
-      "status": "active",
-      "sponsor": "Sen. Hagerty, Bill [R-TN]",
-      "sponsor_party": "R",
-      "sponsor_state": "TN",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/s/3290?format=json"
-    },
-    {
-      "id": "HJRES.35",
-      "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Waste Emissions Charge for Petroleum and Natural Gas Systems: Procedures for Facilitating Compliance, Including Netting and Exemptions\".",
-      "date": "2025-03-14",
-      "latest_action": "Became Public Law No: 119-2.",
-      "status": "active",
-      "sponsor": "Rep. Pfluger, August [R-TX-11]",
+      "sponsor": "Sen. Cornyn, John [R-TX]",
       "sponsor_party": "R",
       "sponsor_state": "TX",
       "cosponsors": [
         {
-          "name": "Rep. Arrington, Jodey C. [R-TX-19]",
+          "name": "Sen. Cruz, Ted [R-TX]",
           "party": "R",
           "state": "TX"
-        },
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/1071?format=json"
+    },
+    {
+      "id": "HR.972",
+      "title": "Sloan Canyon Conservation and Lateral Pipeline Act",
+      "date": "2026-05-19",
+      "latest_action": "Became Public Law No: 119-91.",
+      "status": "active",
+      "sponsor": "Rep. Titus, Dina [D-NV-1]",
+      "sponsor_party": "D",
+      "sponsor_state": "NV",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hr/972?format=json"
+    },
+    {
+      "id": "S.1070",
+      "title": "National STEM Week Act",
+      "date": "2026-03-03",
+      "latest_action": "Held at the desk.",
+      "status": "active",
+      "sponsor": "Sen. Ernst, Joni [R-IA]",
+      "sponsor_party": "R",
+      "sponsor_state": "IA",
+      "cosponsors": [
         {
-          "name": "Rep. Balderson, Troy [R-OH-12]",
+          "name": "Sen. Klobuchar, Amy [D-MN]",
+          "party": "D",
+          "state": "MN"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/1070?format=json"
+    },
+    {
+      "id": "S.1051",
+      "title": "Historic Greenwood District—Black Wall Street National Monument Establishment Act",
+      "date": "2025-05-26",
+      "latest_action": "Held at the desk.",
+      "status": "active",
+      "sponsor": "Sen. Lankford, James [R-OK]",
+      "sponsor_party": "R",
+      "sponsor_state": "OK",
+      "cosponsors": [
+        {
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/1051?format=json"
+    },
+    {
+      "id": "S.1049",
+      "title": "Preventing Child Trafficking Act of 2025",
+      "date": "2025-12-17",
+      "latest_action": "Held at the desk.",
+      "status": "active",
+      "sponsor": "Sen. Ossoff, Jon [D-GA]",
+      "sponsor_party": "D",
+      "sponsor_state": "GA",
+      "cosponsors": [
+        {
+          "name": "Sen. Grassley, Chuck [R-IA]",
           "party": "R",
-          "state": "OH"
+          "state": "IA"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/1049?format=json"
+    },
+    {
+      "id": "S.1038",
+      "title": "TRACE Act",
+      "date": "2025-09-04",
+      "latest_action": "Held at the desk.",
+      "status": "active",
+      "sponsor": "Sen. Tillis, Thomas [R-NC]",
+      "sponsor_party": "R",
+      "sponsor_state": "NC",
+      "cosponsors": [
+        {
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA"
         },
         {
-          "name": "Rep. Evans, Gabe [R-CO-8]",
+          "name": "Sen. Capito, Shelley Moore [R-WV]",
           "party": "R",
-          "state": "CO"
+          "state": "WV"
         },
         {
-          "name": "Rep. Carey, Mike [R-OH-15]",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT"
+        },
+        {
+          "name": "Sen. Murphy, Christopher [D-CT]",
+          "party": "D",
+          "state": "CT"
+        },
+        {
+          "name": "Sen. Coons, Christopher A. [D-DE]",
+          "party": "D",
+          "state": "DE"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/1038?format=json"
+    },
+    {
+      "id": "S.1020",
+      "title": "A bill to require the Federal Energy Regulatory Commission to extend the time period during which licensees are required to commence construction of certain hydropower projects.",
+      "date": "2026-05-11",
+      "latest_action": "Became Public Law No: 119-90.",
+      "status": "active",
+      "sponsor": "Sen. Daines, Steve [R-MT]",
+      "sponsor_party": "R",
+      "sponsor_state": "MT",
+      "cosponsors": [
+        {
+          "name": "Sen. Fetterman, John [D-PA]",
+          "party": "D",
+          "state": "PA"
+        },
+        {
+          "name": "Sen. Cassidy, Bill [R-LA]",
           "party": "R",
-          "state": "OH"
+          "state": "LA"
         },
         {
-          "name": "Rep. Rulli, Michael A. [R-OH-6]",
+          "name": "Sen. Kennedy, John [R-LA]",
           "party": "R",
-          "state": "OH"
+          "state": "LA"
         },
         {
-          "name": "Rep. Palmer, Gary J. [R-AL-6]",
+          "name": "Sen. Murkowski, Lisa [R-AK]",
           "party": "R",
-          "state": "AL"
+          "state": "AK"
         },
         {
-          "name": "Rep. Crenshaw, Dan [R-TX-2]",
+          "name": "Sen. Sheehy, Tim [R-MT]",
           "party": "R",
-          "state": "TX"
+          "state": "MT"
         },
         {
-          "name": "Rep. Joyce, John [R-PA-13]",
+          "name": "Sen. Sullivan, Dan [R-AK]",
+          "party": "R",
+          "state": "AK"
+        },
+        {
+          "name": "Sen. McCormick, David [R-PA]",
           "party": "R",
           "state": "PA"
         }
       ],
-      "url": "https://api.congress.gov/v3/bill/119/hjres/35?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/s/1020?format=json"
+    },
+    {
+      "id": "S.1003",
+      "title": "Lulu’s Law",
+      "date": "2026-06-26",
+      "latest_action": "Became Public Law No: 119-100.",
+      "status": "active",
+      "sponsor": "Sen. Britt, Katie Boyd [R-AL]",
+      "sponsor_party": "R",
+      "sponsor_state": "AL",
+      "cosponsors": [
+        {
+          "name": "Sen. Schatz, Brian [D-HI]",
+          "party": "D",
+          "state": "HI"
+        },
+        {
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA"
+        },
+        {
+          "name": "Sen. Fischer, Deb [R-NE]",
+          "party": "R",
+          "state": "NE"
+        },
+        {
+          "name": "Sen. Ricketts, Pete [R-NE]",
+          "party": "R",
+          "state": "NE"
+        },
+        {
+          "name": "Sen. Capito, Shelley Moore [R-WV]",
+          "party": "R",
+          "state": "WV"
+        },
+        {
+          "name": "Sen. Kaine, Tim [D-VA]",
+          "party": "D",
+          "state": "VA"
+        },
+        {
+          "name": "Sen. Tuberville, Tommy [R-AL]",
+          "party": "R",
+          "state": "AL"
+        },
+        {
+          "name": "Sen. Cassidy, Bill [R-LA]",
+          "party": "R",
+          "state": "LA"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/1003?format=json"
+    },
+    {
+      "id": "HRES.992",
+      "title": "Providing for consideration of the bill (H.R. 7006) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes.",
+      "date": "2026-01-14",
+      "latest_action": "Motion to reconsider laid on the table Agreed to without objection.",
+      "status": "active",
+      "sponsor": "Rep. Foxx, Virginia [R-NC-5]",
+      "sponsor_party": "R",
+      "sponsor_state": "NC",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hres/992?format=json"
+    },
+    {
+      "id": "HRES.991",
+      "title": "Requesting return of official papers on H.R. 1834.",
+      "date": "2026-01-13",
+      "latest_action": "Motion to reconsider laid on the table Agreed to without objection.",
+      "status": "active",
+      "sponsor": "Rep. LaLota, Nick [R-NY-1]",
+      "sponsor_party": "R",
+      "sponsor_state": "NY",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hres/991?format=json"
+    },
+    {
+      "id": "HRES.979",
+      "title": "Electing a Member to a certain standing committee of the House of Representatives.",
+      "date": "2026-01-07",
+      "latest_action": "Motion to reconsider laid on the table Agreed to without objection.",
+      "status": "active",
+      "sponsor": "Rep. Houchin, Erin [R-IN-9]",
+      "sponsor_party": "R",
+      "sponsor_state": "IN",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hres/979?format=json"
+    },
+    {
+      "id": "HRES.977",
+      "title": "Providing for consideration of the bill (H.R. 4593) to amend the Energy Policy and Conservation Act to revise the definition of showerhead; providing for consideration of the bill (H.R. 5184) to prohibit the Secretary of Energy from enforcing energy efficiency standards applicable to manufactured housing, and for other purposes; and providing for consideration of the bill (H.R. 6938) making consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes.",
+      "date": "2026-01-07",
+      "latest_action": "Motion to reconsider laid on the table Agreed to without objection.",
+      "status": "active",
+      "sponsor": "Rep. Houchin, Erin [R-IN-9]",
+      "sponsor_party": "R",
+      "sponsor_state": "IN",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hres/977?format=json"
+    },
+    {
+      "id": "HRES.978",
+      "title": "Expressing the profound sorrow of the House of Representatives on the death of the Honorable Doug LaMalfa.",
+      "date": "2026-01-07",
+      "latest_action": "Motion to reconsider laid on the table Agreed to without objection.",
+      "status": "active",
+      "sponsor": "Rep. Calvert, Ken [R-CA-41]",
+      "sponsor_party": "R",
+      "sponsor_state": "CA",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hres/978?format=json"
+    },
+    {
+      "id": "HRES.976",
+      "title": "Providing for the hour of meeting of the House.",
+      "date": "2026-01-06",
+      "latest_action": "Motion to reconsider laid on the table Agreed to without objection.",
+      "status": "active",
+      "sponsor": "Rep. Thompson, Glenn [R-PA-15]",
+      "sponsor_party": "R",
+      "sponsor_state": "PA",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hres/976?format=json"
+    },
+    {
+      "id": "HRES.974",
+      "title": "Providing for a committee to notify the President of the assembly of the House of Representatives.",
+      "date": "2026-01-06",
+      "latest_action": "Motion to reconsider laid on the table Agreed to without objection.",
+      "status": "active",
+      "sponsor": "Rep. Thompson, Glenn [R-PA-15]",
+      "sponsor_party": "R",
+      "sponsor_state": "PA",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hres/974?format=json"
+    },
+    {
+      "id": "HRES.975",
+      "title": "To inform the Senate that a quorum of the House has assembled.",
+      "date": "2026-01-06",
+      "latest_action": "Motion to reconsider laid on the table Agreed to without objection.",
+      "status": "active",
+      "sponsor": "Rep. Thompson, Glenn [R-PA-15]",
+      "sponsor_party": "R",
+      "sponsor_state": "PA",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hres/975?format=json"
+    },
+    {
+      "id": "HRES.965",
+      "title": "Providing for consideration of the bill (H.R. 1689) to require the Secretary of Homeland Security to designate Haiti for temporary protected status.",
+      "date": "2026-04-16",
+      "latest_action": "Motion to reconsider laid on the table Agreed to without objection.",
+      "status": "active",
+      "sponsor": "Rep. Pressley, Ayanna [D-MA-7]",
+      "sponsor_party": "D",
+      "sponsor_state": "MA",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hres/965?format=json"
     }
   ]
 }
