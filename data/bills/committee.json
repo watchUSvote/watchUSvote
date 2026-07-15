@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-07-14T07:08:28.919529+00:00",
+  "fetched_at": "2026-07-15T07:11:15.590034+00:00",
   "bills": [
     {
+      "id": "HR.8205",
+      "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026",
+      "date": "2026-07-09",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 637.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Quigley, Mike [D-IL-5]",
+      "sponsor_party": "D",
+      "sponsor_state": "IL",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8205?format=json"
+    },
+    {
       "id": "HR.877",
       "title": "Deliver for Veterans Act",
       "date": "2025-04-08",
@@ -112,26 +124,14 @@
     {
       "id": "HR.8469",
       "title": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.",
-      "date": "2026-05-20",
-      "latest_action": "Received in the Senate.",
+      "date": "2026-07-13",
+      "latest_action": "Read the first time. Placed on Senate Legislative Calendar under Read the First Time.",
       "status": "reported_from_committee",
       "chamber": "House",
       "sponsor": "Rep. Carter, John R. [R-TX-31]",
       "sponsor_party": "R",
       "sponsor_state": "TX",
       "url": "https://api.congress.gov/v3/bill/119/hr/8469?format=json"
-    },
-    {
-      "id": "HR.8466",
-      "title": "TRUE Accountability Act",
-      "date": "2026-06-09",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Biggs, Andy [R-AZ-5]",
-      "sponsor_party": "R",
-      "sponsor_state": "AZ",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8466?format=json"
     },
     {
       "id": "HR.8467",
@@ -144,6 +144,18 @@
       "sponsor_party": "R",
       "sponsor_state": "AL",
       "url": "https://api.congress.gov/v3/bill/119/hr/8467?format=json"
+    },
+    {
+      "id": "HR.8466",
+      "title": "TRUE Accountability Act",
+      "date": "2026-06-09",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Biggs, Andy [R-AZ-5]",
+      "sponsor_party": "R",
+      "sponsor_state": "AZ",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8466?format=json"
     },
     {
       "id": "HR.8464",
@@ -350,16 +362,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/826?format=json"
     },
     {
-      "id": "HR.825",
-      "title": "Assisting Small Businesses Not Fraudsters Act",
-      "date": "2025-02-25",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+      "id": "HR.8205",
+      "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026",
+      "date": "2026-07-09",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 637.",
       "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Williams, Roger [R-TX-25]",
-      "sponsor_party": "R",
-      "sponsor_state": "TX",
-      "url": "https://api.congress.gov/v3/bill/119/hr/825?format=json"
+      "chamber": "Senate",
+      "sponsor": "Rep. Quigley, Mike [D-IL-5]",
+      "sponsor_party": "D",
+      "sponsor_state": "IL",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8205?format=json"
     },
     {
       "id": "HR.877",
@@ -472,26 +484,14 @@
     {
       "id": "HR.8469",
       "title": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.",
-      "date": "2026-05-20",
-      "latest_action": "Received in the Senate.",
+      "date": "2026-07-13",
+      "latest_action": "Read the first time. Placed on Senate Legislative Calendar under Read the First Time.",
       "status": "reported_from_committee",
       "chamber": "Senate",
       "sponsor": "Rep. Carter, John R. [R-TX-31]",
       "sponsor_party": "R",
       "sponsor_state": "TX",
       "url": "https://api.congress.gov/v3/bill/119/hr/8469?format=json"
-    },
-    {
-      "id": "HR.8466",
-      "title": "TRUE Accountability Act",
-      "date": "2026-06-09",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Biggs, Andy [R-AZ-5]",
-      "sponsor_party": "R",
-      "sponsor_state": "AZ",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8466?format=json"
     },
     {
       "id": "HR.8467",
@@ -504,6 +504,18 @@
       "sponsor_party": "R",
       "sponsor_state": "AL",
       "url": "https://api.congress.gov/v3/bill/119/hr/8467?format=json"
+    },
+    {
+      "id": "HR.8466",
+      "title": "TRUE Accountability Act",
+      "date": "2026-06-09",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Biggs, Andy [R-AZ-5]",
+      "sponsor_party": "R",
+      "sponsor_state": "AZ",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8466?format=json"
     },
     {
       "id": "HR.8464",
@@ -708,18 +720,6 @@
       "sponsor_party": "R",
       "sponsor_state": "TX",
       "url": "https://api.congress.gov/v3/bill/119/hr/826?format=json"
-    },
-    {
-      "id": "HR.825",
-      "title": "Assisting Small Businesses Not Fraudsters Act",
-      "date": "2025-02-25",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Small Business and Entrepreneurship.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Williams, Roger [R-TX-25]",
-      "sponsor_party": "R",
-      "sponsor_state": "TX",
-      "url": "https://api.congress.gov/v3/bill/119/hr/825?format=json"
     }
   ]
 }
