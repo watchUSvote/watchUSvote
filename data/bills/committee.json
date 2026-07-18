@@ -1,19 +1,7 @@
 {
-  "fetched_at": "2026-07-17T07:13:51.143577+00:00",
+  "fetched_at": "2026-07-18T06:58:32.720228+00:00",
   "bills": [
     {
-      "id": "HR.6556",
-      "title": "Failing Bank Acquisition Fairness Act",
-      "date": "2026-07-15",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Lynch, Stephen F. [D-MA-8]",
-      "sponsor_party": "D",
-      "sponsor_state": "MA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/6556?format=json"
-    },
-    {
       "id": "HR.3074",
       "title": "Common Cents Act",
       "date": "2026-07-15",
@@ -24,6 +12,18 @@
       "sponsor_party": "R",
       "sponsor_state": "MI",
       "url": "https://api.congress.gov/v3/bill/119/hr/3074?format=json"
+    },
+    {
+      "id": "HR.6556",
+      "title": "Failing Bank Acquisition Fairness Act",
+      "date": "2026-07-15",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Lynch, Stephen F. [D-MA-8]",
+      "sponsor_party": "D",
+      "sponsor_state": "MA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6556?format=json"
     },
     {
       "id": "HR.139",
@@ -74,18 +74,6 @@
       "url": "https://api.congress.gov/v3/bill/119/s/2120?format=json"
     },
     {
-      "id": "HR.8738",
-      "title": "FEC Administrative Improvements Act",
-      "date": "2026-07-14",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Rules and Administration.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Morelle, Joseph D. [D-NY-25]",
-      "sponsor_party": "D",
-      "sponsor_state": "NY",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8738?format=json"
-    },
-    {
       "id": "HR.7574",
       "title": "ELO Realignment and Strategic Engagement Reform Act of 2026",
       "date": "2026-07-14",
@@ -98,16 +86,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/7574?format=json"
     },
     {
-      "id": "HR.8770",
-      "title": "SAFEGUARDS Act of 2026",
+      "id": "HR.8738",
+      "title": "FEC Administrative Improvements Act",
       "date": "2026-07-14",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Rules and Administration.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Strong, Dale W. [R-AL-5]",
-      "sponsor_party": "R",
-      "sponsor_state": "AL",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8770?format=json"
+      "sponsor": "Rep. Morelle, Joseph D. [D-NY-25]",
+      "sponsor_party": "D",
+      "sponsor_state": "NY",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8738?format=json"
     },
     {
       "id": "HR.3106",
@@ -122,6 +110,18 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/3106?format=json"
     },
     {
+      "id": "HRES.1424",
+      "title": "Expressing the profound sorrow of the House of Representatives on the death of the Honorable Lindsey Graham.",
+      "date": "2026-07-13",
+      "latest_action": "Motion to reconsider laid on the table Agreed to without objection.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Wilson, Joe [R-SC-2]",
+      "sponsor_party": "R",
+      "sponsor_state": "SC",
+      "url": "https://api.congress.gov/v3/bill/119/hres/1424?format=json"
+    },
+    {
       "id": "HR.8168",
       "title": "Major Non-NATO Ally Terror Threat Assessment Act",
       "date": "2026-07-14",
@@ -134,16 +134,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/8168?format=json"
     },
     {
-      "id": "HRES.1424",
-      "title": "Expressing the profound sorrow of the House of Representatives on the death of the Honorable Lindsey Graham.",
-      "date": "2026-07-13",
-      "latest_action": "Motion to reconsider laid on the table Agreed to without objection.",
+      "id": "HR.8770",
+      "title": "SAFEGUARDS Act of 2026",
+      "date": "2026-07-14",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Wilson, Joe [R-SC-2]",
+      "sponsor": "Rep. Strong, Dale W. [R-AL-5]",
       "sponsor_party": "R",
-      "sponsor_state": "SC",
-      "url": "https://api.congress.gov/v3/bill/119/hres/1424?format=json"
+      "sponsor_state": "AL",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8770?format=json"
     },
     {
       "id": "HR.3535",
@@ -170,18 +170,6 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/6332?format=json"
     },
     {
-      "id": "HR.9391",
-      "title": "Reimbursable Screening Services Program Extension Act of 2026",
-      "date": "2026-07-14",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Garbarino, Andrew R. [R-NY-2]",
-      "sponsor_party": "R",
-      "sponsor_state": "NY",
-      "url": "https://api.congress.gov/v3/bill/119/hr/9391?format=json"
-    },
-    {
       "id": "HR.7809",
       "title": "To designate the facility of the United States Postal Service located at 201 East Grant Avenue in Georgetown, Ohio, as the \"Ulysses S. Grant Post Office Building\".",
       "date": "2026-07-14",
@@ -192,18 +180,6 @@
       "sponsor_party": "R",
       "sponsor_state": "OH",
       "url": "https://api.congress.gov/v3/bill/119/hr/7809?format=json"
-    },
-    {
-      "id": "HR.9388",
-      "title": "One-Stop Pilot Program Extension Act",
-      "date": "2026-07-14",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Gimenez, Carlos A. [R-FL-28]",
-      "sponsor_party": "R",
-      "sponsor_state": "FL",
-      "url": "https://api.congress.gov/v3/bill/119/hr/9388?format=json"
     },
     {
       "id": "HR.8535",
@@ -218,6 +194,18 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/8535?format=json"
     },
     {
+      "id": "HR.9391",
+      "title": "Reimbursable Screening Services Program Extension Act of 2026",
+      "date": "2026-07-14",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Garbarino, Andrew R. [R-NY-2]",
+      "sponsor_party": "R",
+      "sponsor_state": "NY",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9391?format=json"
+    },
+    {
       "id": "HR.9328",
       "title": "Improving Travel for Military Members Act",
       "date": "2026-07-14",
@@ -228,6 +216,18 @@
       "sponsor_party": "R",
       "sponsor_state": "SC",
       "url": "https://api.congress.gov/v3/bill/119/hr/9328?format=json"
+    },
+    {
+      "id": "HR.9388",
+      "title": "One-Stop Pilot Program Extension Act",
+      "date": "2026-07-14",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Gimenez, Carlos A. [R-FL-28]",
+      "sponsor_party": "R",
+      "sponsor_state": "FL",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9388?format=json"
     },
     {
       "id": "HR.8874",
@@ -254,124 +254,112 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/8897?format=json"
     },
     {
-      "id": "S.2296",
-      "title": "National Defense Authorization Act for Fiscal Year 2026",
-      "date": "2025-11-12",
-      "latest_action": "Held at the desk.",
+      "id": "HR.9640",
+      "title": "Earth MRI Reauthorization Act of 2026",
+      "date": "2026-07-14",
+      "latest_action": "Referred to the Subcommittee on Energy and Mineral Resources.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Sen. Wicker, Roger F. [R-MS]",
+      "sponsor": "Rep. Wittman, Robert J. [R-VA-1]",
       "sponsor_party": "R",
-      "sponsor_state": "MS",
-      "url": "https://api.congress.gov/v3/bill/119/s/2296?format=json"
+      "sponsor_state": "VA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9640?format=json"
     },
     {
-      "id": "S.2283",
-      "title": "A bill to designate the facility of the United States Postal Service located at 201 West Oklahoma Avenue in Guthrie, Oklahoma, as the \"Oscar J. Upham Post Office\".",
-      "date": "2025-12-18",
-      "latest_action": "Became Public Law No: 119-59.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Sen. Lankford, James [R-OK]",
-      "sponsor_party": "R",
-      "sponsor_state": "OK",
-      "url": "https://api.congress.gov/v3/bill/119/s/2283?format=json"
-    },
-    {
-      "id": "S.2280",
-      "title": "A bill to transfer administrative jurisdiction over certain parcels of Federal land in Harpers Ferry, West Virginia, and for other purposes.",
-      "date": "2026-05-04",
-      "latest_action": "Held at the desk.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Sen. Justice, James C. [R-WV]",
-      "sponsor_party": "R",
-      "sponsor_state": "WV",
-      "url": "https://api.congress.gov/v3/bill/119/s/2280?format=json"
-    },
-    {
-      "id": "S.2245",
-      "title": "A bill to amend the Digital Coast Act to improve the acquisition, integration, and accessibility of data of the Digital Coast program and to extend the program.",
-      "date": "2026-03-03",
-      "latest_action": "Held at the desk.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Sen. Baldwin, Tammy [D-WI]",
-      "sponsor_party": "D",
-      "sponsor_state": "WI",
-      "url": "https://api.congress.gov/v3/bill/119/s/2245?format=json"
-    },
-    {
-      "id": "S.2232",
-      "title": "Expanding the Surety Bond Program Act of 2025",
-      "date": "2026-05-04",
-      "latest_action": "Held at the desk.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Sen. Markey, Edward J. [D-MA]",
-      "sponsor_party": "D",
-      "sponsor_state": "MA",
-      "url": "https://api.congress.gov/v3/bill/119/s/2232?format=json"
-    },
-    {
-      "id": "S.222",
-      "title": "Whole Milk for Healthy Kids Act of 2025",
-      "date": "2026-01-14",
-      "latest_action": "Became Public Law No: 119-69.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Sen. Marshall, Roger [R-KS]",
-      "sponsor_party": "R",
-      "sponsor_state": "KS",
-      "url": "https://api.congress.gov/v3/bill/119/s/222?format=json"
-    },
-    {
-      "id": "S.216",
-      "title": "Save Our Seas 2.0 Amendments Act",
-      "date": "2025-12-26",
-      "latest_action": "Became Public Law No: 119-65.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Sen. Sullivan, Dan [R-AK]",
-      "sponsor_party": "R",
-      "sponsor_state": "AK",
-      "url": "https://api.congress.gov/v3/bill/119/s/216?format=json"
-    },
-    {
-      "id": "S.2144",
-      "title": "A bill to improve the safety and security of Members of Congress, immediate family members of Members of Congress, and congressional staff.",
-      "date": "2025-10-10",
-      "latest_action": "Held at the desk.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Sen. Klobuchar, Amy [D-MN]",
-      "sponsor_party": "D",
-      "sponsor_state": "MN",
-      "url": "https://api.congress.gov/v3/bill/119/s/2144?format=json"
-    },
-    {
-      "id": "S.2132",
-      "title": "CLEAR Path Act",
-      "date": "2026-04-22",
-      "latest_action": "Held at the desk.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Sen. Cornyn, John [R-TX]",
-      "sponsor_party": "R",
-      "sponsor_state": "TX",
-      "url": "https://api.congress.gov/v3/bill/119/s/2132?format=json"
-    },
-    {
-      "id": "HR.6556",
-      "title": "Failing Bank Acquisition Fairness Act",
+      "id": "HR.9368",
+      "title": "Voter ID Act",
       "date": "2026-07-15",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 653.",
       "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Lynch, Stephen F. [D-MA-8]",
+      "chamber": "House",
+      "sponsor": "Rep. Steil, Bryan [R-WI-1]",
+      "sponsor_party": "R",
+      "sponsor_state": "WI",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9368?format=json"
+    },
+    {
+      "id": "HRES.1295",
+      "title": "Expressing support for the designation of May 17, 2026, as \"DIPG Awareness Day\" to raise awareness and encourage research into cures for diffuse intrinsic pontine glioma (DIPG) and pediatric cancers in general.",
+      "date": "2026-05-15",
+      "latest_action": "Referred to the House Committee on Energy and Commerce.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Dingell, Debbie [D-MI-6]",
       "sponsor_party": "D",
-      "sponsor_state": "MA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/6556?format=json"
+      "sponsor_state": "MI",
+      "url": "https://api.congress.gov/v3/bill/119/hres/1295?format=json"
+    },
+    {
+      "id": "HR.7335",
+      "title": "Humanitarian Standards for Individuals in ICE and CBP Custody Act",
+      "date": "2026-02-04",
+      "latest_action": "Sponsor introductory remarks on measure. (CR H2018)",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Ruiz, Raul [D-CA-25]",
+      "sponsor_party": "D",
+      "sponsor_state": "CA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7335?format=json"
+    },
+    {
+      "id": "HR.8843",
+      "title": "FAFO Act",
+      "date": "2026-05-15",
+      "latest_action": "Referred to the House Committee on the Judiciary.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. McGuire, John J. [R-VA-5]",
+      "sponsor_party": "R",
+      "sponsor_state": "VA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8843?format=json"
+    },
+    {
+      "id": "HR.7083",
+      "title": "CRUISE Act",
+      "date": "2026-05-14",
+      "latest_action": "Ordered to be Reported in the Nature of a Substitute by Voice Vote.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Barrett, Tom [R-MI-7]",
+      "sponsor_party": "R",
+      "sponsor_state": "MI",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7083?format=json"
+    },
+    {
+      "id": "HR.7941",
+      "title": "Pay TSA Act of 2026",
+      "date": "2026-03-17",
+      "latest_action": "Referred to the Subcommittee on Transportation and Maritime Security.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Langworthy, Nicholas A. [R-NY-23]",
+      "sponsor_party": "R",
+      "sponsor_state": "NY",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7941?format=json"
+    },
+    {
+      "id": "HR.3418",
+      "title": "Historic Preservation Fund Reauthorization Act",
+      "date": "2025-05-14",
+      "latest_action": "Referred to the House Committee on Natural Resources.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Turner, Michael R. [R-OH-10]",
+      "sponsor_party": "R",
+      "sponsor_state": "OH",
+      "url": "https://api.congress.gov/v3/bill/119/hr/3418?format=json"
+    },
+    {
+      "id": "HR.7984",
+      "title": "DHS Use of Force Transparency Act of 2026",
+      "date": "2026-03-19",
+      "latest_action": "Referred to the Subcommittee on Border Security and Enforcement.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Min, Dave [D-CA-47]",
+      "sponsor_party": "D",
+      "sponsor_state": "CA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7984?format=json"
     },
     {
       "id": "HR.3074",
@@ -384,6 +372,18 @@
       "sponsor_party": "R",
       "sponsor_state": "MI",
       "url": "https://api.congress.gov/v3/bill/119/hr/3074?format=json"
+    },
+    {
+      "id": "HR.6556",
+      "title": "Failing Bank Acquisition Fairness Act",
+      "date": "2026-07-15",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Lynch, Stephen F. [D-MA-8]",
+      "sponsor_party": "D",
+      "sponsor_state": "MA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6556?format=json"
     },
     {
       "id": "HR.139",
@@ -434,18 +434,6 @@
       "url": "https://api.congress.gov/v3/bill/119/s/2120?format=json"
     },
     {
-      "id": "HR.8738",
-      "title": "FEC Administrative Improvements Act",
-      "date": "2026-07-14",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Rules and Administration.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Morelle, Joseph D. [D-NY-25]",
-      "sponsor_party": "D",
-      "sponsor_state": "NY",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8738?format=json"
-    },
-    {
       "id": "HR.7574",
       "title": "ELO Realignment and Strategic Engagement Reform Act of 2026",
       "date": "2026-07-14",
@@ -458,16 +446,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/7574?format=json"
     },
     {
-      "id": "HR.8770",
-      "title": "SAFEGUARDS Act of 2026",
+      "id": "HR.8738",
+      "title": "FEC Administrative Improvements Act",
       "date": "2026-07-14",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Rules and Administration.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Strong, Dale W. [R-AL-5]",
-      "sponsor_party": "R",
-      "sponsor_state": "AL",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8770?format=json"
+      "sponsor": "Rep. Morelle, Joseph D. [D-NY-25]",
+      "sponsor_party": "D",
+      "sponsor_state": "NY",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8738?format=json"
     },
     {
       "id": "HR.3106",
@@ -482,6 +470,18 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/3106?format=json"
     },
     {
+      "id": "HRES.1424",
+      "title": "Expressing the profound sorrow of the House of Representatives on the death of the Honorable Lindsey Graham.",
+      "date": "2026-07-13",
+      "latest_action": "Motion to reconsider laid on the table Agreed to without objection.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Wilson, Joe [R-SC-2]",
+      "sponsor_party": "R",
+      "sponsor_state": "SC",
+      "url": "https://api.congress.gov/v3/bill/119/hres/1424?format=json"
+    },
+    {
       "id": "HR.8168",
       "title": "Major Non-NATO Ally Terror Threat Assessment Act",
       "date": "2026-07-14",
@@ -494,16 +494,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/8168?format=json"
     },
     {
-      "id": "HRES.1424",
-      "title": "Expressing the profound sorrow of the House of Representatives on the death of the Honorable Lindsey Graham.",
-      "date": "2026-07-13",
-      "latest_action": "Motion to reconsider laid on the table Agreed to without objection.",
+      "id": "HR.8770",
+      "title": "SAFEGUARDS Act of 2026",
+      "date": "2026-07-14",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Wilson, Joe [R-SC-2]",
+      "sponsor": "Rep. Strong, Dale W. [R-AL-5]",
       "sponsor_party": "R",
-      "sponsor_state": "SC",
-      "url": "https://api.congress.gov/v3/bill/119/hres/1424?format=json"
+      "sponsor_state": "AL",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8770?format=json"
     },
     {
       "id": "HR.3535",
@@ -530,18 +530,6 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/6332?format=json"
     },
     {
-      "id": "HR.9391",
-      "title": "Reimbursable Screening Services Program Extension Act of 2026",
-      "date": "2026-07-14",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Garbarino, Andrew R. [R-NY-2]",
-      "sponsor_party": "R",
-      "sponsor_state": "NY",
-      "url": "https://api.congress.gov/v3/bill/119/hr/9391?format=json"
-    },
-    {
       "id": "HR.7809",
       "title": "To designate the facility of the United States Postal Service located at 201 East Grant Avenue in Georgetown, Ohio, as the \"Ulysses S. Grant Post Office Building\".",
       "date": "2026-07-14",
@@ -552,18 +540,6 @@
       "sponsor_party": "R",
       "sponsor_state": "OH",
       "url": "https://api.congress.gov/v3/bill/119/hr/7809?format=json"
-    },
-    {
-      "id": "HR.9388",
-      "title": "One-Stop Pilot Program Extension Act",
-      "date": "2026-07-14",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Gimenez, Carlos A. [R-FL-28]",
-      "sponsor_party": "R",
-      "sponsor_state": "FL",
-      "url": "https://api.congress.gov/v3/bill/119/hr/9388?format=json"
     },
     {
       "id": "HR.8535",
@@ -578,6 +554,18 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/8535?format=json"
     },
     {
+      "id": "HR.9391",
+      "title": "Reimbursable Screening Services Program Extension Act of 2026",
+      "date": "2026-07-14",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Garbarino, Andrew R. [R-NY-2]",
+      "sponsor_party": "R",
+      "sponsor_state": "NY",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9391?format=json"
+    },
+    {
       "id": "HR.9328",
       "title": "Improving Travel for Military Members Act",
       "date": "2026-07-14",
@@ -588,6 +576,18 @@
       "sponsor_party": "R",
       "sponsor_state": "SC",
       "url": "https://api.congress.gov/v3/bill/119/hr/9328?format=json"
+    },
+    {
+      "id": "HR.9388",
+      "title": "One-Stop Pilot Program Extension Act",
+      "date": "2026-07-14",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Gimenez, Carlos A. [R-FL-28]",
+      "sponsor_party": "R",
+      "sponsor_state": "FL",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9388?format=json"
     },
     {
       "id": "HR.8874",
@@ -614,112 +614,112 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/8897?format=json"
     },
     {
-      "id": "S.2296",
-      "title": "National Defense Authorization Act for Fiscal Year 2026",
-      "date": "2025-11-12",
-      "latest_action": "Held at the desk.",
+      "id": "HR.9640",
+      "title": "Earth MRI Reauthorization Act of 2026",
+      "date": "2026-07-14",
+      "latest_action": "Referred to the Subcommittee on Energy and Mineral Resources.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Sen. Wicker, Roger F. [R-MS]",
+      "sponsor": "Rep. Wittman, Robert J. [R-VA-1]",
       "sponsor_party": "R",
-      "sponsor_state": "MS",
-      "url": "https://api.congress.gov/v3/bill/119/s/2296?format=json"
+      "sponsor_state": "VA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9640?format=json"
     },
     {
-      "id": "S.2283",
-      "title": "A bill to designate the facility of the United States Postal Service located at 201 West Oklahoma Avenue in Guthrie, Oklahoma, as the \"Oscar J. Upham Post Office\".",
-      "date": "2025-12-18",
-      "latest_action": "Became Public Law No: 119-59.",
+      "id": "HR.9368",
+      "title": "Voter ID Act",
+      "date": "2026-07-15",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 653.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Sen. Lankford, James [R-OK]",
+      "sponsor": "Rep. Steil, Bryan [R-WI-1]",
       "sponsor_party": "R",
-      "sponsor_state": "OK",
-      "url": "https://api.congress.gov/v3/bill/119/s/2283?format=json"
-    },
-    {
-      "id": "S.2280",
-      "title": "A bill to transfer administrative jurisdiction over certain parcels of Federal land in Harpers Ferry, West Virginia, and for other purposes.",
-      "date": "2026-05-04",
-      "latest_action": "Held at the desk.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Sen. Justice, James C. [R-WV]",
-      "sponsor_party": "R",
-      "sponsor_state": "WV",
-      "url": "https://api.congress.gov/v3/bill/119/s/2280?format=json"
-    },
-    {
-      "id": "S.2245",
-      "title": "A bill to amend the Digital Coast Act to improve the acquisition, integration, and accessibility of data of the Digital Coast program and to extend the program.",
-      "date": "2026-03-03",
-      "latest_action": "Held at the desk.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Sen. Baldwin, Tammy [D-WI]",
-      "sponsor_party": "D",
       "sponsor_state": "WI",
-      "url": "https://api.congress.gov/v3/bill/119/s/2245?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/hr/9368?format=json"
     },
     {
-      "id": "S.2232",
-      "title": "Expanding the Surety Bond Program Act of 2025",
-      "date": "2026-05-04",
-      "latest_action": "Held at the desk.",
+      "id": "HRES.1295",
+      "title": "Expressing support for the designation of May 17, 2026, as \"DIPG Awareness Day\" to raise awareness and encourage research into cures for diffuse intrinsic pontine glioma (DIPG) and pediatric cancers in general.",
+      "date": "2026-05-15",
+      "latest_action": "Referred to the House Committee on Energy and Commerce.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Sen. Markey, Edward J. [D-MA]",
+      "sponsor": "Rep. Dingell, Debbie [D-MI-6]",
       "sponsor_party": "D",
-      "sponsor_state": "MA",
-      "url": "https://api.congress.gov/v3/bill/119/s/2232?format=json"
+      "sponsor_state": "MI",
+      "url": "https://api.congress.gov/v3/bill/119/hres/1295?format=json"
     },
     {
-      "id": "S.222",
-      "title": "Whole Milk for Healthy Kids Act of 2025",
-      "date": "2026-01-14",
-      "latest_action": "Became Public Law No: 119-69.",
+      "id": "HR.7335",
+      "title": "Humanitarian Standards for Individuals in ICE and CBP Custody Act",
+      "date": "2026-02-04",
+      "latest_action": "Sponsor introductory remarks on measure. (CR H2018)",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Sen. Marshall, Roger [R-KS]",
-      "sponsor_party": "R",
-      "sponsor_state": "KS",
-      "url": "https://api.congress.gov/v3/bill/119/s/222?format=json"
-    },
-    {
-      "id": "S.216",
-      "title": "Save Our Seas 2.0 Amendments Act",
-      "date": "2025-12-26",
-      "latest_action": "Became Public Law No: 119-65.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Sen. Sullivan, Dan [R-AK]",
-      "sponsor_party": "R",
-      "sponsor_state": "AK",
-      "url": "https://api.congress.gov/v3/bill/119/s/216?format=json"
-    },
-    {
-      "id": "S.2144",
-      "title": "A bill to improve the safety and security of Members of Congress, immediate family members of Members of Congress, and congressional staff.",
-      "date": "2025-10-10",
-      "latest_action": "Held at the desk.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Sen. Klobuchar, Amy [D-MN]",
+      "sponsor": "Rep. Ruiz, Raul [D-CA-25]",
       "sponsor_party": "D",
-      "sponsor_state": "MN",
-      "url": "https://api.congress.gov/v3/bill/119/s/2144?format=json"
+      "sponsor_state": "CA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7335?format=json"
     },
     {
-      "id": "S.2132",
-      "title": "CLEAR Path Act",
-      "date": "2026-04-22",
-      "latest_action": "Held at the desk.",
+      "id": "HR.8843",
+      "title": "FAFO Act",
+      "date": "2026-05-15",
+      "latest_action": "Referred to the House Committee on the Judiciary.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Sen. Cornyn, John [R-TX]",
+      "sponsor": "Rep. McGuire, John J. [R-VA-5]",
       "sponsor_party": "R",
-      "sponsor_state": "TX",
-      "url": "https://api.congress.gov/v3/bill/119/s/2132?format=json"
+      "sponsor_state": "VA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8843?format=json"
+    },
+    {
+      "id": "HR.7083",
+      "title": "CRUISE Act",
+      "date": "2026-05-14",
+      "latest_action": "Ordered to be Reported in the Nature of a Substitute by Voice Vote.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Barrett, Tom [R-MI-7]",
+      "sponsor_party": "R",
+      "sponsor_state": "MI",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7083?format=json"
+    },
+    {
+      "id": "HR.7941",
+      "title": "Pay TSA Act of 2026",
+      "date": "2026-03-17",
+      "latest_action": "Referred to the Subcommittee on Transportation and Maritime Security.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Langworthy, Nicholas A. [R-NY-23]",
+      "sponsor_party": "R",
+      "sponsor_state": "NY",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7941?format=json"
+    },
+    {
+      "id": "HR.3418",
+      "title": "Historic Preservation Fund Reauthorization Act",
+      "date": "2025-05-14",
+      "latest_action": "Referred to the House Committee on Natural Resources.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Turner, Michael R. [R-OH-10]",
+      "sponsor_party": "R",
+      "sponsor_state": "OH",
+      "url": "https://api.congress.gov/v3/bill/119/hr/3418?format=json"
+    },
+    {
+      "id": "HR.7984",
+      "title": "DHS Use of Force Transparency Act of 2026",
+      "date": "2026-03-19",
+      "latest_action": "Referred to the Subcommittee on Border Security and Enforcement.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Min, Dave [D-CA-47]",
+      "sponsor_party": "D",
+      "sponsor_state": "CA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7984?format=json"
     }
   ]
 }
