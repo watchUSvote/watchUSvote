@@ -1,17 +1,89 @@
 {
-  "fetched_at": "2026-08-02T07:30:04.991022+00:00",
+  "fetched_at": "2026-08-03T08:24:03.478475+00:00",
   "bills": [
     {
-      "id": "HR.6432",
-      "title": "Brownfields Reauthorization Act of 2025",
-      "date": "2026-02-02",
-      "latest_action": "Referred to the Subcommittee on Water Resources and Environment.",
+      "id": "SRES.817",
+      "title": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.",
+      "date": "2026-07-30",
+      "latest_action": "Resolution agreed to in Senate without amendment by Yea-Nay Vote. 50 - 47. Record Vote Number: 217.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Davids, Sharice [D-KS-3]",
+      "sponsor": "Sen. Thune, John [R-SD]",
+      "sponsor_party": "R",
+      "sponsor_state": "SD",
+      "url": "https://api.congress.gov/v3/bill/119/sres/817?format=json"
+    },
+    {
+      "id": "S.5007",
+      "title": "SEARCH Act of 2026",
+      "date": "2026-07-15",
+      "latest_action": "Read twice and referred to the Committee on the Judiciary.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Sen. Klobuchar, Amy [D-MN]",
       "sponsor_party": "D",
-      "sponsor_state": "KS",
-      "url": "https://api.congress.gov/v3/bill/119/hr/6432?format=json"
+      "sponsor_state": "MN",
+      "url": "https://api.congress.gov/v3/bill/119/s/5007?format=json"
+    },
+    {
+      "id": "S.5051",
+      "title": "AI AGENT Act of 2026",
+      "date": "2026-07-21",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Sen. Warner, Mark R. [D-VA]",
+      "sponsor_party": "D",
+      "sponsor_state": "VA",
+      "url": "https://api.congress.gov/v3/bill/119/s/5051?format=json"
+    },
+    {
+      "id": "HRES.1451",
+      "title": "Recognizing Charleston as the appropriate host city for the 2027 annual meeting of the Organization for Security and Cooperation in Europe Parliamentary Assembly.",
+      "date": "2026-07-23",
+      "latest_action": "Referred to the House Committee on Foreign Affairs.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Wilson, Joe [R-SC-2]",
+      "sponsor_party": "R",
+      "sponsor_state": "SC",
+      "url": "https://api.congress.gov/v3/bill/119/hres/1451?format=json"
+    },
+    {
+      "id": "S.5123",
+      "title": "Lunar Landing Day Act",
+      "date": "2026-07-30",
+      "latest_action": "Message on Senate action sent to the House.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Sen. Sheehy, Tim [R-MT]",
+      "sponsor_party": "R",
+      "sponsor_state": "MT",
+      "url": "https://api.congress.gov/v3/bill/119/s/5123?format=json"
+    },
+    {
+      "id": "S.5005",
+      "title": "Epstein Files Transparency Act II",
+      "date": "2026-07-15",
+      "latest_action": "Read twice and referred to the Committee on the Judiciary.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Sen. Merkley, Jeff [D-OR]",
+      "sponsor_party": "D",
+      "sponsor_state": "OR",
+      "url": "https://api.congress.gov/v3/bill/119/s/5005?format=json"
+    },
+    {
+      "id": "HR.9694",
+      "title": "Epstein Files Transparency Act II",
+      "date": "2026-07-15",
+      "latest_action": "Referred to the House Committee on the Judiciary.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Massie, Thomas [R-KY-4]",
+      "sponsor_party": "R",
+      "sponsor_state": "KY",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9694?format=json"
     },
     {
       "id": "HR.9010",
@@ -24,6 +96,30 @@
       "sponsor_party": "R",
       "sponsor_state": "CA",
       "url": "https://api.congress.gov/v3/bill/119/hr/9010?format=json"
+    },
+    {
+      "id": "S.347",
+      "title": "Brownfields Reauthorization Act of 2025",
+      "date": "2025-02-05",
+      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 6.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Sen. Capito, Shelley Moore [R-WV]",
+      "sponsor_party": "R",
+      "sponsor_state": "WV",
+      "url": "https://api.congress.gov/v3/bill/119/s/347?format=json"
+    },
+    {
+      "id": "HR.6432",
+      "title": "Brownfields Reauthorization Act of 2025",
+      "date": "2026-02-02",
+      "latest_action": "Referred to the Subcommittee on Water Resources and Environment.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Davids, Sharice [D-KS-3]",
+      "sponsor_party": "D",
+      "sponsor_state": "KS",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6432?format=json"
     },
     {
       "id": "S.4355",
@@ -48,18 +144,6 @@
       "sponsor_party": "R",
       "sponsor_state": "KY",
       "url": "https://api.congress.gov/v3/bill/119/hr/8739?format=json"
-    },
-    {
-      "id": "S.347",
-      "title": "Brownfields Reauthorization Act of 2025",
-      "date": "2025-02-05",
-      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 6.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Sen. Capito, Shelley Moore [R-WV]",
-      "sponsor_party": "R",
-      "sponsor_state": "WV",
-      "url": "https://api.congress.gov/v3/bill/119/s/347?format=json"
     },
     {
       "id": "HR.9335",
@@ -218,18 +302,6 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/1561?format=json"
     },
     {
-      "id": "HR.9795",
-      "title": "To expand the temporary borrowing authority and mandatory distribution for the United States Victims of State Sponsored Terrorism Fund.",
-      "date": "2026-07-21",
-      "latest_action": "Referred to the House Committee on the Judiciary.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Gillen, Laura [D-NY-4]",
-      "sponsor_party": "D",
-      "sponsor_state": "NY",
-      "url": "https://api.congress.gov/v3/bill/119/hr/9795?format=json"
-    },
-    {
       "id": "HR.9616",
       "title": "EMRTAI Authorization Act of 2026",
       "date": "2026-07-21",
@@ -240,6 +312,18 @@
       "sponsor_party": "R",
       "sponsor_state": "TX",
       "url": "https://api.congress.gov/v3/bill/119/hr/9616?format=json"
+    },
+    {
+      "id": "HR.9795",
+      "title": "To expand the temporary borrowing authority and mandatory distribution for the United States Victims of State Sponsored Terrorism Fund.",
+      "date": "2026-07-21",
+      "latest_action": "Referred to the House Committee on the Judiciary.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Gillen, Laura [D-NY-4]",
+      "sponsor_party": "D",
+      "sponsor_state": "NY",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9795?format=json"
     },
     {
       "id": "HR.7994",
@@ -278,100 +362,88 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/1266?format=json"
     },
     {
-      "id": "HR.9978",
-      "title": "Homeowners Premium Tax Reduction Act of 2026",
+      "id": "SRES.817",
+      "title": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.",
       "date": "2026-07-30",
-      "latest_action": "Referred to the House Committee on Ways and Means.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Bilirakis, Gus M. [R-FL-12]",
-      "sponsor_party": "R",
-      "sponsor_state": "FL",
-      "url": "https://api.congress.gov/v3/bill/119/hr/9978?format=json"
-    },
-    {
-      "id": "HR.10011",
-      "title": "No PREJUDICE Act",
-      "date": "2026-07-30",
-      "latest_action": "Referred to the Committee on the Judiciary, and in addition to the Committee on Homeland Security, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Wasserman Schultz, Debbie [D-FL-25]",
-      "sponsor_party": "D",
-      "sponsor_state": "FL",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10011?format=json"
-    },
-    {
-      "id": "HR.9981",
-      "title": "Foodborne Illness Rapid Response Act",
-      "date": "2026-07-30",
-      "latest_action": "Referred to the House Committee on Energy and Commerce.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Gottheimer, Josh [D-NJ-5]",
-      "sponsor_party": "D",
-      "sponsor_state": "NJ",
-      "url": "https://api.congress.gov/v3/bill/119/hr/9981?format=json"
-    },
-    {
-      "id": "HR.9957",
-      "title": "Time for Completion Act",
-      "date": "2026-07-27",
-      "latest_action": "Referred to the House Committee on Education and Workforce.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Hayes, Jahana [D-CT-5]",
-      "sponsor_party": "D",
-      "sponsor_state": "CT",
-      "url": "https://api.congress.gov/v3/bill/119/hr/9957?format=json"
-    },
-    {
-      "id": "HR.9986",
-      "title": "Read for Reentry Act of 2026",
-      "date": "2026-07-30",
-      "latest_action": "Referred to the House Committee on the Judiciary.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Larsen, Rick [D-WA-2]",
-      "sponsor_party": "D",
-      "sponsor_state": "WA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/9986?format=json"
-    },
-    {
-      "id": "SRES.805",
-      "title": "A resolution celebrating the historic significance of the 2026 Federation Internationale de Football Association (FIFA) World Cup and welcoming the international community to North America for the first tournament hosted by 3 nations.",
-      "date": "2026-07-15",
-      "latest_action": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S4117; text: CR S4109)",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Sen. Welch, Peter [D-VT]",
-      "sponsor_party": "D",
-      "sponsor_state": "VT",
-      "url": "https://api.congress.gov/v3/bill/119/sres/805?format=json"
-    },
-    {
-      "id": "SRES.803",
-      "title": "A resolution congratulating the 2025-2026 Carolina Hurricanes for winning the Stanley Cup.",
-      "date": "2026-07-14",
-      "latest_action": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S4087; text: CR S3946)",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Sen. Budd, Ted [R-NC]",
-      "sponsor_party": "R",
-      "sponsor_state": "NC",
-      "url": "https://api.congress.gov/v3/bill/119/sres/803?format=json"
-    },
-    {
-      "id": "HR.6432",
-      "title": "Brownfields Reauthorization Act of 2025",
-      "date": "2026-02-02",
-      "latest_action": "Referred to the Subcommittee on Water Resources and Environment.",
+      "latest_action": "Resolution agreed to in Senate without amendment by Yea-Nay Vote. 50 - 47. Record Vote Number: 217.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Davids, Sharice [D-KS-3]",
+      "sponsor": "Sen. Thune, John [R-SD]",
+      "sponsor_party": "R",
+      "sponsor_state": "SD",
+      "url": "https://api.congress.gov/v3/bill/119/sres/817?format=json"
+    },
+    {
+      "id": "S.5007",
+      "title": "SEARCH Act of 2026",
+      "date": "2026-07-15",
+      "latest_action": "Read twice and referred to the Committee on the Judiciary.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Sen. Klobuchar, Amy [D-MN]",
       "sponsor_party": "D",
-      "sponsor_state": "KS",
-      "url": "https://api.congress.gov/v3/bill/119/hr/6432?format=json"
+      "sponsor_state": "MN",
+      "url": "https://api.congress.gov/v3/bill/119/s/5007?format=json"
+    },
+    {
+      "id": "S.5051",
+      "title": "AI AGENT Act of 2026",
+      "date": "2026-07-21",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Sen. Warner, Mark R. [D-VA]",
+      "sponsor_party": "D",
+      "sponsor_state": "VA",
+      "url": "https://api.congress.gov/v3/bill/119/s/5051?format=json"
+    },
+    {
+      "id": "HRES.1451",
+      "title": "Recognizing Charleston as the appropriate host city for the 2027 annual meeting of the Organization for Security and Cooperation in Europe Parliamentary Assembly.",
+      "date": "2026-07-23",
+      "latest_action": "Referred to the House Committee on Foreign Affairs.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Wilson, Joe [R-SC-2]",
+      "sponsor_party": "R",
+      "sponsor_state": "SC",
+      "url": "https://api.congress.gov/v3/bill/119/hres/1451?format=json"
+    },
+    {
+      "id": "S.5123",
+      "title": "Lunar Landing Day Act",
+      "date": "2026-07-30",
+      "latest_action": "Message on Senate action sent to the House.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Sen. Sheehy, Tim [R-MT]",
+      "sponsor_party": "R",
+      "sponsor_state": "MT",
+      "url": "https://api.congress.gov/v3/bill/119/s/5123?format=json"
+    },
+    {
+      "id": "S.5005",
+      "title": "Epstein Files Transparency Act II",
+      "date": "2026-07-15",
+      "latest_action": "Read twice and referred to the Committee on the Judiciary.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Sen. Merkley, Jeff [D-OR]",
+      "sponsor_party": "D",
+      "sponsor_state": "OR",
+      "url": "https://api.congress.gov/v3/bill/119/s/5005?format=json"
+    },
+    {
+      "id": "HR.9694",
+      "title": "Epstein Files Transparency Act II",
+      "date": "2026-07-15",
+      "latest_action": "Referred to the House Committee on the Judiciary.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Massie, Thomas [R-KY-4]",
+      "sponsor_party": "R",
+      "sponsor_state": "KY",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9694?format=json"
     },
     {
       "id": "HR.9010",
@@ -384,6 +456,30 @@
       "sponsor_party": "R",
       "sponsor_state": "CA",
       "url": "https://api.congress.gov/v3/bill/119/hr/9010?format=json"
+    },
+    {
+      "id": "S.347",
+      "title": "Brownfields Reauthorization Act of 2025",
+      "date": "2025-02-05",
+      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 6.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Sen. Capito, Shelley Moore [R-WV]",
+      "sponsor_party": "R",
+      "sponsor_state": "WV",
+      "url": "https://api.congress.gov/v3/bill/119/s/347?format=json"
+    },
+    {
+      "id": "HR.6432",
+      "title": "Brownfields Reauthorization Act of 2025",
+      "date": "2026-02-02",
+      "latest_action": "Referred to the Subcommittee on Water Resources and Environment.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Davids, Sharice [D-KS-3]",
+      "sponsor_party": "D",
+      "sponsor_state": "KS",
+      "url": "https://api.congress.gov/v3/bill/119/hr/6432?format=json"
     },
     {
       "id": "S.4355",
@@ -408,18 +504,6 @@
       "sponsor_party": "R",
       "sponsor_state": "KY",
       "url": "https://api.congress.gov/v3/bill/119/hr/8739?format=json"
-    },
-    {
-      "id": "S.347",
-      "title": "Brownfields Reauthorization Act of 2025",
-      "date": "2025-02-05",
-      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 6.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Sen. Capito, Shelley Moore [R-WV]",
-      "sponsor_party": "R",
-      "sponsor_state": "WV",
-      "url": "https://api.congress.gov/v3/bill/119/s/347?format=json"
     },
     {
       "id": "HR.9335",
@@ -578,18 +662,6 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/1561?format=json"
     },
     {
-      "id": "HR.9795",
-      "title": "To expand the temporary borrowing authority and mandatory distribution for the United States Victims of State Sponsored Terrorism Fund.",
-      "date": "2026-07-21",
-      "latest_action": "Referred to the House Committee on the Judiciary.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Gillen, Laura [D-NY-4]",
-      "sponsor_party": "D",
-      "sponsor_state": "NY",
-      "url": "https://api.congress.gov/v3/bill/119/hr/9795?format=json"
-    },
-    {
       "id": "HR.9616",
       "title": "EMRTAI Authorization Act of 2026",
       "date": "2026-07-21",
@@ -600,6 +672,18 @@
       "sponsor_party": "R",
       "sponsor_state": "TX",
       "url": "https://api.congress.gov/v3/bill/119/hr/9616?format=json"
+    },
+    {
+      "id": "HR.9795",
+      "title": "To expand the temporary borrowing authority and mandatory distribution for the United States Victims of State Sponsored Terrorism Fund.",
+      "date": "2026-07-21",
+      "latest_action": "Referred to the House Committee on the Judiciary.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Gillen, Laura [D-NY-4]",
+      "sponsor_party": "D",
+      "sponsor_state": "NY",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9795?format=json"
     },
     {
       "id": "HR.7994",
@@ -636,90 +720,6 @@
       "sponsor_party": "D",
       "sponsor_state": "CA",
       "url": "https://api.congress.gov/v3/bill/119/hr/1266?format=json"
-    },
-    {
-      "id": "HR.9978",
-      "title": "Homeowners Premium Tax Reduction Act of 2026",
-      "date": "2026-07-30",
-      "latest_action": "Referred to the House Committee on Ways and Means.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Bilirakis, Gus M. [R-FL-12]",
-      "sponsor_party": "R",
-      "sponsor_state": "FL",
-      "url": "https://api.congress.gov/v3/bill/119/hr/9978?format=json"
-    },
-    {
-      "id": "HR.10011",
-      "title": "No PREJUDICE Act",
-      "date": "2026-07-30",
-      "latest_action": "Referred to the Committee on the Judiciary, and in addition to the Committee on Homeland Security, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Wasserman Schultz, Debbie [D-FL-25]",
-      "sponsor_party": "D",
-      "sponsor_state": "FL",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10011?format=json"
-    },
-    {
-      "id": "HR.9981",
-      "title": "Foodborne Illness Rapid Response Act",
-      "date": "2026-07-30",
-      "latest_action": "Referred to the House Committee on Energy and Commerce.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Gottheimer, Josh [D-NJ-5]",
-      "sponsor_party": "D",
-      "sponsor_state": "NJ",
-      "url": "https://api.congress.gov/v3/bill/119/hr/9981?format=json"
-    },
-    {
-      "id": "HR.9957",
-      "title": "Time for Completion Act",
-      "date": "2026-07-27",
-      "latest_action": "Referred to the House Committee on Education and Workforce.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Hayes, Jahana [D-CT-5]",
-      "sponsor_party": "D",
-      "sponsor_state": "CT",
-      "url": "https://api.congress.gov/v3/bill/119/hr/9957?format=json"
-    },
-    {
-      "id": "HR.9986",
-      "title": "Read for Reentry Act of 2026",
-      "date": "2026-07-30",
-      "latest_action": "Referred to the House Committee on the Judiciary.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Larsen, Rick [D-WA-2]",
-      "sponsor_party": "D",
-      "sponsor_state": "WA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/9986?format=json"
-    },
-    {
-      "id": "SRES.805",
-      "title": "A resolution celebrating the historic significance of the 2026 Federation Internationale de Football Association (FIFA) World Cup and welcoming the international community to North America for the first tournament hosted by 3 nations.",
-      "date": "2026-07-15",
-      "latest_action": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S4117; text: CR S4109)",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Sen. Welch, Peter [D-VT]",
-      "sponsor_party": "D",
-      "sponsor_state": "VT",
-      "url": "https://api.congress.gov/v3/bill/119/sres/805?format=json"
-    },
-    {
-      "id": "SRES.803",
-      "title": "A resolution congratulating the 2025-2026 Carolina Hurricanes for winning the Stanley Cup.",
-      "date": "2026-07-14",
-      "latest_action": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S4087; text: CR S3946)",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Sen. Budd, Ted [R-NC]",
-      "sponsor_party": "R",
-      "sponsor_state": "NC",
-      "url": "https://api.congress.gov/v3/bill/119/sres/803?format=json"
     }
   ]
 }
