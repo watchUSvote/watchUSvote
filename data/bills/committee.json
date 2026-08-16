@@ -1,17 +1,41 @@
 {
-  "fetched_at": "2026-08-15T05:20:17.628915+00:00",
+  "fetched_at": "2026-08-16T05:22:39.545166+00:00",
   "bills": [
     {
-      "id": "S.5316",
-      "title": "BINSA Act",
-      "date": "2026-08-06",
-      "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "id": "SRES.829",
+      "title": "A resolution reaffirming the policy of the United States to support a peaceful democratic transition in Venezuela through free and fair elections.",
+      "date": "2026-08-04",
+      "latest_action": "Referred to the Committee on Foreign Relations. (text: CR S4436)",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Sen. Ricketts, Pete [R-NE]",
+      "sponsor": "Sen. Cruz, Ted [R-TX]",
       "sponsor_party": "R",
-      "sponsor_state": "NE",
-      "url": "https://api.congress.gov/v3/bill/119/s/5316?format=json"
+      "sponsor_state": "TX",
+      "url": "https://api.congress.gov/v3/bill/119/sres/829?format=json"
+    },
+    {
+      "id": "HR.7674",
+      "title": "Venezuela Democratic Transition Strategy Act",
+      "date": "2026-03-26",
+      "latest_action": "Ordered to be Reported by the Yeas and Nays: 41 - 5.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Moskowitz, Jared [D-FL-23]",
+      "sponsor_party": "D",
+      "sponsor_state": "FL",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7674?format=json"
+    },
+    {
+      "id": "S.4809",
+      "title": "Venezuela Democratic Transition Act",
+      "date": "2026-06-17",
+      "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Sen. Kaine, Tim [D-VA]",
+      "sponsor_party": "D",
+      "sponsor_state": "VA",
+      "url": "https://api.congress.gov/v3/bill/119/s/4809?format=json"
     },
     {
       "id": "S.5355",
@@ -26,16 +50,16 @@
       "url": "https://api.congress.gov/v3/bill/119/s/5355?format=json"
     },
     {
-      "id": "S.5369",
-      "title": "Restoring Electoral Fairness and Opposition Rights through Mandates for Accountability Act of 2026",
-      "date": "2026-08-07",
-      "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+      "id": "S.5316",
+      "title": "BINSA Act",
+      "date": "2026-08-06",
+      "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Sen. Cruz, Ted [R-TX]",
+      "sponsor": "Sen. Ricketts, Pete [R-NE]",
       "sponsor_party": "R",
-      "sponsor_state": "TX",
-      "url": "https://api.congress.gov/v3/bill/119/s/5369?format=json"
+      "sponsor_state": "NE",
+      "url": "https://api.congress.gov/v3/bill/119/s/5316?format=json"
     },
     {
       "id": "S.5370",
@@ -48,6 +72,18 @@
       "sponsor_party": "R",
       "sponsor_state": "NC",
       "url": "https://api.congress.gov/v3/bill/119/s/5370?format=json"
+    },
+    {
+      "id": "S.5369",
+      "title": "Restoring Electoral Fairness and Opposition Rights through Mandates for Accountability Act of 2026",
+      "date": "2026-08-07",
+      "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Sen. Cruz, Ted [R-TX]",
+      "sponsor_party": "R",
+      "sponsor_state": "TX",
+      "url": "https://api.congress.gov/v3/bill/119/s/5369?format=json"
     },
     {
       "id": "S.5301",
@@ -86,16 +122,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/3194?format=json"
     },
     {
-      "id": "HR.7147",
-      "title": "Homeland Security and Further Additional Continuing Appropriations Act, 2026.",
-      "date": "2026-04-30",
-      "latest_action": "Became Public Law No: 119-86.",
+      "id": "HR.4213",
+      "title": "Department of Homeland Security Appropriations Act, 2026",
+      "date": "2025-06-26",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 139.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Cole, Tom [R-OK-4]",
+      "sponsor": "Rep. Amodei, Mark E. [R-NV-2]",
       "sponsor_party": "R",
-      "sponsor_state": "OK",
-      "url": "https://api.congress.gov/v3/bill/119/hr/7147?format=json"
+      "sponsor_state": "NV",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4213?format=json"
     },
     {
       "id": "HR.9250",
@@ -110,16 +146,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/9250?format=json"
     },
     {
-      "id": "HR.7744",
-      "title": "Department of Homeland Security Appropriations Act, 2026",
-      "date": "2026-03-09",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Appropriations.",
+      "id": "HR.7147",
+      "title": "Homeland Security and Further Additional Continuing Appropriations Act, 2026.",
+      "date": "2026-04-30",
+      "latest_action": "Became Public Law No: 119-86.",
       "status": "reported_from_committee",
       "chamber": "House",
       "sponsor": "Rep. Cole, Tom [R-OK-4]",
       "sponsor_party": "R",
       "sponsor_state": "OK",
-      "url": "https://api.congress.gov/v3/bill/119/hr/7744?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/hr/7147?format=json"
     },
     {
       "id": "HR.7688",
@@ -134,16 +170,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/7688?format=json"
     },
     {
-      "id": "HR.4213",
+      "id": "HR.7744",
       "title": "Department of Homeland Security Appropriations Act, 2026",
-      "date": "2025-06-26",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 139.",
+      "date": "2026-03-09",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Appropriations.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Amodei, Mark E. [R-NV-2]",
+      "sponsor": "Rep. Cole, Tom [R-OK-4]",
       "sponsor_party": "R",
-      "sponsor_state": "NV",
-      "url": "https://api.congress.gov/v3/bill/119/hr/4213?format=json"
+      "sponsor_state": "OK",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7744?format=json"
     },
     {
       "id": "S.3589",
@@ -326,52 +362,40 @@
       "url": "https://api.congress.gov/v3/bill/119/sres/833?format=json"
     },
     {
-      "id": "SRES.836",
-      "title": "A resolution designating August 16, 2026, as \"National Airborne Day\".",
-      "date": "2026-08-06",
-      "latest_action": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S4530; text: CR S4524)",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Sen. Sullivan, Dan [R-AK]",
-      "sponsor_party": "R",
-      "sponsor_state": "AK",
-      "url": "https://api.congress.gov/v3/bill/119/sres/836?format=json"
-    },
-    {
-      "id": "HR.10069",
-      "title": "Military Readiness Through Resilient Lands Act",
-      "date": "2026-08-06",
-      "latest_action": "Referred to the Committee on Natural Resources, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Whitesides, George [D-CA-27]",
-      "sponsor_party": "D",
-      "sponsor_state": "CA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10069?format=json"
-    },
-    {
-      "id": "HR.10065",
-      "title": "Methane Pollution Accountability Act",
-      "date": "2026-08-06",
-      "latest_action": "Referred to the House Committee on Natural Resources.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Rivas, Luz M. [D-CA-29]",
-      "sponsor_party": "D",
-      "sponsor_state": "CA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10065?format=json"
-    },
-    {
-      "id": "S.5316",
-      "title": "BINSA Act",
-      "date": "2026-08-06",
-      "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "id": "SRES.829",
+      "title": "A resolution reaffirming the policy of the United States to support a peaceful democratic transition in Venezuela through free and fair elections.",
+      "date": "2026-08-04",
+      "latest_action": "Referred to the Committee on Foreign Relations. (text: CR S4436)",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Sen. Ricketts, Pete [R-NE]",
+      "sponsor": "Sen. Cruz, Ted [R-TX]",
       "sponsor_party": "R",
-      "sponsor_state": "NE",
-      "url": "https://api.congress.gov/v3/bill/119/s/5316?format=json"
+      "sponsor_state": "TX",
+      "url": "https://api.congress.gov/v3/bill/119/sres/829?format=json"
+    },
+    {
+      "id": "HR.7674",
+      "title": "Venezuela Democratic Transition Strategy Act",
+      "date": "2026-03-26",
+      "latest_action": "Ordered to be Reported by the Yeas and Nays: 41 - 5.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Moskowitz, Jared [D-FL-23]",
+      "sponsor_party": "D",
+      "sponsor_state": "FL",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7674?format=json"
+    },
+    {
+      "id": "S.4809",
+      "title": "Venezuela Democratic Transition Act",
+      "date": "2026-06-17",
+      "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Sen. Kaine, Tim [D-VA]",
+      "sponsor_party": "D",
+      "sponsor_state": "VA",
+      "url": "https://api.congress.gov/v3/bill/119/s/4809?format=json"
     },
     {
       "id": "S.5355",
@@ -386,16 +410,16 @@
       "url": "https://api.congress.gov/v3/bill/119/s/5355?format=json"
     },
     {
-      "id": "S.5369",
-      "title": "Restoring Electoral Fairness and Opposition Rights through Mandates for Accountability Act of 2026",
-      "date": "2026-08-07",
-      "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+      "id": "S.5316",
+      "title": "BINSA Act",
+      "date": "2026-08-06",
+      "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Sen. Cruz, Ted [R-TX]",
+      "sponsor": "Sen. Ricketts, Pete [R-NE]",
       "sponsor_party": "R",
-      "sponsor_state": "TX",
-      "url": "https://api.congress.gov/v3/bill/119/s/5369?format=json"
+      "sponsor_state": "NE",
+      "url": "https://api.congress.gov/v3/bill/119/s/5316?format=json"
     },
     {
       "id": "S.5370",
@@ -408,6 +432,18 @@
       "sponsor_party": "R",
       "sponsor_state": "NC",
       "url": "https://api.congress.gov/v3/bill/119/s/5370?format=json"
+    },
+    {
+      "id": "S.5369",
+      "title": "Restoring Electoral Fairness and Opposition Rights through Mandates for Accountability Act of 2026",
+      "date": "2026-08-07",
+      "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Sen. Cruz, Ted [R-TX]",
+      "sponsor_party": "R",
+      "sponsor_state": "TX",
+      "url": "https://api.congress.gov/v3/bill/119/s/5369?format=json"
     },
     {
       "id": "S.5301",
@@ -446,16 +482,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/3194?format=json"
     },
     {
-      "id": "HR.7147",
-      "title": "Homeland Security and Further Additional Continuing Appropriations Act, 2026.",
-      "date": "2026-04-30",
-      "latest_action": "Became Public Law No: 119-86.",
+      "id": "HR.4213",
+      "title": "Department of Homeland Security Appropriations Act, 2026",
+      "date": "2025-06-26",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 139.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Cole, Tom [R-OK-4]",
+      "sponsor": "Rep. Amodei, Mark E. [R-NV-2]",
       "sponsor_party": "R",
-      "sponsor_state": "OK",
-      "url": "https://api.congress.gov/v3/bill/119/hr/7147?format=json"
+      "sponsor_state": "NV",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4213?format=json"
     },
     {
       "id": "HR.9250",
@@ -470,16 +506,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/9250?format=json"
     },
     {
-      "id": "HR.7744",
-      "title": "Department of Homeland Security Appropriations Act, 2026",
-      "date": "2026-03-09",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Appropriations.",
+      "id": "HR.7147",
+      "title": "Homeland Security and Further Additional Continuing Appropriations Act, 2026.",
+      "date": "2026-04-30",
+      "latest_action": "Became Public Law No: 119-86.",
       "status": "reported_from_committee",
       "chamber": "Senate",
       "sponsor": "Rep. Cole, Tom [R-OK-4]",
       "sponsor_party": "R",
       "sponsor_state": "OK",
-      "url": "https://api.congress.gov/v3/bill/119/hr/7744?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/hr/7147?format=json"
     },
     {
       "id": "HR.7688",
@@ -494,16 +530,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/7688?format=json"
     },
     {
-      "id": "HR.4213",
+      "id": "HR.7744",
       "title": "Department of Homeland Security Appropriations Act, 2026",
-      "date": "2025-06-26",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 139.",
+      "date": "2026-03-09",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Appropriations.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Amodei, Mark E. [R-NV-2]",
+      "sponsor": "Rep. Cole, Tom [R-OK-4]",
       "sponsor_party": "R",
-      "sponsor_state": "NV",
-      "url": "https://api.congress.gov/v3/bill/119/hr/4213?format=json"
+      "sponsor_state": "OK",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7744?format=json"
     },
     {
       "id": "S.3589",
@@ -684,42 +720,6 @@
       "sponsor_party": "R",
       "sponsor_state": "MO",
       "url": "https://api.congress.gov/v3/bill/119/sres/833?format=json"
-    },
-    {
-      "id": "SRES.836",
-      "title": "A resolution designating August 16, 2026, as \"National Airborne Day\".",
-      "date": "2026-08-06",
-      "latest_action": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S4530; text: CR S4524)",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Sen. Sullivan, Dan [R-AK]",
-      "sponsor_party": "R",
-      "sponsor_state": "AK",
-      "url": "https://api.congress.gov/v3/bill/119/sres/836?format=json"
-    },
-    {
-      "id": "HR.10069",
-      "title": "Military Readiness Through Resilient Lands Act",
-      "date": "2026-08-06",
-      "latest_action": "Referred to the Committee on Natural Resources, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Whitesides, George [D-CA-27]",
-      "sponsor_party": "D",
-      "sponsor_state": "CA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10069?format=json"
-    },
-    {
-      "id": "HR.10065",
-      "title": "Methane Pollution Accountability Act",
-      "date": "2026-08-06",
-      "latest_action": "Referred to the House Committee on Natural Resources.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Rivas, Luz M. [D-CA-29]",
-      "sponsor_party": "D",
-      "sponsor_state": "CA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10065?format=json"
     }
   ]
 }
