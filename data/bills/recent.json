@@ -1,6 +1,62 @@
 {
-  "fetched_at": "2026-09-12T08:59:26.836480+00:00",
+  "fetched_at": "2026-09-13T09:55:31.678944+00:00",
   "bills": [
+    {
+      "id": "S.5198",
+      "title": "Build to Scale Reauthorization Act of 2026",
+      "date": "2026-07-30",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "status": "active",
+      "sponsor": "Sen. Young, Todd [R-IN]",
+      "sponsor_party": "R",
+      "sponsor_state": "IN",
+      "cosponsors": [
+        {
+          "name": "Sen. Coons, Christopher A. [D-DE]",
+          "party": "D",
+          "state": "DE"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/5198?format=json"
+    },
+    {
+      "id": "HR.8866",
+      "title": "Build to Scale Reauthorization Act of 2026",
+      "date": "2026-05-15",
+      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
+      "status": "active",
+      "sponsor": "Rep. Stevens, Haley M. [D-MI-11]",
+      "sponsor_party": "D",
+      "sponsor_state": "MI",
+      "cosponsors": [
+        {
+          "name": "Rep. Baird, James R. [R-IN-4]",
+          "party": "R",
+          "state": "IN"
+        },
+        {
+          "name": "Rep. Bell, Wesley [D-MO-1]",
+          "party": "D",
+          "state": "MO"
+        },
+        {
+          "name": "Rep. Alford, Mark [R-MO-4]",
+          "party": "R",
+          "state": "MO"
+        },
+        {
+          "name": "Rep. Bonamici, Suzanne [D-OR-1]",
+          "party": "D",
+          "state": "OR"
+        },
+        {
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/8866?format=json"
+    },
     {
       "id": "HR.8960",
       "title": "Local Beef Marketing Incentive Act of 2026",
@@ -12,6 +68,24 @@
       "sponsor_state": "TN",
       "cosponsors": [],
       "url": "https://api.congress.gov/v3/bill/119/hr/8960?format=json"
+    },
+    {
+      "id": "HR.9057",
+      "title": "COOL Online Act",
+      "date": "2026-06-15",
+      "latest_action": "Referred to the Subcommittee on Nutrition and Foreign Agriculture.",
+      "status": "active",
+      "sponsor": "Rep. Gimenez, Carlos A. [R-FL-28]",
+      "sponsor_party": "R",
+      "sponsor_state": "FL",
+      "cosponsors": [
+        {
+          "name": "Rep. Norcross, Donald [D-NJ-1]",
+          "party": "D",
+          "state": "NJ"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/9057?format=json"
     },
     {
       "id": "HR.8502",
@@ -42,36 +116,6 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/8502?format=json"
     },
     {
-      "id": "HR.9057",
-      "title": "COOL Online Act",
-      "date": "2026-06-15",
-      "latest_action": "Referred to the Subcommittee on Nutrition and Foreign Agriculture.",
-      "status": "active",
-      "sponsor": "Rep. Gimenez, Carlos A. [R-FL-28]",
-      "sponsor_party": "R",
-      "sponsor_state": "FL",
-      "cosponsors": [
-        {
-          "name": "Rep. Norcross, Donald [D-NJ-1]",
-          "party": "D",
-          "state": "NJ"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/9057?format=json"
-    },
-    {
-      "id": "HR.8953",
-      "title": "Preserving Community Food Assistance Act of 2026",
-      "date": "2026-06-15",
-      "latest_action": "Referred to the Subcommittee on Nutrition and Foreign Agriculture.",
-      "status": "active",
-      "sponsor": "Rep. Yakym, Rudy [R-IN-2]",
-      "sponsor_party": "R",
-      "sponsor_state": "IN",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/8953?format=json"
-    },
-    {
       "id": "HR.8771",
       "title": "Campaign Event Contract Integrity Act",
       "date": "2026-06-15",
@@ -90,22 +134,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/8771?format=json"
     },
     {
-      "id": "HR.9101",
-      "title": "Rural Grants Transparency Act",
+      "id": "HR.8953",
+      "title": "Preserving Community Food Assistance Act of 2026",
       "date": "2026-06-15",
-      "latest_action": "Referred to the Subcommittee on Commodity Markets, Digital Assets, and Rural Development.",
+      "latest_action": "Referred to the Subcommittee on Nutrition and Foreign Agriculture.",
       "status": "active",
-      "sponsor": "Rep. Letlow, Julia [R-LA-5]",
+      "sponsor": "Rep. Yakym, Rudy [R-IN-2]",
       "sponsor_party": "R",
-      "sponsor_state": "LA",
-      "cosponsors": [
-        {
-          "name": "Rep. Gallagher, James [R-CA-1]",
-          "party": "R",
-          "state": "CA"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/9101?format=json"
+      "sponsor_state": "IN",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hr/8953?format=json"
     },
     {
       "id": "HR.9128",
@@ -124,6 +162,42 @@
         }
       ],
       "url": "https://api.congress.gov/v3/bill/119/hr/9128?format=json"
+    },
+    {
+      "id": "S.1051",
+      "title": "Historic Greenwood District—Black Wall Street National Monument Establishment Act",
+      "date": "2026-09-10",
+      "latest_action": "Referred to the House Committee on Natural Resources.",
+      "status": "active",
+      "sponsor": "Sen. Lankford, James [R-OK]",
+      "sponsor_party": "R",
+      "sponsor_state": "OK",
+      "cosponsors": [
+        {
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/1051?format=json"
+    },
+    {
+      "id": "HR.9101",
+      "title": "Rural Grants Transparency Act",
+      "date": "2026-06-15",
+      "latest_action": "Referred to the Subcommittee on Commodity Markets, Digital Assets, and Rural Development.",
+      "status": "active",
+      "sponsor": "Rep. Letlow, Julia [R-LA-5]",
+      "sponsor_party": "R",
+      "sponsor_state": "LA",
+      "cosponsors": [
+        {
+          "name": "Rep. Gallagher, James [R-CA-1]",
+          "party": "R",
+          "state": "CA"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/9101?format=json"
     },
     {
       "id": "HR.7547",
@@ -147,24 +221,6 @@
         }
       ],
       "url": "https://api.congress.gov/v3/bill/119/hr/7547?format=json"
-    },
-    {
-      "id": "S.1051",
-      "title": "Historic Greenwood District—Black Wall Street National Monument Establishment Act",
-      "date": "2026-09-10",
-      "latest_action": "Referred to the House Committee on Natural Resources.",
-      "status": "active",
-      "sponsor": "Sen. Lankford, James [R-OK]",
-      "sponsor_party": "R",
-      "sponsor_state": "OK",
-      "cosponsors": [
-        {
-          "name": "Sen. Booker, Cory A. [D-NJ]",
-          "party": "D",
-          "state": "NJ"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/s/1051?format=json"
     },
     {
       "id": "S.1377",
@@ -225,18 +281,6 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/5305?format=json"
     },
     {
-      "id": "HR.9342",
-      "title": "GPO Modernization Act of 2026",
-      "date": "2026-09-10",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 708.",
-      "status": "active",
-      "sponsor": "Rep. Bice, Stephanie I. [R-OK-5]",
-      "sponsor_party": "R",
-      "sponsor_state": "OK",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/9342?format=json"
-    },
-    {
       "id": "HR.9490",
       "title": "Bank Failure Accountability Act",
       "date": "2026-06-25",
@@ -263,6 +307,18 @@
         }
       ],
       "url": "https://api.congress.gov/v3/bill/119/hr/9490?format=json"
+    },
+    {
+      "id": "HR.9342",
+      "title": "GPO Modernization Act of 2026",
+      "date": "2026-09-10",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 708.",
+      "status": "active",
+      "sponsor": "Rep. Bice, Stephanie I. [R-OK-5]",
+      "sponsor_party": "R",
+      "sponsor_state": "OK",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hr/9342?format=json"
     },
     {
       "id": "HR.9576",
@@ -293,6 +349,29 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/9576?format=json"
     },
     {
+      "id": "HR.7488",
+      "title": "CFTC Office of the Chief Economist Act of 2026",
+      "date": "2026-03-20",
+      "latest_action": "Referred to the Subcommittee on Commodity Markets, Digital Assets, and Rural Development.",
+      "status": "active",
+      "sponsor": "Rep. Bresnahan, Robert P. [R-PA-8]",
+      "sponsor_party": "R",
+      "sponsor_state": "PA",
+      "cosponsors": [
+        {
+          "name": "Rep. McClain Delaney, April [D-MD-6]",
+          "party": "D",
+          "state": "MD"
+        },
+        {
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/7488?format=json"
+    },
+    {
       "id": "HR.5346",
       "title": "Fair and Accountable IRS Reviews Act",
       "date": "2025-12-02",
@@ -309,6 +388,82 @@
         }
       ],
       "url": "https://api.congress.gov/v3/bill/119/hr/5346?format=json"
+    },
+    {
+      "id": "HR.4508",
+      "title": "BURDEN Act",
+      "date": "2025-07-17",
+      "latest_action": "Referred to the Committee on House Administration, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "status": "active",
+      "sponsor": "Rep. Krishnamoorthi, Raja [D-IL-8]",
+      "sponsor_party": "D",
+      "sponsor_state": "IL",
+      "cosponsors": [
+        {
+          "name": "Rep. Peters, Scott H. [D-CA-50]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. McBride, Sarah [D-DE-At Large]",
+          "party": "D",
+          "state": "DE"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/4508?format=json"
+    },
+    {
+      "id": "HR.9722",
+      "title": "Fair Treatment of Religious Organizations Act of 2026",
+      "date": "2026-08-27",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 680.",
+      "status": "active",
+      "sponsor": "Rep. Moore, Blake D. [R-UT-1]",
+      "sponsor_party": "R",
+      "sponsor_state": "UT",
+      "cosponsors": [
+        {
+          "name": "Rep. Cline, Ben [R-VA-6]",
+          "party": "R",
+          "state": "VA"
+        },
+        {
+          "name": "Rep. Tenney, Claudia [R-NY-24]",
+          "party": "R",
+          "state": "NY"
+        },
+        {
+          "name": "Rep. Owens, Burgess [R-UT-4]",
+          "party": "R",
+          "state": "UT"
+        },
+        {
+          "name": "Rep. Moran, Nathaniel [R-TX-1]",
+          "party": "R",
+          "state": "TX"
+        },
+        {
+          "name": "Rep. Grothman, Glenn [R-WI-6]",
+          "party": "R",
+          "state": "WI"
+        },
+        {
+          "name": "Rep. Kennedy, Mike [R-UT-3]",
+          "party": "R",
+          "state": "UT"
+        },
+        {
+          "name": "Rep. Maloy, Celeste [R-UT-2]",
+          "party": "R",
+          "state": "UT"
+        },
+        {
+          "name": "Rep. Mann, Tracey [R-KS-1]",
+          "party": "R",
+          "state": "KS"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/9722?format=json"
     },
     {
       "id": "HR.9331",
@@ -337,29 +492,6 @@
         }
       ],
       "url": "https://api.congress.gov/v3/bill/119/hr/9331?format=json"
-    },
-    {
-      "id": "HR.4508",
-      "title": "BURDEN Act",
-      "date": "2025-07-17",
-      "latest_action": "Referred to the Committee on House Administration, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "active",
-      "sponsor": "Rep. Krishnamoorthi, Raja [D-IL-8]",
-      "sponsor_party": "D",
-      "sponsor_state": "IL",
-      "cosponsors": [
-        {
-          "name": "Rep. Peters, Scott H. [D-CA-50]",
-          "party": "D",
-          "state": "CA"
-        },
-        {
-          "name": "Rep. McBride, Sarah [D-DE-At Large]",
-          "party": "D",
-          "state": "DE"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/4508?format=json"
     },
     {
       "id": "HR.2555",
@@ -415,29 +547,6 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/2555?format=json"
     },
     {
-      "id": "HR.7488",
-      "title": "CFTC Office of the Chief Economist Act of 2026",
-      "date": "2026-03-20",
-      "latest_action": "Referred to the Subcommittee on Commodity Markets, Digital Assets, and Rural Development.",
-      "status": "active",
-      "sponsor": "Rep. Bresnahan, Robert P. [R-PA-8]",
-      "sponsor_party": "R",
-      "sponsor_state": "PA",
-      "cosponsors": [
-        {
-          "name": "Rep. McClain Delaney, April [D-MD-6]",
-          "party": "D",
-          "state": "MD"
-        },
-        {
-          "name": "Rep. Lawler, Michael [R-NY-17]",
-          "party": "R",
-          "state": "NY"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/7488?format=json"
-    },
-    {
       "id": "HR.7683",
       "title": "VA Fiscal Management Modernization Act",
       "date": "2026-05-14",
@@ -448,59 +557,6 @@
       "sponsor_state": "MI",
       "cosponsors": [],
       "url": "https://api.congress.gov/v3/bill/119/hr/7683?format=json"
-    },
-    {
-      "id": "HR.9722",
-      "title": "Fair Treatment of Religious Organizations Act of 2026",
-      "date": "2026-08-27",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 680.",
-      "status": "active",
-      "sponsor": "Rep. Moore, Blake D. [R-UT-1]",
-      "sponsor_party": "R",
-      "sponsor_state": "UT",
-      "cosponsors": [
-        {
-          "name": "Rep. Cline, Ben [R-VA-6]",
-          "party": "R",
-          "state": "VA"
-        },
-        {
-          "name": "Rep. Tenney, Claudia [R-NY-24]",
-          "party": "R",
-          "state": "NY"
-        },
-        {
-          "name": "Rep. Owens, Burgess [R-UT-4]",
-          "party": "R",
-          "state": "UT"
-        },
-        {
-          "name": "Rep. Moran, Nathaniel [R-TX-1]",
-          "party": "R",
-          "state": "TX"
-        },
-        {
-          "name": "Rep. Grothman, Glenn [R-WI-6]",
-          "party": "R",
-          "state": "WI"
-        },
-        {
-          "name": "Rep. Kennedy, Mike [R-UT-3]",
-          "party": "R",
-          "state": "UT"
-        },
-        {
-          "name": "Rep. Maloy, Celeste [R-UT-2]",
-          "party": "R",
-          "state": "UT"
-        },
-        {
-          "name": "Rep. Mann, Tracey [R-KS-1]",
-          "party": "R",
-          "state": "KS"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/9722?format=json"
     },
     {
       "id": "HR.4672",
@@ -1236,18 +1292,6 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/10250?format=json"
     },
     {
-      "id": "HR.4551",
-      "title": "Employee Paycheck and Small Business Protection Act",
-      "date": "2025-07-21",
-      "latest_action": "Referred to the Committee on Financial Services, and in addition to the Committee on Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "active",
-      "sponsor": "Rep. Waters, Maxine [D-CA-43]",
-      "sponsor_party": "D",
-      "sponsor_state": "CA",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/4551?format=json"
-    },
-    {
       "id": "HR.2039",
       "title": "Protecting the Right to Keep and Bear Arms Act of 2025",
       "date": "2025-03-11",
@@ -1301,24 +1345,6 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/2039?format=json"
     },
     {
-      "id": "HR.9771",
-      "title": "Stopping Foreign Influence in Elections Act of 2026",
-      "date": "2026-08-27",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 669.",
-      "status": "active",
-      "sponsor": "Rep. Malliotakis, Nicole [R-NY-11]",
-      "sponsor_party": "R",
-      "sponsor_state": "NY",
-      "cosponsors": [
-        {
-          "name": "Rep. Fine, Randy [R-FL-6]",
-          "party": "R",
-          "state": "FL"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/9771?format=json"
-    },
-    {
       "id": "HR.1483",
       "title": "Protecting Investors’ Personally Identifiable Information Act",
       "date": "2026-09-01",
@@ -1357,32 +1383,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/1483?format=json"
     },
     {
-      "id": "HR.7436",
-      "title": "Department of Homeland Security Intelligence and Analysis Training Act",
-      "date": "2026-06-24",
-      "latest_action": "Ordered to be Reported (Amended) by the Yeas and Nays: 30 - 0.",
+      "id": "HR.4551",
+      "title": "Employee Paycheck and Small Business Protection Act",
+      "date": "2025-07-21",
+      "latest_action": "Referred to the Committee on Financial Services, and in addition to the Committee on Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "status": "active",
-      "sponsor": "Rep. Magaziner, Seth [D-RI-2]",
+      "sponsor": "Rep. Waters, Maxine [D-CA-43]",
       "sponsor_party": "D",
-      "sponsor_state": "RI",
-      "cosponsors": [
-        {
-          "name": "Rep. Pfluger, August [R-TX-11]",
-          "party": "R",
-          "state": "TX"
-        },
-        {
-          "name": "Rep. Thompson, Bennie G. [D-MS-2]",
-          "party": "D",
-          "state": "MS"
-        },
-        {
-          "name": "Rep. Pou, Nellie [D-NJ-9]",
-          "party": "D",
-          "state": "NJ"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/7436?format=json"
+      "sponsor_state": "CA",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hr/4551?format=json"
     }
   ]
 }

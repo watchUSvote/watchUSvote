@@ -1,41 +1,29 @@
 {
-  "fetched_at": "2026-09-12T08:59:54.914614+00:00",
+  "fetched_at": "2026-09-13T09:55:43.495596+00:00",
   "bills": [
     {
-      "id": "HR.8771",
-      "title": "Campaign Event Contract Integrity Act",
-      "date": "2026-06-15",
-      "latest_action": "Referred to the Subcommittee on Commodity Markets, Digital Assets, and Rural Development.",
+      "id": "HR.8866",
+      "title": "Build to Scale Reauthorization Act of 2026",
+      "date": "2026-05-15",
+      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Torres, Ritchie [D-NY-15]",
+      "sponsor": "Rep. Stevens, Haley M. [D-MI-11]",
       "sponsor_party": "D",
-      "sponsor_state": "NY",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8771?format=json"
+      "sponsor_state": "MI",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8866?format=json"
     },
     {
-      "id": "HR.9057",
-      "title": "COOL Online Act",
-      "date": "2026-06-15",
-      "latest_action": "Referred to the Subcommittee on Nutrition and Foreign Agriculture.",
+      "id": "S.5198",
+      "title": "Build to Scale Reauthorization Act of 2026",
+      "date": "2026-07-30",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Gimenez, Carlos A. [R-FL-28]",
-      "sponsor_party": "R",
-      "sponsor_state": "FL",
-      "url": "https://api.congress.gov/v3/bill/119/hr/9057?format=json"
-    },
-    {
-      "id": "HR.8953",
-      "title": "Preserving Community Food Assistance Act of 2026",
-      "date": "2026-06-15",
-      "latest_action": "Referred to the Subcommittee on Nutrition and Foreign Agriculture.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Yakym, Rudy [R-IN-2]",
+      "sponsor": "Sen. Young, Todd [R-IN]",
       "sponsor_party": "R",
       "sponsor_state": "IN",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8953?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/s/5198?format=json"
     },
     {
       "id": "HR.8960",
@@ -62,16 +50,40 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/8502?format=json"
     },
     {
-      "id": "S.1051",
-      "title": "Historic Greenwood District—Black Wall Street National Monument Establishment Act",
-      "date": "2026-09-10",
-      "latest_action": "Referred to the House Committee on Natural Resources.",
+      "id": "HR.9057",
+      "title": "COOL Online Act",
+      "date": "2026-06-15",
+      "latest_action": "Referred to the Subcommittee on Nutrition and Foreign Agriculture.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Sen. Lankford, James [R-OK]",
+      "sponsor": "Rep. Gimenez, Carlos A. [R-FL-28]",
       "sponsor_party": "R",
-      "sponsor_state": "OK",
-      "url": "https://api.congress.gov/v3/bill/119/s/1051?format=json"
+      "sponsor_state": "FL",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9057?format=json"
+    },
+    {
+      "id": "HR.8771",
+      "title": "Campaign Event Contract Integrity Act",
+      "date": "2026-06-15",
+      "latest_action": "Referred to the Subcommittee on Commodity Markets, Digital Assets, and Rural Development.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Torres, Ritchie [D-NY-15]",
+      "sponsor_party": "D",
+      "sponsor_state": "NY",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8771?format=json"
+    },
+    {
+      "id": "HR.8953",
+      "title": "Preserving Community Food Assistance Act of 2026",
+      "date": "2026-06-15",
+      "latest_action": "Referred to the Subcommittee on Nutrition and Foreign Agriculture.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Yakym, Rudy [R-IN-2]",
+      "sponsor_party": "R",
+      "sponsor_state": "IN",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8953?format=json"
     },
     {
       "id": "HR.9128",
@@ -86,16 +98,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/9128?format=json"
     },
     {
-      "id": "HR.7547",
-      "title": "DOD and USDA Interagency Research Act",
-      "date": "2026-06-15",
-      "latest_action": "Referred to the Subcommittee on Conservation, Research, and Biotechnology.",
+      "id": "S.1051",
+      "title": "Historic Greenwood District—Black Wall Street National Monument Establishment Act",
+      "date": "2026-09-10",
+      "latest_action": "Referred to the House Committee on Natural Resources.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Messmer, Mark B. [R-IN-8]",
+      "sponsor": "Sen. Lankford, James [R-OK]",
       "sponsor_party": "R",
-      "sponsor_state": "IN",
-      "url": "https://api.congress.gov/v3/bill/119/hr/7547?format=json"
+      "sponsor_state": "OK",
+      "url": "https://api.congress.gov/v3/bill/119/s/1051?format=json"
     },
     {
       "id": "S.1377",
@@ -108,6 +120,18 @@
       "sponsor_party": "R",
       "sponsor_state": "ND",
       "url": "https://api.congress.gov/v3/bill/119/s/1377?format=json"
+    },
+    {
+      "id": "HR.7547",
+      "title": "DOD and USDA Interagency Research Act",
+      "date": "2026-06-15",
+      "latest_action": "Referred to the Subcommittee on Conservation, Research, and Biotechnology.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Messmer, Mark B. [R-IN-8]",
+      "sponsor_party": "R",
+      "sponsor_state": "IN",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7547?format=json"
     },
     {
       "id": "HR.9101",
@@ -134,16 +158,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/10344?format=json"
     },
     {
-      "id": "HR.9342",
-      "title": "GPO Modernization Act of 2026",
-      "date": "2026-09-10",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 708.",
+      "id": "HR.9490",
+      "title": "Bank Failure Accountability Act",
+      "date": "2026-06-25",
+      "latest_action": "Referred to the House Committee on Financial Services.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Bice, Stephanie I. [R-OK-5]",
-      "sponsor_party": "R",
-      "sponsor_state": "OK",
-      "url": "https://api.congress.gov/v3/bill/119/hr/9342?format=json"
+      "sponsor": "Rep. Tlaib, Rashida [D-MI-12]",
+      "sponsor_party": "D",
+      "sponsor_state": "MI",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9490?format=json"
     },
     {
       "id": "HR.5305",
@@ -158,16 +182,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/5305?format=json"
     },
     {
-      "id": "HR.9490",
-      "title": "Bank Failure Accountability Act",
-      "date": "2026-06-25",
-      "latest_action": "Referred to the House Committee on Financial Services.",
+      "id": "HR.9342",
+      "title": "GPO Modernization Act of 2026",
+      "date": "2026-09-10",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 708.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Tlaib, Rashida [D-MI-12]",
-      "sponsor_party": "D",
-      "sponsor_state": "MI",
-      "url": "https://api.congress.gov/v3/bill/119/hr/9490?format=json"
+      "sponsor": "Rep. Bice, Stephanie I. [R-OK-5]",
+      "sponsor_party": "R",
+      "sponsor_state": "OK",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9342?format=json"
     },
     {
       "id": "HR.9576",
@@ -194,16 +218,28 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/7488?format=json"
     },
     {
-      "id": "HR.4508",
-      "title": "BURDEN Act",
-      "date": "2025-07-17",
-      "latest_action": "Referred to the Committee on House Administration, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "id": "HR.4672",
+      "title": "To extend the break-in-service consideration for firefighter retirements, and other purposes.",
+      "date": "2025-07-23",
+      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Krishnamoorthi, Raja [D-IL-8]",
+      "sponsor": "Rep. Harder, Josh [D-CA-9]",
       "sponsor_party": "D",
-      "sponsor_state": "IL",
-      "url": "https://api.congress.gov/v3/bill/119/hr/4508?format=json"
+      "sponsor_state": "CA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4672?format=json"
+    },
+    {
+      "id": "HR.2555",
+      "title": "Freedom of Association in Higher Education Act of 2026",
+      "date": "2026-08-27",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 682.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Houchin, Erin [R-IN-9]",
+      "sponsor_party": "R",
+      "sponsor_state": "IN",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2555?format=json"
     },
     {
       "id": "HR.7683",
@@ -218,16 +254,28 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/7683?format=json"
     },
     {
-      "id": "HR.2555",
-      "title": "Freedom of Association in Higher Education Act of 2026",
-      "date": "2026-08-27",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 682.",
+      "id": "HR.4508",
+      "title": "BURDEN Act",
+      "date": "2025-07-17",
+      "latest_action": "Referred to the Committee on House Administration, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Houchin, Erin [R-IN-9]",
+      "sponsor": "Rep. Krishnamoorthi, Raja [D-IL-8]",
+      "sponsor_party": "D",
+      "sponsor_state": "IL",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4508?format=json"
+    },
+    {
+      "id": "HR.9722",
+      "title": "Fair Treatment of Religious Organizations Act of 2026",
+      "date": "2026-08-27",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 680.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Moore, Blake D. [R-UT-1]",
       "sponsor_party": "R",
-      "sponsor_state": "IN",
-      "url": "https://api.congress.gov/v3/bill/119/hr/2555?format=json"
+      "sponsor_state": "UT",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9722?format=json"
     },
     {
       "id": "HR.9331",
@@ -252,30 +300,6 @@
       "sponsor_party": "R",
       "sponsor_state": "WI",
       "url": "https://api.congress.gov/v3/bill/119/hr/5346?format=json"
-    },
-    {
-      "id": "HR.9722",
-      "title": "Fair Treatment of Religious Organizations Act of 2026",
-      "date": "2026-08-27",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 680.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Moore, Blake D. [R-UT-1]",
-      "sponsor_party": "R",
-      "sponsor_state": "UT",
-      "url": "https://api.congress.gov/v3/bill/119/hr/9722?format=json"
-    },
-    {
-      "id": "HR.4672",
-      "title": "To extend the break-in-service consideration for firefighter retirements, and other purposes.",
-      "date": "2025-07-23",
-      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Harder, Josh [D-CA-9]",
-      "sponsor_party": "D",
-      "sponsor_state": "CA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/4672?format=json"
     },
     {
       "id": "HR.4646",
@@ -338,64 +362,28 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/3495?format=json"
     },
     {
-      "id": "HR.10242",
-      "title": "Janie Wynn Protecting Elders from Financial Exploitation Act",
-      "date": "2026-09-03",
-      "latest_action": "Referred to the House Committee on Financial Services.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Higgins, Clay [R-LA-3]",
-      "sponsor_party": "R",
-      "sponsor_state": "LA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10242?format=json"
-    },
-    {
-      "id": "HR.7889",
-      "title": "AWRC Act of 2025",
-      "date": "2026-08-20",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 665.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Wittman, Robert J. [R-VA-1]",
-      "sponsor_party": "R",
-      "sponsor_state": "VA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/7889?format=json"
-    },
-    {
-      "id": "HR.8771",
-      "title": "Campaign Event Contract Integrity Act",
-      "date": "2026-06-15",
-      "latest_action": "Referred to the Subcommittee on Commodity Markets, Digital Assets, and Rural Development.",
+      "id": "HR.8866",
+      "title": "Build to Scale Reauthorization Act of 2026",
+      "date": "2026-05-15",
+      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Torres, Ritchie [D-NY-15]",
+      "sponsor": "Rep. Stevens, Haley M. [D-MI-11]",
       "sponsor_party": "D",
-      "sponsor_state": "NY",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8771?format=json"
+      "sponsor_state": "MI",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8866?format=json"
     },
     {
-      "id": "HR.9057",
-      "title": "COOL Online Act",
-      "date": "2026-06-15",
-      "latest_action": "Referred to the Subcommittee on Nutrition and Foreign Agriculture.",
+      "id": "S.5198",
+      "title": "Build to Scale Reauthorization Act of 2026",
+      "date": "2026-07-30",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Gimenez, Carlos A. [R-FL-28]",
-      "sponsor_party": "R",
-      "sponsor_state": "FL",
-      "url": "https://api.congress.gov/v3/bill/119/hr/9057?format=json"
-    },
-    {
-      "id": "HR.8953",
-      "title": "Preserving Community Food Assistance Act of 2026",
-      "date": "2026-06-15",
-      "latest_action": "Referred to the Subcommittee on Nutrition and Foreign Agriculture.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Yakym, Rudy [R-IN-2]",
+      "sponsor": "Sen. Young, Todd [R-IN]",
       "sponsor_party": "R",
       "sponsor_state": "IN",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8953?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/s/5198?format=json"
     },
     {
       "id": "HR.8960",
@@ -422,16 +410,40 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/8502?format=json"
     },
     {
-      "id": "S.1051",
-      "title": "Historic Greenwood District—Black Wall Street National Monument Establishment Act",
-      "date": "2026-09-10",
-      "latest_action": "Referred to the House Committee on Natural Resources.",
+      "id": "HR.9057",
+      "title": "COOL Online Act",
+      "date": "2026-06-15",
+      "latest_action": "Referred to the Subcommittee on Nutrition and Foreign Agriculture.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Sen. Lankford, James [R-OK]",
+      "sponsor": "Rep. Gimenez, Carlos A. [R-FL-28]",
       "sponsor_party": "R",
-      "sponsor_state": "OK",
-      "url": "https://api.congress.gov/v3/bill/119/s/1051?format=json"
+      "sponsor_state": "FL",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9057?format=json"
+    },
+    {
+      "id": "HR.8771",
+      "title": "Campaign Event Contract Integrity Act",
+      "date": "2026-06-15",
+      "latest_action": "Referred to the Subcommittee on Commodity Markets, Digital Assets, and Rural Development.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Torres, Ritchie [D-NY-15]",
+      "sponsor_party": "D",
+      "sponsor_state": "NY",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8771?format=json"
+    },
+    {
+      "id": "HR.8953",
+      "title": "Preserving Community Food Assistance Act of 2026",
+      "date": "2026-06-15",
+      "latest_action": "Referred to the Subcommittee on Nutrition and Foreign Agriculture.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Yakym, Rudy [R-IN-2]",
+      "sponsor_party": "R",
+      "sponsor_state": "IN",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8953?format=json"
     },
     {
       "id": "HR.9128",
@@ -446,16 +458,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/9128?format=json"
     },
     {
-      "id": "HR.7547",
-      "title": "DOD and USDA Interagency Research Act",
-      "date": "2026-06-15",
-      "latest_action": "Referred to the Subcommittee on Conservation, Research, and Biotechnology.",
+      "id": "S.1051",
+      "title": "Historic Greenwood District—Black Wall Street National Monument Establishment Act",
+      "date": "2026-09-10",
+      "latest_action": "Referred to the House Committee on Natural Resources.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Messmer, Mark B. [R-IN-8]",
+      "sponsor": "Sen. Lankford, James [R-OK]",
       "sponsor_party": "R",
-      "sponsor_state": "IN",
-      "url": "https://api.congress.gov/v3/bill/119/hr/7547?format=json"
+      "sponsor_state": "OK",
+      "url": "https://api.congress.gov/v3/bill/119/s/1051?format=json"
     },
     {
       "id": "S.1377",
@@ -468,6 +480,18 @@
       "sponsor_party": "R",
       "sponsor_state": "ND",
       "url": "https://api.congress.gov/v3/bill/119/s/1377?format=json"
+    },
+    {
+      "id": "HR.7547",
+      "title": "DOD and USDA Interagency Research Act",
+      "date": "2026-06-15",
+      "latest_action": "Referred to the Subcommittee on Conservation, Research, and Biotechnology.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Messmer, Mark B. [R-IN-8]",
+      "sponsor_party": "R",
+      "sponsor_state": "IN",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7547?format=json"
     },
     {
       "id": "HR.9101",
@@ -494,16 +518,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/10344?format=json"
     },
     {
-      "id": "HR.9342",
-      "title": "GPO Modernization Act of 2026",
-      "date": "2026-09-10",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 708.",
+      "id": "HR.9490",
+      "title": "Bank Failure Accountability Act",
+      "date": "2026-06-25",
+      "latest_action": "Referred to the House Committee on Financial Services.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Bice, Stephanie I. [R-OK-5]",
-      "sponsor_party": "R",
-      "sponsor_state": "OK",
-      "url": "https://api.congress.gov/v3/bill/119/hr/9342?format=json"
+      "sponsor": "Rep. Tlaib, Rashida [D-MI-12]",
+      "sponsor_party": "D",
+      "sponsor_state": "MI",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9490?format=json"
     },
     {
       "id": "HR.5305",
@@ -518,16 +542,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/5305?format=json"
     },
     {
-      "id": "HR.9490",
-      "title": "Bank Failure Accountability Act",
-      "date": "2026-06-25",
-      "latest_action": "Referred to the House Committee on Financial Services.",
+      "id": "HR.9342",
+      "title": "GPO Modernization Act of 2026",
+      "date": "2026-09-10",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 708.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Tlaib, Rashida [D-MI-12]",
-      "sponsor_party": "D",
-      "sponsor_state": "MI",
-      "url": "https://api.congress.gov/v3/bill/119/hr/9490?format=json"
+      "sponsor": "Rep. Bice, Stephanie I. [R-OK-5]",
+      "sponsor_party": "R",
+      "sponsor_state": "OK",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9342?format=json"
     },
     {
       "id": "HR.9576",
@@ -554,16 +578,28 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/7488?format=json"
     },
     {
-      "id": "HR.4508",
-      "title": "BURDEN Act",
-      "date": "2025-07-17",
-      "latest_action": "Referred to the Committee on House Administration, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "id": "HR.4672",
+      "title": "To extend the break-in-service consideration for firefighter retirements, and other purposes.",
+      "date": "2025-07-23",
+      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Krishnamoorthi, Raja [D-IL-8]",
+      "sponsor": "Rep. Harder, Josh [D-CA-9]",
       "sponsor_party": "D",
-      "sponsor_state": "IL",
-      "url": "https://api.congress.gov/v3/bill/119/hr/4508?format=json"
+      "sponsor_state": "CA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4672?format=json"
+    },
+    {
+      "id": "HR.2555",
+      "title": "Freedom of Association in Higher Education Act of 2026",
+      "date": "2026-08-27",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 682.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Houchin, Erin [R-IN-9]",
+      "sponsor_party": "R",
+      "sponsor_state": "IN",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2555?format=json"
     },
     {
       "id": "HR.7683",
@@ -578,16 +614,28 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/7683?format=json"
     },
     {
-      "id": "HR.2555",
-      "title": "Freedom of Association in Higher Education Act of 2026",
-      "date": "2026-08-27",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 682.",
+      "id": "HR.4508",
+      "title": "BURDEN Act",
+      "date": "2025-07-17",
+      "latest_action": "Referred to the Committee on House Administration, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Houchin, Erin [R-IN-9]",
+      "sponsor": "Rep. Krishnamoorthi, Raja [D-IL-8]",
+      "sponsor_party": "D",
+      "sponsor_state": "IL",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4508?format=json"
+    },
+    {
+      "id": "HR.9722",
+      "title": "Fair Treatment of Religious Organizations Act of 2026",
+      "date": "2026-08-27",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 680.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Moore, Blake D. [R-UT-1]",
       "sponsor_party": "R",
-      "sponsor_state": "IN",
-      "url": "https://api.congress.gov/v3/bill/119/hr/2555?format=json"
+      "sponsor_state": "UT",
+      "url": "https://api.congress.gov/v3/bill/119/hr/9722?format=json"
     },
     {
       "id": "HR.9331",
@@ -612,30 +660,6 @@
       "sponsor_party": "R",
       "sponsor_state": "WI",
       "url": "https://api.congress.gov/v3/bill/119/hr/5346?format=json"
-    },
-    {
-      "id": "HR.9722",
-      "title": "Fair Treatment of Religious Organizations Act of 2026",
-      "date": "2026-08-27",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 680.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Moore, Blake D. [R-UT-1]",
-      "sponsor_party": "R",
-      "sponsor_state": "UT",
-      "url": "https://api.congress.gov/v3/bill/119/hr/9722?format=json"
-    },
-    {
-      "id": "HR.4672",
-      "title": "To extend the break-in-service consideration for firefighter retirements, and other purposes.",
-      "date": "2025-07-23",
-      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Harder, Josh [D-CA-9]",
-      "sponsor_party": "D",
-      "sponsor_state": "CA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/4672?format=json"
     },
     {
       "id": "HR.4646",
@@ -696,30 +720,6 @@
       "sponsor_party": "R",
       "sponsor_state": "CA",
       "url": "https://api.congress.gov/v3/bill/119/hr/3495?format=json"
-    },
-    {
-      "id": "HR.10242",
-      "title": "Janie Wynn Protecting Elders from Financial Exploitation Act",
-      "date": "2026-09-03",
-      "latest_action": "Referred to the House Committee on Financial Services.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Higgins, Clay [R-LA-3]",
-      "sponsor_party": "R",
-      "sponsor_state": "LA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10242?format=json"
-    },
-    {
-      "id": "HR.7889",
-      "title": "AWRC Act of 2025",
-      "date": "2026-08-20",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 665.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Wittman, Robert J. [R-VA-1]",
-      "sponsor_party": "R",
-      "sponsor_state": "VA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/7889?format=json"
     }
   ]
 }
