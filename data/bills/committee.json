@@ -1,17 +1,17 @@
 {
-  "fetched_at": "2026-09-13T09:55:43.495596+00:00",
+  "fetched_at": "2026-09-14T10:16:27.347619+00:00",
   "bills": [
     {
-      "id": "HR.8866",
-      "title": "Build to Scale Reauthorization Act of 2026",
-      "date": "2026-05-15",
-      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
+      "id": "HR.7454",
+      "title": "USMCA Travel and Tourism Resiliency Act",
+      "date": "2026-02-09",
+      "latest_action": "Referred to the House Committee on Ways and Means.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Stevens, Haley M. [D-MI-11]",
+      "sponsor": "Rep. Titus, Dina [D-NV-1]",
       "sponsor_party": "D",
-      "sponsor_state": "MI",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8866?format=json"
+      "sponsor_state": "NV",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7454?format=json"
     },
     {
       "id": "S.5198",
@@ -26,16 +26,28 @@
       "url": "https://api.congress.gov/v3/bill/119/s/5198?format=json"
     },
     {
-      "id": "HR.8960",
-      "title": "Local Beef Marketing Incentive Act of 2026",
-      "date": "2026-06-15",
-      "latest_action": "Referred to the Subcommittee on Livestock, Dairy, and Poultry.",
+      "id": "HR.8866",
+      "title": "Build to Scale Reauthorization Act of 2026",
+      "date": "2026-05-15",
+      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Burchett, Tim [R-TN-2]",
+      "sponsor": "Rep. Stevens, Haley M. [D-MI-11]",
+      "sponsor_party": "D",
+      "sponsor_state": "MI",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8866?format=json"
+    },
+    {
+      "id": "HR.8953",
+      "title": "Preserving Community Food Assistance Act of 2026",
+      "date": "2026-06-15",
+      "latest_action": "Referred to the Subcommittee on Nutrition and Foreign Agriculture.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Yakym, Rudy [R-IN-2]",
       "sponsor_party": "R",
-      "sponsor_state": "TN",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8960?format=json"
+      "sponsor_state": "IN",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8953?format=json"
     },
     {
       "id": "HR.8502",
@@ -62,6 +74,18 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/9057?format=json"
     },
     {
+      "id": "HR.8960",
+      "title": "Local Beef Marketing Incentive Act of 2026",
+      "date": "2026-06-15",
+      "latest_action": "Referred to the Subcommittee on Livestock, Dairy, and Poultry.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Burchett, Tim [R-TN-2]",
+      "sponsor_party": "R",
+      "sponsor_state": "TN",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8960?format=json"
+    },
+    {
       "id": "HR.8771",
       "title": "Campaign Event Contract Integrity Act",
       "date": "2026-06-15",
@@ -74,16 +98,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/8771?format=json"
     },
     {
-      "id": "HR.8953",
-      "title": "Preserving Community Food Assistance Act of 2026",
+      "id": "HR.7547",
+      "title": "DOD and USDA Interagency Research Act",
       "date": "2026-06-15",
-      "latest_action": "Referred to the Subcommittee on Nutrition and Foreign Agriculture.",
+      "latest_action": "Referred to the Subcommittee on Conservation, Research, and Biotechnology.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Yakym, Rudy [R-IN-2]",
+      "sponsor": "Rep. Messmer, Mark B. [R-IN-8]",
       "sponsor_party": "R",
       "sponsor_state": "IN",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8953?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/hr/7547?format=json"
     },
     {
       "id": "HR.9128",
@@ -122,18 +146,6 @@
       "url": "https://api.congress.gov/v3/bill/119/s/1377?format=json"
     },
     {
-      "id": "HR.7547",
-      "title": "DOD and USDA Interagency Research Act",
-      "date": "2026-06-15",
-      "latest_action": "Referred to the Subcommittee on Conservation, Research, and Biotechnology.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Messmer, Mark B. [R-IN-8]",
-      "sponsor_party": "R",
-      "sponsor_state": "IN",
-      "url": "https://api.congress.gov/v3/bill/119/hr/7547?format=json"
-    },
-    {
       "id": "HR.9101",
       "title": "Rural Grants Transparency Act",
       "date": "2026-06-15",
@@ -170,18 +182,6 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/9490?format=json"
     },
     {
-      "id": "HR.5305",
-      "title": "Congressional MRA Act",
-      "date": "2025-09-11",
-      "latest_action": "Referred to the House Committee on House Administration.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Arrington, Jodey C. [R-TX-19]",
-      "sponsor_party": "R",
-      "sponsor_state": "TX",
-      "url": "https://api.congress.gov/v3/bill/119/hr/5305?format=json"
-    },
-    {
       "id": "HR.9342",
       "title": "GPO Modernization Act of 2026",
       "date": "2026-09-10",
@@ -192,6 +192,18 @@
       "sponsor_party": "R",
       "sponsor_state": "OK",
       "url": "https://api.congress.gov/v3/bill/119/hr/9342?format=json"
+    },
+    {
+      "id": "HR.5305",
+      "title": "Congressional MRA Act",
+      "date": "2025-09-11",
+      "latest_action": "Referred to the House Committee on House Administration.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Arrington, Jodey C. [R-TX-19]",
+      "sponsor_party": "R",
+      "sponsor_state": "TX",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5305?format=json"
     },
     {
       "id": "HR.9576",
@@ -206,16 +218,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/9576?format=json"
     },
     {
-      "id": "HR.7488",
-      "title": "CFTC Office of the Chief Economist Act of 2026",
-      "date": "2026-03-20",
-      "latest_action": "Referred to the Subcommittee on Commodity Markets, Digital Assets, and Rural Development.",
+      "id": "HR.7683",
+      "title": "VA Fiscal Management Modernization Act",
+      "date": "2026-05-14",
+      "latest_action": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 13 - 9.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Bresnahan, Robert P. [R-PA-8]",
+      "sponsor": "Rep. Bergman, Jack [R-MI-1]",
       "sponsor_party": "R",
-      "sponsor_state": "PA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/7488?format=json"
+      "sponsor_state": "MI",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7683?format=json"
     },
     {
       "id": "HR.4672",
@@ -230,42 +242,6 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/4672?format=json"
     },
     {
-      "id": "HR.2555",
-      "title": "Freedom of Association in Higher Education Act of 2026",
-      "date": "2026-08-27",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 682.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Houchin, Erin [R-IN-9]",
-      "sponsor_party": "R",
-      "sponsor_state": "IN",
-      "url": "https://api.congress.gov/v3/bill/119/hr/2555?format=json"
-    },
-    {
-      "id": "HR.7683",
-      "title": "VA Fiscal Management Modernization Act",
-      "date": "2026-05-14",
-      "latest_action": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 13 - 9.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Bergman, Jack [R-MI-1]",
-      "sponsor_party": "R",
-      "sponsor_state": "MI",
-      "url": "https://api.congress.gov/v3/bill/119/hr/7683?format=json"
-    },
-    {
-      "id": "HR.4508",
-      "title": "BURDEN Act",
-      "date": "2025-07-17",
-      "latest_action": "Referred to the Committee on House Administration, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Krishnamoorthi, Raja [D-IL-8]",
-      "sponsor_party": "D",
-      "sponsor_state": "IL",
-      "url": "https://api.congress.gov/v3/bill/119/hr/4508?format=json"
-    },
-    {
       "id": "HR.9722",
       "title": "Fair Treatment of Religious Organizations Act of 2026",
       "date": "2026-08-27",
@@ -276,6 +252,18 @@
       "sponsor_party": "R",
       "sponsor_state": "UT",
       "url": "https://api.congress.gov/v3/bill/119/hr/9722?format=json"
+    },
+    {
+      "id": "HR.7488",
+      "title": "CFTC Office of the Chief Economist Act of 2026",
+      "date": "2026-03-20",
+      "latest_action": "Referred to the Subcommittee on Commodity Markets, Digital Assets, and Rural Development.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Bresnahan, Robert P. [R-PA-8]",
+      "sponsor_party": "R",
+      "sponsor_state": "PA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7488?format=json"
     },
     {
       "id": "HR.9331",
@@ -300,6 +288,30 @@
       "sponsor_party": "R",
       "sponsor_state": "WI",
       "url": "https://api.congress.gov/v3/bill/119/hr/5346?format=json"
+    },
+    {
+      "id": "HR.4508",
+      "title": "BURDEN Act",
+      "date": "2025-07-17",
+      "latest_action": "Referred to the Committee on House Administration, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Krishnamoorthi, Raja [D-IL-8]",
+      "sponsor_party": "D",
+      "sponsor_state": "IL",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4508?format=json"
+    },
+    {
+      "id": "HR.2555",
+      "title": "Freedom of Association in Higher Education Act of 2026",
+      "date": "2026-08-27",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 682.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Houchin, Erin [R-IN-9]",
+      "sponsor_party": "R",
+      "sponsor_state": "IN",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2555?format=json"
     },
     {
       "id": "HR.4646",
@@ -350,28 +362,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/9500?format=json"
     },
     {
-      "id": "HR.3495",
-      "title": "Direct Seller and Real Estate Agent Harmonization Act",
-      "date": "2026-09-08",
-      "latest_action": "Supplemental report filed by the Committee on Education and Workforce, H. Rept. 119-494, Part II.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Kiley, Kevin [R-CA-3]",
-      "sponsor_party": "R",
-      "sponsor_state": "CA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/3495?format=json"
-    },
-    {
-      "id": "HR.8866",
-      "title": "Build to Scale Reauthorization Act of 2026",
-      "date": "2026-05-15",
-      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
+      "id": "HR.7454",
+      "title": "USMCA Travel and Tourism Resiliency Act",
+      "date": "2026-02-09",
+      "latest_action": "Referred to the House Committee on Ways and Means.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Stevens, Haley M. [D-MI-11]",
+      "sponsor": "Rep. Titus, Dina [D-NV-1]",
       "sponsor_party": "D",
-      "sponsor_state": "MI",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8866?format=json"
+      "sponsor_state": "NV",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7454?format=json"
     },
     {
       "id": "S.5198",
@@ -386,16 +386,28 @@
       "url": "https://api.congress.gov/v3/bill/119/s/5198?format=json"
     },
     {
-      "id": "HR.8960",
-      "title": "Local Beef Marketing Incentive Act of 2026",
-      "date": "2026-06-15",
-      "latest_action": "Referred to the Subcommittee on Livestock, Dairy, and Poultry.",
+      "id": "HR.8866",
+      "title": "Build to Scale Reauthorization Act of 2026",
+      "date": "2026-05-15",
+      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Burchett, Tim [R-TN-2]",
+      "sponsor": "Rep. Stevens, Haley M. [D-MI-11]",
+      "sponsor_party": "D",
+      "sponsor_state": "MI",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8866?format=json"
+    },
+    {
+      "id": "HR.8953",
+      "title": "Preserving Community Food Assistance Act of 2026",
+      "date": "2026-06-15",
+      "latest_action": "Referred to the Subcommittee on Nutrition and Foreign Agriculture.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Yakym, Rudy [R-IN-2]",
       "sponsor_party": "R",
-      "sponsor_state": "TN",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8960?format=json"
+      "sponsor_state": "IN",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8953?format=json"
     },
     {
       "id": "HR.8502",
@@ -422,6 +434,18 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/9057?format=json"
     },
     {
+      "id": "HR.8960",
+      "title": "Local Beef Marketing Incentive Act of 2026",
+      "date": "2026-06-15",
+      "latest_action": "Referred to the Subcommittee on Livestock, Dairy, and Poultry.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Burchett, Tim [R-TN-2]",
+      "sponsor_party": "R",
+      "sponsor_state": "TN",
+      "url": "https://api.congress.gov/v3/bill/119/hr/8960?format=json"
+    },
+    {
       "id": "HR.8771",
       "title": "Campaign Event Contract Integrity Act",
       "date": "2026-06-15",
@@ -434,16 +458,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/8771?format=json"
     },
     {
-      "id": "HR.8953",
-      "title": "Preserving Community Food Assistance Act of 2026",
+      "id": "HR.7547",
+      "title": "DOD and USDA Interagency Research Act",
       "date": "2026-06-15",
-      "latest_action": "Referred to the Subcommittee on Nutrition and Foreign Agriculture.",
+      "latest_action": "Referred to the Subcommittee on Conservation, Research, and Biotechnology.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Yakym, Rudy [R-IN-2]",
+      "sponsor": "Rep. Messmer, Mark B. [R-IN-8]",
       "sponsor_party": "R",
       "sponsor_state": "IN",
-      "url": "https://api.congress.gov/v3/bill/119/hr/8953?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/hr/7547?format=json"
     },
     {
       "id": "HR.9128",
@@ -482,18 +506,6 @@
       "url": "https://api.congress.gov/v3/bill/119/s/1377?format=json"
     },
     {
-      "id": "HR.7547",
-      "title": "DOD and USDA Interagency Research Act",
-      "date": "2026-06-15",
-      "latest_action": "Referred to the Subcommittee on Conservation, Research, and Biotechnology.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Messmer, Mark B. [R-IN-8]",
-      "sponsor_party": "R",
-      "sponsor_state": "IN",
-      "url": "https://api.congress.gov/v3/bill/119/hr/7547?format=json"
-    },
-    {
       "id": "HR.9101",
       "title": "Rural Grants Transparency Act",
       "date": "2026-06-15",
@@ -530,18 +542,6 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/9490?format=json"
     },
     {
-      "id": "HR.5305",
-      "title": "Congressional MRA Act",
-      "date": "2025-09-11",
-      "latest_action": "Referred to the House Committee on House Administration.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Arrington, Jodey C. [R-TX-19]",
-      "sponsor_party": "R",
-      "sponsor_state": "TX",
-      "url": "https://api.congress.gov/v3/bill/119/hr/5305?format=json"
-    },
-    {
       "id": "HR.9342",
       "title": "GPO Modernization Act of 2026",
       "date": "2026-09-10",
@@ -552,6 +552,18 @@
       "sponsor_party": "R",
       "sponsor_state": "OK",
       "url": "https://api.congress.gov/v3/bill/119/hr/9342?format=json"
+    },
+    {
+      "id": "HR.5305",
+      "title": "Congressional MRA Act",
+      "date": "2025-09-11",
+      "latest_action": "Referred to the House Committee on House Administration.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Arrington, Jodey C. [R-TX-19]",
+      "sponsor_party": "R",
+      "sponsor_state": "TX",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5305?format=json"
     },
     {
       "id": "HR.9576",
@@ -566,16 +578,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/9576?format=json"
     },
     {
-      "id": "HR.7488",
-      "title": "CFTC Office of the Chief Economist Act of 2026",
-      "date": "2026-03-20",
-      "latest_action": "Referred to the Subcommittee on Commodity Markets, Digital Assets, and Rural Development.",
+      "id": "HR.7683",
+      "title": "VA Fiscal Management Modernization Act",
+      "date": "2026-05-14",
+      "latest_action": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 13 - 9.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Bresnahan, Robert P. [R-PA-8]",
+      "sponsor": "Rep. Bergman, Jack [R-MI-1]",
       "sponsor_party": "R",
-      "sponsor_state": "PA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/7488?format=json"
+      "sponsor_state": "MI",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7683?format=json"
     },
     {
       "id": "HR.4672",
@@ -590,42 +602,6 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/4672?format=json"
     },
     {
-      "id": "HR.2555",
-      "title": "Freedom of Association in Higher Education Act of 2026",
-      "date": "2026-08-27",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 682.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Houchin, Erin [R-IN-9]",
-      "sponsor_party": "R",
-      "sponsor_state": "IN",
-      "url": "https://api.congress.gov/v3/bill/119/hr/2555?format=json"
-    },
-    {
-      "id": "HR.7683",
-      "title": "VA Fiscal Management Modernization Act",
-      "date": "2026-05-14",
-      "latest_action": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 13 - 9.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Bergman, Jack [R-MI-1]",
-      "sponsor_party": "R",
-      "sponsor_state": "MI",
-      "url": "https://api.congress.gov/v3/bill/119/hr/7683?format=json"
-    },
-    {
-      "id": "HR.4508",
-      "title": "BURDEN Act",
-      "date": "2025-07-17",
-      "latest_action": "Referred to the Committee on House Administration, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Krishnamoorthi, Raja [D-IL-8]",
-      "sponsor_party": "D",
-      "sponsor_state": "IL",
-      "url": "https://api.congress.gov/v3/bill/119/hr/4508?format=json"
-    },
-    {
       "id": "HR.9722",
       "title": "Fair Treatment of Religious Organizations Act of 2026",
       "date": "2026-08-27",
@@ -636,6 +612,18 @@
       "sponsor_party": "R",
       "sponsor_state": "UT",
       "url": "https://api.congress.gov/v3/bill/119/hr/9722?format=json"
+    },
+    {
+      "id": "HR.7488",
+      "title": "CFTC Office of the Chief Economist Act of 2026",
+      "date": "2026-03-20",
+      "latest_action": "Referred to the Subcommittee on Commodity Markets, Digital Assets, and Rural Development.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Bresnahan, Robert P. [R-PA-8]",
+      "sponsor_party": "R",
+      "sponsor_state": "PA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/7488?format=json"
     },
     {
       "id": "HR.9331",
@@ -660,6 +648,30 @@
       "sponsor_party": "R",
       "sponsor_state": "WI",
       "url": "https://api.congress.gov/v3/bill/119/hr/5346?format=json"
+    },
+    {
+      "id": "HR.4508",
+      "title": "BURDEN Act",
+      "date": "2025-07-17",
+      "latest_action": "Referred to the Committee on House Administration, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Krishnamoorthi, Raja [D-IL-8]",
+      "sponsor_party": "D",
+      "sponsor_state": "IL",
+      "url": "https://api.congress.gov/v3/bill/119/hr/4508?format=json"
+    },
+    {
+      "id": "HR.2555",
+      "title": "Freedom of Association in Higher Education Act of 2026",
+      "date": "2026-08-27",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 682.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Houchin, Erin [R-IN-9]",
+      "sponsor_party": "R",
+      "sponsor_state": "IN",
+      "url": "https://api.congress.gov/v3/bill/119/hr/2555?format=json"
     },
     {
       "id": "HR.4646",
@@ -708,18 +720,6 @@
       "sponsor_party": "R",
       "sponsor_state": "OH",
       "url": "https://api.congress.gov/v3/bill/119/hr/9500?format=json"
-    },
-    {
-      "id": "HR.3495",
-      "title": "Direct Seller and Real Estate Agent Harmonization Act",
-      "date": "2026-09-08",
-      "latest_action": "Supplemental report filed by the Committee on Education and Workforce, H. Rept. 119-494, Part II.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Kiley, Kevin [R-CA-3]",
-      "sponsor_party": "R",
-      "sponsor_state": "CA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/3495?format=json"
     }
   ]
 }
