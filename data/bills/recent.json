@@ -1,6 +1,59 @@
 {
-  "fetched_at": "2026-09-27T10:20:17.760257+00:00",
+  "fetched_at": "2026-09-28T11:23:42.663219+00:00",
   "bills": [
+    {
+      "id": "S.4668",
+      "title": "Protect College Sports Act of 2026",
+      "date": "2026-09-24",
+      "latest_action": "The committee substitute tabled by Voice Vote.",
+      "status": "active",
+      "sponsor": "Sen. Cruz, Ted [R-TX]",
+      "sponsor_party": "R",
+      "sponsor_state": "TX",
+      "cosponsors": [
+        {
+          "name": "Sen. Cantwell, Maria [D-WA]",
+          "party": "D",
+          "state": "WA"
+        },
+        {
+          "name": "Sen. Schmitt, Eric [R-MO]",
+          "party": "R",
+          "state": "MO"
+        },
+        {
+          "name": "Sen. Coons, Christopher A. [D-DE]",
+          "party": "D",
+          "state": "DE"
+        },
+        {
+          "name": "Sen. Welch, Peter [D-VT]",
+          "party": "D",
+          "state": "VT"
+        },
+        {
+          "name": "Sen. Capito, Shelley Moore [R-WV]",
+          "party": "R",
+          "state": "WV"
+        },
+        {
+          "name": "Sen. Hickenlooper, John W. [D-CO]",
+          "party": "D",
+          "state": "CO"
+        },
+        {
+          "name": "Sen. Ricketts, Pete [R-NE]",
+          "party": "R",
+          "state": "NE"
+        },
+        {
+          "name": "Sen. Hoeven, John [R-ND]",
+          "party": "R",
+          "state": "ND"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/4668?format=json"
+    },
     {
       "id": "HR.7436",
       "title": "Department of Homeland Security Intelligence and Analysis Training Act",
@@ -30,42 +83,100 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/7436?format=json"
     },
     {
-      "id": "S.3618",
-      "title": "No Fentanyl on Social Media Act of 2026",
+      "id": "S.3700",
+      "title": "FAA SMS Compliance Review Act of 2026",
       "date": "2026-09-14",
-      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 561.",
+      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 562.",
       "status": "active",
-      "sponsor": "Sen. Husted, Jon [R-OH]",
-      "sponsor_party": "R",
-      "sponsor_state": "OH",
+      "sponsor": "Sen. Cantwell, Maria [D-WA]",
+      "sponsor_party": "D",
+      "sponsor_state": "WA",
       "cosponsors": [
+        {
+          "name": "Sen. Duckworth, Tammy [D-IL]",
+          "party": "D",
+          "state": "IL"
+        },
+        {
+          "name": "Sen. Markey, Edward J. [D-MA]",
+          "party": "D",
+          "state": "MA"
+        },
+        {
+          "name": "Sen. Warner, Mark R. [D-VA]",
+          "party": "D",
+          "state": "VA"
+        },
+        {
+          "name": "Sen. Shaheen, Jeanne [D-NH]",
+          "party": "D",
+          "state": "NH"
+        },
         {
           "name": "Sen. Klobuchar, Amy [D-MN]",
           "party": "D",
           "state": "MN"
         },
         {
-          "name": "Sen. Blunt Rochester, Lisa [D-DE]",
+          "name": "Sen. Welch, Peter [D-VT]",
           "party": "D",
-          "state": "DE"
+          "state": "VT"
         },
+        {
+          "name": "Sen. Kaine, Tim [D-VA]",
+          "party": "D",
+          "state": "VA"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/3700?format=json"
+    },
+    {
+      "id": "S.4979",
+      "title": "PROMISE Act of 2026",
+      "date": "2026-07-14",
+      "latest_action": "Read twice and referred to the Committee on Finance. (Sponsor introductory remarks on measure: CR S3942-3946; text: CR S3943-3946)",
+      "status": "active",
+      "sponsor": "Sen. Durbin, Richard J. [D-IL]",
+      "sponsor_party": "D",
+      "sponsor_state": "IL",
+      "cosponsors": [
         {
           "name": "Sen. Cassidy, Bill [R-LA]",
           "party": "R",
           "state": "LA"
         },
         {
-          "name": "Sen. Moreno, Bernie [R-OH]",
-          "party": "R",
-          "state": "OH"
+          "name": "Sen. Kaine, Tim [D-VA]",
+          "party": "D",
+          "state": "VA"
         },
         {
-          "name": "Sen. McCormick, David [R-PA]",
+          "name": "Sen. Tillis, Thomas [R-NC]",
           "party": "R",
-          "state": "PA"
+          "state": "NC"
+        },
+        {
+          "name": "Sen. King, Angus S., Jr. [I-ME]",
+          "party": "I",
+          "state": "ME"
+        },
+        {
+          "name": "Sen. Cornyn, John [R-TX]",
+          "party": "R",
+          "state": "TX"
+        },
+        {
+          "name": "Sen. Coons, Christopher A. [D-DE]",
+          "party": "D",
+          "state": "DE"
+        },
+        {
+          "name": "Sen. Armstrong, Alan [R-OK]",
+          "party": "R",
+          "state": "OK"
         }
       ],
-      "url": "https://api.congress.gov/v3/bill/119/s/3618?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/s/4979?format=json"
     },
     {
       "id": "S.3791",
@@ -121,100 +232,42 @@
       "url": "https://api.congress.gov/v3/bill/119/s/3791?format=json"
     },
     {
-      "id": "S.4979",
-      "title": "PROMISE Act of 2026",
-      "date": "2026-07-14",
-      "latest_action": "Read twice and referred to the Committee on Finance. (Sponsor introductory remarks on measure: CR S3942-3946; text: CR S3943-3946)",
-      "status": "active",
-      "sponsor": "Sen. Durbin, Richard J. [D-IL]",
-      "sponsor_party": "D",
-      "sponsor_state": "IL",
-      "cosponsors": [
-        {
-          "name": "Sen. Cassidy, Bill [R-LA]",
-          "party": "R",
-          "state": "LA"
-        },
-        {
-          "name": "Sen. Kaine, Tim [D-VA]",
-          "party": "D",
-          "state": "VA"
-        },
-        {
-          "name": "Sen. Tillis, Thomas [R-NC]",
-          "party": "R",
-          "state": "NC"
-        },
-        {
-          "name": "Sen. King, Angus S., Jr. [I-ME]",
-          "party": "I",
-          "state": "ME"
-        },
-        {
-          "name": "Sen. Cornyn, John [R-TX]",
-          "party": "R",
-          "state": "TX"
-        },
-        {
-          "name": "Sen. Coons, Christopher A. [D-DE]",
-          "party": "D",
-          "state": "DE"
-        },
-        {
-          "name": "Sen. Armstrong, Alan [R-OK]",
-          "party": "R",
-          "state": "OK"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/s/4979?format=json"
-    },
-    {
-      "id": "S.3700",
-      "title": "FAA SMS Compliance Review Act of 2026",
+      "id": "S.3618",
+      "title": "No Fentanyl on Social Media Act of 2026",
       "date": "2026-09-14",
-      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 562.",
+      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 561.",
       "status": "active",
-      "sponsor": "Sen. Cantwell, Maria [D-WA]",
-      "sponsor_party": "D",
-      "sponsor_state": "WA",
+      "sponsor": "Sen. Husted, Jon [R-OH]",
+      "sponsor_party": "R",
+      "sponsor_state": "OH",
       "cosponsors": [
-        {
-          "name": "Sen. Duckworth, Tammy [D-IL]",
-          "party": "D",
-          "state": "IL"
-        },
-        {
-          "name": "Sen. Markey, Edward J. [D-MA]",
-          "party": "D",
-          "state": "MA"
-        },
-        {
-          "name": "Sen. Warner, Mark R. [D-VA]",
-          "party": "D",
-          "state": "VA"
-        },
-        {
-          "name": "Sen. Shaheen, Jeanne [D-NH]",
-          "party": "D",
-          "state": "NH"
-        },
         {
           "name": "Sen. Klobuchar, Amy [D-MN]",
           "party": "D",
           "state": "MN"
         },
         {
-          "name": "Sen. Welch, Peter [D-VT]",
+          "name": "Sen. Blunt Rochester, Lisa [D-DE]",
           "party": "D",
-          "state": "VT"
+          "state": "DE"
         },
         {
-          "name": "Sen. Kaine, Tim [D-VA]",
-          "party": "D",
-          "state": "VA"
+          "name": "Sen. Cassidy, Bill [R-LA]",
+          "party": "R",
+          "state": "LA"
+        },
+        {
+          "name": "Sen. Moreno, Bernie [R-OH]",
+          "party": "R",
+          "state": "OH"
+        },
+        {
+          "name": "Sen. McCormick, David [R-PA]",
+          "party": "R",
+          "state": "PA"
         }
       ],
-      "url": "https://api.congress.gov/v3/bill/119/s/3700?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/s/3618?format=json"
     },
     {
       "id": "S.723",
@@ -316,6 +369,29 @@
       "url": "https://api.congress.gov/v3/bill/119/s/3257?format=json"
     },
     {
+      "id": "S.5404",
+      "title": "Jimmy Lai Hong Kong Political Prisoner Accountability Act of 2026",
+      "date": "2026-09-16",
+      "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+      "status": "active",
+      "sponsor": "Sen. Sullivan, Dan [R-AK]",
+      "sponsor_party": "R",
+      "sponsor_state": "AK",
+      "cosponsors": [
+        {
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR"
+        },
+        {
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/5404?format=json"
+    },
+    {
       "id": "S.4972",
       "title": "Medical Bankruptcy Fairness Act of 2026",
       "date": "2026-07-14",
@@ -359,59 +435,6 @@
       "url": "https://api.congress.gov/v3/bill/119/s/4972?format=json"
     },
     {
-      "id": "S.4668",
-      "title": "Protect College Sports Act of 2026",
-      "date": "2026-09-24",
-      "latest_action": "The committee substitute tabled by Voice Vote.",
-      "status": "active",
-      "sponsor": "Sen. Cruz, Ted [R-TX]",
-      "sponsor_party": "R",
-      "sponsor_state": "TX",
-      "cosponsors": [
-        {
-          "name": "Sen. Cantwell, Maria [D-WA]",
-          "party": "D",
-          "state": "WA"
-        },
-        {
-          "name": "Sen. Schmitt, Eric [R-MO]",
-          "party": "R",
-          "state": "MO"
-        },
-        {
-          "name": "Sen. Coons, Christopher A. [D-DE]",
-          "party": "D",
-          "state": "DE"
-        },
-        {
-          "name": "Sen. Welch, Peter [D-VT]",
-          "party": "D",
-          "state": "VT"
-        },
-        {
-          "name": "Sen. Capito, Shelley Moore [R-WV]",
-          "party": "R",
-          "state": "WV"
-        },
-        {
-          "name": "Sen. Hickenlooper, John W. [D-CO]",
-          "party": "D",
-          "state": "CO"
-        },
-        {
-          "name": "Sen. Ricketts, Pete [R-NE]",
-          "party": "R",
-          "state": "NE"
-        },
-        {
-          "name": "Sen. Hoeven, John [R-ND]",
-          "party": "R",
-          "state": "ND"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/s/4668?format=json"
-    },
-    {
       "id": "S.5313",
       "title": "Quantum-GUARD Act of 2026",
       "date": "2026-08-06",
@@ -433,6 +456,59 @@
         }
       ],
       "url": "https://api.congress.gov/v3/bill/119/s/5313?format=json"
+    },
+    {
+      "id": "S.5028",
+      "title": "Ratepayer Protection Act",
+      "date": "2026-07-16",
+      "latest_action": "Read twice and referred to the Committee on Energy and Natural Resources.",
+      "status": "active",
+      "sponsor": "Sen. Husted, Jon [R-OH]",
+      "sponsor_party": "R",
+      "sponsor_state": "OH",
+      "cosponsors": [
+        {
+          "name": "Sen. Tuberville, Tommy [R-AL]",
+          "party": "R",
+          "state": "AL"
+        },
+        {
+          "name": "Sen. Moody, Ashley [R-FL]",
+          "party": "R",
+          "state": "FL"
+        },
+        {
+          "name": "Sen. Ricketts, Pete [R-NE]",
+          "party": "R",
+          "state": "NE"
+        },
+        {
+          "name": "Sen. Marshall, Roger [R-KS]",
+          "party": "R",
+          "state": "KS"
+        },
+        {
+          "name": "Sen. Kennedy, John [R-LA]",
+          "party": "R",
+          "state": "LA"
+        },
+        {
+          "name": "Sen. Collins, Susan M. [R-ME]",
+          "party": "R",
+          "state": "ME"
+        },
+        {
+          "name": "Sen. Graham, Darline [R-SC]",
+          "party": "R",
+          "state": "SC"
+        },
+        {
+          "name": "Sen. Cotton, Tom [R-AR]",
+          "party": "R",
+          "state": "AR"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/5028?format=json"
     },
     {
       "id": "S.4845",
@@ -488,29 +564,6 @@
       "url": "https://api.congress.gov/v3/bill/119/s/4845?format=json"
     },
     {
-      "id": "S.5404",
-      "title": "Jimmy Lai Hong Kong Political Prisoner Accountability Act of 2026",
-      "date": "2026-09-16",
-      "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
-      "status": "active",
-      "sponsor": "Sen. Sullivan, Dan [R-AK]",
-      "sponsor_party": "R",
-      "sponsor_state": "AK",
-      "cosponsors": [
-        {
-          "name": "Sen. Merkley, Jeff [D-OR]",
-          "party": "D",
-          "state": "OR"
-        },
-        {
-          "name": "Sen. Blackburn, Marsha [R-TN]",
-          "party": "R",
-          "state": "TN"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/s/5404?format=json"
-    },
-    {
       "id": "S.5223",
       "title": "NO PROFIT Act",
       "date": "2026-08-03",
@@ -532,59 +585,6 @@
         }
       ],
       "url": "https://api.congress.gov/v3/bill/119/s/5223?format=json"
-    },
-    {
-      "id": "S.5028",
-      "title": "Ratepayer Protection Act",
-      "date": "2026-07-16",
-      "latest_action": "Read twice and referred to the Committee on Energy and Natural Resources.",
-      "status": "active",
-      "sponsor": "Sen. Husted, Jon [R-OH]",
-      "sponsor_party": "R",
-      "sponsor_state": "OH",
-      "cosponsors": [
-        {
-          "name": "Sen. Tuberville, Tommy [R-AL]",
-          "party": "R",
-          "state": "AL"
-        },
-        {
-          "name": "Sen. Moody, Ashley [R-FL]",
-          "party": "R",
-          "state": "FL"
-        },
-        {
-          "name": "Sen. Ricketts, Pete [R-NE]",
-          "party": "R",
-          "state": "NE"
-        },
-        {
-          "name": "Sen. Marshall, Roger [R-KS]",
-          "party": "R",
-          "state": "KS"
-        },
-        {
-          "name": "Sen. Kennedy, John [R-LA]",
-          "party": "R",
-          "state": "LA"
-        },
-        {
-          "name": "Sen. Collins, Susan M. [R-ME]",
-          "party": "R",
-          "state": "ME"
-        },
-        {
-          "name": "Sen. Graham, Darline [R-SC]",
-          "party": "R",
-          "state": "SC"
-        },
-        {
-          "name": "Sen. Cotton, Tom [R-AR]",
-          "party": "R",
-          "state": "AR"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/s/5028?format=json"
     },
     {
       "id": "S.3989",
