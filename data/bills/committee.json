@@ -1,7 +1,67 @@
 {
-  "fetched_at": "2026-10-11T11:12:09.530632+00:00",
+  "fetched_at": "2026-10-13T12:25:36.694027+00:00",
   "bills": [
     {
+      "id": "S.5653",
+      "title": "Bipartisan American Affordability and Jobs Act of 2026",
+      "date": "2026-09-30",
+      "latest_action": "Read twice and referred to the Committee on Energy and Natural Resources.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Sen. Capito, Shelley Moore [R-WV]",
+      "sponsor_party": "R",
+      "sponsor_state": "WV",
+      "url": "https://api.congress.gov/v3/bill/119/s/5653?format=json"
+    },
+    {
+      "id": "S.5394",
+      "title": "Hands Off Our Great Lakes Act",
+      "date": "2026-09-14",
+      "latest_action": "Read twice and referred to the Committee on Environment and Public Works.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Sen. Gillibrand, Kirsten E. [D-NY]",
+      "sponsor_party": "D",
+      "sponsor_state": "NY",
+      "url": "https://api.congress.gov/v3/bill/119/s/5394?format=json"
+    },
+    {
+      "id": "S.5393",
+      "title": "FABRIC Act",
+      "date": "2026-09-14",
+      "latest_action": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Sen. Gillibrand, Kirsten E. [D-NY]",
+      "sponsor_party": "D",
+      "sponsor_state": "NY",
+      "url": "https://api.congress.gov/v3/bill/119/s/5393?format=json"
+    },
+    {
+      "id": "S.5386",
+      "title": "Don’t STEAL Act",
+      "date": "2026-09-14",
+      "latest_action": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Sen. Gillibrand, Kirsten E. [D-NY]",
+      "sponsor_party": "D",
+      "sponsor_state": "NY",
+      "url": "https://api.congress.gov/v3/bill/119/s/5386?format=json"
+    },
+    {
+      "id": "HR.5048",
+      "title": "Don’t STEAL Act",
+      "date": "2025-08-26",
+      "latest_action": "Referred to the House Committee on Education and Workforce.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Magaziner, Seth [D-RI-2]",
+      "sponsor_party": "D",
+      "sponsor_state": "RI",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5048?format=json"
+    },
+    {
       "id": "HR.9846",
       "title": "Childhood Disability Benefits Fairness Act",
       "date": "2026-07-22",
@@ -26,16 +86,28 @@
       "url": "https://api.congress.gov/v3/bill/119/s/5441?format=json"
     },
     {
-      "id": "HR.10775",
-      "title": "To direct the Chairman of the Federal Trade Commission to establish a task force for the purpose of studying the effects of automated accounts on social media, public discourse, and elections.",
+      "id": "HR.10781",
+      "title": "To amend title 36, United States Code, to request the President to designate a month each year as National American History and Founders Month.",
       "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Energy and Commerce.",
+      "latest_action": "Referred to the House Committee on the Judiciary.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. DeSaulnier, Mark [D-CA-10]",
-      "sponsor_party": "D",
-      "sponsor_state": "CA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10775?format=json"
+      "sponsor": "Rep. Haridopolos, Mike [R-FL-8]",
+      "sponsor_party": "R",
+      "sponsor_state": "FL",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10781?format=json"
+    },
+    {
+      "id": "HR.10773",
+      "title": "To amend the Internal Revenue Code of 1986 to prevent governmental interference in the operation of private and religious schools.",
+      "date": "2026-10-09",
+      "latest_action": "Referred to the House Committee on Ways and Means.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Crank, Jeff [R-CO-5]",
+      "sponsor_party": "R",
+      "sponsor_state": "CO",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10773?format=json"
     },
     {
       "id": "HR.10793",
@@ -50,16 +122,52 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/10793?format=json"
     },
     {
-      "id": "HR.10785",
-      "title": "To amend the Small Business Act to reauthorize the SCORE program, and for other purposes.",
+      "id": "HR.10777",
+      "title": "To codify certain policies to combat transnational cyber-enabled crime, and for other purposes.",
       "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Small Business.",
+      "latest_action": "Referred to the Committee on the Judiciary, and in addition to the Committees on Homeland Security, and Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Mejia, Analilia [D-NJ-11]",
+      "sponsor": "Rep. Fallon, Pat [R-TX-4]",
+      "sponsor_party": "R",
+      "sponsor_state": "TX",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10777?format=json"
+    },
+    {
+      "id": "HR.10768",
+      "title": "To establish the Office of Artificial Intelligence and Emerging Technology Threats within the Executive Office of the President, and for other purposes.",
+      "date": "2026-10-09",
+      "latest_action": "Referred to the House Committee on Energy and Commerce.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Barrett, Tom [R-MI-7]",
+      "sponsor_party": "R",
+      "sponsor_state": "MI",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10768?format=json"
+    },
+    {
+      "id": "HR.10786",
+      "title": "To amend the Higher Education Act of 1965 to require certain institutions to require students who are United States citizens to pass the United States naturalization test in order to graduate, and for other purposes.",
+      "date": "2026-10-09",
+      "latest_action": "Referred to the House Committee on Education and Workforce.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Miller, Max L. [R-OH-7]",
+      "sponsor_party": "R",
+      "sponsor_state": "OH",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10786?format=json"
+    },
+    {
+      "id": "HR.10771",
+      "title": "To establish an emergency preparedness grant program for higher education institutions, and for other purposes.",
+      "date": "2026-10-09",
+      "latest_action": "Referred to the House Committee on Transportation and Infrastructure.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Carter, Troy A. [D-LA-2]",
       "sponsor_party": "D",
-      "sponsor_state": "NJ",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10785?format=json"
+      "sponsor_state": "LA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10771?format=json"
     },
     {
       "id": "HR.10791",
@@ -72,30 +180,6 @@
       "sponsor_party": "R",
       "sponsor_state": "OH",
       "url": "https://api.congress.gov/v3/bill/119/hr/10791?format=json"
-    },
-    {
-      "id": "HR.10789",
-      "title": "To establish a moratorium on oil and gas production and exploration activities in the Eglin Gulf Test and Training Range, and for other purposes.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Natural Resources.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Patronis, Jimmy [R-FL-1]",
-      "sponsor_party": "R",
-      "sponsor_state": "FL",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10789?format=json"
-    },
-    {
-      "id": "HR.10777",
-      "title": "To codify certain policies to combat transnational cyber-enabled crime, and for other purposes.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the Committee on the Judiciary, and in addition to the Committees on Homeland Security, and Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Fallon, Pat [R-TX-4]",
-      "sponsor_party": "R",
-      "sponsor_state": "TX",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10777?format=json"
     },
     {
       "id": "HR.10783",
@@ -122,52 +206,52 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/10794?format=json"
     },
     {
-      "id": "HR.10773",
-      "title": "To amend the Internal Revenue Code of 1986 to prevent governmental interference in the operation of private and religious schools.",
+      "id": "HR.10774",
+      "title": "To amend the Marine Mammal Protection Act of 1972 and the Animal Welfare Act to prohibit the taking, importation, exportation, and breeding of certain cetaceans for public display, and for other purposes.",
       "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Ways and Means.",
+      "latest_action": "Referred to the Committee on Natural Resources, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Crank, Jeff [R-CO-5]",
-      "sponsor_party": "R",
-      "sponsor_state": "CO",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10773?format=json"
-    },
-    {
-      "id": "HR.10780",
-      "title": "To modify and enhance the Federal budgeting and appropriations process, and for other purposes.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the Committee on Rules, and in addition to the Committees on the Budget, House Administration, Appropriations, and Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Golden, Jared F. [D-ME-2]",
+      "sponsor": "Rep. DelBene, Suzan K. [D-WA-1]",
       "sponsor_party": "D",
-      "sponsor_state": "ME",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10780?format=json"
+      "sponsor_state": "WA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10774?format=json"
     },
     {
-      "id": "HR.10781",
-      "title": "To amend title 36, United States Code, to request the President to designate a month each year as National American History and Founders Month.",
+      "id": "HR.10785",
+      "title": "To amend the Small Business Act to reauthorize the SCORE program, and for other purposes.",
       "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on the Judiciary.",
+      "latest_action": "Referred to the House Committee on Small Business.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Haridopolos, Mike [R-FL-8]",
+      "sponsor": "Rep. Mejia, Analilia [D-NJ-11]",
+      "sponsor_party": "D",
+      "sponsor_state": "NJ",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10785?format=json"
+    },
+    {
+      "id": "HR.10792",
+      "title": "To provide incentives for and protect whistleblowers under the authority of the Federal Trade Commission, and for other purposes.",
+      "date": "2026-10-09",
+      "latest_action": "Referred to the Committee on Education and Workforce, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Schakowsky, Janice D. [D-IL-9]",
+      "sponsor_party": "D",
+      "sponsor_state": "IL",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10792?format=json"
+    },
+    {
+      "id": "HR.10789",
+      "title": "To establish a moratorium on oil and gas production and exploration activities in the Eglin Gulf Test and Training Range, and for other purposes.",
+      "date": "2026-10-09",
+      "latest_action": "Referred to the House Committee on Natural Resources.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Patronis, Jimmy [R-FL-1]",
       "sponsor_party": "R",
       "sponsor_state": "FL",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10781?format=json"
-    },
-    {
-      "id": "HR.10768",
-      "title": "To establish the Office of Artificial Intelligence and Emerging Technology Threats within the Executive Office of the President, and for other purposes.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Energy and Commerce.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Barrett, Tom [R-MI-7]",
-      "sponsor_party": "R",
-      "sponsor_state": "MI",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10768?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/hr/10789?format=json"
     },
     {
       "id": "HR.10788",
@@ -194,6 +278,18 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/10784?format=json"
     },
     {
+      "id": "HR.10780",
+      "title": "To modify and enhance the Federal budgeting and appropriations process, and for other purposes.",
+      "date": "2026-10-09",
+      "latest_action": "Referred to the Committee on Rules, and in addition to the Committees on the Budget, House Administration, Appropriations, and Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Golden, Jared F. [D-ME-2]",
+      "sponsor_party": "D",
+      "sponsor_state": "ME",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10780?format=json"
+    },
+    {
       "id": "HR.10772",
       "title": "To evaluate and invest in Ukrainian defense technologies.",
       "date": "2026-10-09",
@@ -204,54 +300,6 @@
       "sponsor_party": "D",
       "sponsor_state": "CA",
       "url": "https://api.congress.gov/v3/bill/119/hr/10772?format=json"
-    },
-    {
-      "id": "HR.10774",
-      "title": "To amend the Marine Mammal Protection Act of 1972 and the Animal Welfare Act to prohibit the taking, importation, exportation, and breeding of certain cetaceans for public display, and for other purposes.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the Committee on Natural Resources, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. DelBene, Suzan K. [D-WA-1]",
-      "sponsor_party": "D",
-      "sponsor_state": "WA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10774?format=json"
-    },
-    {
-      "id": "HR.10771",
-      "title": "To establish an emergency preparedness grant program for higher education institutions, and for other purposes.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Transportation and Infrastructure.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Carter, Troy A. [D-LA-2]",
-      "sponsor_party": "D",
-      "sponsor_state": "LA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10771?format=json"
-    },
-    {
-      "id": "HR.10792",
-      "title": "To provide incentives for and protect whistleblowers under the authority of the Federal Trade Commission, and for other purposes.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the Committee on Education and Workforce, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Schakowsky, Janice D. [D-IL-9]",
-      "sponsor_party": "D",
-      "sponsor_state": "IL",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10792?format=json"
-    },
-    {
-      "id": "HR.10786",
-      "title": "To amend the Higher Education Act of 1965 to require certain institutions to require students who are United States citizens to pass the United States naturalization test in order to graduate, and for other purposes.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Education and Workforce.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Miller, Max L. [R-OH-7]",
-      "sponsor_party": "R",
-      "sponsor_state": "OH",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10786?format=json"
     },
     {
       "id": "HR.10778",
@@ -266,6 +314,18 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/10778?format=json"
     },
     {
+      "id": "HR.10775",
+      "title": "To direct the Chairman of the Federal Trade Commission to establish a task force for the purpose of studying the effects of automated accounts on social media, public discourse, and elections.",
+      "date": "2026-10-09",
+      "latest_action": "Referred to the House Committee on Energy and Commerce.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. DeSaulnier, Mark [D-CA-10]",
+      "sponsor_party": "D",
+      "sponsor_state": "CA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10775?format=json"
+    },
+    {
       "id": "HR.10769",
       "title": "To accommodate certain facilities within the right-of-way on any Federal-aid highway.",
       "date": "2026-10-09",
@@ -276,66 +336,6 @@
       "sponsor_party": "D",
       "sponsor_state": "GA",
       "url": "https://api.congress.gov/v3/bill/119/hr/10769?format=json"
-    },
-    {
-      "id": "HR.10770",
-      "title": "To amend title III of the Public Health Service Act to temporarily limit the use of rebates under the 340B Program.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Energy and Commerce.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Bresnahan, Robert P. [R-PA-8]",
-      "sponsor_party": "R",
-      "sponsor_state": "PA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10770?format=json"
-    },
-    {
-      "id": "HR.10790",
-      "title": "To amend the Clean Air Act to require that at least one member of the Chemical Safety and Hazard Investigation Board has demonstrated knowledge and substantial experience in the trades or industrial labor, and for other purposes.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Energy and Commerce.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Perez, Marie Gluesenkamp [D-WA-3]",
-      "sponsor_party": "D",
-      "sponsor_state": "WA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10790?format=json"
-    },
-    {
-      "id": "HR.10782",
-      "title": "To reauthorize the Clean School Bus Program.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Energy and Commerce.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Hayes, Jahana [D-CT-5]",
-      "sponsor_party": "D",
-      "sponsor_state": "CT",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10782?format=json"
-    },
-    {
-      "id": "HR.10776",
-      "title": "To amend the Marine Mammal Protection Act of 1972 to change certain requirements regarding certain allowed take of marine mammals, and for other purposes.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Natural Resources.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Ezell, Mike [R-MS-4]",
-      "sponsor_party": "R",
-      "sponsor_state": "MS",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10776?format=json"
-    },
-    {
-      "id": "HR.10787",
-      "title": "To amend title XVIII of the Social Security Act to exclude urological and ostomy supplies from competitive acquisition programs under the Medicare program for 5 years, and for other purposes.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Murphy, Gregory F. [R-NC-3]",
-      "sponsor_party": "R",
-      "sponsor_state": "NC",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10787?format=json"
     },
     {
       "id": "HR.10779",
@@ -350,16 +350,76 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/10779?format=json"
     },
     {
-      "id": "HRES.1621",
-      "title": "Expressing profound sorrow over the death of Alexander Michel Odeh.",
+      "id": "HR.10776",
+      "title": "To amend the Marine Mammal Protection Act of 1972 to change certain requirements regarding certain allowed take of marine mammals, and for other purposes.",
       "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
+      "latest_action": "Referred to the House Committee on Natural Resources.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Correa, J. Luis [D-CA-46]",
+      "sponsor": "Rep. Ezell, Mike [R-MS-4]",
+      "sponsor_party": "R",
+      "sponsor_state": "MS",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10776?format=json"
+    },
+    {
+      "id": "S.5653",
+      "title": "Bipartisan American Affordability and Jobs Act of 2026",
+      "date": "2026-09-30",
+      "latest_action": "Read twice and referred to the Committee on Energy and Natural Resources.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Sen. Capito, Shelley Moore [R-WV]",
+      "sponsor_party": "R",
+      "sponsor_state": "WV",
+      "url": "https://api.congress.gov/v3/bill/119/s/5653?format=json"
+    },
+    {
+      "id": "S.5394",
+      "title": "Hands Off Our Great Lakes Act",
+      "date": "2026-09-14",
+      "latest_action": "Read twice and referred to the Committee on Environment and Public Works.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Sen. Gillibrand, Kirsten E. [D-NY]",
       "sponsor_party": "D",
-      "sponsor_state": "CA",
-      "url": "https://api.congress.gov/v3/bill/119/hres/1621?format=json"
+      "sponsor_state": "NY",
+      "url": "https://api.congress.gov/v3/bill/119/s/5394?format=json"
+    },
+    {
+      "id": "S.5393",
+      "title": "FABRIC Act",
+      "date": "2026-09-14",
+      "latest_action": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Sen. Gillibrand, Kirsten E. [D-NY]",
+      "sponsor_party": "D",
+      "sponsor_state": "NY",
+      "url": "https://api.congress.gov/v3/bill/119/s/5393?format=json"
+    },
+    {
+      "id": "S.5386",
+      "title": "Don’t STEAL Act",
+      "date": "2026-09-14",
+      "latest_action": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Sen. Gillibrand, Kirsten E. [D-NY]",
+      "sponsor_party": "D",
+      "sponsor_state": "NY",
+      "url": "https://api.congress.gov/v3/bill/119/s/5386?format=json"
+    },
+    {
+      "id": "HR.5048",
+      "title": "Don’t STEAL Act",
+      "date": "2025-08-26",
+      "latest_action": "Referred to the House Committee on Education and Workforce.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Magaziner, Seth [D-RI-2]",
+      "sponsor_party": "D",
+      "sponsor_state": "RI",
+      "url": "https://api.congress.gov/v3/bill/119/hr/5048?format=json"
     },
     {
       "id": "HR.9846",
@@ -386,16 +446,28 @@
       "url": "https://api.congress.gov/v3/bill/119/s/5441?format=json"
     },
     {
-      "id": "HR.10775",
-      "title": "To direct the Chairman of the Federal Trade Commission to establish a task force for the purpose of studying the effects of automated accounts on social media, public discourse, and elections.",
+      "id": "HR.10781",
+      "title": "To amend title 36, United States Code, to request the President to designate a month each year as National American History and Founders Month.",
       "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Energy and Commerce.",
+      "latest_action": "Referred to the House Committee on the Judiciary.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. DeSaulnier, Mark [D-CA-10]",
-      "sponsor_party": "D",
-      "sponsor_state": "CA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10775?format=json"
+      "sponsor": "Rep. Haridopolos, Mike [R-FL-8]",
+      "sponsor_party": "R",
+      "sponsor_state": "FL",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10781?format=json"
+    },
+    {
+      "id": "HR.10773",
+      "title": "To amend the Internal Revenue Code of 1986 to prevent governmental interference in the operation of private and religious schools.",
+      "date": "2026-10-09",
+      "latest_action": "Referred to the House Committee on Ways and Means.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Crank, Jeff [R-CO-5]",
+      "sponsor_party": "R",
+      "sponsor_state": "CO",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10773?format=json"
     },
     {
       "id": "HR.10793",
@@ -410,16 +482,52 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/10793?format=json"
     },
     {
-      "id": "HR.10785",
-      "title": "To amend the Small Business Act to reauthorize the SCORE program, and for other purposes.",
+      "id": "HR.10777",
+      "title": "To codify certain policies to combat transnational cyber-enabled crime, and for other purposes.",
       "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Small Business.",
+      "latest_action": "Referred to the Committee on the Judiciary, and in addition to the Committees on Homeland Security, and Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Mejia, Analilia [D-NJ-11]",
+      "sponsor": "Rep. Fallon, Pat [R-TX-4]",
+      "sponsor_party": "R",
+      "sponsor_state": "TX",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10777?format=json"
+    },
+    {
+      "id": "HR.10768",
+      "title": "To establish the Office of Artificial Intelligence and Emerging Technology Threats within the Executive Office of the President, and for other purposes.",
+      "date": "2026-10-09",
+      "latest_action": "Referred to the House Committee on Energy and Commerce.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Barrett, Tom [R-MI-7]",
+      "sponsor_party": "R",
+      "sponsor_state": "MI",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10768?format=json"
+    },
+    {
+      "id": "HR.10786",
+      "title": "To amend the Higher Education Act of 1965 to require certain institutions to require students who are United States citizens to pass the United States naturalization test in order to graduate, and for other purposes.",
+      "date": "2026-10-09",
+      "latest_action": "Referred to the House Committee on Education and Workforce.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Miller, Max L. [R-OH-7]",
+      "sponsor_party": "R",
+      "sponsor_state": "OH",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10786?format=json"
+    },
+    {
+      "id": "HR.10771",
+      "title": "To establish an emergency preparedness grant program for higher education institutions, and for other purposes.",
+      "date": "2026-10-09",
+      "latest_action": "Referred to the House Committee on Transportation and Infrastructure.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Carter, Troy A. [D-LA-2]",
       "sponsor_party": "D",
-      "sponsor_state": "NJ",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10785?format=json"
+      "sponsor_state": "LA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10771?format=json"
     },
     {
       "id": "HR.10791",
@@ -432,30 +540,6 @@
       "sponsor_party": "R",
       "sponsor_state": "OH",
       "url": "https://api.congress.gov/v3/bill/119/hr/10791?format=json"
-    },
-    {
-      "id": "HR.10789",
-      "title": "To establish a moratorium on oil and gas production and exploration activities in the Eglin Gulf Test and Training Range, and for other purposes.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Natural Resources.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Patronis, Jimmy [R-FL-1]",
-      "sponsor_party": "R",
-      "sponsor_state": "FL",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10789?format=json"
-    },
-    {
-      "id": "HR.10777",
-      "title": "To codify certain policies to combat transnational cyber-enabled crime, and for other purposes.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the Committee on the Judiciary, and in addition to the Committees on Homeland Security, and Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Fallon, Pat [R-TX-4]",
-      "sponsor_party": "R",
-      "sponsor_state": "TX",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10777?format=json"
     },
     {
       "id": "HR.10783",
@@ -482,52 +566,52 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/10794?format=json"
     },
     {
-      "id": "HR.10773",
-      "title": "To amend the Internal Revenue Code of 1986 to prevent governmental interference in the operation of private and religious schools.",
+      "id": "HR.10774",
+      "title": "To amend the Marine Mammal Protection Act of 1972 and the Animal Welfare Act to prohibit the taking, importation, exportation, and breeding of certain cetaceans for public display, and for other purposes.",
       "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Ways and Means.",
+      "latest_action": "Referred to the Committee on Natural Resources, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Crank, Jeff [R-CO-5]",
-      "sponsor_party": "R",
-      "sponsor_state": "CO",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10773?format=json"
-    },
-    {
-      "id": "HR.10780",
-      "title": "To modify and enhance the Federal budgeting and appropriations process, and for other purposes.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the Committee on Rules, and in addition to the Committees on the Budget, House Administration, Appropriations, and Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Golden, Jared F. [D-ME-2]",
+      "sponsor": "Rep. DelBene, Suzan K. [D-WA-1]",
       "sponsor_party": "D",
-      "sponsor_state": "ME",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10780?format=json"
+      "sponsor_state": "WA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10774?format=json"
     },
     {
-      "id": "HR.10781",
-      "title": "To amend title 36, United States Code, to request the President to designate a month each year as National American History and Founders Month.",
+      "id": "HR.10785",
+      "title": "To amend the Small Business Act to reauthorize the SCORE program, and for other purposes.",
       "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on the Judiciary.",
+      "latest_action": "Referred to the House Committee on Small Business.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Haridopolos, Mike [R-FL-8]",
+      "sponsor": "Rep. Mejia, Analilia [D-NJ-11]",
+      "sponsor_party": "D",
+      "sponsor_state": "NJ",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10785?format=json"
+    },
+    {
+      "id": "HR.10792",
+      "title": "To provide incentives for and protect whistleblowers under the authority of the Federal Trade Commission, and for other purposes.",
+      "date": "2026-10-09",
+      "latest_action": "Referred to the Committee on Education and Workforce, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Schakowsky, Janice D. [D-IL-9]",
+      "sponsor_party": "D",
+      "sponsor_state": "IL",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10792?format=json"
+    },
+    {
+      "id": "HR.10789",
+      "title": "To establish a moratorium on oil and gas production and exploration activities in the Eglin Gulf Test and Training Range, and for other purposes.",
+      "date": "2026-10-09",
+      "latest_action": "Referred to the House Committee on Natural Resources.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Patronis, Jimmy [R-FL-1]",
       "sponsor_party": "R",
       "sponsor_state": "FL",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10781?format=json"
-    },
-    {
-      "id": "HR.10768",
-      "title": "To establish the Office of Artificial Intelligence and Emerging Technology Threats within the Executive Office of the President, and for other purposes.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Energy and Commerce.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Barrett, Tom [R-MI-7]",
-      "sponsor_party": "R",
-      "sponsor_state": "MI",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10768?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/hr/10789?format=json"
     },
     {
       "id": "HR.10788",
@@ -554,6 +638,18 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/10784?format=json"
     },
     {
+      "id": "HR.10780",
+      "title": "To modify and enhance the Federal budgeting and appropriations process, and for other purposes.",
+      "date": "2026-10-09",
+      "latest_action": "Referred to the Committee on Rules, and in addition to the Committees on the Budget, House Administration, Appropriations, and Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Golden, Jared F. [D-ME-2]",
+      "sponsor_party": "D",
+      "sponsor_state": "ME",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10780?format=json"
+    },
+    {
       "id": "HR.10772",
       "title": "To evaluate and invest in Ukrainian defense technologies.",
       "date": "2026-10-09",
@@ -564,54 +660,6 @@
       "sponsor_party": "D",
       "sponsor_state": "CA",
       "url": "https://api.congress.gov/v3/bill/119/hr/10772?format=json"
-    },
-    {
-      "id": "HR.10774",
-      "title": "To amend the Marine Mammal Protection Act of 1972 and the Animal Welfare Act to prohibit the taking, importation, exportation, and breeding of certain cetaceans for public display, and for other purposes.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the Committee on Natural Resources, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. DelBene, Suzan K. [D-WA-1]",
-      "sponsor_party": "D",
-      "sponsor_state": "WA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10774?format=json"
-    },
-    {
-      "id": "HR.10771",
-      "title": "To establish an emergency preparedness grant program for higher education institutions, and for other purposes.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Transportation and Infrastructure.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Carter, Troy A. [D-LA-2]",
-      "sponsor_party": "D",
-      "sponsor_state": "LA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10771?format=json"
-    },
-    {
-      "id": "HR.10792",
-      "title": "To provide incentives for and protect whistleblowers under the authority of the Federal Trade Commission, and for other purposes.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the Committee on Education and Workforce, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Schakowsky, Janice D. [D-IL-9]",
-      "sponsor_party": "D",
-      "sponsor_state": "IL",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10792?format=json"
-    },
-    {
-      "id": "HR.10786",
-      "title": "To amend the Higher Education Act of 1965 to require certain institutions to require students who are United States citizens to pass the United States naturalization test in order to graduate, and for other purposes.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Education and Workforce.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Miller, Max L. [R-OH-7]",
-      "sponsor_party": "R",
-      "sponsor_state": "OH",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10786?format=json"
     },
     {
       "id": "HR.10778",
@@ -626,6 +674,18 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/10778?format=json"
     },
     {
+      "id": "HR.10775",
+      "title": "To direct the Chairman of the Federal Trade Commission to establish a task force for the purpose of studying the effects of automated accounts on social media, public discourse, and elections.",
+      "date": "2026-10-09",
+      "latest_action": "Referred to the House Committee on Energy and Commerce.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. DeSaulnier, Mark [D-CA-10]",
+      "sponsor_party": "D",
+      "sponsor_state": "CA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10775?format=json"
+    },
+    {
       "id": "HR.10769",
       "title": "To accommodate certain facilities within the right-of-way on any Federal-aid highway.",
       "date": "2026-10-09",
@@ -636,66 +696,6 @@
       "sponsor_party": "D",
       "sponsor_state": "GA",
       "url": "https://api.congress.gov/v3/bill/119/hr/10769?format=json"
-    },
-    {
-      "id": "HR.10770",
-      "title": "To amend title III of the Public Health Service Act to temporarily limit the use of rebates under the 340B Program.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Energy and Commerce.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Bresnahan, Robert P. [R-PA-8]",
-      "sponsor_party": "R",
-      "sponsor_state": "PA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10770?format=json"
-    },
-    {
-      "id": "HR.10790",
-      "title": "To amend the Clean Air Act to require that at least one member of the Chemical Safety and Hazard Investigation Board has demonstrated knowledge and substantial experience in the trades or industrial labor, and for other purposes.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Energy and Commerce.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Perez, Marie Gluesenkamp [D-WA-3]",
-      "sponsor_party": "D",
-      "sponsor_state": "WA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10790?format=json"
-    },
-    {
-      "id": "HR.10782",
-      "title": "To reauthorize the Clean School Bus Program.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Energy and Commerce.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Hayes, Jahana [D-CT-5]",
-      "sponsor_party": "D",
-      "sponsor_state": "CT",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10782?format=json"
-    },
-    {
-      "id": "HR.10776",
-      "title": "To amend the Marine Mammal Protection Act of 1972 to change certain requirements regarding certain allowed take of marine mammals, and for other purposes.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Natural Resources.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Ezell, Mike [R-MS-4]",
-      "sponsor_party": "R",
-      "sponsor_state": "MS",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10776?format=json"
-    },
-    {
-      "id": "HR.10787",
-      "title": "To amend title XVIII of the Social Security Act to exclude urological and ostomy supplies from competitive acquisition programs under the Medicare program for 5 years, and for other purposes.",
-      "date": "2026-10-09",
-      "latest_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Murphy, Gregory F. [R-NC-3]",
-      "sponsor_party": "R",
-      "sponsor_state": "NC",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10787?format=json"
     },
     {
       "id": "HR.10779",
@@ -710,16 +710,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/10779?format=json"
     },
     {
-      "id": "HRES.1621",
-      "title": "Expressing profound sorrow over the death of Alexander Michel Odeh.",
+      "id": "HR.10776",
+      "title": "To amend the Marine Mammal Protection Act of 1972 to change certain requirements regarding certain allowed take of marine mammals, and for other purposes.",
       "date": "2026-10-09",
-      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
+      "latest_action": "Referred to the House Committee on Natural Resources.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Correa, J. Luis [D-CA-46]",
-      "sponsor_party": "D",
-      "sponsor_state": "CA",
-      "url": "https://api.congress.gov/v3/bill/119/hres/1621?format=json"
+      "sponsor": "Rep. Ezell, Mike [R-MS-4]",
+      "sponsor_party": "R",
+      "sponsor_state": "MS",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10776?format=json"
     }
   ]
 }
