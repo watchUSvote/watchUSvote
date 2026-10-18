@@ -1,17 +1,17 @@
 {
-  "fetched_at": "2026-10-17T08:58:32.349265+00:00",
+  "fetched_at": "2026-10-18T09:16:50.364223+00:00",
   "bills": [
     {
-      "id": "HR.10811",
-      "title": "To amend title 49, United States Code, to increase the allowable government share of a project for which a fixed guideway capital investment grant is issued in cases where the grant recipient provides owners of small business concerns with certain protections from project-related transportation interruptions, and for other purposes.",
+      "id": "S.5684",
+      "title": "No Cash for Incompetent and Malicious Contractors Act",
       "date": "2026-10-15",
-      "latest_action": "Referred to the House Committee on Transportation and Infrastructure.",
+      "latest_action": "Under authority of the order of the Senate of September 30, 2026, ordered read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
       "status": "active",
-      "sponsor": "Rep. Blair, Everton [D-GA-13]",
-      "sponsor_party": "D",
-      "sponsor_state": "GA",
+      "sponsor": "Sen. Scott, Rick [R-FL]",
+      "sponsor_party": "R",
+      "sponsor_state": "FL",
       "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10811?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/s/5684?format=json"
     },
     {
       "id": "S.5688",
@@ -24,6 +24,24 @@
       "sponsor_state": "OH",
       "cosponsors": [],
       "url": "https://api.congress.gov/v3/bill/119/s/5688?format=json"
+    },
+    {
+      "id": "S.5686",
+      "title": "No Public Executions in America Act",
+      "date": "2026-10-15",
+      "latest_action": "Under authority of the order of the Senate of September 30, 2026, ordered read twice and referred to the Committee on Armed Services.",
+      "status": "active",
+      "sponsor": "Sen. Kelly, Mark [D-AZ]",
+      "sponsor_party": "D",
+      "sponsor_state": "AZ",
+      "cosponsors": [
+        {
+          "name": "Sen. Coons, Christopher A. [D-DE]",
+          "party": "D",
+          "state": "DE"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/5686?format=json"
     },
     {
       "id": "S.5683",
@@ -44,18 +62,6 @@
       "url": "https://api.congress.gov/v3/bill/119/s/5683?format=json"
     },
     {
-      "id": "S.5684",
-      "title": "No Cash for Incompetent and Malicious Contractors Act",
-      "date": "2026-10-15",
-      "latest_action": "Under authority of the order of the Senate of September 30, 2026, ordered read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
-      "status": "active",
-      "sponsor": "Sen. Scott, Rick [R-FL]",
-      "sponsor_party": "R",
-      "sponsor_state": "FL",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/s/5684?format=json"
-    },
-    {
       "id": "S.5690",
       "title": "Renewing the Dream Act",
       "date": "2026-10-15",
@@ -74,22 +80,16 @@
       "url": "https://api.congress.gov/v3/bill/119/s/5690?format=json"
     },
     {
-      "id": "S.5686",
-      "title": "No Public Executions in America Act",
+      "id": "HR.10811",
+      "title": "To amend title 49, United States Code, to increase the allowable government share of a project for which a fixed guideway capital investment grant is issued in cases where the grant recipient provides owners of small business concerns with certain protections from project-related transportation interruptions, and for other purposes.",
       "date": "2026-10-15",
-      "latest_action": "Under authority of the order of the Senate of September 30, 2026, ordered read twice and referred to the Committee on Armed Services.",
+      "latest_action": "Referred to the House Committee on Transportation and Infrastructure.",
       "status": "active",
-      "sponsor": "Sen. Kelly, Mark [D-AZ]",
+      "sponsor": "Rep. Blair, Everton [D-GA-13]",
       "sponsor_party": "D",
-      "sponsor_state": "AZ",
-      "cosponsors": [
-        {
-          "name": "Sen. Coons, Christopher A. [D-DE]",
-          "party": "D",
-          "state": "DE"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/s/5686?format=json"
+      "sponsor_state": "GA",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hr/10811?format=json"
     },
     {
       "id": "SRES.951",
