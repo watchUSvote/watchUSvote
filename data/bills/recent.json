@@ -1,6 +1,404 @@
 {
-  "fetched_at": "2026-10-24T09:16:19.345212+00:00",
+  "fetched_at": "2026-10-25T09:32:48.826813+00:00",
   "bills": [
+    {
+      "id": "HR.10879",
+      "title": "Workers’ Right to Compete Act",
+      "date": "2026-10-22",
+      "latest_action": "Referred to the House Committee on Energy and Commerce.",
+      "status": "active",
+      "sponsor": "Rep. Khanna, Ro [D-CA-17]",
+      "sponsor_party": "D",
+      "sponsor_state": "CA",
+      "cosponsors": [
+        {
+          "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+          "party": "R",
+          "state": "FL"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/10879?format=json"
+    },
+    {
+      "id": "S.3082",
+      "title": "American Shores Protection Act of 2025",
+      "date": "2026-02-12",
+      "latest_action": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held. With printed Hearing: S.Hrg. 119-305.",
+      "status": "active",
+      "sponsor": "Sen. Moody, Ashley [R-FL]",
+      "sponsor_party": "R",
+      "sponsor_state": "FL",
+      "cosponsors": [
+        {
+          "name": "Sen. Scott, Rick [R-FL]",
+          "party": "R",
+          "state": "FL"
+        },
+        {
+          "name": "Sen. Graham, Lindsey [R-SC]",
+          "party": "R",
+          "state": "SC"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/3082?format=json"
+    },
+    {
+      "id": "S.3695",
+      "title": "Santini-Burton Modernization Act of 2026",
+      "date": "2026-02-12",
+      "latest_action": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held. With printed Hearing: S.Hrg. 119-305.",
+      "status": "active",
+      "sponsor": "Sen. Cortez Masto, Catherine [D-NV]",
+      "sponsor_party": "D",
+      "sponsor_state": "NV",
+      "cosponsors": [
+        {
+          "name": "Sen. Rosen, Jacky [D-NV]",
+          "party": "D",
+          "state": "NV"
+        },
+        {
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Sen. Schiff, Adam B. [D-CA]",
+          "party": "D",
+          "state": "CA"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/3695?format=json"
+    },
+    {
+      "id": "S.3526",
+      "title": "PUBLIC Lands Act",
+      "date": "2026-02-12",
+      "latest_action": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held. With printed Hearing: S.Hrg. 119-305.",
+      "status": "active",
+      "sponsor": "Sen. Padilla, Alex [D-CA]",
+      "sponsor_party": "D",
+      "sponsor_state": "CA",
+      "cosponsors": [
+        {
+          "name": "Sen. Schiff, Adam B. [D-CA]",
+          "party": "D",
+          "state": "CA"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/3526?format=json"
+    },
+    {
+      "id": "S.2968",
+      "title": "Outdoor Americans with Disabilities Act",
+      "date": "2026-02-12",
+      "latest_action": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held. With printed Hearing: S.Hrg. 119-305.",
+      "status": "active",
+      "sponsor": "Sen. Lee, Mike [R-UT]",
+      "sponsor_party": "R",
+      "sponsor_state": "UT",
+      "cosponsors": [
+        {
+          "name": "Sen. Curtis, John R. [R-UT]",
+          "party": "R",
+          "state": "UT"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/2968?format=json"
+    },
+    {
+      "id": "S.3527",
+      "title": "Montana Sportsmen Conservation Act",
+      "date": "2026-03-04",
+      "latest_action": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+      "status": "active",
+      "sponsor": "Sen. Daines, Steve [R-MT]",
+      "sponsor_party": "R",
+      "sponsor_state": "MT",
+      "cosponsors": [
+        {
+          "name": "Sen. Sheehy, Tim [R-MT]",
+          "party": "R",
+          "state": "MT"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/3527?format=json"
+    },
+    {
+      "id": "S.3004",
+      "title": "Upper Price River Watershed Project Act of 2026",
+      "date": "2026-07-23",
+      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 487.",
+      "status": "active",
+      "sponsor": "Sen. Lee, Mike [R-UT]",
+      "sponsor_party": "R",
+      "sponsor_state": "UT",
+      "cosponsors": [
+        {
+          "name": "Sen. Curtis, John R. [R-UT]",
+          "party": "R",
+          "state": "UT"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/3004?format=json"
+    },
+    {
+      "id": "S.3135",
+      "title": "Cold Weather Diesel Reliability Act of 2026",
+      "date": "2026-09-16",
+      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 619.",
+      "status": "active",
+      "sponsor": "Sen. Sullivan, Dan [R-AK]",
+      "sponsor_party": "R",
+      "sponsor_state": "AK",
+      "cosponsors": [
+        {
+          "name": "Sen. Lummis, Cynthia M. [R-WY]",
+          "party": "R",
+          "state": "WY"
+        },
+        {
+          "name": "Sen. Curtis, John R. [R-UT]",
+          "party": "R",
+          "state": "UT"
+        },
+        {
+          "name": "Sen. Murkowski, Lisa [R-AK]",
+          "party": "R",
+          "state": "AK"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/3135?format=json"
+    },
+    {
+      "id": "S.3493",
+      "title": "Carson City Public Land Correction Act",
+      "date": "2026-07-23",
+      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 488.",
+      "status": "active",
+      "sponsor": "Sen. Rosen, Jacky [D-NV]",
+      "sponsor_party": "D",
+      "sponsor_state": "NV",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/s/3493?format=json"
+    },
+    {
+      "id": "S.1546",
+      "title": "Patent Eligibility Restoration Act of 2025",
+      "date": "2025-10-08",
+      "latest_action": "Senate Subcommittee on Intellectual Property. Hearings held. With printed Hearing: S.Hrg. 119-282.",
+      "status": "active",
+      "sponsor": "Sen. Tillis, Thomas [R-NC]",
+      "sponsor_party": "R",
+      "sponsor_state": "NC",
+      "cosponsors": [
+        {
+          "name": "Sen. Coons, Christopher A. [D-DE]",
+          "party": "D",
+          "state": "DE"
+        },
+        {
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN"
+        },
+        {
+          "name": "Sen. Hirono, Mazie K. [D-HI]",
+          "party": "D",
+          "state": "HI"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/1546?format=json"
+    },
+    {
+      "id": "S.2754",
+      "title": "Crystal Reservoir Conveyance Act",
+      "date": "2026-10-05",
+      "latest_action": "Held at the desk.",
+      "status": "active",
+      "sponsor": "Sen. Bennet, Michael F. [D-CO]",
+      "sponsor_party": "D",
+      "sponsor_state": "CO",
+      "cosponsors": [
+        {
+          "name": "Sen. Hickenlooper, John W. [D-CO]",
+          "party": "D",
+          "state": "CO"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/2754?format=json"
+    },
+    {
+      "id": "S.2554",
+      "title": "Unrecognized Southeast Alaska Native Communities Recognition and Compensation Act",
+      "date": "2026-09-17",
+      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 639.",
+      "status": "active",
+      "sponsor": "Sen. Murkowski, Lisa [R-AK]",
+      "sponsor_party": "R",
+      "sponsor_state": "AK",
+      "cosponsors": [
+        {
+          "name": "Sen. Sullivan, Dan [R-AK]",
+          "party": "R",
+          "state": "AK"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/2554?format=json"
+    },
+    {
+      "id": "S.2787",
+      "title": "Grasslands Grazing Act of 2025",
+      "date": "2026-07-23",
+      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 485.",
+      "status": "active",
+      "sponsor": "Sen. Barrasso, John [R-WY]",
+      "sponsor_party": "R",
+      "sponsor_state": "WY",
+      "cosponsors": [
+        {
+          "name": "Sen. Lummis, Cynthia M. [R-WY]",
+          "party": "R",
+          "state": "WY"
+        },
+        {
+          "name": "Sen. Thune, John [R-SD]",
+          "party": "R",
+          "state": "SD"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/2787?format=json"
+    },
+    {
+      "id": "S.2417",
+      "title": "Star-Spangled Summit Act of 2025",
+      "date": "2026-02-12",
+      "latest_action": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held. With printed Hearing: S.Hrg. 119-305.",
+      "status": "active",
+      "sponsor": "Sen. Curtis, John R. [R-UT]",
+      "sponsor_party": "R",
+      "sponsor_state": "UT",
+      "cosponsors": [
+        {
+          "name": "Sen. Lee, Mike [R-UT]",
+          "party": "R",
+          "state": "UT"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/2417?format=json"
+    },
+    {
+      "id": "S.2860",
+      "title": "Revitalizing America’s Offshore Critical Minerals Dominance Act",
+      "date": "2026-02-12",
+      "latest_action": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held. With printed Hearing: S.Hrg. 119-305.",
+      "status": "active",
+      "sponsor": "Sen. Sheehy, Tim [R-MT]",
+      "sponsor_party": "R",
+      "sponsor_state": "MT",
+      "cosponsors": [
+        {
+          "name": "Sen. Cotton, Tom [R-AR]",
+          "party": "R",
+          "state": "AR"
+        },
+        {
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN"
+        },
+        {
+          "name": "Sen. Britt, Katie Boyd [R-AL]",
+          "party": "R",
+          "state": "AL"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/2860?format=json"
+    },
+    {
+      "id": "S.1349",
+      "title": "Ruby Mountains Protection Act",
+      "date": "2026-02-12",
+      "latest_action": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held. With printed Hearing: S.Hrg. 119-305.",
+      "status": "active",
+      "sponsor": "Sen. Cortez Masto, Catherine [D-NV]",
+      "sponsor_party": "D",
+      "sponsor_state": "NV",
+      "cosponsors": [
+        {
+          "name": "Sen. Rosen, Jacky [D-NV]",
+          "party": "D",
+          "state": "NV"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/1349?format=json"
+    },
+    {
+      "id": "S.1981",
+      "title": "Strategic Grazing to Reduce Risk of Wildfire Act",
+      "date": "2026-07-23",
+      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 495.",
+      "status": "active",
+      "sponsor": "Sen. Cortez Masto, Catherine [D-NV]",
+      "sponsor_party": "D",
+      "sponsor_state": "NV",
+      "cosponsors": [
+        {
+          "name": "Sen. Curtis, John R. [R-UT]",
+          "party": "R",
+          "state": "UT"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/1981?format=json"
+    },
+    {
+      "id": "S.1497",
+      "title": "Cerro de la Olla Wilderness Establishment Act",
+      "date": "2026-02-12",
+      "latest_action": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held. With printed Hearing: S.Hrg. 119-305.",
+      "status": "active",
+      "sponsor": "Sen. Heinrich, Martin [D-NM]",
+      "sponsor_party": "D",
+      "sponsor_state": "NM",
+      "cosponsors": [
+        {
+          "name": "Sen. Luján, Ben Ray [D-NM]",
+          "party": "D",
+          "state": "NM"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/1497?format=json"
+    },
+    {
+      "id": "S.462",
+      "title": "Truckee Meadows Public Lands Management Act",
+      "date": "2026-02-12",
+      "latest_action": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held. With printed Hearing: S.Hrg. 119-305.",
+      "status": "active",
+      "sponsor": "Sen. Rosen, Jacky [D-NV]",
+      "sponsor_party": "D",
+      "sponsor_state": "NV",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/s/462?format=json"
+    },
+    {
+      "id": "S.1464",
+      "title": "Buffalo Tract Protection Act",
+      "date": "2026-02-12",
+      "latest_action": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held. With printed Hearing: S.Hrg. 119-305.",
+      "status": "active",
+      "sponsor": "Sen. Heinrich, Martin [D-NM]",
+      "sponsor_party": "D",
+      "sponsor_state": "NM",
+      "cosponsors": [
+        {
+          "name": "Sen. Luján, Ben Ray [D-NM]",
+          "party": "D",
+          "state": "NM"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/1464?format=json"
+    },
     {
       "id": "HR.10882",
       "title": "Veteran Breast Cancer Fairness Act",
@@ -344,59 +742,6 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/10865?format=json"
     },
     {
-      "id": "HR.7941",
-      "title": "Pay TSA Act of 2026",
-      "date": "2026-03-17",
-      "latest_action": "Referred to the Subcommittee on Transportation and Maritime Security.",
-      "status": "active",
-      "sponsor": "Rep. Langworthy, Nicholas A. [R-NY-23]",
-      "sponsor_party": "R",
-      "sponsor_state": "NY",
-      "cosponsors": [
-        {
-          "name": "Rep. Lawler, Michael [R-NY-17]",
-          "party": "R",
-          "state": "NY"
-        },
-        {
-          "name": "Rep. Malliotakis, Nicole [R-NY-11]",
-          "party": "R",
-          "state": "NY"
-        },
-        {
-          "name": "Rep. Houchin, Erin [R-IN-9]",
-          "party": "R",
-          "state": "IN"
-        },
-        {
-          "name": "Rep. Barrett, Tom [R-MI-7]",
-          "party": "R",
-          "state": "MI"
-        },
-        {
-          "name": "Rep. Stefanik, Elise M. [R-NY-21]",
-          "party": "R",
-          "state": "NY"
-        },
-        {
-          "name": "Rep. Nunn, Zachary [R-IA-3]",
-          "party": "R",
-          "state": "IA"
-        },
-        {
-          "name": "Rep. Van Orden, Derrick [R-WI-3]",
-          "party": "R",
-          "state": "WI"
-        },
-        {
-          "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
-          "party": "R",
-          "state": "VA"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/7941?format=json"
-    },
-    {
       "id": "HR.10374",
       "title": "Affordable Premiums for Seniors Act of 2026",
       "date": "2026-09-14",
@@ -448,6 +793,59 @@
         }
       ],
       "url": "https://api.congress.gov/v3/bill/119/hr/10374?format=json"
+    },
+    {
+      "id": "HR.7941",
+      "title": "Pay TSA Act of 2026",
+      "date": "2026-03-17",
+      "latest_action": "Referred to the Subcommittee on Transportation and Maritime Security.",
+      "status": "active",
+      "sponsor": "Rep. Langworthy, Nicholas A. [R-NY-23]",
+      "sponsor_party": "R",
+      "sponsor_state": "NY",
+      "cosponsors": [
+        {
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY"
+        },
+        {
+          "name": "Rep. Malliotakis, Nicole [R-NY-11]",
+          "party": "R",
+          "state": "NY"
+        },
+        {
+          "name": "Rep. Houchin, Erin [R-IN-9]",
+          "party": "R",
+          "state": "IN"
+        },
+        {
+          "name": "Rep. Barrett, Tom [R-MI-7]",
+          "party": "R",
+          "state": "MI"
+        },
+        {
+          "name": "Rep. Stefanik, Elise M. [R-NY-21]",
+          "party": "R",
+          "state": "NY"
+        },
+        {
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA"
+        },
+        {
+          "name": "Rep. Van Orden, Derrick [R-WI-3]",
+          "party": "R",
+          "state": "WI"
+        },
+        {
+          "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
+          "party": "R",
+          "state": "VA"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/7941?format=json"
     },
     {
       "id": "HRES.1634",
@@ -598,382 +996,6 @@
       "url": "https://api.congress.gov/v3/bill/119/s/5684?format=json"
     },
     {
-      "id": "HR.10878",
-      "title": "To establish an independent Truth and Accountability Commission.",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
-      "status": "active",
-      "sponsor": "Rep. Khanna, Ro [D-CA-17]",
-      "sponsor_party": "D",
-      "sponsor_state": "CA",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10878?format=json"
-    },
-    {
-      "id": "HR.10856",
-      "title": "LIHTC Security Act",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the House Committee on Ways and Means.",
-      "status": "active",
-      "sponsor": "Rep. Arrington, Jodey C. [R-TX-19]",
-      "sponsor_party": "R",
-      "sponsor_state": "TX",
-      "cosponsors": [
-        {
-          "name": "Rep. Van Duyne, Beth [R-TX-24]",
-          "party": "R",
-          "state": "TX"
-        },
-        {
-          "name": "Rep. Steube, W. Gregory [R-FL-17]",
-          "party": "R",
-          "state": "FL"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10856?format=json"
-    },
-    {
-      "id": "HR.10857",
-      "title": "To amend the Federal Food, Drug, and Cosmetic Act and Public Health Service Act to advance the next-generation of clinical development of novel treatments and cures, and for other purposes.",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "active",
-      "sponsor": "Rep. Auchincloss, Jake [D-MA-4]",
-      "sponsor_party": "D",
-      "sponsor_state": "MA",
-      "cosponsors": [
-        {
-          "name": "Rep. Griffith, H. Morgan [R-VA-9]",
-          "party": "R",
-          "state": "VA"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10857?format=json"
-    },
-    {
-      "id": "HR.10880",
-      "title": "To establish a pilot program for voluntary federal change of address notification service operated by the Administrator of General Services, and for other purposes.",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the Committee on Oversight and Government Reform, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "active",
-      "sponsor": "Rep. Kim, Young [R-CA-40]",
-      "sponsor_party": "R",
-      "sponsor_state": "CA",
-      "cosponsors": [
-        {
-          "name": "Rep. Subramanyam, Suhas [D-VA-10]",
-          "party": "D",
-          "state": "VA"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10880?format=json"
-    },
-    {
-      "id": "HR.10900",
-      "title": "To require States and units of local government that receive funds under the Byrne grant program or the COPS grant program to submit a report to the Attorney General related to the use of automated license plate readers by State and local law enforcement officers, and for other purposes.",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the House Committee on the Judiciary.",
-      "status": "active",
-      "sponsor": "Unknown",
-      "sponsor_party": "?",
-      "sponsor_state": "?",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10900?format=json"
-    },
-    {
-      "id": "HR.10888",
-      "title": "To direct the Administrator of the National Oceanic and Atmospheric Administration to carry out a National Centers for Coastal Ocean Science program, and for other purposes.",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the House Committee on Natural Resources.",
-      "status": "active",
-      "sponsor": "Rep. Magaziner, Seth [D-RI-2]",
-      "sponsor_party": "D",
-      "sponsor_state": "RI",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10888?format=json"
-    },
-    {
-      "id": "HR.10907",
-      "title": "To prohibit interference in elections for Federal office, and for other purposes.",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the Committee on the Judiciary, and in addition to the Committee on House Administration, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "active",
-      "sponsor": "Rep. Whitesides, George [D-CA-27]",
-      "sponsor_party": "D",
-      "sponsor_state": "CA",
-      "cosponsors": [
-        {
-          "name": "Rep. Lofgren, Zoe [D-CA-18]",
-          "party": "D",
-          "state": "CA"
-        },
-        {
-          "name": "Rep. Pelosi, Nancy [D-CA-11]",
-          "party": "D",
-          "state": "CA"
-        },
-        {
-          "name": "Rep. Waters, Maxine [D-CA-43]",
-          "party": "D",
-          "state": "CA"
-        },
-        {
-          "name": "Rep. Sherman, Brad [D-CA-32]",
-          "party": "D",
-          "state": "CA"
-        },
-        {
-          "name": "Rep. Matsui, Doris O. [D-CA-7]",
-          "party": "D",
-          "state": "CA"
-        },
-        {
-          "name": "Rep. Garamendi, John [D-CA-8]",
-          "party": "D",
-          "state": "CA"
-        },
-        {
-          "name": "Rep. Brownley, Julia [D-CA-26]",
-          "party": "D",
-          "state": "CA"
-        },
-        {
-          "name": "Rep. DeSaulnier, Mark [D-CA-10]",
-          "party": "D",
-          "state": "CA"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10907?format=json"
-    },
-    {
-      "id": "HR.10872",
-      "title": "Combatting Auto Robbery at the Source Act of 2026",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the House Committee on the Judiciary.",
-      "status": "active",
-      "sponsor": "Rep. Gottheimer, Josh [D-NJ-5]",
-      "sponsor_party": "D",
-      "sponsor_state": "NJ",
-      "cosponsors": [
-        {
-          "name": "Rep. Malliotakis, Nicole [R-NY-11]",
-          "party": "R",
-          "state": "NY"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10872?format=json"
-    },
-    {
-      "id": "HR.10881",
-      "title": "21st Century Vehicle Choice Act",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the Committee on Ways and Means, and in addition to the Committees on Energy and Commerce, and Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "active",
-      "sponsor": "Rep. Landsman, Greg [D-OH-1]",
-      "sponsor_party": "D",
-      "sponsor_state": "OH",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10881?format=json"
-    },
-    {
-      "id": "HR.10891",
-      "title": "To amend the Internal Revenue Code of 1986 to remove the limitation on deductions for theft losses involving fraud, deceit, or misrepresentation and to allow such deductions without regard to whether the taxpayer itemizes other deductions.",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the House Committee on Ways and Means.",
-      "status": "active",
-      "sponsor": "Rep. Morelle, Joseph D. [D-NY-25]",
-      "sponsor_party": "D",
-      "sponsor_state": "NY",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10891?format=json"
-    },
-    {
-      "id": "HR.10877",
-      "title": "To amend the Internal Revenue Code of 1986 establish a credit against the excise tax on beer for brewers that donate spent grain for local agricultural use.",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the House Committee on Ways and Means.",
-      "status": "active",
-      "sponsor": "Rep. Kelly, Mike [R-PA-16]",
-      "sponsor_party": "R",
-      "sponsor_state": "PA",
-      "cosponsors": [
-        {
-          "name": "Rep. Schneider, Bradley Scott [D-IL-10]",
-          "party": "D",
-          "state": "IL"
-        },
-        {
-          "name": "Rep. Thompson, Glenn [R-PA-15]",
-          "party": "R",
-          "state": "PA"
-        },
-        {
-          "name": "Rep. Strickland, Marilyn [D-WA-10]",
-          "party": "D",
-          "state": "WA"
-        },
-        {
-          "name": "Rep. Hurd, Jeff [R-CO-3]",
-          "party": "R",
-          "state": "CO"
-        },
-        {
-          "name": "Rep. Larson, John B. [D-CT-1]",
-          "party": "D",
-          "state": "CT"
-        },
-        {
-          "name": "Rep. Riley, Josh [D-NY-19]",
-          "party": "D",
-          "state": "NY"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10877?format=json"
-    },
-    {
-      "id": "HR.10884",
-      "title": "To provide additional options on certain federal application forms to allow an individual to elect to be an organ donor and for other purposes.",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the Committee on Ways and Means, and in addition to the Committees on Energy and Commerce, Veterans' Affairs, and Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "active",
-      "sponsor": "Rep. Lawler, Michael [R-NY-17]",
-      "sponsor_party": "R",
-      "sponsor_state": "NY",
-      "cosponsors": [
-        {
-          "name": "Rep. Gottheimer, Josh [D-NJ-5]",
-          "party": "D",
-          "state": "NJ"
-        },
-        {
-          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
-          "party": "R",
-          "state": "PA"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10884?format=json"
-    },
-    {
-      "id": "HR.10899",
-      "title": "To amend the Robert T. Stafford Disaster Relief and Emergency Assistance Act to provide for individual and household assistance in the event of a prolonged power outage, and for other purposes.",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the Committee on Transportation and Infrastructure, and in addition to the Committee on Homeland Security, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "active",
-      "sponsor": "Rep. Stevens, Haley M. [D-MI-11]",
-      "sponsor_party": "D",
-      "sponsor_state": "MI",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10899?format=json"
-    },
-    {
-      "id": "HR.10892",
-      "title": "To require manufacturers of household appliances to affix to such appliances a label or tag disclosing estimated performance life, and for other purposes.",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "active",
-      "sponsor": "Rep. Perez, Marie Gluesenkamp [D-WA-3]",
-      "sponsor_party": "D",
-      "sponsor_state": "WA",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10892?format=json"
-    },
-    {
-      "id": "HR.10897",
-      "title": "To enhance passenger and driver safety on transportation network company platforms through enhanced digital verification systems, to implement driver verification protocols to prevent unauthorized drivers from fraudulently using TNC driver accounts, to prevent physical and sexual assault on TNC platforms, and for other purposes.",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the Committee on Transportation and Infrastructure, and in addition to the Committees on Energy and Commerce, and the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "active",
-      "sponsor": "Rep. Smith, Christopher H. [R-NJ-4]",
-      "sponsor_party": "R",
-      "sponsor_state": "NJ",
-      "cosponsors": [
-        {
-          "name": "Rep. Suozzi, Thomas R. [D-NY-3]",
-          "party": "D",
-          "state": "NY"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10897?format=json"
-    },
-    {
-      "id": "HR.10895",
-      "title": "To direct the Secretary of Education to establish a Civic Education and Service Learning Grant Program, and for other purposes.",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the Committee on Education and Workforce, and in addition to the Committee on House Administration, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "active",
-      "sponsor": "Rep. Scanlon, Mary Gay [D-PA-5]",
-      "sponsor_party": "D",
-      "sponsor_state": "PA",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10895?format=json"
-    },
-    {
-      "id": "HR.10886",
-      "title": "To amend title 5, United States Code, to require the Director of the Office of Personnel Management to annually publish a list of dual citizens employed by the Federal Government, and for other purposes.",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
-      "status": "active",
-      "sponsor": "Rep. Mace, Nancy [R-SC-1]",
-      "sponsor_party": "R",
-      "sponsor_state": "SC",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10886?format=json"
-    },
-    {
-      "id": "HR.10906",
-      "title": "To strengthen American wood, and for other purposes.",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the Committee on Ways and Means, and in addition to the Committees on Energy and Commerce, Transportation and Infrastructure, Oversight and Government Reform, Science, Space, and Technology, Agriculture, Financial Services, Armed Services, and Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "active",
-      "sponsor": "Rep. Westerman, Bruce [R-AR-4]",
-      "sponsor_party": "R",
-      "sponsor_state": "AR",
-      "cosponsors": [
-        {
-          "name": "Rep. Perez, Marie Gluesenkamp [D-WA-3]",
-          "party": "D",
-          "state": "WA"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10906?format=json"
-    },
-    {
-      "id": "HR.10904",
-      "title": "To direct the Federal Trade Commission to convene an interagency working group to track and report on market concentration and monopoly activity with respect to certain sectors of the economy, and for other purposes.",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the House Committee on the Judiciary.",
-      "status": "active",
-      "sponsor": "Rep. Vindman, Eugene Simon [D-VA-7]",
-      "sponsor_party": "D",
-      "sponsor_state": "VA",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10904?format=json"
-    },
-    {
-      "id": "HR.10903",
-      "title": "Socorro Vet Center Act",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the House Committee on Veterans' Affairs.",
-      "status": "active",
-      "sponsor": "Rep. Vasquez, Gabe [D-NM-2]",
-      "sponsor_party": "D",
-      "sponsor_state": "NM",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10903?format=json"
-    },
-    {
-      "id": "HR.10863",
-      "title": "Vets and Pets Act",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the House Committee on Veterans' Affairs.",
-      "status": "active",
-      "sponsor": "Rep. Correa, J. Luis [D-CA-46]",
-      "sponsor_party": "D",
-      "sponsor_state": "CA",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10863?format=json"
-    },
-    {
       "id": "HR.10889",
       "title": "To amend the Internal Revenue Code of 1986 to establish the retail motor fuel credit.",
       "date": "2026-10-22",
@@ -1039,16 +1061,129 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/10875?format=json"
     },
     {
-      "id": "HR.10896",
-      "title": "To terminate the diversity immigrant visa program.",
+      "id": "HR.10900",
+      "title": "To require States and units of local government that receive funds under the Byrne grant program or the COPS grant program to submit a report to the Attorney General related to the use of automated license plate readers by State and local law enforcement officers, and for other purposes.",
       "date": "2026-10-22",
       "latest_action": "Referred to the House Committee on the Judiciary.",
       "status": "active",
-      "sponsor": "Rep. Self, Keith [R-TX-3]",
-      "sponsor_party": "R",
-      "sponsor_state": "TX",
+      "sponsor": "Rep. Sykes, Emilia Strong [D-OH-13]",
+      "sponsor_party": "D",
+      "sponsor_state": "OH",
       "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10896?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/hr/10900?format=json"
+    },
+    {
+      "id": "HR.10895",
+      "title": "To direct the Secretary of Education to establish a Civic Education and Service Learning Grant Program, and for other purposes.",
+      "date": "2026-10-22",
+      "latest_action": "Referred to the Committee on Education and Workforce, and in addition to the Committee on House Administration, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "status": "active",
+      "sponsor": "Rep. Scanlon, Mary Gay [D-PA-5]",
+      "sponsor_party": "D",
+      "sponsor_state": "PA",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hr/10895?format=json"
+    },
+    {
+      "id": "HR.10878",
+      "title": "To establish an independent Truth and Accountability Commission.",
+      "date": "2026-10-22",
+      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
+      "status": "active",
+      "sponsor": "Rep. Khanna, Ro [D-CA-17]",
+      "sponsor_party": "D",
+      "sponsor_state": "CA",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hr/10878?format=json"
+    },
+    {
+      "id": "HR.10906",
+      "title": "To strengthen American wood, and for other purposes.",
+      "date": "2026-10-22",
+      "latest_action": "Referred to the Committee on Ways and Means, and in addition to the Committees on Energy and Commerce, Transportation and Infrastructure, Oversight and Government Reform, Science, Space, and Technology, Agriculture, Financial Services, Armed Services, and Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "status": "active",
+      "sponsor": "Rep. Westerman, Bruce [R-AR-4]",
+      "sponsor_party": "R",
+      "sponsor_state": "AR",
+      "cosponsors": [
+        {
+          "name": "Rep. Perez, Marie Gluesenkamp [D-WA-3]",
+          "party": "D",
+          "state": "WA"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/10906?format=json"
+    },
+    {
+      "id": "HR.10907",
+      "title": "To prohibit interference in elections for Federal office, and for other purposes.",
+      "date": "2026-10-22",
+      "latest_action": "Referred to the Committee on the Judiciary, and in addition to the Committee on House Administration, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "status": "active",
+      "sponsor": "Rep. Whitesides, George [D-CA-27]",
+      "sponsor_party": "D",
+      "sponsor_state": "CA",
+      "cosponsors": [
+        {
+          "name": "Rep. Lofgren, Zoe [D-CA-18]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Pelosi, Nancy [D-CA-11]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Waters, Maxine [D-CA-43]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Sherman, Brad [D-CA-32]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Matsui, Doris O. [D-CA-7]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Garamendi, John [D-CA-8]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Brownley, Julia [D-CA-26]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. DeSaulnier, Mark [D-CA-10]",
+          "party": "D",
+          "state": "CA"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/10907?format=json"
+    },
+    {
+      "id": "HR.10857",
+      "title": "To amend the Federal Food, Drug, and Cosmetic Act and Public Health Service Act to advance the next-generation of clinical development of novel treatments and cures, and for other purposes.",
+      "date": "2026-10-22",
+      "latest_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "status": "active",
+      "sponsor": "Rep. Auchincloss, Jake [D-MA-4]",
+      "sponsor_party": "D",
+      "sponsor_state": "MA",
+      "cosponsors": [
+        {
+          "name": "Rep. Griffith, H. Morgan [R-VA-9]",
+          "party": "R",
+          "state": "VA"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/10857?format=json"
     },
     {
       "id": "HR.10869",
@@ -1069,131 +1204,28 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/10869?format=json"
     },
     {
-      "id": "HR.10898",
-      "title": "To direct the President's Pay Agent to establish pay localities for the Orlando metropolitan area and the Tampa metropolitan area.",
+      "id": "HR.10903",
+      "title": "Socorro Vet Center Act",
       "date": "2026-10-22",
-      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
+      "latest_action": "Referred to the House Committee on Veterans' Affairs.",
       "status": "active",
-      "sponsor": "Rep. Soto, Darren [D-FL-9]",
+      "sponsor": "Rep. Vasquez, Gabe [D-NM-2]",
       "sponsor_party": "D",
-      "sponsor_state": "FL",
-      "cosponsors": [
-        {
-          "name": "Rep. Castor, Kathy [D-FL-14]",
-          "party": "D",
-          "state": "FL"
-        },
-        {
-          "name": "Rep. Bilirakis, Gus M. [R-FL-12]",
-          "party": "R",
-          "state": "FL"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10898?format=json"
-    },
-    {
-      "id": "HR.10885",
-      "title": "To ensure delivery service providers have partnership agreements with the restaurants for which the providers deliver, and for other purposes.",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the House Committee on Energy and Commerce.",
-      "status": "active",
-      "sponsor": "Rep. Lee, Susie [D-NV-3]",
-      "sponsor_party": "D",
-      "sponsor_state": "NV",
-      "cosponsors": [
-        {
-          "name": "Rep. McGuire, John J. [R-VA-5]",
-          "party": "R",
-          "state": "VA"
-        },
-        {
-          "name": "Rep. Mannion, John W. [D-NY-22]",
-          "party": "D",
-          "state": "NY"
-        },
-        {
-          "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
-          "party": "R",
-          "state": "VA"
-        },
-        {
-          "name": "Rep. Salinas, Andrea [D-OR-6]",
-          "party": "D",
-          "state": "OR"
-        },
-        {
-          "name": "Rep. Friedman, Laura [D-CA-30]",
-          "party": "D",
-          "state": "CA"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10885?format=json"
-    },
-    {
-      "id": "HR.10901",
-      "title": "To require the Secretary of Housing and Urban Development to establish a formula grant program to provide grants to States to be used to streamline assistance offered by such States to builders of affordable housing, and for other purposes.",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the House Committee on Financial Services.",
-      "status": "active",
-      "sponsor": "Rep. Torres, Norma J. [D-CA-35]",
-      "sponsor_party": "D",
-      "sponsor_state": "CA",
+      "sponsor_state": "NM",
       "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10901?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/hr/10903?format=json"
     },
     {
-      "id": "HR.10873",
-      "title": "AI Cyber Defense Act",
+      "id": "HR.10899",
+      "title": "To amend the Robert T. Stafford Disaster Relief and Emergency Assistance Act to provide for individual and household assistance in the event of a prolonged power outage, and for other purposes.",
       "date": "2026-10-22",
-      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
+      "latest_action": "Referred to the Committee on Transportation and Infrastructure, and in addition to the Committee on Homeland Security, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
       "status": "active",
-      "sponsor": "Rep. Harrigan, Pat [R-NC-10]",
-      "sponsor_party": "R",
-      "sponsor_state": "NC",
-      "cosponsors": [
-        {
-          "name": "Rep. Whitesides, George [D-CA-27]",
-          "party": "D",
-          "state": "CA"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10873?format=json"
-    },
-    {
-      "id": "HR.10879",
-      "title": "To prohibit noncompete agreements for workers whose annual income falls below specified thresholds, and for other purposes.",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the House Committee on Energy and Commerce.",
-      "status": "active",
-      "sponsor": "Rep. Khanna, Ro [D-CA-17]",
+      "sponsor": "Rep. Stevens, Haley M. [D-MI-11]",
       "sponsor_party": "D",
-      "sponsor_state": "CA",
-      "cosponsors": [
-        {
-          "name": "Rep. Luna, Anna Paulina [R-FL-13]",
-          "party": "R",
-          "state": "FL"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10879?format=json"
-    },
-    {
-      "id": "HR.10855",
-      "title": "To establish an East Coast Bivalve Research Task Force.",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the House Committee on Natural Resources.",
-      "status": "active",
-      "sponsor": "Rep. Amo, Gabe [D-RI-1]",
-      "sponsor_party": "D",
-      "sponsor_state": "RI",
-      "cosponsors": [
-        {
-          "name": "Rep. Garbarino, Andrew R. [R-NY-2]",
-          "party": "R",
-          "state": "NY"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10855?format=json"
+      "sponsor_state": "MI",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hr/10899?format=json"
     }
   ]
 }
