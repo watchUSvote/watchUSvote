@@ -1,6 +1,893 @@
 {
-  "fetched_at": "2026-11-04T12:44:12.045833+00:00",
+  "fetched_at": "2026-11-05T12:54:46.347260+00:00",
   "bills": [
+    {
+      "id": "HR.8660",
+      "title": "VEST Act",
+      "date": "2026-11-02",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 765.",
+      "status": "active",
+      "sponsor": "Rep. Mackenzie, Ryan [R-PA-7]",
+      "sponsor_party": "R",
+      "sponsor_state": "PA",
+      "cosponsors": [
+        {
+          "name": "Rep. Onder, Robert F. [R-MO-3]",
+          "party": "R",
+          "state": "MO"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/8660?format=json"
+    },
+    {
+      "id": "HR.2616",
+      "title": "Stopping Indoctrination and Protecting Kids Act",
+      "date": "2026-05-21",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "status": "active",
+      "sponsor": "Rep. Walberg, Tim [R-MI-5]",
+      "sponsor_party": "R",
+      "sponsor_state": "MI",
+      "cosponsors": [
+        {
+          "name": "Rep. Owens, Burgess [R-UT-4]",
+          "party": "R",
+          "state": "UT"
+        },
+        {
+          "name": "Rep. Miller, Mary E. [R-IL-15]",
+          "party": "R",
+          "state": "IL"
+        },
+        {
+          "name": "Rep. Onder, Robert [R-MO-3]",
+          "party": "R",
+          "state": "MO"
+        },
+        {
+          "name": "Rep. Kiley, Kevin [R-CA-3]",
+          "party": "R",
+          "state": "CA"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/2616?format=json"
+    },
+    {
+      "id": "HR.2617",
+      "title": "Say No to Indoctrination Act",
+      "date": "2026-01-13",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 378.",
+      "status": "active",
+      "sponsor": "Rep. Owens, Burgess [R-UT-4]",
+      "sponsor_party": "R",
+      "sponsor_state": "UT",
+      "cosponsors": [
+        {
+          "name": "Rep. McGuire, John [R-VA-5]",
+          "party": "R",
+          "state": "VA"
+        },
+        {
+          "name": "Rep. Yakym, Rudy [R-IN-2]",
+          "party": "R",
+          "state": "IN"
+        },
+        {
+          "name": "Rep. Steube, W. Gregory [R-FL-17]",
+          "party": "R",
+          "state": "FL"
+        },
+        {
+          "name": "Rep. Finstad, Brad [R-MN-1]",
+          "party": "R",
+          "state": "MN"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/2617?format=json"
+    },
+    {
+      "id": "HR.7254",
+      "title": "To amend the National Trails System Act to direct the Secretary of the Interior to conduct a study on the feasibility of designating the Bay Area Ridge National Scenic Trail, and for other purposes.",
+      "date": "2026-10-29",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 752.",
+      "status": "active",
+      "sponsor": "Rep. Huffman, Jared [D-CA-2]",
+      "sponsor_party": "D",
+      "sponsor_state": "CA",
+      "cosponsors": [
+        {
+          "name": "Rep. Lofgren, Zoe [D-CA-18]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Pelosi, Nancy [D-CA-11]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Garamendi, John [D-CA-8]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Thompson, Mike [D-CA-4]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Mullin, Kevin [D-CA-15]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Khanna, Ro [D-CA-17]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Simon, Lateefah [D-CA-12]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Liccardo, Sam T. [D-CA-16]",
+          "party": "D",
+          "state": "CA"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/7254?format=json"
+    },
+    {
+      "id": "HR.9381",
+      "title": "AWARE Act",
+      "date": "2026-06-25",
+      "latest_action": "Ordered to be Reported (Amended) by the Yeas and Nays: 19 - 14.",
+      "status": "active",
+      "sponsor": "Rep. Walberg, Tim [R-MI-5]",
+      "sponsor_party": "R",
+      "sponsor_state": "MI",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hr/9381?format=json"
+    },
+    {
+      "id": "HRES.237",
+      "title": "Of inquiry requesting the President and directing the Secretary of Education to transmit, respectively, certain documents to the House of Representatives relating to the reduction in force and other downsizing measures at the Department of Education.",
+      "date": "2025-04-29",
+      "latest_action": "Placed on the House Calendar, Calendar No. 25.",
+      "status": "active",
+      "sponsor": "Rep. Scott, Robert C. \"Bobby\" [D-VA-3]",
+      "sponsor_party": "D",
+      "sponsor_state": "VA",
+      "cosponsors": [
+        {
+          "name": "Rep. Courtney, Joe [D-CT-2]",
+          "party": "D",
+          "state": "CT"
+        },
+        {
+          "name": "Rep. Wilson, Frederica S. [D-FL-24]",
+          "party": "D",
+          "state": "FL"
+        },
+        {
+          "name": "Rep. Bonamici, Suzanne [D-OR-1]",
+          "party": "D",
+          "state": "OR"
+        },
+        {
+          "name": "Rep. Takano, Mark [D-CA-39]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Adams, Alma S. [D-NC-12]",
+          "party": "D",
+          "state": "NC"
+        },
+        {
+          "name": "Rep. DeSaulnier, Mark [D-CA-10]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Norcross, Donald [D-NJ-1]",
+          "party": "D",
+          "state": "NJ"
+        },
+        {
+          "name": "Rep. McBath, Lucy [D-GA-6]",
+          "party": "D",
+          "state": "GA"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hres/237?format=json"
+    },
+    {
+      "id": "HR.2270",
+      "title": "Empowering Employer Child and Elder Care Solutions Act",
+      "date": "2026-01-13",
+      "latest_action": "POSTPONED PROCEEDINGS - Pursuant to clause 1(c) of rule XIX, the Chair announced that further proceedings on H.R. 2270 is postponed.",
+      "status": "active",
+      "sponsor": "Rep. Messmer, Mark [R-IN-8]",
+      "sponsor_party": "R",
+      "sponsor_state": "IN",
+      "cosponsors": [
+        {
+          "name": "Rep. Moolenaar, John R. [R-MI-2]",
+          "party": "R",
+          "state": "MI"
+        },
+        {
+          "name": "Rep. Hinson, Ashley [R-IA-2]",
+          "party": "R",
+          "state": "IA"
+        },
+        {
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Thompson, Glenn [R-PA-15]",
+          "party": "R",
+          "state": "PA"
+        },
+        {
+          "name": "Rep. Stefanik, Elise M. [R-NY-21]",
+          "party": "R",
+          "state": "NY"
+        },
+        {
+          "name": "Rep. Fine, Randy [R-FL-6]",
+          "party": "R",
+          "state": "FL"
+        },
+        {
+          "name": "Rep. Harris, Mark [R-NC-8]",
+          "party": "R",
+          "state": "NC"
+        },
+        {
+          "name": "Rep. Onder, Robert F. [R-MO-3]",
+          "party": "R",
+          "state": "MO"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/2270?format=json"
+    },
+    {
+      "id": "S.3720",
+      "title": "Bay Area Ridge National Scenic Trail Feasibility Study Act",
+      "date": "2026-09-17",
+      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 666.",
+      "status": "active",
+      "sponsor": "Sen. Schiff, Adam B. [D-CA]",
+      "sponsor_party": "D",
+      "sponsor_state": "CA",
+      "cosponsors": [
+        {
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/3720?format=json"
+    },
+    {
+      "id": "HR.2262",
+      "title": "Flexibility for Workers Education Act",
+      "date": "2026-01-13",
+      "latest_action": "Motion to reconsider laid on the table Agreed to without objection.",
+      "status": "active",
+      "sponsor": "Rep. Hinson, Ashley [R-IA-2]",
+      "sponsor_party": "R",
+      "sponsor_state": "IA",
+      "cosponsors": [
+        {
+          "name": "Rep. Letlow, Julia [R-LA-5]",
+          "party": "R",
+          "state": "LA"
+        },
+        {
+          "name": "Rep. Messmer, Mark [R-IN-8]",
+          "party": "R",
+          "state": "IN"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/2262?format=json"
+    },
+    {
+      "id": "HR.10952",
+      "title": "Health Forests Incentives Act of 2026",
+      "date": "2026-11-02",
+      "latest_action": "Referred to the Committee on Agriculture, and in addition to the Committees on Ways and Means, and Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "status": "active",
+      "sponsor": "Rep. Baumgartner, Michael [R-WA-5]",
+      "sponsor_party": "R",
+      "sponsor_state": "WA",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hr/10952?format=json"
+    },
+    {
+      "id": "S.5175",
+      "title": "Fast Tracking European Investment in Ukraine’s Defense Act",
+      "date": "2026-07-30",
+      "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+      "status": "active",
+      "sponsor": "Sen. Kaine, Tim [D-VA]",
+      "sponsor_party": "D",
+      "sponsor_state": "VA",
+      "cosponsors": [
+        {
+          "name": "Sen. Cornyn, John [R-TX]",
+          "party": "R",
+          "state": "TX"
+        },
+        {
+          "name": "Sen. Coons, Christopher A. [D-DE]",
+          "party": "D",
+          "state": "DE"
+        },
+        {
+          "name": "Sen. Armstrong, Alan [R-OK]",
+          "party": "R",
+          "state": "OK"
+        },
+        {
+          "name": "Sen. Kelly, Mark [D-AZ]",
+          "party": "D",
+          "state": "AZ"
+        },
+        {
+          "name": "Sen. Tillis, Thomas [R-NC]",
+          "party": "R",
+          "state": "NC"
+        },
+        {
+          "name": "Sen. Rosen, Jacky [D-NV]",
+          "party": "D",
+          "state": "NV"
+        },
+        {
+          "name": "Sen. Ricketts, Pete [R-NE]",
+          "party": "R",
+          "state": "NE"
+        },
+        {
+          "name": "Sen. Gallego, Ruben [D-AZ]",
+          "party": "D",
+          "state": "AZ"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/5175?format=json"
+    },
+    {
+      "id": "HR.10912",
+      "title": "Fast Tracking European Investment in Ukraine’s Defense Act",
+      "date": "2026-10-26",
+      "latest_action": "Referred to the House Committee on Foreign Affairs.",
+      "status": "active",
+      "sponsor": "Rep. Keating, William R. [D-MA-9]",
+      "sponsor_party": "D",
+      "sponsor_state": "MA",
+      "cosponsors": [
+        {
+          "name": "Rep. Wilson, Joe [R-SC-2]",
+          "party": "R",
+          "state": "SC"
+        },
+        {
+          "name": "Rep. Meeks, Gregory W. [D-NY-5]",
+          "party": "D",
+          "state": "NY"
+        },
+        {
+          "name": "Rep. Bacon, Don [R-NE-2]",
+          "party": "R",
+          "state": "NE"
+        },
+        {
+          "name": "Rep. McBride, Sarah [D-DE-At Large]",
+          "party": "D",
+          "state": "DE"
+        },
+        {
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/10912?format=json"
+    },
+    {
+      "id": "HR.10896",
+      "title": "To terminate the diversity immigrant visa program.",
+      "date": "2026-10-22",
+      "latest_action": "Referred to the House Committee on the Judiciary.",
+      "status": "active",
+      "sponsor": "Rep. Self, Keith [R-TX-3]",
+      "sponsor_party": "R",
+      "sponsor_state": "TX",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hr/10896?format=json"
+    },
+    {
+      "id": "HR.6225",
+      "title": "PAUSE Act of 2025",
+      "date": "2025-11-20",
+      "latest_action": "Referred to the House Committee on the Judiciary.",
+      "status": "active",
+      "sponsor": "Rep. Roy, Chip [R-TX-21]",
+      "sponsor_party": "R",
+      "sponsor_state": "TX",
+      "cosponsors": [
+        {
+          "name": "Rep. Biggs, Andy [R-AZ-5]",
+          "party": "R",
+          "state": "AZ"
+        },
+        {
+          "name": "Rep. Self, Keith [R-TX-3]",
+          "party": "R",
+          "state": "TX"
+        },
+        {
+          "name": "Rep. Ogles, Andrew [R-TN-5]",
+          "party": "R",
+          "state": "TN"
+        },
+        {
+          "name": "Rep. Boebert, Lauren [R-CO-4]",
+          "party": "R",
+          "state": "CO"
+        },
+        {
+          "name": "Rep. Gill, Brandon [R-TX-26]",
+          "party": "R",
+          "state": "TX"
+        },
+        {
+          "name": "Rep. Fine, Randy [R-FL-6]",
+          "party": "R",
+          "state": "FL"
+        },
+        {
+          "name": "Rep. Crane, Elijah [R-AZ-2]",
+          "party": "R",
+          "state": "AZ"
+        },
+        {
+          "name": "Rep. Donalds, Byron [R-FL-19]",
+          "party": "R",
+          "state": "FL"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/6225?format=json"
+    },
+    {
+      "id": "HR.8906",
+      "title": "Ban Chinese Communist and Islamist Home Ownership Act",
+      "date": "2026-05-19",
+      "latest_action": "Referred to the House Committee on Foreign Affairs.",
+      "status": "active",
+      "sponsor": "Rep. Roy, Chip [R-TX-21]",
+      "sponsor_party": "R",
+      "sponsor_state": "TX",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hr/8906?format=json"
+    },
+    {
+      "id": "HR.458",
+      "title": "Protecting our Land Act",
+      "date": "2025-01-15",
+      "latest_action": "Referred to the House Committee on Foreign Affairs.",
+      "status": "active",
+      "sponsor": "Rep. Steube, W. Gregory [R-FL-17]",
+      "sponsor_party": "R",
+      "sponsor_state": "FL",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hr/458?format=json"
+    },
+    {
+      "id": "HR.3605",
+      "title": "Strength in Diversity Act of 2025",
+      "date": "2025-05-23",
+      "latest_action": "Referred to the House Committee on Education and Workforce.",
+      "status": "active",
+      "sponsor": "Rep. Scott, Robert C. \"Bobby\" [D-VA-3]",
+      "sponsor_party": "D",
+      "sponsor_state": "VA",
+      "cosponsors": [
+        {
+          "name": "Rep. Jayapal, Pramila [D-WA-7]",
+          "party": "D",
+          "state": "WA"
+        },
+        {
+          "name": "Rep. Bonamici, Suzanne [D-OR-1]",
+          "party": "D",
+          "state": "OR"
+        },
+        {
+          "name": "Rep. McBath, Lucy [D-GA-6]",
+          "party": "D",
+          "state": "GA"
+        },
+        {
+          "name": "Rep. Velázquez, Nydia M. [D-NY-7]",
+          "party": "D",
+          "state": "NY"
+        },
+        {
+          "name": "Rep. Simon, Lateefah [D-CA-12]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Beatty, Joyce [D-OH-3]",
+          "party": "D",
+          "state": "OH"
+        },
+        {
+          "name": "Rep. Thompson, Bennie G. [D-MS-2]",
+          "party": "D",
+          "state": "MS"
+        },
+        {
+          "name": "Rep. Fields, Cleo [D-LA-6]",
+          "party": "D",
+          "state": "LA"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/3605?format=json"
+    },
+    {
+      "id": "HR.1796",
+      "title": "Sickle Cell Disease and Other Heritable Blood Disorders Research, Surveillance, Prevention, and Treatment Act of 2025",
+      "date": "2025-03-03",
+      "latest_action": "Referred to the House Committee on Energy and Commerce.",
+      "status": "active",
+      "sponsor": "Rep. James, John [R-MI-10]",
+      "sponsor_party": "R",
+      "sponsor_state": "MI",
+      "cosponsors": [
+        {
+          "name": "Rep. Veasey, Marc A. [D-TX-33]",
+          "party": "D",
+          "state": "TX"
+        },
+        {
+          "name": "Rep. Carter, Troy A. [D-LA-2]",
+          "party": "D",
+          "state": "LA"
+        },
+        {
+          "name": "Rep. Davis, Danny K. [D-IL-7]",
+          "party": "D",
+          "state": "IL"
+        },
+        {
+          "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
+          "party": "R",
+          "state": "VA"
+        },
+        {
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA"
+        },
+        {
+          "name": "Rep. Bishop, Sanford D. [D-GA-2]",
+          "party": "D",
+          "state": "GA"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/1796?format=json"
+    },
+    {
+      "id": "HR.2040",
+      "title": "NEWBORN Act",
+      "date": "2025-03-11",
+      "latest_action": "Referred to the House Committee on Energy and Commerce.",
+      "status": "active",
+      "sponsor": "Rep. Cohen, Steve [D-TN-9]",
+      "sponsor_party": "D",
+      "sponsor_state": "TN",
+      "cosponsors": [
+        {
+          "name": "Rep. Barragán, Nanette Diaz [D-CA-44]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Budzinski, Nikki [D-IL-13]",
+          "party": "D",
+          "state": "IL"
+        },
+        {
+          "name": "Rep. Cherfilus-McCormick, Sheila [D-FL-20]",
+          "party": "D",
+          "state": "FL"
+        },
+        {
+          "name": "Rep. García, Jesús G. \"Chuy\" [D-IL-4]",
+          "party": "D",
+          "state": "IL"
+        },
+        {
+          "name": "Rep. Grijalva, Raúl M. [D-AZ-7]",
+          "party": "D",
+          "state": "AZ"
+        },
+        {
+          "name": "Rep. Kaptur, Marcy [D-OH-9]",
+          "party": "D",
+          "state": "OH"
+        },
+        {
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC"
+        },
+        {
+          "name": "Rep. Rutherford, John H. [R-FL-5]",
+          "party": "R",
+          "state": "FL"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/2040?format=json"
+    },
+    {
+      "id": "HR.2044",
+      "title": "Suicide Prevention Assistance Act",
+      "date": "2025-03-11",
+      "latest_action": "Referred to the House Committee on Energy and Commerce.",
+      "status": "active",
+      "sponsor": "Rep. DeSaulnier, Mark [D-CA-10]",
+      "sponsor_party": "D",
+      "sponsor_state": "CA",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hr/2044?format=json"
+    },
+    {
+      "id": "HR.2383",
+      "title": "Protecting Kids from Fentanyl Act of 2025",
+      "date": "2025-03-26",
+      "latest_action": "Referred to the House Committee on Energy and Commerce.",
+      "status": "active",
+      "sponsor": "Rep. Neguse, Joe [D-CO-2]",
+      "sponsor_party": "D",
+      "sponsor_state": "CO",
+      "cosponsors": [
+        {
+          "name": "Rep. McDowell, Addison [R-NC-6]",
+          "party": "R",
+          "state": "NC"
+        },
+        {
+          "name": "Rep. Panetta, Jimmy [D-CA-19]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Davis, Donald G. [D-NC-1]",
+          "party": "D",
+          "state": "NC"
+        },
+        {
+          "name": "Rep. Davids, Sharice [D-KS-3]",
+          "party": "D",
+          "state": "KS"
+        },
+        {
+          "name": "Rep. Gottheimer, Josh [D-NJ-5]",
+          "party": "D",
+          "state": "NJ"
+        },
+        {
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY"
+        },
+        {
+          "name": "Rep. Shreve, Jefferson [R-IN-6]",
+          "party": "R",
+          "state": "IN"
+        },
+        {
+          "name": "Rep. Kim, Young [R-CA-40]",
+          "party": "R",
+          "state": "CA"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/2383?format=json"
+    },
+    {
+      "id": "HR.3612",
+      "title": "End For-Profit Prisons Act of 2025",
+      "date": "2025-05-23",
+      "latest_action": "Referred to the House Committee on the Judiciary.",
+      "status": "active",
+      "sponsor": "Rep. Watson Coleman, Bonnie [D-NJ-12]",
+      "sponsor_party": "D",
+      "sponsor_state": "NJ",
+      "cosponsors": [
+        {
+          "name": "Rep. Lee, Summer L. [D-PA-12]",
+          "party": "D",
+          "state": "PA"
+        },
+        {
+          "name": "Rep. McIver, LaMonica [D-NJ-10]",
+          "party": "D",
+          "state": "NJ"
+        },
+        {
+          "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
+          "party": "D",
+          "state": "GA"
+        },
+        {
+          "name": "Rep. Ramirez, Delia C. [D-IL-3]",
+          "party": "D",
+          "state": "IL"
+        },
+        {
+          "name": "Rep. McGovern, James P. [D-MA-2]",
+          "party": "D",
+          "state": "MA"
+        },
+        {
+          "name": "Rep. García, Jesús G. \"Chuy\" [D-IL-4]",
+          "party": "D",
+          "state": "IL"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/3612?format=json"
+    },
+    {
+      "id": "HR.10910",
+      "title": "Dunkin’s Law",
+      "date": "2026-10-26",
+      "latest_action": "Referred to the House Committee on Agriculture.",
+      "status": "active",
+      "sponsor": "Rep. Gallagher, James [R-CA-1]",
+      "sponsor_party": "R",
+      "sponsor_state": "CA",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hr/10910?format=json"
+    },
+    {
+      "id": "S.4784",
+      "title": "National Defense Authorization Act for Fiscal Year 2027",
+      "date": "2026-07-27",
+      "latest_action": "Motion to proceed to consideration of measure made in Senate. (CR S4276)",
+      "status": "active",
+      "sponsor": "Sen. Wicker, Roger F. [R-MS]",
+      "sponsor_party": "R",
+      "sponsor_state": "MS",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/s/4784?format=json"
+    },
+    {
+      "id": "S.5595",
+      "title": "Weapons Resupply, Stockpile, and Assurance Act",
+      "date": "2026-09-29",
+      "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+      "status": "active",
+      "sponsor": "Sen. Banks, Jim [R-IN]",
+      "sponsor_party": "R",
+      "sponsor_state": "IN",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/s/5595?format=json"
+    },
+    {
+      "id": "HCONRES.12",
+      "title": "Supporting the Local Radio Freedom Act.",
+      "date": "2025-02-13",
+      "latest_action": "Referred to the House Committee on the Judiciary.",
+      "status": "active",
+      "sponsor": "Rep. Womack, Steve [R-AR-3]",
+      "sponsor_party": "R",
+      "sponsor_state": "AR",
+      "cosponsors": [
+        {
+          "name": "Rep. Castor, Kathy [D-FL-14]",
+          "party": "D",
+          "state": "FL"
+        },
+        {
+          "name": "Rep. Houchin, Erin [R-IN-9]",
+          "party": "R",
+          "state": "IN"
+        },
+        {
+          "name": "Rep. Bentz, Cliff [R-OR-2]",
+          "party": "R",
+          "state": "OR"
+        },
+        {
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA"
+        },
+        {
+          "name": "Rep. Luttrell, Morgan [R-TX-8]",
+          "party": "R",
+          "state": "TX"
+        },
+        {
+          "name": "Rep. LaLota, Nick [R-NY-1]",
+          "party": "R",
+          "state": "NY"
+        },
+        {
+          "name": "Rep. Zinke, Ryan K. [R-MT-1]",
+          "party": "R",
+          "state": "MT"
+        },
+        {
+          "name": "Rep. Bost, Mike [R-IL-12]",
+          "party": "R",
+          "state": "IL"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hconres/12?format=json"
+    },
+    {
+      "id": "HCONRES.114",
+      "title": "Recognizing the significance of equal pay and the disparity in wages paid to men and to Black women.",
+      "date": "2026-07-21",
+      "latest_action": "Referred to the House Committee on Education and Workforce.",
+      "status": "active",
+      "sponsor": "Rep. Adams, Alma S. [D-NC-12]",
+      "sponsor_party": "D",
+      "sponsor_state": "NC",
+      "cosponsors": [
+        {
+          "name": "Rep. Watson Coleman, Bonnie [D-NJ-12]",
+          "party": "D",
+          "state": "NJ"
+        },
+        {
+          "name": "Rep. Frankel, Lois [D-FL-22]",
+          "party": "D",
+          "state": "FL"
+        },
+        {
+          "name": "Rep. Leger Fernandez, Teresa [D-NM-3]",
+          "party": "D",
+          "state": "NM"
+        },
+        {
+          "name": "Rep. Figures, Shomari [D-AL-2]",
+          "party": "D",
+          "state": "AL"
+        },
+        {
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC"
+        },
+        {
+          "name": "Rep. Barragán, Nanette Diaz [D-CA-44]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Frost, Maxwell [D-FL-10]",
+          "party": "D",
+          "state": "FL"
+        },
+        {
+          "name": "Rep. Bonamici, Suzanne [D-OR-1]",
+          "party": "D",
+          "state": "OR"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hconres/114?format=json"
+    },
     {
       "id": "HR.9640",
       "title": "Earth MRI Reauthorization Act of 2026",
@@ -78,6 +965,24 @@
       "url": "https://api.congress.gov/v3/bill/119/s/675?format=json"
     },
     {
+      "id": "HR.839",
+      "title": "No FED in West Texas Act",
+      "date": "2026-01-08",
+      "latest_action": "Placed on the Union Calendar, Calendar No. 374.",
+      "status": "active",
+      "sponsor": "Rep. Arrington, Jodey C. [R-TX-19]",
+      "sponsor_party": "R",
+      "sponsor_state": "TX",
+      "cosponsors": [
+        {
+          "name": "Rep. Hunt, Wesley [R-TX-38]",
+          "party": "R",
+          "state": "TX"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/839?format=json"
+    },
+    {
       "id": "HR.8195",
       "title": "Responsible Cormorant Management and Control Act of 2026",
       "date": "2026-10-29",
@@ -149,90 +1054,32 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/2293?format=json"
     },
     {
-      "id": "S.3723",
-      "title": "Western South Dakota Water Supply Project Feasibility Study Act",
-      "date": "2026-09-17",
-      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 648.",
+      "id": "HR.2316",
+      "title": "Wetlands Conservation and Access Improvement Act of 2025",
+      "date": "2025-11-25",
+      "latest_action": "Became Public Law No: 119-40.",
       "status": "active",
-      "sponsor": "Sen. Thune, John [R-SD]",
+      "sponsor": "Rep. Hurd, Jeff [R-CO-3]",
       "sponsor_party": "R",
-      "sponsor_state": "SD",
+      "sponsor_state": "CO",
       "cosponsors": [
         {
-          "name": "Sen. Rounds, Mike [R-SD]",
-          "party": "R",
-          "state": "SD"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/s/3723?format=json"
-    },
-    {
-      "id": "S.3725",
-      "title": "Lewis and Clark Regional Water System Expansion Feasibility Study Act",
-      "date": "2026-09-17",
-      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 649.",
-      "status": "active",
-      "sponsor": "Sen. Thune, John [R-SD]",
-      "sponsor_party": "R",
-      "sponsor_state": "SD",
-      "cosponsors": [
-        {
-          "name": "Sen. Rounds, Mike [R-SD]",
-          "party": "R",
-          "state": "SD"
-        },
-        {
-          "name": "Sen. Klobuchar, Amy [D-MN]",
+          "name": "Rep. Elfreth, Sarah [D-MD-3]",
           "party": "D",
-          "state": "MN"
+          "state": "MD"
         },
         {
-          "name": "Sen. Grassley, Chuck [R-IA]",
-          "party": "R",
-          "state": "IA"
-        },
-        {
-          "name": "Sen. Ernst, Joni [R-IA]",
-          "party": "R",
-          "state": "IA"
-        },
-        {
-          "name": "Sen. Smith, Tina [D-MN]",
+          "name": "Rep. Gray, Adam [D-CA-13]",
           "party": "D",
-          "state": "MN"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/s/3725?format=json"
-    },
-    {
-      "id": "HR.10306",
-      "title": "Technical Correction to the Shoshone-Paiute Tribes of the Duck Valley Reservation Water Rights Settlement Act of 2025",
-      "date": "2026-10-29",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 762.",
-      "status": "active",
-      "sponsor": "Rep. Amodei, Mark E. [R-NV-2]",
-      "sponsor_party": "R",
-      "sponsor_state": "NV",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10306?format=json"
-    },
-    {
-      "id": "S.3736",
-      "title": "Dakota Mainstem Water Supply Project Feasibility Study Act",
-      "date": "2026-09-17",
-      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 651.",
-      "status": "active",
-      "sponsor": "Sen. Rounds, Mike [R-SD]",
-      "sponsor_party": "R",
-      "sponsor_state": "SD",
-      "cosponsors": [
+          "state": "CA"
+        },
         {
-          "name": "Sen. Thune, John [R-SD]",
-          "party": "R",
-          "state": "SD"
+          "name": "Rep. McBride, Sarah [D-DE-At Large]",
+          "party": "D",
+          "state": "DE"
         }
       ],
-      "url": "https://api.congress.gov/v3/bill/119/s/3736?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/hr/2316?format=json"
     },
     {
       "id": "HR.1809",
@@ -288,40 +1135,95 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/1809?format=json"
     },
     {
-      "id": "HR.839",
-      "title": "No FED in West Texas Act",
-      "date": "2026-01-08",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 374.",
+      "id": "S.1338",
+      "title": "Ending PUSHOUT Act of 2025",
+      "date": "2025-04-08",
+      "latest_action": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
       "status": "active",
-      "sponsor": "Rep. Arrington, Jodey C. [R-TX-19]",
+      "sponsor": "Sen. Booker, Cory A. [D-NJ]",
+      "sponsor_party": "D",
+      "sponsor_state": "NJ",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/s/1338?format=json"
+    },
+    {
+      "id": "HR.9086",
+      "title": "Foreign Service Modernization Act",
+      "date": "2026-09-17",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Foreign Relations.",
+      "status": "active",
+      "sponsor": "Rep. Lawler, Michael [R-NY-17]",
       "sponsor_party": "R",
-      "sponsor_state": "TX",
+      "sponsor_state": "NY",
       "cosponsors": [
         {
-          "name": "Rep. Hunt, Wesley [R-TX-38]",
+          "name": "Rep. Mast, Brian J. [R-FL-21]",
+          "party": "R",
+          "state": "FL"
+        },
+        {
+          "name": "Rep. Mackenzie, Ryan [R-PA-7]",
+          "party": "R",
+          "state": "PA"
+        },
+        {
+          "name": "Rep. Goldman, Craig A. [R-TX-12]",
           "party": "R",
           "state": "TX"
         }
       ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/839?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/hr/9086?format=json"
     },
     {
-      "id": "HR.2316",
-      "title": "Wetlands Conservation and Access Improvement Act of 2025",
-      "date": "2025-11-25",
-      "latest_action": "Became Public Law No: 119-40.",
+      "id": "HR.10101",
+      "title": "Open Doors to Diplomacy Act",
+      "date": "2026-08-13",
+      "latest_action": "Referred to the House Committee on Foreign Affairs.",
       "status": "active",
-      "sponsor": "Rep. Hurd, Jeff [R-CO-3]",
-      "sponsor_party": "R",
-      "sponsor_state": "CO",
+      "sponsor": "Rep. Olszewski, Johnny [D-MD-2]",
+      "sponsor_party": "D",
+      "sponsor_state": "MD",
       "cosponsors": [
         {
-          "name": "Rep. Elfreth, Sarah [D-MD-3]",
-          "party": "D",
-          "state": "MD"
+          "name": "Del. Radewagen, Aumua Amata Coleman [R-AS-At Large]",
+          "party": "R",
+          "state": "AS"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/10101?format=json"
+    },
+    {
+      "id": "HR.2414",
+      "title": "To amend the Public Health Service Act to reauthorize a military and civilian partnership for trauma readiness grant program.",
+      "date": "2025-03-27",
+      "latest_action": "Referred to the House Committee on Energy and Commerce.",
+      "status": "active",
+      "sponsor": "Rep. Castor, Kathy [D-FL-14]",
+      "sponsor_party": "D",
+      "sponsor_state": "FL",
+      "cosponsors": [
+        {
+          "name": "Rep. Hudson, Richard [R-NC-9]",
+          "party": "R",
+          "state": "NC"
         },
         {
-          "name": "Rep. Gray, Adam [D-CA-13]",
+          "name": "Rep. Doggett, Lloyd [D-TX-37]",
+          "party": "D",
+          "state": "TX"
+        },
+        {
+          "name": "Rep. McCormick, Richard [R-GA-7]",
+          "party": "R",
+          "state": "GA"
+        },
+        {
+          "name": "Rep. Auchincloss, Jake [D-MA-4]",
+          "party": "D",
+          "state": "MA"
+        },
+        {
+          "name": "Rep. Min, Dave [D-CA-47]",
           "party": "D",
           "state": "CA"
         },
@@ -331,149 +1233,309 @@
           "state": "DE"
         }
       ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/2316?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/hr/2414?format=json"
     },
     {
-      "id": "HR.9785",
-      "title": "South Dakota Water Feasibility Studies Act",
-      "date": "2026-10-29",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 760.",
+      "id": "HR.8205",
+      "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026",
+      "date": "2026-11-03",
+      "latest_action": "Signed by President.",
       "status": "active",
-      "sponsor": "Rep. Johnson, Dusty [R-SD-At Large]",
-      "sponsor_party": "R",
-      "sponsor_state": "SD",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/9785?format=json"
-    },
-    {
-      "id": "HR.10924",
-      "title": "Medicare for America Act of 2026",
-      "date": "2026-10-29",
-      "latest_action": "Referred to the Committee on Ways and Means, and in addition to the Committees on Energy and Commerce, the Judiciary, Natural Resources, Education and Workforce, and House Administration, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "active",
-      "sponsor": "Rep. DeLauro, Rosa L. [D-CT-3]",
+      "sponsor": "Rep. Quigley, Mike [D-IL-5]",
       "sponsor_party": "D",
-      "sponsor_state": "CT",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10924?format=json"
-    },
-    {
-      "id": "HR.10932",
-      "title": "Snowfall Assistance Transparency Act",
-      "date": "2026-10-29",
-      "latest_action": "Referred to the House Committee on Transportation and Infrastructure.",
-      "status": "active",
-      "sponsor": "Rep. Kean, Thomas H. [R-NJ-7]",
-      "sponsor_party": "R",
-      "sponsor_state": "NJ",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10932?format=json"
-    },
-    {
-      "id": "HR.10822",
-      "title": "ALPR Accountability Act of 2026",
-      "date": "2026-10-15",
-      "latest_action": "Referred to the Committee on Oversight and Government Reform, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "active",
-      "sponsor": "Rep. Harrigan, Pat [R-NC-10]",
-      "sponsor_party": "R",
-      "sponsor_state": "NC",
+      "sponsor_state": "IL",
       "cosponsors": [
         {
-          "name": "Rep. Gosar, Paul A. [R-AZ-9]",
+          "name": "Rep. Calvert, Ken [R-CA-41]",
           "party": "R",
-          "state": "AZ"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10822?format=json"
-    },
-    {
-      "id": "HR.10825",
-      "title": "Stop Illegal Super PAC Coordination Act",
-      "date": "2026-10-15",
-      "latest_action": "Referred to the House Committee on House Administration.",
-      "status": "active",
-      "sponsor": "Rep. Lawler, Michael [R-NY-17]",
-      "sponsor_party": "R",
-      "sponsor_state": "NY",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10825?format=json"
-    },
-    {
-      "id": "HR.9800",
-      "title": "Protection Against Mass Surveillance Act",
-      "date": "2026-07-21",
-      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
-      "status": "active",
-      "sponsor": "Rep. Burchett, Tim [R-TN-2]",
-      "sponsor_party": "R",
-      "sponsor_state": "TN",
-      "cosponsors": [
-        {
-          "name": "Rep. Spartz, Victoria [R-IN-5]",
-          "party": "R",
-          "state": "IN"
+          "state": "CA"
         },
         {
-          "name": "Rep. Brecheen, Josh [R-OK-2]",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
           "party": "R",
-          "state": "OK"
+          "state": "PA"
         },
         {
-          "name": "Rep. Wied, Tony [R-WI-8]",
-          "party": "R",
-          "state": "WI"
+          "name": "Rep. Schakowsky, Janice D. [D-IL-9]",
+          "party": "D",
+          "state": "IL"
         },
         {
-          "name": "Rep. Burlison, Eric [R-MO-7]",
-          "party": "R",
-          "state": "MO"
-        },
-        {
-          "name": "Rep. Barrett, Tom [R-MI-7]",
-          "party": "R",
-          "state": "MI"
-        },
-        {
-          "name": "Rep. Cloud, Michael [R-TX-27]",
+          "name": "Rep. McCaul, Michael T. [R-TX-10]",
           "party": "R",
           "state": "TX"
         },
         {
-          "name": "Rep. Griffith, H. Morgan [R-VA-9]",
+          "name": "Rep. Auchincloss, Jake [D-MA-4]",
+          "party": "D",
+          "state": "MA"
+        },
+        {
+          "name": "Rep. DesJarlais, Scott [R-TN-4]",
+          "party": "R",
+          "state": "TN"
+        },
+        {
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN"
+        },
+        {
+          "name": "Rep. Valadao, David G. [R-CA-22]",
+          "party": "R",
+          "state": "CA"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/8205?format=json"
+    },
+    {
+      "id": "S.5107",
+      "title": "No Corporate Crooks Act",
+      "date": "2026-07-23",
+      "latest_action": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+      "status": "active",
+      "sponsor": "Sen. Schiff, Adam B. [D-CA]",
+      "sponsor_party": "D",
+      "sponsor_state": "CA",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/s/5107?format=json"
+    },
+    {
+      "id": "HR.8831",
+      "title": "Protecting Our Democracy Act",
+      "date": "2026-05-14",
+      "latest_action": "Referred to the Committee on Oversight and Government Reform, and in addition to the Committees on the Judiciary, House Administration, the Budget, Transportation and Infrastructure, Rules, Foreign Affairs, Ways and Means, and Intelligence (Permanent Select), for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "status": "active",
+      "sponsor": "Rep. Raskin, Jamie [D-MD-8]",
+      "sponsor_party": "D",
+      "sponsor_state": "MD",
+      "cosponsors": [
+        {
+          "name": "Rep. Garcia, Robert [D-CA-42]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Morelle, Joseph D. [D-NY-25]",
+          "party": "D",
+          "state": "NY"
+        },
+        {
+          "name": "Rep. Amo, Gabe [D-RI-1]",
+          "party": "D",
+          "state": "RI"
+        },
+        {
+          "name": "Rep. Ansari, Yassamin [D-AZ-3]",
+          "party": "D",
+          "state": "AZ"
+        },
+        {
+          "name": "Rep. Balint, Becca [D-VT-At Large]",
+          "party": "D",
+          "state": "VT"
+        },
+        {
+          "name": "Rep. Barragán, Nanette Diaz [D-CA-44]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Beatty, Joyce [D-OH-3]",
+          "party": "D",
+          "state": "OH"
+        },
+        {
+          "name": "Rep. Bell, Wesley [D-MO-1]",
+          "party": "D",
+          "state": "MO"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hr/8831?format=json"
+    },
+    {
+      "id": "S.2838",
+      "title": "Protecting Our Democracy Act",
+      "date": "2025-09-17",
+      "latest_action": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+      "status": "active",
+      "sponsor": "Sen. Schiff, Adam B. [D-CA]",
+      "sponsor_party": "D",
+      "sponsor_state": "CA",
+      "cosponsors": [
+        {
+          "name": "Sen. Klobuchar, Amy [D-MN]",
+          "party": "D",
+          "state": "MN"
+        },
+        {
+          "name": "Sen. Kim, Andy [D-NJ]",
+          "party": "D",
+          "state": "NJ"
+        },
+        {
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT"
+        },
+        {
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Sen. Gallego, Ruben [D-AZ]",
+          "party": "D",
+          "state": "AZ"
+        },
+        {
+          "name": "Sen. Alsobrooks, Angela D. [D-MD]",
+          "party": "D",
+          "state": "MD"
+        },
+        {
+          "name": "Sen. Sanders, Bernard [I-VT]",
+          "party": "I",
+          "state": "VT"
+        },
+        {
+          "name": "Sen. Hirono, Mazie K. [D-HI]",
+          "party": "D",
+          "state": "HI"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/s/2838?format=json"
+    },
+    {
+      "id": "HRES.1501",
+      "title": "Recognizing the 80th anniversary of the Fulbright Program.",
+      "date": "2026-08-31",
+      "latest_action": "Referred to the House Committee on Foreign Affairs.",
+      "status": "active",
+      "sponsor": "Rep. Hill, J. French [R-AR-2]",
+      "sponsor_party": "R",
+      "sponsor_state": "AR",
+      "cosponsors": [
+        {
+          "name": "Rep. Bera, Ami [D-CA-6]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
+          "party": "R",
+          "state": "NJ"
+        },
+        {
+          "name": "Rep. Sherman, Brad [D-CA-32]",
+          "party": "D",
+          "state": "CA"
+        },
+        {
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA"
+        },
+        {
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/hres/1501?format=json"
+    },
+    {
+      "id": "SRES.830",
+      "title": "A resolution recognizing the 80th anniversary of the Fulbright Program.",
+      "date": "2026-08-04",
+      "latest_action": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S4425; text: CR S4436-4437)",
+      "status": "active",
+      "sponsor": "Sen. Boozman, John [R-AR]",
+      "sponsor_party": "R",
+      "sponsor_state": "AR",
+      "cosponsors": [
+        {
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ"
+        },
+        {
+          "name": "Sen. Shaheen, Jeanne [D-NH]",
+          "party": "D",
+          "state": "NH"
+        },
+        {
+          "name": "Sen. Cotton, Tom [R-AR]",
+          "party": "R",
+          "state": "AR"
+        }
+      ],
+      "url": "https://api.congress.gov/v3/bill/119/sres/830?format=json"
+    },
+    {
+      "id": "HR.5208",
+      "title": "To amend title 37, United States Code, to exclude the basic allowance for housing from the calculation of gross household income for purposes of the basic needs allowance for eligible members of the Armed Forces.",
+      "date": "2025-09-08",
+      "latest_action": "Referred to the House Committee on Armed Services.",
+      "status": "active",
+      "sponsor": "Rep. Panetta, Jimmy [D-CA-19]",
+      "sponsor_party": "D",
+      "sponsor_state": "CA",
+      "cosponsors": [
+        {
+          "name": "Rep. Moore, Blake D. [R-UT-1]",
+          "party": "R",
+          "state": "UT"
+        },
+        {
+          "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
           "party": "R",
           "state": "VA"
         },
         {
-          "name": "Rep. Stutzman, Marlin A. [R-IN-3]",
-          "party": "R",
-          "state": "IN"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/9800?format=json"
-    },
-    {
-      "id": "HR.10355",
-      "title": "Disaster Loan Outreach Consistency Act",
-      "date": "2026-10-09",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 743.",
-      "status": "active",
-      "sponsor": "Rep. Mejia, Analilia [D-NJ-11]",
-      "sponsor_party": "D",
-      "sponsor_state": "NJ",
-      "cosponsors": [
-        {
-          "name": "Del. King-Hinds, Kimberlyn [R-MP-At Large]",
-          "party": "R",
-          "state": "MP"
+          "name": "Rep. Strickland, Marilyn [D-WA-10]",
+          "party": "D",
+          "state": "WA"
         },
         {
-          "name": "Rep. Cisneros, Gilbert Ray [D-CA-31]",
+          "name": "Rep. Riley, Josh [D-NY-19]",
+          "party": "D",
+          "state": "NY"
+        },
+        {
+          "name": "Rep. Goodlander, Maggie [D-NH-2]",
+          "party": "D",
+          "state": "NH"
+        },
+        {
+          "name": "Rep. Jacobs, Sara [D-CA-51]",
           "party": "D",
           "state": "CA"
+        },
+        {
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA"
+        },
+        {
+          "name": "Rep. Vasquez, Gabe [D-NM-2]",
+          "party": "D",
+          "state": "NM"
         }
       ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10355?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/hr/5208?format=json"
+    },
+    {
+      "id": "HR.5192",
+      "title": "To modify the annual report on the Navy Shipyard Infrastructure Optimization Program.",
+      "date": "2025-09-08",
+      "latest_action": "Referred to the House Committee on Armed Services.",
+      "status": "active",
+      "sponsor": "Rep. Khanna, Ro [D-CA-17]",
+      "sponsor_party": "D",
+      "sponsor_state": "CA",
+      "cosponsors": [],
+      "url": "https://api.congress.gov/v3/bill/119/hr/5192?format=json"
     },
     {
       "id": "HR.8183",
@@ -504,859 +1566,128 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/8183?format=json"
     },
     {
-      "id": "HR.10238",
-      "title": "Cybersecurity for Small Businesses Act of 2026",
-      "date": "2026-10-13",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 748.",
+      "id": "HR.6161",
+      "title": "SEC Data Protection Act",
+      "date": "2025-11-19",
+      "latest_action": "Referred to the House Committee on Financial Services.",
       "status": "active",
-      "sponsor": "Rep. Wied, Tony [R-WI-8]",
-      "sponsor_party": "R",
-      "sponsor_state": "WI",
-      "cosponsors": [
-        {
-          "name": "Del. King-Hinds, Kimberlyn [R-MP-At Large]",
-          "party": "R",
-          "state": "MP"
-        },
-        {
-          "name": "Rep. Van Duyne, Beth [R-TX-24]",
-          "party": "R",
-          "state": "TX"
-        },
-        {
-          "name": "Rep. Latimer, George [D-NY-16]",
-          "party": "D",
-          "state": "NY"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10238?format=json"
-    },
-    {
-      "id": "S.3798",
-      "title": "Safe Access to Cash Act of 2026",
-      "date": "2026-10-05",
-      "latest_action": "Held at the desk.",
-      "status": "active",
-      "sponsor": "Sen. Cruz, Ted [R-TX]",
-      "sponsor_party": "R",
-      "sponsor_state": "TX",
-      "cosponsors": [
-        {
-          "name": "Sen. Gallego, Ruben [D-AZ]",
-          "party": "D",
-          "state": "AZ"
-        },
-        {
-          "name": "Sen. Blackburn, Marsha [R-TN]",
-          "party": "R",
-          "state": "TN"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/s/3798?format=json"
-    },
-    {
-      "id": "S.911",
-      "title": "Chief Herbert D. Proffitt Act of 2025",
-      "date": "2025-08-01",
-      "latest_action": "Received in the House.",
-      "status": "active",
-      "sponsor": "Sen. Cortez Masto, Catherine [D-NV]",
+      "sponsor": "Rep. Scott, David [D-GA-13]",
       "sponsor_party": "D",
-      "sponsor_state": "NV",
+      "sponsor_state": "GA",
       "cosponsors": [
         {
-          "name": "Sen. McConnell, Mitch [R-KY]",
+          "name": "Rep. Loudermilk, Barry [R-GA-11]",
           "party": "R",
-          "state": "KY"
+          "state": "GA"
         },
         {
-          "name": "Sen. Blumenthal, Richard [D-CT]",
-          "party": "D",
-          "state": "CT"
-        },
-        {
-          "name": "Sen. Grassley, Chuck [R-IA]",
-          "party": "R",
-          "state": "IA"
-        },
-        {
-          "name": "Sen. Durbin, Richard J. [D-IL]",
+          "name": "Rep. Foster, Bill [D-IL-11]",
           "party": "D",
           "state": "IL"
         },
         {
-          "name": "Sen. Gallego, Ruben [D-AZ]",
-          "party": "D",
-          "state": "AZ"
-        },
-        {
-          "name": "Sen. Coons, Christopher A. [D-DE]",
-          "party": "D",
-          "state": "DE"
-        },
-        {
-          "name": "Sen. Fischer, Deb [R-NE]",
+          "name": "Rep. Wagner, Ann [R-MO-2]",
           "party": "R",
-          "state": "NE"
+          "state": "MO"
         },
         {
-          "name": "Sen. Moran, Jerry [R-KS]",
-          "party": "R",
-          "state": "KS"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/s/911?format=json"
-    },
-    {
-      "id": "HR.10329",
-      "title": "Combating Foreign Threats to Main Street Act of 2026",
-      "date": "2026-10-09",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 741.",
-      "status": "active",
-      "sponsor": "Rep. Williams, Roger [R-TX-25]",
-      "sponsor_party": "R",
-      "sponsor_state": "TX",
-      "cosponsors": [
-        {
-          "name": "Rep. Tran, Derek [D-CA-45]",
+          "name": "Rep. Sherman, Brad [D-CA-32]",
           "party": "D",
           "state": "CA"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10329?format=json"
-    },
-    {
-      "id": "S.2296",
-      "title": "National Defense Authorization Act for Fiscal Year 2026",
-      "date": "2025-11-12",
-      "latest_action": "Held at the desk.",
-      "status": "active",
-      "sponsor": "Sen. Wicker, Roger F. [R-MS]",
-      "sponsor_party": "R",
-      "sponsor_state": "MS",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/s/2296?format=json"
-    },
-    {
-      "id": "HR.9718",
-      "title": "Reshoring American Manufacturing Act of 2026",
-      "date": "2026-10-09",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 740.",
-      "status": "active",
-      "sponsor": "Rep. Wied, Tony [R-WI-8]",
-      "sponsor_party": "R",
-      "sponsor_state": "WI",
-      "cosponsors": [
-        {
-          "name": "Rep. Van Duyne, Beth [R-TX-24]",
-          "party": "R",
-          "state": "TX"
         },
         {
-          "name": "Rep. Ellzey, Jake [R-TX-6]",
-          "party": "R",
-          "state": "TX"
-        },
-        {
-          "name": "Rep. Finstad, Brad [R-MN-1]",
-          "party": "R",
-          "state": "MN"
-        },
-        {
-          "name": "Rep. Bresnahan, Robert P. [R-PA-8]",
+          "name": "Rep. Meuser, Daniel [R-PA-9]",
           "party": "R",
           "state": "PA"
         },
         {
-          "name": "Rep. James, John [R-MI-10]",
-          "party": "R",
-          "state": "MI"
-        },
-        {
-          "name": "Rep. Olszewski, Johnny [D-MD-2]",
-          "party": "D",
-          "state": "MD"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/9718?format=json"
-    },
-    {
-      "id": "HR.10707",
-      "title": "Internationally Trained Physicians Assistance Act of 2026",
-      "date": "2026-10-01",
-      "latest_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "active",
-      "sponsor": "Rep. Smith, Adam [D-WA-9]",
-      "sponsor_party": "D",
-      "sponsor_state": "WA",
-      "cosponsors": [
-        {
-          "name": "Rep. Krishnamoorthi, Raja [D-IL-8]",
-          "party": "D",
-          "state": "IL"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10707?format=json"
-    },
-    {
-      "id": "S.3730",
-      "title": "Emergency Medical Services Reimbursement for On-Scene Care and Support Act",
-      "date": "2026-01-29",
-      "latest_action": "Read twice and referred to the Committee on Finance.",
-      "status": "active",
-      "sponsor": "Sen. Welch, Peter [D-VT]",
-      "sponsor_party": "D",
-      "sponsor_state": "VT",
-      "cosponsors": [
-        {
-          "name": "Sen. Sanders, Bernard [I-VT]",
-          "party": "I",
-          "state": "VT"
-        },
-        {
-          "name": "Sen. Smith, Tina [D-MN]",
-          "party": "D",
-          "state": "MN"
-        },
-        {
-          "name": "Sen. Klobuchar, Amy [D-MN]",
-          "party": "D",
-          "state": "MN"
-        },
-        {
-          "name": "Sen. Fetterman, John [D-PA]",
-          "party": "D",
-          "state": "PA"
-        },
-        {
-          "name": "Sen. Bennet, Michael F. [D-CO]",
-          "party": "D",
-          "state": "CO"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/s/3730?format=json"
-    },
-    {
-      "id": "S.1071",
-      "title": "National Defense Authorization Act for Fiscal Year 2026",
-      "date": "2025-12-18",
-      "latest_action": "Became Public Law No: 119-60.",
-      "status": "active",
-      "sponsor": "Sen. Cornyn, John [R-TX]",
-      "sponsor_party": "R",
-      "sponsor_state": "TX",
-      "cosponsors": [
-        {
-          "name": "Sen. Cruz, Ted [R-TX]",
-          "party": "R",
-          "state": "TX"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/s/1071?format=json"
-    },
-    {
-      "id": "HR.3937",
-      "title": "Wabeno Economic Development Act",
-      "date": "2026-07-23",
-      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 494.",
-      "status": "active",
-      "sponsor": "Rep. Tiffany, Thomas P. [R-WI-7]",
-      "sponsor_party": "R",
-      "sponsor_state": "WI",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/3937?format=json"
-    },
-    {
-      "id": "HR.10902",
-      "title": "Safe Transit Act",
-      "date": "2026-10-22",
-      "latest_action": "Referred to the House Committee on Transportation and Infrastructure.",
-      "status": "active",
-      "sponsor": "Rep. Van Drew, Jefferson [R-NJ-2]",
-      "sponsor_party": "R",
-      "sponsor_state": "NJ",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10902?format=json"
-    },
-    {
-      "id": "S.3885",
-      "title": "Aviation Innovation and Global Competitiveness Act",
-      "date": "2026-07-22",
-      "latest_action": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
-      "status": "active",
-      "sponsor": "Sen. Welch, Peter [D-VT]",
-      "sponsor_party": "D",
-      "sponsor_state": "VT",
-      "cosponsors": [
-        {
-          "name": "Sen. Budd, Ted [R-NC]",
-          "party": "R",
-          "state": "NC"
-        },
-        {
-          "name": "Sen. Curtis, John R. [R-UT]",
-          "party": "R",
-          "state": "UT"
-        },
-        {
-          "name": "Sen. Luján, Ben Ray [D-NM]",
-          "party": "D",
-          "state": "NM"
-        },
-        {
-          "name": "Sen. Lummis, Cynthia M. [R-WY]",
-          "party": "R",
-          "state": "WY"
-        },
-        {
-          "name": "Sen. Sheehy, Tim [R-MT]",
-          "party": "R",
-          "state": "MT"
-        },
-        {
-          "name": "Sen. Moran, Jerry [R-KS]",
-          "party": "R",
-          "state": "KS"
-        },
-        {
-          "name": "Sen. Young, Todd [R-IN]",
-          "party": "R",
-          "state": "IN"
-        },
-        {
-          "name": "Sen. Padilla, Alex [D-CA]",
-          "party": "D",
-          "state": "CA"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/s/3885?format=json"
-    },
-    {
-      "id": "HR.10918",
-      "title": "Natural Gas Dominance Act",
-      "date": "2026-10-29",
-      "latest_action": "Referred to the House Committee on Energy and Commerce.",
-      "status": "active",
-      "sponsor": "Rep. Arrington, Jodey C. [R-TX-19]",
-      "sponsor_party": "R",
-      "sponsor_state": "TX",
-      "cosponsors": [
-        {
-          "name": "Rep. Rulli, Michael A. [R-OH-6]",
-          "party": "R",
-          "state": "OH"
-        },
-        {
-          "name": "Rep. Goldman, Craig A. [R-TX-12]",
-          "party": "R",
-          "state": "TX"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10918?format=json"
-    },
-    {
-      "id": "HR.9600",
-      "title": "Common Sense 250 Act of 2026",
-      "date": "2026-10-29",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 757.",
-      "status": "active",
-      "sponsor": "Rep. Raskin, Jamie [D-MD-8]",
-      "sponsor_party": "D",
-      "sponsor_state": "MD",
-      "cosponsors": [
-        {
-          "name": "Rep. Spartz, Victoria [R-IN-5]",
-          "party": "R",
-          "state": "IN"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/9600?format=json"
-    },
-    {
-      "id": "S.5677",
-      "title": "Lone Star Coastal National Recreation Area Act",
-      "date": "2026-09-30",
-      "latest_action": "Read twice and referred to the Committee on Energy and Natural Resources.",
-      "status": "active",
-      "sponsor": "Sen. Cornyn, John [R-TX]",
-      "sponsor_party": "R",
-      "sponsor_state": "TX",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/s/5677?format=json"
-    },
-    {
-      "id": "HR.9325",
-      "title": "Lone Star Coastal National Recreation Area Act",
-      "date": "2026-06-15",
-      "latest_action": "Referred to the House Committee on Natural Resources.",
-      "status": "active",
-      "sponsor": "Rep. Weber, Randy K. Sr. [R-TX-14]",
-      "sponsor_party": "R",
-      "sponsor_state": "TX",
-      "cosponsors": [
-        {
-          "name": "Rep. Hunt, Wesley [R-TX-38]",
-          "party": "R",
-          "state": "TX"
-        },
-        {
-          "name": "Rep. Nehls, Troy E. [R-TX-22]",
-          "party": "R",
-          "state": "TX"
-        },
-        {
-          "name": "Rep. Babin, Brian [R-TX-36]",
-          "party": "R",
-          "state": "TX"
-        },
-        {
-          "name": "Rep. Fletcher, Lizzie [D-TX-7]",
-          "party": "D",
-          "state": "TX"
-        },
-        {
-          "name": "Rep. Van Duyne, Beth [R-TX-24]",
-          "party": "R",
-          "state": "TX"
-        },
-        {
-          "name": "Rep. Ellzey, Jake [R-TX-6]",
-          "party": "R",
-          "state": "TX"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/9325?format=json"
-    },
-    {
-      "id": "HR.10950",
-      "title": "Data Center Oversight Act",
-      "date": "2026-10-29",
-      "latest_action": "Referred to the House Committee on Energy and Commerce.",
-      "status": "active",
-      "sponsor": "Rep. Vindman, Eugene Simon [D-VA-7]",
-      "sponsor_party": "D",
-      "sponsor_state": "VA",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10950?format=json"
-    },
-    {
-      "id": "HR.10922",
-      "title": "Fraud Accountability and Mandatory Sentencing Act",
-      "date": "2026-10-29",
-      "latest_action": "Referred to the Committee on the Judiciary, and in addition to the Committees on Agriculture, Ways and Means, Energy and Commerce, and Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "active",
-      "sponsor": "Rep. Cline, Ben [R-VA-6]",
-      "sponsor_party": "R",
-      "sponsor_state": "VA",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10922?format=json"
-    },
-    {
-      "id": "HR.10930",
-      "title": "Childhood Offenders Rehabilitation and Safety Act of 2026",
-      "date": "2026-10-29",
-      "latest_action": "Referred to the Committee on the Judiciary, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "active",
-      "sponsor": "Rep. Kamlager-Dove, Sydney [D-CA-37]",
-      "sponsor_party": "D",
-      "sponsor_state": "CA",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/10930?format=json"
-    },
-    {
-      "id": "HR.8547",
-      "title": "'Directly Impacted Child Rehab and Safety Act",
-      "date": "2026-04-28",
-      "latest_action": "Referred to the Committee on the Judiciary, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "active",
-      "sponsor": "Rep. Kamlager-Dove, Sydney [D-CA-37]",
-      "sponsor_party": "D",
-      "sponsor_state": "CA",
-      "cosponsors": [
-        {
-          "name": "Rep. McIver, LaMonica [D-NJ-10]",
+          "name": "Rep. Gottheimer, Josh [D-NJ-5]",
           "party": "D",
           "state": "NJ"
         },
         {
-          "name": "Rep. Velázquez, Nydia M. [D-NY-7]",
-          "party": "D",
-          "state": "NY"
-        },
-        {
-          "name": "Rep. Tlaib, Rashida [D-MI-12]",
-          "party": "D",
-          "state": "MI"
-        },
-        {
-          "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
-          "party": "D",
-          "state": "GA"
-        },
-        {
-          "name": "Rep. Jackson, Jonathan L. [D-IL-1]",
-          "party": "D",
-          "state": "IL"
-        },
-        {
-          "name": "Rep. Simon, Lateefah [D-CA-12]",
-          "party": "D",
-          "state": "CA"
-        },
-        {
-          "name": "Rep. Cohen, Steve [D-TN-9]",
-          "party": "D",
-          "state": "TN"
-        },
-        {
-          "name": "Rep. Thanedar, Shri [D-MI-13]",
-          "party": "D",
-          "state": "MI"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/8547?format=json"
-    },
-    {
-      "id": "S.2357",
-      "title": "Young Fishermen’s Development Program Reauthorization Act",
-      "date": "2026-03-11",
-      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 351.",
-      "status": "active",
-      "sponsor": "Sen. Sullivan, Dan [R-AK]",
-      "sponsor_party": "R",
-      "sponsor_state": "AK",
-      "cosponsors": [
-        {
-          "name": "Sen. Murkowski, Lisa [R-AK]",
-          "party": "R",
-          "state": "AK"
-        },
-        {
-          "name": "Sen. Wicker, Roger F. [R-MS]",
-          "party": "R",
-          "state": "MS"
-        },
-        {
-          "name": "Sen. Markey, Edward J. [D-MA]",
-          "party": "D",
-          "state": "MA"
-        },
-        {
-          "name": "Sen. Hyde-Smith, Cindy [R-MS]",
-          "party": "R",
-          "state": "MS"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/s/2357?format=json"
-    },
-    {
-      "id": "S.4767",
-      "title": "Renewing the African American Civil Rights Network Act",
-      "date": "2026-07-21",
-      "latest_action": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held.",
-      "status": "active",
-      "sponsor": "Sen. Scott, Tim [R-SC]",
-      "sponsor_party": "R",
-      "sponsor_state": "SC",
-      "cosponsors": [
-        {
-          "name": "Sen. Blunt Rochester, Lisa [D-DE]",
-          "party": "D",
-          "state": "DE"
-        },
-        {
-          "name": "Sen. Cantwell, Maria [D-WA]",
-          "party": "D",
-          "state": "WA"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/s/4767?format=json"
-    },
-    {
-      "id": "HR.8483",
-      "title": "Barona Group of Capitan Grande Band of Mission Indians Land Transfer Act of 2026",
-      "date": "2026-10-29",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 755.",
-      "status": "active",
-      "sponsor": "Rep. Issa, Darrell [R-CA-48]",
-      "sponsor_party": "R",
-      "sponsor_state": "CA",
-      "cosponsors": [],
-      "url": "https://api.congress.gov/v3/bill/119/hr/8483?format=json"
-    },
-    {
-      "id": "HR.9269",
-      "title": "Renewing the African American Civil Rights Network Act",
-      "date": "2026-10-29",
-      "latest_action": "Placed on the Union Calendar, Calendar No. 756.",
-      "status": "active",
-      "sponsor": "Rep. Clyburn, James E. [D-SC-6]",
-      "sponsor_party": "D",
-      "sponsor_state": "SC",
-      "cosponsors": [
-        {
-          "name": "Rep. Carey, Mike [R-OH-15]",
+          "name": "Rep. Davidson, Warren [R-OH-8]",
           "party": "R",
           "state": "OH"
         },
         {
-          "name": "Rep. Sewell, Terri A. [D-AL-7]",
-          "party": "D",
-          "state": "AL"
-        },
-        {
-          "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
-          "party": "R",
-          "state": "TN"
-        },
-        {
-          "name": "Rep. Davis, Danny K. [D-IL-7]",
-          "party": "D",
-          "state": "IL"
-        },
-        {
-          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
-          "party": "R",
-          "state": "PA"
-        },
-        {
-          "name": "Rep. Bell, Wesley [D-MO-1]",
+          "name": "Rep. Cleaver, Emanuel [D-MO-5]",
           "party": "D",
           "state": "MO"
-        },
-        {
-          "name": "Rep. Cohen, Steve [D-TN-9]",
-          "party": "D",
-          "state": "TN"
-        },
-        {
-          "name": "Rep. McCormick, Richard [R-GA-7]",
-          "party": "R",
-          "state": "GA"
         }
       ],
-      "url": "https://api.congress.gov/v3/bill/119/hr/9269?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/hr/6161?format=json"
     },
     {
-      "id": "S.1661",
-      "title": "Disaster Relief for Farmworkers Act of 2025",
-      "date": "2025-05-07",
-      "latest_action": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "id": "HR.3978",
+      "title": "Nuclear REFUEL (Recycling Efficient Fuels Utilizing Expedited Licensing) Act",
+      "date": "2026-07-14",
+      "latest_action": "Forwarded by Subcommittee to Full Committee by Voice Vote.",
       "status": "active",
-      "sponsor": "Sen. Bennet, Michael F. [D-CO]",
-      "sponsor_party": "D",
-      "sponsor_state": "CO",
+      "sponsor": "Rep. Latta, Robert E. [R-OH-5]",
+      "sponsor_party": "R",
+      "sponsor_state": "OH",
       "cosponsors": [
         {
-          "name": "Sen. Padilla, Alex [D-CA]",
+          "name": "Rep. Peters, Scott H. [D-CA-50]",
           "party": "D",
           "state": "CA"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/s/1661?format=json"
-    },
-    {
-      "id": "S.1628",
-      "title": "Improving Access to Nutrition Act of 2025",
-      "date": "2025-05-06",
-      "latest_action": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
-      "status": "active",
-      "sponsor": "Sen. Welch, Peter [D-VT]",
-      "sponsor_party": "D",
-      "sponsor_state": "VT",
-      "cosponsors": [
+        },
         {
-          "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
-          "party": "D",
+          "name": "Rep. Tenney, Claudia [R-NY-24]",
+          "party": "R",
           "state": "NY"
         },
         {
-          "name": "Sen. Fetterman, John [D-PA]",
-          "party": "D",
-          "state": "PA"
+          "name": "Rep. Palmer, Gary J. [R-AL-6]",
+          "party": "R",
+          "state": "AL"
         },
         {
-          "name": "Sen. Padilla, Alex [D-CA]",
-          "party": "D",
+          "name": "Rep. Weber, Randy K. Sr. [R-TX-14]",
+          "party": "R",
+          "state": "TX"
+        },
+        {
+          "name": "Rep. Donalds, Byron [R-FL-19]",
+          "party": "R",
+          "state": "FL"
+        },
+        {
+          "name": "Rep. Obernolte, Jay [R-CA-23]",
+          "party": "R",
           "state": "CA"
         },
         {
-          "name": "Sen. Merkley, Jeff [D-OR]",
-          "party": "D",
-          "state": "OR"
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY"
         },
         {
-          "name": "Sen. Blumenthal, Richard [D-CT]",
-          "party": "D",
-          "state": "CT"
-        },
-        {
-          "name": "Sen. Sanders, Bernard [I-VT]",
-          "party": "I",
-          "state": "VT"
-        },
-        {
-          "name": "Sen. Warren, Elizabeth [D-MA]",
-          "party": "D",
-          "state": "MA"
-        },
-        {
-          "name": "Sen. Wyden, Ron [D-OR]",
-          "party": "D",
-          "state": "OR"
+          "name": "Rep. Pfluger, August [R-TX-11]",
+          "party": "R",
+          "state": "TX"
         }
       ],
-      "url": "https://api.congress.gov/v3/bill/119/s/1628?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/hr/3978?format=json"
     },
     {
-      "id": "S.156",
-      "title": "Increased TSP Access Act of 2025",
-      "date": "2025-01-21",
-      "latest_action": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
-      "status": "active",
-      "sponsor": "Sen. Marshall, Roger [R-KS]",
-      "sponsor_party": "R",
-      "sponsor_state": "KS",
-      "cosponsors": [
-        {
-          "name": "Sen. Bennet, Michael F. [D-CO]",
-          "party": "D",
-          "state": "CO"
-        },
-        {
-          "name": "Sen. Slotkin, Elissa [D-MI]",
-          "party": "D",
-          "state": "MI"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/s/156?format=json"
-    },
-    {
-      "id": "S.1496",
-      "title": "New Markets for State-Inspected Meat and Poultry Act of 2025",
-      "date": "2025-04-10",
-      "latest_action": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
+      "id": "S.3736",
+      "title": "Dakota Mainstem Water Supply Project Feasibility Study Act",
+      "date": "2026-09-17",
+      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 651.",
       "status": "active",
       "sponsor": "Sen. Rounds, Mike [R-SD]",
       "sponsor_party": "R",
       "sponsor_state": "SD",
       "cosponsors": [
-        {
-          "name": "Sen. King, Angus S., Jr. [I-ME]",
-          "party": "I",
-          "state": "ME"
-        },
-        {
-          "name": "Sen. Daines, Steve [R-MT]",
-          "party": "R",
-          "state": "MT"
-        },
-        {
-          "name": "Sen. Smith, Tina [D-MN]",
-          "party": "D",
-          "state": "MN"
-        },
-        {
-          "name": "Sen. Cramer, Kevin [R-ND]",
-          "party": "R",
-          "state": "ND"
-        },
-        {
-          "name": "Sen. Barrasso, John [R-WY]",
-          "party": "R",
-          "state": "WY"
-        },
         {
           "name": "Sen. Thune, John [R-SD]",
           "party": "R",
           "state": "SD"
-        },
-        {
-          "name": "Sen. Lummis, Cynthia M. [R-WY]",
-          "party": "R",
-          "state": "WY"
-        },
-        {
-          "name": "Sen. Grassley, Chuck [R-IA]",
-          "party": "R",
-          "state": "IA"
         }
       ],
-      "url": "https://api.congress.gov/v3/bill/119/s/1496?format=json"
-    },
-    {
-      "id": "S.1495",
-      "title": "NRCS Wetland Compliance and Appeals Reform Act",
-      "date": "2025-04-10",
-      "latest_action": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
-      "status": "active",
-      "sponsor": "Sen. Rounds, Mike [R-SD]",
-      "sponsor_party": "R",
-      "sponsor_state": "SD",
-      "cosponsors": [
-        {
-          "name": "Sen. Hoeven, John [R-ND]",
-          "party": "R",
-          "state": "ND"
-        },
-        {
-          "name": "Sen. Cramer, Kevin [R-ND]",
-          "party": "R",
-          "state": "ND"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/s/1495?format=json"
-    },
-    {
-      "id": "S.1494",
-      "title": "Noninsured Crop Disaster Assistance Program Enhancement Act of 2025",
-      "date": "2025-04-10",
-      "latest_action": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
-      "status": "active",
-      "sponsor": "Sen. Rounds, Mike [R-SD]",
-      "sponsor_party": "R",
-      "sponsor_state": "SD",
-      "cosponsors": [
-        {
-          "name": "Sen. Lummis, Cynthia M. [R-WY]",
-          "party": "R",
-          "state": "WY"
-        },
-        {
-          "name": "Sen. Smith, Tina [D-MN]",
-          "party": "D",
-          "state": "MN"
-        },
-        {
-          "name": "Sen. Welch, Peter [D-VT]",
-          "party": "D",
-          "state": "VT"
-        },
-        {
-          "name": "Sen. Cramer, Kevin [R-ND]",
-          "party": "R",
-          "state": "ND"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/s/1494?format=json"
-    },
-    {
-      "id": "S.1493",
-      "title": "Livestock Indemnity Program Improvement Act of 2025",
-      "date": "2025-04-10",
-      "latest_action": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.",
-      "status": "active",
-      "sponsor": "Sen. Rounds, Mike [R-SD]",
-      "sponsor_party": "R",
-      "sponsor_state": "SD",
-      "cosponsors": [
-        {
-          "name": "Sen. Bennet, Michael F. [D-CO]",
-          "party": "D",
-          "state": "CO"
-        }
-      ],
-      "url": "https://api.congress.gov/v3/bill/119/s/1493?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/s/3736?format=json"
     }
   ]
 }
