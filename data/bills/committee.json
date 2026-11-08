@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-11-07T11:27:21.716665+00:00",
+  "fetched_at": "2026-11-08T11:40:46.537554+00:00",
   "bills": [
     {
+      "id": "S.3793",
+      "title": "Predatory Lending Elimination Act",
+      "date": "2026-02-05",
+      "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs. (Sponsor introductory remarks on measure: CR S511-512)",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Sen. Reed, Jack [D-RI]",
+      "sponsor_party": "D",
+      "sponsor_state": "RI",
+      "url": "https://api.congress.gov/v3/bill/119/s/3793?format=json"
+    },
+    {
       "id": "HR.3100",
       "title": "CHILD Act of 2026",
       "date": "2026-11-05",
@@ -50,6 +62,18 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/3978?format=json"
     },
     {
+      "id": "HR.10955",
+      "title": "EITC Age Parity Act of 2026",
+      "date": "2026-11-05",
+      "latest_action": "Referred to the House Committee on Ways and Means.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Chu, Judy [D-CA-28]",
+      "sponsor_party": "D",
+      "sponsor_state": "CA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10955?format=json"
+    },
+    {
       "id": "HR.10956",
       "title": "IHS Workforce Parity Act of 2026",
       "date": "2026-11-05",
@@ -72,30 +96,6 @@
       "sponsor_party": "R",
       "sponsor_state": "SC",
       "url": "https://api.congress.gov/v3/bill/119/hr/10958?format=json"
-    },
-    {
-      "id": "HR.10955",
-      "title": "EITC Age Parity Act of 2026",
-      "date": "2026-11-05",
-      "latest_action": "Referred to the House Committee on Ways and Means.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Chu, Judy [D-CA-28]",
-      "sponsor_party": "D",
-      "sponsor_state": "CA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10955?format=json"
-    },
-    {
-      "id": "HR.10957",
-      "title": "PURGE Act",
-      "date": "2026-11-05",
-      "latest_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Transportation and Infrastructure, and Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Mace, Nancy [R-SC-1]",
-      "sponsor_party": "R",
-      "sponsor_state": "SC",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10957?format=json"
     },
     {
       "id": "HR.10959",
@@ -122,6 +122,18 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/10954?format=json"
     },
     {
+      "id": "HR.10957",
+      "title": "PURGE Act",
+      "date": "2026-11-05",
+      "latest_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Transportation and Infrastructure, and Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Mace, Nancy [R-SC-1]",
+      "sponsor_party": "R",
+      "sponsor_state": "SC",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10957?format=json"
+    },
+    {
       "id": "HR.10960",
       "title": "Keep Federal Tech Talent Act",
       "date": "2026-11-05",
@@ -134,18 +146,6 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/10960?format=json"
     },
     {
-      "id": "HR.1744",
-      "title": "United States Commission on International Religious Freedom Reauthorization Act of 2026",
-      "date": "2026-11-03",
-      "latest_action": "Became Public Law No: 119-137.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Smith, Christopher H. [R-NJ-4]",
-      "sponsor_party": "R",
-      "sponsor_state": "NJ",
-      "url": "https://api.congress.gov/v3/bill/119/hr/1744?format=json"
-    },
-    {
       "id": "S.3984",
       "title": "United States Commission on International Religious Freedom Reauthorization Act of 2026",
       "date": "2026-07-27",
@@ -156,6 +156,18 @@
       "sponsor_party": "R",
       "sponsor_state": "NC",
       "url": "https://api.congress.gov/v3/bill/119/s/3984?format=json"
+    },
+    {
+      "id": "HR.1744",
+      "title": "United States Commission on International Religious Freedom Reauthorization Act of 2026",
+      "date": "2026-11-03",
+      "latest_action": "Became Public Law No: 119-137.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Smith, Christopher H. [R-NJ-4]",
+      "sponsor_party": "R",
+      "sponsor_state": "NJ",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1744?format=json"
     },
     {
       "id": "HR.9797",
@@ -350,16 +362,16 @@
       "url": "https://api.congress.gov/v3/bill/119/s/472?format=json"
     },
     {
-      "id": "S.468",
-      "title": "SECURE Firearm Storage Act",
-      "date": "2025-02-06",
-      "latest_action": "Read twice and referred to the Committee on the Judiciary. (text: CR S795)",
+      "id": "S.3793",
+      "title": "Predatory Lending Elimination Act",
+      "date": "2026-02-05",
+      "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs. (Sponsor introductory remarks on measure: CR S511-512)",
       "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Sen. Durbin, Richard J. [D-IL]",
+      "chamber": "Senate",
+      "sponsor": "Sen. Reed, Jack [D-RI]",
       "sponsor_party": "D",
-      "sponsor_state": "IL",
-      "url": "https://api.congress.gov/v3/bill/119/s/468?format=json"
+      "sponsor_state": "RI",
+      "url": "https://api.congress.gov/v3/bill/119/s/3793?format=json"
     },
     {
       "id": "HR.3100",
@@ -410,6 +422,18 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/3978?format=json"
     },
     {
+      "id": "HR.10955",
+      "title": "EITC Age Parity Act of 2026",
+      "date": "2026-11-05",
+      "latest_action": "Referred to the House Committee on Ways and Means.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Chu, Judy [D-CA-28]",
+      "sponsor_party": "D",
+      "sponsor_state": "CA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10955?format=json"
+    },
+    {
       "id": "HR.10956",
       "title": "IHS Workforce Parity Act of 2026",
       "date": "2026-11-05",
@@ -432,30 +456,6 @@
       "sponsor_party": "R",
       "sponsor_state": "SC",
       "url": "https://api.congress.gov/v3/bill/119/hr/10958?format=json"
-    },
-    {
-      "id": "HR.10955",
-      "title": "EITC Age Parity Act of 2026",
-      "date": "2026-11-05",
-      "latest_action": "Referred to the House Committee on Ways and Means.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Chu, Judy [D-CA-28]",
-      "sponsor_party": "D",
-      "sponsor_state": "CA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10955?format=json"
-    },
-    {
-      "id": "HR.10957",
-      "title": "PURGE Act",
-      "date": "2026-11-05",
-      "latest_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Transportation and Infrastructure, and Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Mace, Nancy [R-SC-1]",
-      "sponsor_party": "R",
-      "sponsor_state": "SC",
-      "url": "https://api.congress.gov/v3/bill/119/hr/10957?format=json"
     },
     {
       "id": "HR.10959",
@@ -482,6 +482,18 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/10954?format=json"
     },
     {
+      "id": "HR.10957",
+      "title": "PURGE Act",
+      "date": "2026-11-05",
+      "latest_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Transportation and Infrastructure, and Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Mace, Nancy [R-SC-1]",
+      "sponsor_party": "R",
+      "sponsor_state": "SC",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10957?format=json"
+    },
+    {
       "id": "HR.10960",
       "title": "Keep Federal Tech Talent Act",
       "date": "2026-11-05",
@@ -494,18 +506,6 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/10960?format=json"
     },
     {
-      "id": "HR.1744",
-      "title": "United States Commission on International Religious Freedom Reauthorization Act of 2026",
-      "date": "2026-11-03",
-      "latest_action": "Became Public Law No: 119-137.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Smith, Christopher H. [R-NJ-4]",
-      "sponsor_party": "R",
-      "sponsor_state": "NJ",
-      "url": "https://api.congress.gov/v3/bill/119/hr/1744?format=json"
-    },
-    {
       "id": "S.3984",
       "title": "United States Commission on International Religious Freedom Reauthorization Act of 2026",
       "date": "2026-07-27",
@@ -516,6 +516,18 @@
       "sponsor_party": "R",
       "sponsor_state": "NC",
       "url": "https://api.congress.gov/v3/bill/119/s/3984?format=json"
+    },
+    {
+      "id": "HR.1744",
+      "title": "United States Commission on International Religious Freedom Reauthorization Act of 2026",
+      "date": "2026-11-03",
+      "latest_action": "Became Public Law No: 119-137.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Smith, Christopher H. [R-NJ-4]",
+      "sponsor_party": "R",
+      "sponsor_state": "NJ",
+      "url": "https://api.congress.gov/v3/bill/119/hr/1744?format=json"
     },
     {
       "id": "HR.9797",
@@ -708,18 +720,6 @@
       "sponsor_party": "R",
       "sponsor_state": "WY",
       "url": "https://api.congress.gov/v3/bill/119/s/472?format=json"
-    },
-    {
-      "id": "S.468",
-      "title": "SECURE Firearm Storage Act",
-      "date": "2025-02-06",
-      "latest_action": "Read twice and referred to the Committee on the Judiciary. (text: CR S795)",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Sen. Durbin, Richard J. [D-IL]",
-      "sponsor_party": "D",
-      "sponsor_state": "IL",
-      "url": "https://api.congress.gov/v3/bill/119/s/468?format=json"
     }
   ]
 }
