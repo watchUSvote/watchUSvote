@@ -1,29 +1,17 @@
 {
-  "fetched_at": "2026-11-26T14:40:43.379776+00:00",
+  "fetched_at": "2026-11-27T14:36:41.418808+00:00",
   "bills": [
     {
-      "id": "S.5777",
-      "title": "DIPLOMA Act",
-      "date": "2026-11-19",
-      "latest_action": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "id": "HR.10184",
+      "title": "Consumer Financial Protection Accountability and Reform Act of 2026",
+      "date": "2026-09-16",
+      "latest_action": "Ordered to be Reported (Amended) by the Yeas and Nays: 28 - 21.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Sen. Booker, Cory A. [D-NJ]",
-      "sponsor_party": "D",
-      "sponsor_state": "NJ",
-      "url": "https://api.congress.gov/v3/bill/119/s/5777?format=json"
-    },
-    {
-      "id": "S.5814",
-      "title": "Housing for Homeless Students Act of 2026",
-      "date": "2026-11-20",
-      "latest_action": "Read twice and referred to the Committee on Finance.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Sen. King, Angus S., Jr. [I-ME]",
-      "sponsor_party": "I",
-      "sponsor_state": "ME",
-      "url": "https://api.congress.gov/v3/bill/119/s/5814?format=json"
+      "sponsor": "Rep. Barr, Andy [R-KY-6]",
+      "sponsor_party": "R",
+      "sponsor_state": "KY",
+      "url": "https://api.congress.gov/v3/bill/119/hr/10184?format=json"
     },
     {
       "id": "S.5774",
@@ -38,6 +26,18 @@
       "url": "https://api.congress.gov/v3/bill/119/s/5774?format=json"
     },
     {
+      "id": "S.5814",
+      "title": "Housing for Homeless Students Act of 2026",
+      "date": "2026-11-20",
+      "latest_action": "Read twice and referred to the Committee on Finance.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Sen. King, Angus S., Jr. [I-ME]",
+      "sponsor_party": "I",
+      "sponsor_state": "ME",
+      "url": "https://api.congress.gov/v3/bill/119/s/5814?format=json"
+    },
+    {
       "id": "S.5765",
       "title": "Stop Scaring Seniors Act",
       "date": "2026-11-18",
@@ -48,6 +48,18 @@
       "sponsor_party": "R",
       "sponsor_state": "WI",
       "url": "https://api.congress.gov/v3/bill/119/s/5765?format=json"
+    },
+    {
+      "id": "S.5777",
+      "title": "DIPLOMA Act",
+      "date": "2026-11-19",
+      "latest_action": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Sen. Booker, Cory A. [D-NJ]",
+      "sponsor_party": "D",
+      "sponsor_state": "NJ",
+      "url": "https://api.congress.gov/v3/bill/119/s/5777?format=json"
     },
     {
       "id": "S.5747",
@@ -86,16 +98,16 @@
       "url": "https://api.congress.gov/v3/bill/119/s/5770?format=json"
     },
     {
-      "id": "HR.11111",
-      "title": "MUSTER Act",
+      "id": "HR.11105",
+      "title": "NO DASH Act",
       "date": "2026-11-19",
-      "latest_action": "Referred to the House Committee on Armed Services.",
+      "latest_action": "Referred to the House Committee on Agriculture.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Owens, Burgess [R-UT-4]",
+      "sponsor": "Rep. Mace, Nancy [R-SC-1]",
       "sponsor_party": "R",
-      "sponsor_state": "UT",
-      "url": "https://api.congress.gov/v3/bill/119/hr/11111?format=json"
+      "sponsor_state": "SC",
+      "url": "https://api.congress.gov/v3/bill/119/hr/11105?format=json"
     },
     {
       "id": "HR.11112",
@@ -110,28 +122,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/11112?format=json"
     },
     {
-      "id": "HR.11105",
-      "title": "NO DASH Act",
-      "date": "2026-11-19",
-      "latest_action": "Referred to the House Committee on Agriculture.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Mace, Nancy [R-SC-1]",
-      "sponsor_party": "R",
-      "sponsor_state": "SC",
-      "url": "https://api.congress.gov/v3/bill/119/hr/11105?format=json"
-    },
-    {
-      "id": "HR.11107",
-      "title": "Investing in American Innovation Act",
+      "id": "HR.11085",
+      "title": "Eritrea PILLAR Act",
       "date": "2026-11-19",
       "latest_action": "Referred to the House Committee on Ways and Means.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Moran, Nathaniel [R-TX-1]",
+      "sponsor": "Rep. Baird, James R. [R-IN-4]",
       "sponsor_party": "R",
-      "sponsor_state": "TX",
-      "url": "https://api.congress.gov/v3/bill/119/hr/11107?format=json"
+      "sponsor_state": "IN",
+      "url": "https://api.congress.gov/v3/bill/119/hr/11085?format=json"
     },
     {
       "id": "HR.11057",
@@ -146,16 +146,64 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/11057?format=json"
     },
     {
-      "id": "HR.11102",
-      "title": "Increasing Transparency and Accountability in Federal Spending Act",
+      "id": "HR.11107",
+      "title": "Investing in American Innovation Act",
       "date": "2026-11-19",
-      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
+      "latest_action": "Referred to the House Committee on Ways and Means.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Kelly, Robin L. [D-IL-2]",
+      "sponsor": "Rep. Moran, Nathaniel [R-TX-1]",
+      "sponsor_party": "R",
+      "sponsor_state": "TX",
+      "url": "https://api.congress.gov/v3/bill/119/hr/11107?format=json"
+    },
+    {
+      "id": "HR.11111",
+      "title": "MUSTER Act",
+      "date": "2026-11-19",
+      "latest_action": "Referred to the House Committee on Armed Services.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Owens, Burgess [R-UT-4]",
+      "sponsor_party": "R",
+      "sponsor_state": "UT",
+      "url": "https://api.congress.gov/v3/bill/119/hr/11111?format=json"
+    },
+    {
+      "id": "HR.11104",
+      "title": "Prohibiting Detention of Youth Status Offenders Act of 2026",
+      "date": "2026-11-19",
+      "latest_action": "Referred to the House Committee on Education and Workforce.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Lee, Summer L. [D-PA-12]",
       "sponsor_party": "D",
-      "sponsor_state": "IL",
-      "url": "https://api.congress.gov/v3/bill/119/hr/11102?format=json"
+      "sponsor_state": "PA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/11104?format=json"
+    },
+    {
+      "id": "HR.11084",
+      "title": "Ethiopia SPARK Act",
+      "date": "2026-11-19",
+      "latest_action": "Referred to the House Committee on Ways and Means.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Baird, James R. [R-IN-4]",
+      "sponsor_party": "R",
+      "sponsor_state": "IN",
+      "url": "https://api.congress.gov/v3/bill/119/hr/11084?format=json"
+    },
+    {
+      "id": "HR.11109",
+      "title": "COUNT Act of 2026",
+      "date": "2026-11-19",
+      "latest_action": "Referred to the House Committee on Education and Workforce.",
+      "status": "reported_from_committee",
+      "chamber": "House",
+      "sponsor": "Rep. Olszewski, Johnny [D-MD-2]",
+      "sponsor_party": "D",
+      "sponsor_state": "MD",
+      "url": "https://api.congress.gov/v3/bill/119/hr/11109?format=json"
     },
     {
       "id": "HR.11108",
@@ -182,52 +230,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/11115?format=json"
     },
     {
-      "id": "HR.11104",
-      "title": "Prohibiting Detention of Youth Status Offenders Act of 2026",
+      "id": "HR.11102",
+      "title": "Increasing Transparency and Accountability in Federal Spending Act",
       "date": "2026-11-19",
-      "latest_action": "Referred to the House Committee on Education and Workforce.",
+      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
       "status": "reported_from_committee",
       "chamber": "House",
-      "sponsor": "Rep. Lee, Summer L. [D-PA-12]",
+      "sponsor": "Rep. Kelly, Robin L. [D-IL-2]",
       "sponsor_party": "D",
-      "sponsor_state": "PA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/11104?format=json"
-    },
-    {
-      "id": "HR.11109",
-      "title": "COUNT Act of 2026",
-      "date": "2026-11-19",
-      "latest_action": "Referred to the House Committee on Education and Workforce.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Olszewski, Johnny [D-MD-2]",
-      "sponsor_party": "D",
-      "sponsor_state": "MD",
-      "url": "https://api.congress.gov/v3/bill/119/hr/11109?format=json"
-    },
-    {
-      "id": "HR.11084",
-      "title": "Ethiopia SPARK Act",
-      "date": "2026-11-19",
-      "latest_action": "Referred to the House Committee on Ways and Means.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Baird, James R. [R-IN-4]",
-      "sponsor_party": "R",
-      "sponsor_state": "IN",
-      "url": "https://api.congress.gov/v3/bill/119/hr/11084?format=json"
-    },
-    {
-      "id": "HR.11085",
-      "title": "Eritrea PILLAR Act",
-      "date": "2026-11-19",
-      "latest_action": "Referred to the House Committee on Ways and Means.",
-      "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Rep. Baird, James R. [R-IN-4]",
-      "sponsor_party": "R",
-      "sponsor_state": "IN",
-      "url": "https://api.congress.gov/v3/bill/119/hr/11085?format=json"
+      "sponsor_state": "IL",
+      "url": "https://api.congress.gov/v3/bill/119/hr/11102?format=json"
     },
     {
       "id": "HR.11148",
@@ -350,40 +362,16 @@
       "url": "https://api.congress.gov/v3/bill/119/sres/4?format=json"
     },
     {
-      "id": "SRES.94",
-      "title": "An original resolution authorizing expenditures by committees of the Senate for the periods March 1, 2025, through September 30, 2025, October 1, 2025, through September 30, 2026, and October 1, 2026, through February 28, 2027.",
-      "date": "2025-02-27",
-      "latest_action": "Resolution agreed to in Senate without amendment by Unanimous Consent. (consideration: CR S1434; text: 02/25/2025 CR S1352-1358)",
+      "id": "HR.10184",
+      "title": "Consumer Financial Protection Accountability and Reform Act of 2026",
+      "date": "2026-09-16",
+      "latest_action": "Ordered to be Reported (Amended) by the Yeas and Nays: 28 - 21.",
       "status": "reported_from_committee",
-      "chamber": "House",
-      "sponsor": "Sen. McConnell, Mitch [R-KY]",
+      "chamber": "Senate",
+      "sponsor": "Rep. Barr, Andy [R-KY-6]",
       "sponsor_party": "R",
       "sponsor_state": "KY",
-      "url": "https://api.congress.gov/v3/bill/119/sres/94?format=json"
-    },
-    {
-      "id": "S.5777",
-      "title": "DIPLOMA Act",
-      "date": "2026-11-19",
-      "latest_action": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Sen. Booker, Cory A. [D-NJ]",
-      "sponsor_party": "D",
-      "sponsor_state": "NJ",
-      "url": "https://api.congress.gov/v3/bill/119/s/5777?format=json"
-    },
-    {
-      "id": "S.5814",
-      "title": "Housing for Homeless Students Act of 2026",
-      "date": "2026-11-20",
-      "latest_action": "Read twice and referred to the Committee on Finance.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Sen. King, Angus S., Jr. [I-ME]",
-      "sponsor_party": "I",
-      "sponsor_state": "ME",
-      "url": "https://api.congress.gov/v3/bill/119/s/5814?format=json"
+      "url": "https://api.congress.gov/v3/bill/119/hr/10184?format=json"
     },
     {
       "id": "S.5774",
@@ -398,6 +386,18 @@
       "url": "https://api.congress.gov/v3/bill/119/s/5774?format=json"
     },
     {
+      "id": "S.5814",
+      "title": "Housing for Homeless Students Act of 2026",
+      "date": "2026-11-20",
+      "latest_action": "Read twice and referred to the Committee on Finance.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Sen. King, Angus S., Jr. [I-ME]",
+      "sponsor_party": "I",
+      "sponsor_state": "ME",
+      "url": "https://api.congress.gov/v3/bill/119/s/5814?format=json"
+    },
+    {
       "id": "S.5765",
       "title": "Stop Scaring Seniors Act",
       "date": "2026-11-18",
@@ -408,6 +408,18 @@
       "sponsor_party": "R",
       "sponsor_state": "WI",
       "url": "https://api.congress.gov/v3/bill/119/s/5765?format=json"
+    },
+    {
+      "id": "S.5777",
+      "title": "DIPLOMA Act",
+      "date": "2026-11-19",
+      "latest_action": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Sen. Booker, Cory A. [D-NJ]",
+      "sponsor_party": "D",
+      "sponsor_state": "NJ",
+      "url": "https://api.congress.gov/v3/bill/119/s/5777?format=json"
     },
     {
       "id": "S.5747",
@@ -446,16 +458,16 @@
       "url": "https://api.congress.gov/v3/bill/119/s/5770?format=json"
     },
     {
-      "id": "HR.11111",
-      "title": "MUSTER Act",
+      "id": "HR.11105",
+      "title": "NO DASH Act",
       "date": "2026-11-19",
-      "latest_action": "Referred to the House Committee on Armed Services.",
+      "latest_action": "Referred to the House Committee on Agriculture.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Owens, Burgess [R-UT-4]",
+      "sponsor": "Rep. Mace, Nancy [R-SC-1]",
       "sponsor_party": "R",
-      "sponsor_state": "UT",
-      "url": "https://api.congress.gov/v3/bill/119/hr/11111?format=json"
+      "sponsor_state": "SC",
+      "url": "https://api.congress.gov/v3/bill/119/hr/11105?format=json"
     },
     {
       "id": "HR.11112",
@@ -470,28 +482,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/11112?format=json"
     },
     {
-      "id": "HR.11105",
-      "title": "NO DASH Act",
-      "date": "2026-11-19",
-      "latest_action": "Referred to the House Committee on Agriculture.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Mace, Nancy [R-SC-1]",
-      "sponsor_party": "R",
-      "sponsor_state": "SC",
-      "url": "https://api.congress.gov/v3/bill/119/hr/11105?format=json"
-    },
-    {
-      "id": "HR.11107",
-      "title": "Investing in American Innovation Act",
+      "id": "HR.11085",
+      "title": "Eritrea PILLAR Act",
       "date": "2026-11-19",
       "latest_action": "Referred to the House Committee on Ways and Means.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Moran, Nathaniel [R-TX-1]",
+      "sponsor": "Rep. Baird, James R. [R-IN-4]",
       "sponsor_party": "R",
-      "sponsor_state": "TX",
-      "url": "https://api.congress.gov/v3/bill/119/hr/11107?format=json"
+      "sponsor_state": "IN",
+      "url": "https://api.congress.gov/v3/bill/119/hr/11085?format=json"
     },
     {
       "id": "HR.11057",
@@ -506,16 +506,64 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/11057?format=json"
     },
     {
-      "id": "HR.11102",
-      "title": "Increasing Transparency and Accountability in Federal Spending Act",
+      "id": "HR.11107",
+      "title": "Investing in American Innovation Act",
       "date": "2026-11-19",
-      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
+      "latest_action": "Referred to the House Committee on Ways and Means.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Kelly, Robin L. [D-IL-2]",
+      "sponsor": "Rep. Moran, Nathaniel [R-TX-1]",
+      "sponsor_party": "R",
+      "sponsor_state": "TX",
+      "url": "https://api.congress.gov/v3/bill/119/hr/11107?format=json"
+    },
+    {
+      "id": "HR.11111",
+      "title": "MUSTER Act",
+      "date": "2026-11-19",
+      "latest_action": "Referred to the House Committee on Armed Services.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Owens, Burgess [R-UT-4]",
+      "sponsor_party": "R",
+      "sponsor_state": "UT",
+      "url": "https://api.congress.gov/v3/bill/119/hr/11111?format=json"
+    },
+    {
+      "id": "HR.11104",
+      "title": "Prohibiting Detention of Youth Status Offenders Act of 2026",
+      "date": "2026-11-19",
+      "latest_action": "Referred to the House Committee on Education and Workforce.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Lee, Summer L. [D-PA-12]",
       "sponsor_party": "D",
-      "sponsor_state": "IL",
-      "url": "https://api.congress.gov/v3/bill/119/hr/11102?format=json"
+      "sponsor_state": "PA",
+      "url": "https://api.congress.gov/v3/bill/119/hr/11104?format=json"
+    },
+    {
+      "id": "HR.11084",
+      "title": "Ethiopia SPARK Act",
+      "date": "2026-11-19",
+      "latest_action": "Referred to the House Committee on Ways and Means.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Baird, James R. [R-IN-4]",
+      "sponsor_party": "R",
+      "sponsor_state": "IN",
+      "url": "https://api.congress.gov/v3/bill/119/hr/11084?format=json"
+    },
+    {
+      "id": "HR.11109",
+      "title": "COUNT Act of 2026",
+      "date": "2026-11-19",
+      "latest_action": "Referred to the House Committee on Education and Workforce.",
+      "status": "reported_from_committee",
+      "chamber": "Senate",
+      "sponsor": "Rep. Olszewski, Johnny [D-MD-2]",
+      "sponsor_party": "D",
+      "sponsor_state": "MD",
+      "url": "https://api.congress.gov/v3/bill/119/hr/11109?format=json"
     },
     {
       "id": "HR.11108",
@@ -542,52 +590,16 @@
       "url": "https://api.congress.gov/v3/bill/119/hr/11115?format=json"
     },
     {
-      "id": "HR.11104",
-      "title": "Prohibiting Detention of Youth Status Offenders Act of 2026",
+      "id": "HR.11102",
+      "title": "Increasing Transparency and Accountability in Federal Spending Act",
       "date": "2026-11-19",
-      "latest_action": "Referred to the House Committee on Education and Workforce.",
+      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
       "status": "reported_from_committee",
       "chamber": "Senate",
-      "sponsor": "Rep. Lee, Summer L. [D-PA-12]",
+      "sponsor": "Rep. Kelly, Robin L. [D-IL-2]",
       "sponsor_party": "D",
-      "sponsor_state": "PA",
-      "url": "https://api.congress.gov/v3/bill/119/hr/11104?format=json"
-    },
-    {
-      "id": "HR.11109",
-      "title": "COUNT Act of 2026",
-      "date": "2026-11-19",
-      "latest_action": "Referred to the House Committee on Education and Workforce.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Olszewski, Johnny [D-MD-2]",
-      "sponsor_party": "D",
-      "sponsor_state": "MD",
-      "url": "https://api.congress.gov/v3/bill/119/hr/11109?format=json"
-    },
-    {
-      "id": "HR.11084",
-      "title": "Ethiopia SPARK Act",
-      "date": "2026-11-19",
-      "latest_action": "Referred to the House Committee on Ways and Means.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Baird, James R. [R-IN-4]",
-      "sponsor_party": "R",
-      "sponsor_state": "IN",
-      "url": "https://api.congress.gov/v3/bill/119/hr/11084?format=json"
-    },
-    {
-      "id": "HR.11085",
-      "title": "Eritrea PILLAR Act",
-      "date": "2026-11-19",
-      "latest_action": "Referred to the House Committee on Ways and Means.",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Rep. Baird, James R. [R-IN-4]",
-      "sponsor_party": "R",
-      "sponsor_state": "IN",
-      "url": "https://api.congress.gov/v3/bill/119/hr/11085?format=json"
+      "sponsor_state": "IL",
+      "url": "https://api.congress.gov/v3/bill/119/hr/11102?format=json"
     },
     {
       "id": "HR.11148",
@@ -708,18 +720,6 @@
       "sponsor_party": "R",
       "sponsor_state": "SD",
       "url": "https://api.congress.gov/v3/bill/119/sres/4?format=json"
-    },
-    {
-      "id": "SRES.94",
-      "title": "An original resolution authorizing expenditures by committees of the Senate for the periods March 1, 2025, through September 30, 2025, October 1, 2025, through September 30, 2026, and October 1, 2026, through February 28, 2027.",
-      "date": "2025-02-27",
-      "latest_action": "Resolution agreed to in Senate without amendment by Unanimous Consent. (consideration: CR S1434; text: 02/25/2025 CR S1352-1358)",
-      "status": "reported_from_committee",
-      "chamber": "Senate",
-      "sponsor": "Sen. McConnell, Mitch [R-KY]",
-      "sponsor_party": "R",
-      "sponsor_state": "KY",
-      "url": "https://api.congress.gov/v3/bill/119/sres/94?format=json"
     }
   ]
 }
